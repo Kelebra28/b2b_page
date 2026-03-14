@@ -116,3 +116,48 @@ document.addEventListener("DOMContentLoaded", () => {
     updateHeaderOnScroll();
     window.addEventListener("scroll", updateHeaderOnScroll, { passive: true });
   });
+
+  /* =========================
+   5. PRODUCT GALLERY FILTERS + SLIDER
+========================= */
+const gallerySlider = document.getElementById("gallery-slider");
+const galleryPrev = document.getElementById("gallery-prev");
+const galleryNext = document.getElementById("gallery-next");
+const galleryFilters = document.querySelectorAll(".gallery-filter");
+const galleryCards = document.querySelectorAll(".gallery-product-card");
+
+if (gallerySlider && galleryPrev && galleryNext && galleryFilters.length) {
+  const getScrollAmount = () => {
+    const firstCard = gallerySlider.querySelector(".gallery-product-card:not(.is-hidden)");
+    if (!firstCard) return 300;
+    const styles = window.getComputedStyle(gallerySlider);
+    const gap = parseFloat(styles.columnGap || styles.gap || 0);
+    return firstCard.offsetWidth + gap;
+  };
+
+  galleryNext.addEventListener("click", () => {
+    gallerySlider.scrollBy({ left: getScrollAmount(), behavior: "smooth" });
+  });
+
+  galleryPrev.addEventListener("click", () => {
+    gallerySlider.scrollBy({ left: -getScrollAmount(), behavior: "smooth" });
+  });
+
+  galleryFilters.forEach((button) => {
+    button.addEventListener("click", () => {
+      const filter = button.dataset.filter;
+
+      galleryFilters.forEach((btn) => btn.classList.remove("is-active"));
+      button.classList.add("is-active");
+
+      galleryCards.forEach((card) => {
+        const categories = card.dataset.category || "";
+        const matches = filter === "all" || categories.includes(filter);
+
+        card.classList.toggle("is-hidden", !matches);
+      });
+
+      gallerySlider.scrollTo({ left: 0, behavior: "smooth" });
+    });
+  });
+}

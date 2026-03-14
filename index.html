@@ -698,42 +698,330 @@
     </section>
 
     <!-- GALERÍA / PRODUCCIÓN -->
-    <section class="section section-dark" aria-labelledby="galeria-title" id="galeria">
+    <section class="section section-dark gallery-showcase" id="galeria" aria-labelledby="galeria-title">
       <div class="container">
         <div class="section-heading section-heading-light" data-reveal="up">
-          <span class="eyebrow">Producción visual</span>
-          <h2 id="galeria-title">Qué debería mostrar la nueva galería</h2>
+          <span class="eyebrow">Galería de productos</span>
+          <h2 id="galeria-title">Productos, materiales y proyectos que fabricamos</h2>
           <p>
-            Para que el cliente B2B confíe, la galería debe mezclar <strong>lotes, procesos, materiales,
-            artículos corporativos y producción real</strong>, no solo una pieza aislada bonita.
+            Explora una muestra de <strong>termos, plumas, piezas en MDF, acrílico, metal, señalética y regalos personalizados</strong>.
+            Esta galería está pensada para mostrar variedad real de producto sin saturar el home.
           </p>
         </div>
+    
+        <div class="gallery-toolbar" data-reveal="up">
+          <div class="gallery-filters" role="tablist" aria-label="Filtrar galería">
+            <button class="gallery-filter is-active" type="button" data-filter="all">Todos</button>
+            <button class="gallery-filter" type="button" data-filter="corporativo">Corporativo</button>
+            <button class="gallery-filter" type="button" data-filter="oficina">Oficina</button>
+            <button class="gallery-filter" type="button" data-filter="tecnologia">Tecnología</button>
+            <button class="gallery-filter" type="button" data-filter="metal">Metal</button>
+            <button class="gallery-filter" type="button" data-filter="madera">Madera</button>
+            <button class="gallery-filter" type="button" data-filter="mdf">MDF</button>
+            <button class="gallery-filter" type="button" data-filter="acrilico">Acrílico</button>
+            <button class="gallery-filter" type="button" data-filter="boutique">Boutique</button>
+          </div>
+    
+          <div class="gallery-nav">
+            <button class="gallery-arrow" type="button" id="gallery-prev" aria-label="Ver productos anteriores">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="gallery-arrow" type="button" id="gallery-next" aria-label="Ver productos siguientes">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+    
+        <div class="gallery-slider-wrap" data-reveal="up">
+          <div class="gallery-slider" id="gallery-slider">
+            <!-- 1 -->
+            <article class="gallery-product-card" data-category="corporativo metal">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2331_lrg.jpg" alt="Termos grabados para regalos corporativos en CDMX">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Metal</span>
+                <h3>Plumas metálicas promocionales</h3>
+                <p>Bolígrafos grabados para campañas, kits ejecutivos, eventos y regalos corporativos.</p>
+              </div>
+            </article>
+    
+            <!-- 2 -->
+            <article class="gallery-product-card" data-category="corporativo metal">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2368_lrg.jpg" alt="Plumas metálicas grabadas para promocionales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Corporativo</span>
+                <h3>Cilindros promocionales</h3>
+                <p>Botellas personalizadas para activaciones, branding y kits de empresa.</p>
+              </div>
+            </article>
+    
+            <!-- 3 -->
+            <article class="gallery-product-card" data-category="mdf">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2473_lrg.jpg" alt="Piezas de MDF cortadas con láser para proyectos especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Metal</span>
+                <h3>Termos grabados</h3>
+                <p>Personalización premium para empresas, RH, eventos y regalos ejecutivos.</p>
+              </div>
+            </article>
+    
+            <!-- 4 -->
+            <article class="gallery-product-card" data-category="acrilico">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2475_lrg.jpg" alt="Señalética y piezas en acrílico para oficinas y eventos">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Corporativo</span>
+                <h3>Botellas personalizadas</h3>
+                <p>Artículos promocionales para campañas, eventos y branding funcional.</p>
+              </div>
+            </article>
+    
+            <!-- 5 -->
+            <article class="gallery-product-card" data-category="boutique oficina madera">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2505_lrg.jpg" alt="Espejos grabados para bodas y regalos premium">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Oficina</span>
+                <h3>Accesorios de escritorio</h3>
+                <p>Organizadores corporativos con acabado premium para oficina y regalo ejecutivo.</p>
+              </div>
+            </article>
+    
+            <!-- 6 -->
+            <article class="gallery-product-card" data-category="boutique madera oficina">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2506_lrg.jpg" alt="Cajas y piezas de madera grabadas">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Oficina</span>
+                <h3>Escritorio en madera premium</h3>
+                <p>Piezas funcionales y decorativas con imagen corporativa o branding fino.</p>
+              </div>
+            </article>
+    
+            <!-- 7 -->
+            <article class="gallery-product-card" data-category="corporativo">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2516_lrg.jpg" alt="Promocionales corporativos personalizados">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Corporativo</span>
+                <h3>Llaveros promocionales</h3>
+                <p>Accesorios compactos para marca, campañas, activaciones y giveaway corporativo.</p>
+              </div>
+            </article>
+    
+            <!-- 8 -->
+            <article class="gallery-product-card" data-category="metal oficina">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2538_lrg.jpg" alt="Placas conmemorativas grabadas en metal">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Metal</span>
+                <h3>Plumas ejecutivas</h3>
+                <p>Escritura premium para kits empresariales, regalos institucionales y branding.</p>
+              </div>
+            </article>
+    
+            <!-- 9 -->
+            <article class="gallery-product-card" data-category="oficina corporativo">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2571_lrg.jpg" alt="Displays y exhibidores en acrílico">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Oficina</span>
+                <h3>Libretas personalizadas</h3>
+                <p>Artículos para oficina, congresos, cursos y kits de bienvenida.</p>
+              </div>
+            </article>
+    
+            <!-- 10 -->
+            <article class="gallery-product-card" data-category="madera corporativo">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2637_lrg.jpg" alt="Maquetas y producción de piezas en MDF">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Madera</span>
+                <h3>Llaveros en madera</h3>
+                <p>Piezas grabadas con estética natural para branding boutique y regalo especial.</p>
+              </div>
+            </article>
+    
+            <!-- 11 -->
+            <article class="gallery-product-card" data-category="corporativo tecnologia">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2698_lrg.jpg" alt="Botellas y termos personalizados para marca">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Tecnología</span>
+                <h3>Accesorios tecnológicos</h3>
+                <p>Regalos funcionales para campañas, ventas, ejecutivos y kits de marca.</p>
+              </div>
+            </article>
+    
+            <!-- 12 -->
+            <article class="gallery-product-card" data-category="boutique corporativo">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2733_lrg.jpg" alt="Regalos personalizados para fechas especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Corporativo</span>
+                <h3>Tazas personalizadas</h3>
+                <p>Promocionales útiles para oficina, eventos, campañas y branding cotidiano.</p>
+              </div>
+            </article>
 
-        <div class="gallery-grid">
-          <article class="gallery-card" data-reveal="up">
-            <img
-              src="./assets/carrusel/servicios-corte-grabado-laser-cdmx-mdf-personalizados.png"
-              alt="Producción de corte láser en MDF y proyectos por volumen en CDMX"
-            />
-          </article>
-          <article class="gallery-card" data-reveal="up">
-            <img
-              src="./assets/carrusel/articulos-promocionales-grabado-laser-cdmx.png"
-              alt="Artículos promocionales y grabado corporativo para empresas"
-            />
-          </article>
-          <article class="gallery-card" data-reveal="up">
-            <img
-              src="./assets/carrusel/diversidad-productos-grabado-laser-espejos-madera-metal.png"
-              alt="Diversidad de materiales y procesos de grabado y corte láser"
-            />
-          </article>
-          <article class="gallery-card" data-reveal="up">
-            <img
-              src="./assets/carrusel/grabado-personalizado-caballitos-maquetas-espejos-inova.png"
-              alt="Maquetas, grabado personalizado y aplicaciones especiales para clientes"
-            />
-          </article>
+            <!-- 13 -->
+            <article class="gallery-product-card" data-category="tecnologia corporativo">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2887_lrg.jpg" alt="Regalos personalizados para fechas especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Tecnología</span>
+                <h3>Accesorios de escritorio y tecnología</h3>
+                <p>Soluciones funcionales para home office, kits corporativos y regalos ejecutivos.</p>
+              </div>
+            </article>
+
+            <!-- 14 -->
+            <article class="gallery-product-card" data-category="boutique">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A3018_lrg.jpg" alt="Regalos personalizados para fechas especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Corporativo</span>
+                <h3>Sets ejecutivos</h3>
+                <p>Kits de libreta y pluma para onboarding, congresos y regalo institucional.</p>
+              </div>
+            </article>
+
+            <!-- 15 -->
+            <article class="gallery-product-card" data-category="boutique metal madera">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A3101_lrg.jpg" alt="Regalos personalizados para fechas especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Boutique</span>
+                <h3>Herramientas promocionales</h3>
+                <p>Regalos funcionales para construcción, industria, ferias y clientes corporativos.</p>
+              </div>
+            </article>
+
+            <!-- 16 -->
+            <article class="gallery-product-card" data-category="boutique tecnologia">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A3087_lrg.jpg" alt="Regalos personalizados para fechas especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Tecnología</span>
+                <h3>Accesorios para celular</h3>
+                <p>Productos de marca para activaciones, retail y regalos promocionales modernos.</p>
+              </div>
+            </article>
+
+            <!-- 17 -->
+            <article class="gallery-product-card" data-category="corporativo metal">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A3097_lrg.jpg" alt="Regalos personalizados para fechas especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Corporativo</span>
+                <h3>Libretas ejecutivas</h3>
+                <p>Piezas para oficina, eventos, ventas y kits empresariales personalizados.</p>
+              </div>
+            </article>
+
+            <!-- 18 -->
+            <article class="gallery-product-card" data-category="boutique">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A3140_lrg.jpg" alt="Regalos personalizados para fechas especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Tecnología</span>
+                <h3>Power banks promocionales</h3>
+                <p>Tecnología de alto valor percibido para clientes, ejecutivos y campañas premium.</p>
+              </div>
+            </article>
+
+            <!-- 19 -->
+            <article class="gallery-product-card" data-category="boutique">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A3146_lrg.jpg" alt="Regalos personalizados para fechas especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Boutique</span>
+                <h3>Accesorios para vino</h3>
+                <p>Regalos premium para clientes, eventos especiales y branding de alto nivel.</p>
+              </div>
+            </article>
+
+            <!-- 20 -->
+            <article class="gallery-product-card" data-category="boutique">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A3169_lrg.jpg" alt="Regalos personalizados para fechas especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Boutique</span>
+                <h3>Espejos promocionales</h3>
+                <p>Artículos elegantes para beauty, retail, regalos especiales y branding premium.</p>
+              </div>
+            </article>
+
+             <!-- 21 -->
+             <article class="gallery-product-card" data-category="boutique metal">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A3199_lrg.jpg" alt="Regalos personalizados para fechas especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Metal</span>
+                <h3>Llaveros destapador</h3>
+                <p>Promocionales prácticos para campañas, bares, eventos y marcas con alto movimiento.</p>
+              </div>
+            </article>
+
+             <!-- 22 -->
+             <article class="gallery-product-card" data-category="boutique metal">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A2577_lrg.jpg" alt="Regalos personalizados para fechas especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Metal</span>
+                <h3>Llaveros destapador</h3>
+                <p>Promocionales prácticos para campañas, bares, eventos y marcas con alto movimiento.</p>
+              </div>
+            </article>
+
+             <!-- 23 -->
+             <article class="gallery-product-card" data-category="boutique metal">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/A3144_lrg.jpg" alt="Regalos personalizados para fechas especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Metal</span>
+                <h3>Llaveros destapador</h3>
+                <p>Promocionales prácticos para campañas, bares, eventos y marcas con alto movimiento.</p>
+              </div>
+            </article>
+
+             <!-- 24 -->
+             <article class="gallery-product-card" data-category="boutique metal madera">
+              <div class="gallery-product-image">
+                <img src="./assets/gallery/JJ3045_lrg.jpg" alt="Regalos personalizados para fechas especiales">
+              </div>
+              <div class="gallery-product-body">
+                <span class="gallery-product-tag">Metal</span>
+                <h3>Set parrillero personalizado</h3>
+                <p>Kit premium para cocina, parrilladas y regalos corporativos con alto valor percibido.</p>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </section>
