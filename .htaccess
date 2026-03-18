@@ -1,0 +1,23 @@
+# Activar motor de reescritura
+RewriteEngine On
+
+# Redirigir HTTP a HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirigir non-www a www (ya en HTTPS)
+RewriteCond %{HTTP_HOST} ^laserinova\.com$ [NC]
+RewriteRule ^(.*)$ https://www.laserinova.com/$1 [L,R=301]
+
+# Establecer index.html como archivo por defecto
+DirectoryIndex index.html
+
+# Redirección para Single Page Applications (como las de Vite, React, etc.)
+<IfModule mod_rewrite.c>
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Forzar que los archivos .xml se sirvan con el tipo MIME correcto
+AddType application/xml .xml

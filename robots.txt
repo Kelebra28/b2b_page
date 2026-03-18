@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Evita que se indexen carpetas comunes no necesarias (si las tuvieras)
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Sitemap para ayudar a los bots a rastrear tu sitio
+Sitemap: https://www.laserinova.com/sitemap.xml
