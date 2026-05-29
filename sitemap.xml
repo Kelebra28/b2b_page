@@ -3,160 +3,205 @@
 
   <url>
     <loc>https://www.laserinova.com/</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://www.laserinova.com/blog/index.html</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.laserinova.com/subpages/maquila_volumen.html</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <url>
-    <loc>https://www.laserinova.com/subpages/plotter_impresion.html</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <url>
-    <loc>https://www.laserinova.com/subpages/senaletica_oficinas.html</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.92</priority>
-  </url>
-
-  <url>
-    <loc>https://www.laserinova.com/subpages/produccion_agencias.html</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.92</priority>
-  </url>
-
-  <url>
     <loc>https://www.laserinova.com/subpages/promocionales_premium.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.laserinova.com/subpages/displays_materiales_visuales.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.laserinova.com/subpages/grabado_madera.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/subpages/senaletica_oficinas.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/subpages/grabado_cuero_plastico.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/subpages/grabado_espejos.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/subpages/vinil_instalacion.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/subpages/plotter_impresion.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/subpages/corte_laser_metal.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/subpages/displays_eventos.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/subpages/grabado_metal.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://www.laserinova.com/subpages/kits_bienvenida.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.88</priority>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/subpages/produccion_agencias.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/subpages/rigidos_senaletica.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://www.laserinova.com/subpages/regalos_empresariales.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.84</priority>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/subpages/impresion_cama_plana_uv.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/subpages/lona_gran_formato.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://www.laserinova.com/subpages/grabado_laser.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.82</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.laserinova.com/subpages/grabado_metal.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.laserinova.com/subpages/maquila_volumen.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.laserinova.com/subpages/grabado_madera.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.laserinova.com/subpages/displays_materiales_visuales.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.78</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.laserinova.com/subpages/grabado_espejos.html</loc>
-    <lastmod>2026-03-17</lastmod>
+    <loc>https://www.laserinova.com/blog/grabado-metal-volumen.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.78</priority>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/blog/impresion-vehicular.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/blog/grabado-madera-eventos.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.laserinova.com/blog/index.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://www.laserinova.com/blog/impresion-publicidad.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://www.laserinova.com/blog/impresion-vehicular.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.laserinova.com/blog/grabado-en-vivo-activaciones.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.laserinova.com/blog/grabado-metal-volumen.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.laserinova.com/blog/grabado-madera-eventos.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.laserinova.com/blog/impresion-campanas-publicitarias-agencias.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+
   <url>
     <loc>https://www.laserinova.com/blog/impresion-lona-gran-formato.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
   <url>
-    <loc>https://www.laserinova.com/subpages/lona_gran_formato.html</loc>
+    <loc>https://www.laserinova.com/blog/impresion-campanas-publicitarias-agencias.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
+
   <url>
-    <loc>https://www.laserinova.com/subpages/vinil_instalacion.html</loc>
+    <loc>https://www.laserinova.com/blog/grabado-en-vivo-activaciones.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://www.laserinova.com/subpages/rigidos_senaletica.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.laserinova.com/subpages/displays_eventos.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+
   <url>
     <loc>https://www.laserinova.com/blog/vinil-impreso-decorativo-comercial.html</loc>
+    <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
 </urlset>
