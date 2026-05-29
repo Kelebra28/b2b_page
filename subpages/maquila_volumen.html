@@ -53,7 +53,10 @@
   <meta name="google-site-verification" content="xLexKAFDq-OGWO5uXmbzkCB-yAGpcjUXMTxzucvNEPU" />
 
   <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/bebc49f862.js" crossorigin="anonymous"></script>
+  <!-- Preconnect origins for FontAwesome -->
+  <link rel="preconnect" href="https://kit.fontawesome.com" crossorigin />
+  <link rel="preconnect" href="https://ka-f.fontawesome.com" crossorigin />
+  <script src="https://kit.fontawesome.com/bebc49f862.js" crossorigin="anonymous" defer></script>
 
   <!-- Datos estructurados -->
   <script type="application/ld+json">
@@ -126,7 +129,7 @@
   <header class="site-header" id="top">
     <div class="container header-shell">
       <a class="brand" href="../index.html" aria-label="Ir al inicio de Laser Inova">
-        <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" />
+        <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" width="170" height="170" fetchpriority="high" />
       </a>
 
       <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
@@ -145,7 +148,7 @@
           <li><a href="../index.html#boutique">Regalos Personalizados</a></li>
           <li><a target="_blank" href="https://tienda.promocionalesweb.com/laserinova">Productos</a></li>
           <li><a href="../index.html#galeria">Galería</a></li>
-          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../blog/index.html">Blog</a></li>
           <li><a href="../index.html#contacto">Contacto</a></li>
         </ul>
       </nav>
@@ -167,9 +170,9 @@
           <span class="eyebrow">Producción · Repetibilidad · Empresas · Lotes</span>
           <h1>Maquila de volumen en CDMX</h1>
           <p class="subpage-hero-text">
-            Servicio de <strong>producción repetible para MDF, acrílico, madera y piezas especiales</strong>
+            Servicio de <strong>producción repetible (MDF, acrílico, madera, metal, plástico, cuero, vidrio)</strong>
             pensado para empresas, marcas, despachos, agencias y proyectos que necesitan
-            <strong>volumen, orden y consistencia</strong>.
+            <strong>volumen, orden y consistencia</strong>, ya sea en proyectos industriales o detalles boutique.
           </p>
 
           <div class="subpage-hero-actions">
@@ -185,8 +188,8 @@
 
           <ul class="hero-badges">
             <li><i class="fa-solid fa-check"></i> Producción por lote y repetible</li>
-            <li><i class="fa-solid fa-check"></i> MDF, acrílico, madera y proyectos especiales</li>
-            <li><i class="fa-solid fa-check"></i> Soluciones para empresas y marcas</li>
+            <li><i class="fa-solid fa-check"></i> MDF, acrílico, metal, plástico, cuero y madera</li>
+            <li><i class="fa-solid fa-check"></i> Soluciones para empresas y proyectos boutique</li>
           </ul>
         </div>
 
@@ -283,12 +286,12 @@
       <div class="container subpage-machine-grid">
         <div class="subpage-machine-copy" data-reveal="up">
           <span class="eyebrow">Capacidad de fabricación</span>
-          <h2>MDF, acrílico y madera para producir de forma repetible y funcional</h2>
+          <h2>MDF, acrílico, metal, plástico y madera para producir de forma repetible y funcional</h2>
           <p>
-            Nuestra línea de maquila se apoya en materiales que permiten trabajar proyectos con
-            buena estabilidad de producción. El enfoque aquí no es solo “cortar algo”, sino
+            Nuestra línea de maquila se apoya en materiales robustos que permiten trabajar proyectos con
+            excelente estabilidad de producción. El enfoque aquí no es solo “cortar algo”, sino
             poder resolver <strong>fabricación repetible para necesidades visuales, estructurales
-            o de apoyo comercial</strong>.
+            o de apoyo comercial</strong>, incluyendo corte de metal e impresión en cama plana.
           </p>
 
           <ul class="feature-list">
@@ -480,7 +483,7 @@
       <div class="footer-grid">
         <div class="footer-brand-block">
           <a href="../index.html" class="footer-logo" aria-label="Ir al inicio de Laser Inova">
-            <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" loading="lazy" decoding="async" />
+            <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" width="170" height="170" loading="lazy" decoding="async" />
           </a>
           <p class="footer-brand-text">
             Maquila, grabado corporativo, publicidad gran formato y regalos personalizados en CDMX.

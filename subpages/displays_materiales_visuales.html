@@ -53,7 +53,10 @@
   <meta name="google-site-verification" content="xLexKAFDq-OGWO5uXmbzkCB-yAGpcjUXMTxzucvNEPU" />
 
   <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/bebc49f862.js" crossorigin="anonymous"></script>
+  <!-- Preconnect origins for FontAwesome -->
+  <link rel="preconnect" href="https://kit.fontawesome.com" crossorigin />
+  <link rel="preconnect" href="https://ka-f.fontawesome.com" crossorigin />
+  <script src="https://kit.fontawesome.com/bebc49f862.js" crossorigin="anonymous" defer></script>
 
   <!-- Datos estructurados -->
   <script type="application/ld+json">
@@ -126,7 +129,7 @@
   <header class="site-header" id="top">
     <div class="container header-shell">
       <a class="brand" href="../index.html" aria-label="Ir al inicio de Laser Inova">
-        <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" />
+        <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" width="170" height="170" fetchpriority="high" />
       </a>
 
       <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
@@ -145,7 +148,7 @@
           <li><a href="../index.html#boutique">Regalos Personalizados</a></li>
           <li><a target="_blank" href="https://tienda.promocionalesweb.com/laserinova">Productos</a></li>
           <li><a href="../index.html#galeria">Galería</a></li>
-          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../blog/index.html">Blog</a></li>
           <li><a href="../index.html#contacto">Contacto</a></li>
         </ul>
       </nav>
@@ -478,7 +481,7 @@
       <div class="footer-grid">
         <div class="footer-brand-block">
           <a href="../index.html" class="footer-logo" aria-label="Ir al inicio de Laser Inova">
-            <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" loading="lazy" decoding="async" />
+            <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" width="170" height="170" loading="lazy" decoding="async" />
           </a>
           <p class="footer-brand-text">
             Maquila, grabado corporativo, publicidad gran formato y regalos personalizados en CDMX.

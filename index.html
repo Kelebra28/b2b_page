@@ -7,11 +7,11 @@
     <title>Maquila de Corte Láser y Publicidad Gran Formato en CDMX | Laser Inova</title>
     <meta
       name="description"
-      content="Maquila de corte láser, publicidad gran formato, grabado corporativo y regalos personalizados en CDMX. Soluciones para empresas, agencias, eventos y producción de volumen con Laser Inova."
+      content="Maquila de corte láser (metal y acrílico), impresión cama plana UV y gran formato, grabado de precisión (cuero, vidrio, plástico) y regalos boutique en CDMX. Soluciones B2B y mayoreo."
     />
     <meta
       name="keywords"
-      content="maquila de corte láser, publicidad gran formato, grabado corporativo, regalos personalizados, corte láser CDMX, lonas, vinil, señalética, promocionales premium, Laser Inova"
+      content="maquila de corte láser, corte de metal, impresión cama plana UV, grabado en cuero, grabado en plástico, grabado en vidrio, publicidad gran formato, regalos premium, Laser Inova"
     />
     <link rel="canonical" href="https://www.laserinova.com/" />
   
@@ -20,7 +20,7 @@
     <meta property="og:title" content="Maquila de Corte Láser y Publicidad Gran Formato en CDMX | Laser Inova" />
     <meta
       property="og:description"
-      content="Soluciones para empresas, agencias, eventos y producción de volumen en CDMX. Maquila, impresión, branding y grabado corporativo."
+      content="Maquila de corte láser, impresión cama plana UV, grabado B2B y regalos premium en CDMX. Soluciones para empresas, agencias y eventos."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.laserinova.com/" />
@@ -54,8 +54,12 @@
     <!-- Search Console -->
     <meta name="google-site-verification" content="xLexKAFDq-OGWO5uXmbzkCB-yAGpcjUXMTxzucvNEPU" />
   
+    <!-- Preconnect origins for FontAwesome -->
+    <link rel="preconnect" href="https://kit.fontawesome.com" crossorigin />
+    <link rel="preconnect" href="https://ka-f.fontawesome.com" crossorigin />
+
     <!-- Librerías -->
-    <script src="https://kit.fontawesome.com/bebc49f862.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bebc49f862.js" crossorigin="anonymous" defer></script>
   
     <!-- Datos estructurados -->
     <script type="application/ld+json">
@@ -138,7 +142,7 @@
   <header class="site-header" id="top">
     <div class="container header-shell">
       <a class="brand" href="./index.html" aria-label="Ir al inicio de Laser Inova">
-        <img src="./assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" />
+        <img src="./assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" width="170" height="170" fetchpriority="high" />
       </a>
 
       <button
@@ -157,13 +161,18 @@
       <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
         <ul class="nav-list">
           <li><a href="#hero">Inicio</a></li>
-          <li><a href="#soluciones">Soluciones Corporativas</a></li>
-          <li><a href="#negocios">Servicios de Maquila</a></li>
-          <li><a href="#promocionales">Plotter e Impresión</a></li>
-          <li><a href="#boutique">Regalos Personalizados</a></li>
-          <li><a target="_blank"  href="https://tienda.promocionalesweb.com/laserinova">Productos</a></li>
+          <li class="nav-dropdown">
+            <a href="#soluciones" class="nav-dropdown-toggle">Servicios <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="nav-dropdown-menu">
+              <li><a href="#soluciones">Soluciones Corporativas</a></li>
+              <li><a href="#negocios">Servicios de Maquila</a></li>
+              <li><a href="#promocionales">Plotter e Impresión</a></li>
+              <li><a href="#boutique">Regalos Personalizados</a></li>
+            </ul>
+          </li>
+          <li><a target="_blank" href="https://tienda.promocionalesweb.com/laserinova">Tienda</a></li>
           <li><a href="#galeria">Galería</a></li>
-          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./blog/index.html">Blog</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
@@ -188,9 +197,8 @@
           <span class="eyebrow">Maquila · Mayoreo · Empresas · CDMX</span>
           <h1>Maquila de Corte Láser y Publicidad Gran Formato en CDMX</h1>
           <p class="hero-text">
-            Producción de volumen para <strong>empresas, agencias, eventos y compras corporativas</strong>.
-            En Laser Inova desarrollamos proyectos de <strong>corte láser, grabado corporativo, señalética,
-            promocionales e impresión</strong> con enfoque en tiempos, repetibilidad y atención comercial seria.
+            Producción de volumen para <strong>empresas, agencias, eventos y compras corporativas</strong>, sin descuidar la atención al detalle en <strong>proyectos boutique y regalos personalizados</strong>.
+            En Laser Inova desarrollamos <strong>corte y grabado láser (metal, plástico, cuero, madera, acrílico, vidrio)</strong>, señalética, <strong>impresión UV cama plana y plotter de gran formato</strong>.
           </p>
 
           <div class="hero-actions">
@@ -540,25 +548,24 @@
             <h3>Materiales</h3>
             <ul>
               <li>Acrílico</li>
-              <li>MDF</li>
-              <li>Madera</li>
+              <li>MDF y Madera</li>
               <li>Metal</li>
-              <li>Espejo</li>
-              <li>Vidrio</li>
-              <li>Vinil</li>
-              <li>Lona</li>
+              <li>Plástico (PETG, PVC, Estireno)</li>
+              <li>Cuero y Piel sintética</li>
+              <li>Espejo y Vidrio</li>
+              <li>Vinil y Lona</li>
             </ul>
           </article>
 
           <article class="material-card" data-reveal="up">
             <h3>Procesos</h3>
             <ul>
-              <li>Corte láser CO₂</li>
-              <li>Grabado láser</li>
-              <li>Grabado en metal con fibra</li>
-              <li>Impresión DTF UV</li>
-              <li>Plotter e impresión</li>
-              <li>Señalética y exhibición</li>
+              <li>Corte láser CO₂ y Corte de Metal</li>
+              <li>Grabado láser (fibra y CO₂)</li>
+              <li>Grabado profundo y superficial</li>
+              <li>Impresión en Cama Plana (UV)</li>
+              <li>Plotter e impresión gran formato</li>
+              <li>Señalética y armado de exhibidores</li>
             </ul>
           </article>
         </div>
@@ -614,37 +621,71 @@
     <section class="section section-alt" id="promocionales" aria-labelledby="promocionales-title">
       <div class="container promo-shell">
         <div class="promo-copy" data-reveal="up">
-          <span class="eyebrow">Promocionales e impresión</span>
-          <h2 id="promocionales-title">Amplía tu proyecto con promocionales, impresión y soluciones visuales</h2>
+          <span class="eyebrow">Plotter de Alta Resolución</span>
+          <h2 id="promocionales-title">Impresión de Gran Formato y Soluciones Publicitarias</h2>
           <p>
-            Además de nuestra producción propia, podemos integrarnos con un catálogo más amplio de
-            <strong>artículos promocionales, impresión y soluciones para marcas</strong>. Esto te permite
-            concentrar más necesidades con un solo proveedor.
+            Potencia la presencia de tu marca con impresión de alta resolución y materiales de grado industrial. 
+            En <strong>Laser Inova</strong> somos especialistas en soluciones integrales de plotter: desde lonas 
+            monumentales hasta rotulación de espacios y viniles decorativos premium.
           </p>
 
-          <ul class="feature-list compact">
-            <li><i class="fa-solid fa-check"></i> Catálogo de promocionales para empresas</li>
-            <li><i class="fa-solid fa-check"></i> Apoyo para campañas, activaciones y eventos</li>
-            <li><i class="fa-solid fa-check"></i> Integración con branding, grabado e impresión</li>
-          </ul>
+          <div class="promo-services-grid">
+            <a href="./subpages/lona_gran_formato.html" class="promo-service-item" data-reveal="up">
+              <i class="fa-solid fa-layer-group"></i>
+              <div>
+                <h4>Lona Gran Formato</h4>
+                <p>Frontlit, Mesh y Backlit con sellado térmico y refuerzos.</p>
+              </div>
+            </a>
+            <a href="./subpages/vinil_instalacion.html" class="promo-service-item" data-reveal="up">
+              <i class="fa-solid fa-window-restore"></i>
+              <div>
+                <h4>Vinil e Instalación</h4>
+                <p>Microperforado, decorativo y rotulación vehicular profesional.</p>
+              </div>
+            </a>
+            <a href="./subpages/rigidos_senaletica.html" class="promo-service-item" data-reveal="up">
+              <i class="fa-solid fa-signs-post"></i>
+              <div>
+                <h4>Rígidos y Señalética</h4>
+                <p>Impresión directa y rotulado sobre Acrílico, PVC y Estireno.</p>
+              </div>
+            </a>
+            <a href="./subpages/displays_eventos.html" class="promo-service-item" data-reveal="up">
+              <i class="fa-solid fa-display"></i>
+              <div>
+                <h4>Displays y Eventos</h4>
+                <p>Backdrops, X-banners y displays publicitarios de alto impacto.</p>
+              </div>
+            </a>
+          </div>
 
           <div class="promo-actions">
-            <a class="btn btn-primary" href="#" target="_blank" rel="noopener">
-              Ver catálogo de promocionales
+            <a class="btn btn-primary" href="https://wa.me/525579398727?text=Hola,%20busco%20cotizar%20un%20proyecto%20de%20impresi%C3%B3n%20en%20lona%20o%20vinil" target="_blank" rel="noopener">
+              Cotizar Proyecto de Impresión
             </a>
             <a class="btn btn-secondary" href="./subpages/plotter_impresion.html">
-              Ver mas
+              Soluciones Detalladas
             </a>
           </div>
         </div>
 
         <div class="promo-card" data-reveal="left">
           <div class="promo-card-inner">
-            <i class="fa-solid fa-bullhorn"></i>
-            <h3>Proyectos publicitarios</h3>
+            <div class="promo-card-header">
+              <i class="fa-solid fa-eye"></i>
+              <h3>Branding Visual 360°</h3>
+            </div>
             <p>
-              Lonas, branding visual, materiales para eventos, campañas de marketing y producción comercial.
+              Transformamos tus unidades, oficinas y fachadas en herramientas de venta activas las 24 horas. 
+              Máximo impacto visual con tintas con protección UV y acabados de precisión industrial.
             </p>
+            <div class="promo-card-specs">
+              <span><i class="fa-solid fa-check"></i> Alta Resolución 1440 DPI</span>
+              <span><i class="fa-solid fa-check"></i> Tintas Eco-Solventes y UV</span>
+              <span><i class="fa-solid fa-check"></i> Ancho hasta 3.20m</span>
+              <span><i class="fa-solid fa-check"></i> Instalación en CDMX y EdoMex</span>
+            </div>
           </div>
         </div>
       </div>
@@ -1231,7 +1272,7 @@
       <div class="footer-grid">
         <div class="footer-brand-block">
           <a href="./index.html" class="footer-logo" aria-label="Ir al inicio de Laser Inova">
-            <img src="./assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" loading="lazy" decoding="async" />
+            <img src="./assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" width="170" height="170" loading="lazy" decoding="async" />
           </a>
           <p class="footer-brand-text">
             Maquila, grabado corporativo, publicidad gran formato y regalos personalizados en CDMX.

@@ -115,6 +115,80 @@ document.addEventListener("DOMContentLoaded", () => {
   
     updateHeaderOnScroll();
     window.addEventListener("scroll", updateHeaderOnScroll, { passive: true });
+
+    /* =========================
+       4.5. DYNAMIC HEADER THEME
+    ========================= */
+    const sections = document.querySelectorAll("section, footer");
+    
+    if ("IntersectionObserver" in window && header) {
+      const themeObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const isDark = entry.target.classList.contains("section-dark") || 
+                             entry.target.classList.contains("hero") || 
+                             entry.target.tagName.toLowerCase() === "footer";
+                             
+              if (isDark) {
+                header.classList.add("theme-light");
+              } else {
+                header.classList.remove("theme-light");
+              }
+            }
+          });
+        },
+        {
+          // Intersect exactly at the height of the header
+          rootMargin: "-84px 0px -80% 0px",
+          threshold: 0
+        }
+      );
+
+      sections.forEach((section) => themeObserver.observe(section));
+    }
+
+    /* =========================
+       4.6. SCROLL SPY (ACTIVE NAV)
+    ========================= */
+    const navLinksArray = document.querySelectorAll(".nav-list a[href^='#']");
+    
+    if ("IntersectionObserver" in window && navLinksArray.length > 0) {
+      const spyObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              // Remove active from all
+              navLinksArray.forEach((link) => link.classList.remove("active"));
+              
+              // Add active to current
+              const activeLinks = document.querySelectorAll(`.nav-list a[href="#${entry.target.id}"]`);
+              activeLinks.forEach(activeLink => {
+                activeLink.classList.add("active");
+                // If it's inside a dropdown, highlight the parent toggle too
+                const dropdown = activeLink.closest('.nav-dropdown');
+                if (dropdown) {
+                    const toggle = dropdown.querySelector('.nav-dropdown-toggle');
+                    if (toggle) toggle.classList.add("active");
+                }
+              });
+            }
+          });
+        },
+        {
+          rootMargin: "-20% 0px -60% 0px" // Trigger when section is in the middle-top of screen
+        }
+      );
+
+      // Observe only sections that have IDs matching our links
+      navLinksArray.forEach((link) => {
+        const targetId = link.getAttribute("href").substring(1);
+        const targetSection = document.getElementById(targetId);
+        if (targetSection) {
+          spyObserver.observe(targetSection);
+        }
+      });
+    }
   });
 
   /* =========================

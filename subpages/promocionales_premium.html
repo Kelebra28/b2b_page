@@ -53,7 +53,10 @@
   <meta name="google-site-verification" content="xLexKAFDq-OGWO5uXmbzkCB-yAGpcjUXMTxzucvNEPU" />
 
   <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/bebc49f862.js" crossorigin="anonymous"></script>
+  <!-- Preconnect origins for FontAwesome -->
+  <link rel="preconnect" href="https://kit.fontawesome.com" crossorigin />
+  <link rel="preconnect" href="https://ka-f.fontawesome.com" crossorigin />
+  <script src="https://kit.fontawesome.com/bebc49f862.js" crossorigin="anonymous" defer></script>
 
   <!-- Datos estructurados -->
   <script type="application/ld+json">
@@ -126,7 +129,7 @@
   <header class="site-header" id="top">
     <div class="container header-shell">
       <a class="brand" href="../index.html" aria-label="Ir al inicio de Laser Inova">
-        <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" />
+        <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" width="170" height="170" fetchpriority="high" />
       </a>
 
       <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
@@ -145,7 +148,7 @@
           <li><a href="../index.html#boutique">Regalos Personalizados</a></li>
           <li><a target="_blank" href="https://tienda.promocionalesweb.com/laserinova">Productos</a></li>
           <li><a href="../index.html#galeria">Galería</a></li>
-          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../blog/index.html">Blog</a></li>
           <li><a href="../index.html#contacto">Contacto</a></li>
         </ul>
       </nav>
@@ -168,7 +171,7 @@
           <h1>Promocionales premium en CDMX</h1>
           <p class="subpage-hero-text">
             Personalizamos <strong>termos, botellas, placas y artículos corporativos premium</strong>
-            con <strong>grabado en metal</strong> para empresas, campañas, eventos, regalos ejecutivos
+            con <strong>grabado en metal, cuero, plástico y vidrio</strong> para empresas, campañas, eventos, regalos ejecutivos
             y branding de alto impacto.
           </p>
 
@@ -213,8 +216,8 @@
           <p>
             No todos los promocionales generan el mismo impacto. Cuando una empresa quiere proyectar
             una imagen más sólida, más ejecutiva o más premium, conviene apostar por piezas que se vean bien,
-            duren y tengan una <strong>personalización con mejor acabado</strong>. En Laser Inova trabajamos
-            <strong>promocionales premium con grabado en metal</strong> para dar una presencia más fuerte a la marca.
+            duren y <strong>personalización con mejor acabado</strong>. En Laser Inova trabajamos
+            <strong>promocionales premium con grabado de precisión (metal, cuero, vidrio y acrílico)</strong> para dar una presencia más fuerte a la marca.
           </p>
           <p>
             Esta línea funciona especialmente bien en <strong>termos, botellas, plumas, placas,
@@ -271,8 +274,8 @@
 
           <article class="subpage-info-card" data-reveal="up">
             <i class="fa-solid fa-briefcase"></i>
-            <h3>Artículos corporativos</h3>
-            <p>Opciones para empresas que quieren subir el nivel del promocional y no verse genéricas.</p>
+            <h3>Artículos corporativos (Cuero y Plástico)</h3>
+            <p>Agendas en cuero, libretas, USBs y promocionales plásticos grabados con alta precisión para no verse genéricos.</p>
           </article>
         </div>
       </div>
@@ -291,8 +294,8 @@
           </p>
 
           <ul class="feature-list">
-            <li><i class="fa-solid fa-check"></i> Excelente para metal y artículos premium</li>
-            <li><i class="fa-solid fa-check"></i> Acabado limpio y duradero</li>
+            <li><i class="fa-solid fa-check"></i> Excelente para metal, cuero, vidrio y artículos premium</li>
+            <li><i class="fa-solid fa-check"></i> Acabado limpio y duradero mediante láser CO₂ y fibra</li>
             <li><i class="fa-solid fa-check"></i> Ideal para branding ejecutivo y corporativo</li>
             <li><i class="fa-solid fa-check"></i> Funciona muy bien en lotes y campañas especiales</li>
           </ul>
@@ -479,7 +482,7 @@
       <div class="footer-grid">
         <div class="footer-brand-block">
           <a href="../index.html" class="footer-logo" aria-label="Ir al inicio de Laser Inova">
-            <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" loading="lazy" decoding="async" />
+            <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" width="170" height="170" loading="lazy" decoding="async" />
           </a>
           <p class="footer-brand-text">
             Maquila, grabado corporativo, publicidad gran formato y regalos personalizados en CDMX.

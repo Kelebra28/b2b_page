@@ -53,7 +53,10 @@
   <meta name="google-site-verification" content="xLexKAFDq-OGWO5uXmbzkCB-yAGpcjUXMTxzucvNEPU" />
 
   <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/bebc49f862.js" crossorigin="anonymous"></script>
+  <!-- Preconnect origins for FontAwesome -->
+  <link rel="preconnect" href="https://kit.fontawesome.com" crossorigin />
+  <link rel="preconnect" href="https://ka-f.fontawesome.com" crossorigin />
+  <script src="https://kit.fontawesome.com/bebc49f862.js" crossorigin="anonymous" defer></script>
 
   <!-- Datos estructurados -->
   <script type="application/ld+json">
@@ -126,7 +129,7 @@
   <header class="site-header" id="top">
     <div class="container header-shell">
       <a class="brand" href="../index.html" aria-label="Ir al inicio de Laser Inova">
-        <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" />
+        <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" width="170" height="170" fetchpriority="high" />
       </a>
 
       <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
@@ -145,7 +148,7 @@
           <li><a href="../index.html#boutique">Regalos Personalizados</a></li>
           <li><a target="_blank" href="https://tienda.promocionalesweb.com/laserinova">Productos</a></li>
           <li><a href="../index.html#galeria">Galería</a></li>
-          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="../blog/index.html">Blog</a></li>
           <li><a href="../index.html#contacto">Contacto</a></li>
         </ul>
       </nav>
@@ -167,9 +170,9 @@
           <span class="eyebrow">Lonas · Vinil · Gran formato · Branding visual</span>
           <h1>Plotter e impresión en CDMX</h1>
           <p class="subpage-hero-text">
-            Soluciones de <strong>impresión para lonas, vinil, papel sintético, papel recubierto,
-            tela banner y materiales visuales</strong> para eventos, branding, campañas, retail
-            y proyectos de <strong>publicidad gran formato</strong>.
+            Soluciones de <strong>impresión para lonas, vinil, papel sintético,
+            tela banner y rígidos (cama plana UV)</strong> para eventos, branding, campañas, retail
+            y proyectos de <strong>publicidad gran formato y señalización B2B</strong>.
           </p>
 
           <div class="subpage-hero-actions">
@@ -275,9 +278,9 @@
           </article>
 
           <article class="subpage-info-card" data-reveal="up">
-            <i class="fa-solid fa-layer-group"></i>
-            <h3>Otros materiales visuales</h3>
-            <p>La línea es flexible para distintos soportes impresos según el objetivo comercial o visual del proyecto.</p>
+            <i class="fa-solid fa-border-all"></i>
+            <h3>Rígidos (Cama Plana UV)</h3>
+            <p>Impresión directa sobre plástico, acrílico, madera, vidrio y metal para señalética y exhibidores duraderos.</p>
           </article>
         </div>
       </div>
@@ -368,7 +371,7 @@
               <li>Papel sintético</li>
               <li>Papel recubierto</li>
               <li>Tela banner</li>
-              <li>Otros soportes visuales según proyecto</li>
+              <li>Soportes rígidos (Impresión Cama Plana UV sobre plástico, acrílico, MDF, vidrio y metal)</li>
             </ul>
           </article>
 
@@ -599,7 +602,7 @@
       <div class="footer-grid">
         <div class="footer-brand-block">
           <a href="../index.html" class="footer-logo" aria-label="Ir al inicio de Laser Inova">
-            <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" loading="lazy" decoding="async" />
+            <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" width="170" height="170" loading="lazy" decoding="async" />
           </a>
           <p class="footer-brand-text">
             Maquila, grabado corporativo, publicidad gran formato y regalos personalizados en CDMX.

@@ -9,7 +9,7 @@
   </url>
 
   <url>
-    <loc>https://www.laserinova.com/blog.html</loc>
+    <loc>https://www.laserinova.com/blog/index.html</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -99,4 +99,64 @@
     <priority>0.78</priority>
   </url>
 
+  <url>
+    <loc>https://www.laserinova.com/blog/impresion-publicidad.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laserinova.com/blog/impresion-vehicular.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laserinova.com/blog/grabado-en-vivo-activaciones.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laserinova.com/blog/grabado-metal-volumen.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laserinova.com/blog/grabado-madera-eventos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laserinova.com/blog/impresion-campanas-publicitarias-agencias.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.laserinova.com/blog/impresion-lona-gran-formato.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.laserinova.com/subpages/lona_gran_formato.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.laserinova.com/subpages/vinil_instalacion.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.laserinova.com/subpages/rigidos_senaletica.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.laserinova.com/subpages/displays_eventos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.laserinova.com/blog/vinil-impreso-decorativo-comercial.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
