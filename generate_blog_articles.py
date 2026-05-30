@@ -98,8 +98,8 @@ template = """<!DOCTYPE html>
         </div>
         <div class="subpage-hero-visual">
           <div class="subpage-hero-image-frame">
-            <!-- Placeholder Image for SEO -->
-            <img src="https://via.placeholder.com/600x450.png?text=Placeholder+{image_alt}" alt="{image_alt}" loading="lazy" />
+            <!-- Showcase Image -->
+            <img src="{image_url}" alt="{image_alt}" loading="lazy" />
           </div>
         </div>
       </div>
@@ -158,6 +158,7 @@ articles = [
         "hero_text": "En Laser Inova somos especialistas en escalar tus proyectos publicitarios. Ya sea para eventos masivos, puntos de venta o campañas corporativas, la impresión en gran formato entrega resultados consistentes y de alto impacto.",
         "whatsapp_message": "Hola,%20me%20interesa%20la%20impresi%C3%B3n%20para%20publicidad%20y%20agencias",
         "image_alt": "Impresion+Publicidad",
+        "image_url": "https://images.unsplash.com/photo-1563206767-5b18f218e0de?q=80&w=600&auto=format&fit=crop",
         "h2_intro": "Impacto Visual para Campañas y Marcas",
         "p_intro": "Para las agencias y departamentos de mercadotecnia, contar con un proveedor que resuelva proyectos de lona, vinil de corte y exhibidores en alta resolución es vital. Trabajamos bajo un esquema de producción escalable capaz de atender las métricas corporativas y exigencias de marca más estrictas.",
         "benefits": """
@@ -187,6 +188,7 @@ articles = [
         "hero_text": "Transforma los vehículos de tu empresa en anuncios rodantes 24/7. Un esquema rentable de branding corporativo con viniles de larga duración y resistencia a la intemperie.",
         "whatsapp_message": "Hola,%20me%20interesa%20la%20rotulaci%C3%B3n%20vehicular%20y%20flotillas",
         "image_alt": "Publicidad+Vehiculos",
+        "image_url": "https://images.unsplash.com/photo-1621360841013-c7683c659ec6?q=80&w=600&auto=format&fit=crop",
         "h2_intro": "Lleva la Identidad de tu Empresa a la Calle",
         "p_intro": "Un vehículo sin rotular es un espacio publicitario perdido. Imprimimos el material con tintas optimizadas para resistir lluvia y rayos UV, protegiendo las pinturas originales y cumpliendo especificaciones de identidad.",
         "benefits": """
@@ -216,6 +218,7 @@ articles = [
         "hero_text": "Eleva la experiencia presencial de tu evento. Llevamos nuestro equipo de grabado directamente a sedes y recintos para personalizar termos, plumas y promocionales frente a los ojos del público.",
         "whatsapp_message": "Hola,%20quiero%20cotizar%20grabado%20en%20vivo%20para%20activaci%C3%B3n",
         "image_alt": "Grabado+Vivo+Eventos",
+        "image_url": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=600&auto=format&fit=crop",
         "h2_intro": "El Marketing Experiencial a Otro Nivel",
         "p_intro": "Hacer que tus clientes sientan una conexión instantánea con tu marca es posible si ofreces personalización en tiempo real. Esta experiencia crea recuerdos perdurables; el asistente no solo recibe un obsequio, es parte fundamental del proceso de manufactura.",
         "benefits": """
@@ -245,6 +248,7 @@ articles = [
         "hero_text": "El metal transmite durabilidad, exclusividad y resistencia. Procesamos lotes de cientos a miles de placas pequeñas, dijes corporativos, llaveros ejecutivos y piezas técnicas con extrema precisión por láser.",
         "whatsapp_message": "Hola,%20quiero%20cotizar%20grabado%20de%20metal%20por%20volumen",
         "image_alt": "Grabado+Metal+Mayoristas",
+        "image_url": "https://images.unsplash.com/photo-1504917595217-d4dc5f9c4739?q=80&w=600&auto=format&fit=crop",
         "h2_intro": "Soluciones Industriales y Promocionales Premium",
         "p_intro": "Nuestro sistema permite manejar matrices para repetir milimétricamente diseños en piezas de escalas menores. Esto es valioso para fabricantes que buscan marcas en sus propias herramientas o agencias de regalos armando kits extensos.",
         "benefits": """
@@ -274,8 +278,9 @@ articles = [
         "hero_text": "Añade un toque cálido y personal a tu ocasión especial. Fabricamos cortes y grabados en madera fina, ideal para centros de mesa, recuerdos de bodas, bautizos, menús premium y recepciones corporativas exclusivas.",
         "whatsapp_message": "Hola,%20quiero%20cotizar%20grabado%20de%20madera%20para%20un%20evento",
         "image_alt": "Grabado+Madera+Eventos",
+        "image_url": "https://images.unsplash.com/photo-1549416878-b9ca35c2d47b?q=80&w=600&auto=format&fit=crop",
         "h2_intro": "Diseños Elegantes con Estética Orgánica",
-        "p_intro": "La madera es un material sumamente noble que conecta con la sobriedad y la elegancia. Proveemos soluciones completas a Wedding Planners, de forma eficiente e integrada para coordinar colores, tipografías y el estilo integral de todo evento.",
+        "p_intro": "La madera es un material sumamente noble que conecta con la sobriedad and la elegancia. Proveemos soluciones completas a Wedding Planners, de forma eficiente e integrada para coordinar colores, tipografías y el estilo integral de todo evento.",
         "benefits": """
           <article class="subpage-info-card">
             <i class="fa-solid fa-heart"></i>
@@ -303,16 +308,22 @@ for art in articles:
 with open("sitemap.xml", "r") as f:
     sitemap = f.read()
 
-sitemap_additions = "\n".join([f"""  <url>
-    <loc>https://www.laserinova.com/blog/{a['filename']}</loc>
+sitemap_additions_list = []
+for a in articles:
+    url = f"https://www.laserinova.com/blog/{a['filename']}"
+    if url not in sitemap:
+        sitemap_additions_list.append(f"""  <url>
+    <loc>{url}</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>""" for a in articles])
+  </url>""")
+
+if sitemap_additions_list:
+    sitemap_additions = "\n".join(sitemap_additions_list)
+    sitemap = sitemap.replace("</urlset>", sitemap_additions + "\n</urlset>")
 
 # Replace old blog.html specifically again, just in case
 sitemap = sitemap.replace("<loc>https://www.laserinova.com/blog.html</loc>", "<loc>https://www.laserinova.com/blog/index.html</loc>")
-
-sitemap = sitemap.replace("</urlset>", sitemap_additions + "\n</urlset>")
 
 with open("sitemap.xml", "w") as f:
     f.write(sitemap)
