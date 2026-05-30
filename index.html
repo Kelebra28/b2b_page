@@ -142,7 +142,8 @@
   <header class="site-header" id="top">
     <div class="container header-shell">
       <a class="brand" href="./index.html" aria-label="Ir al inicio de Laser Inova">
-        <img src="./assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" width="170" height="170" fetchpriority="high" />
+        <img class="logo-dark" src="./assets/img/logo_fondo_negro.png" alt="Logo Laser Inova" width="170" height="170" fetchpriority="high" />
+        <img class="logo-light" src="./assets/img/logo_fondo_blanco.png" alt="Logo Laser Inova" width="170" height="170" fetchpriority="high" />
       </a>
 
       <button
@@ -168,6 +169,7 @@
               <li><a href="#negocios">Servicios de Maquila</a></li>
               <li><a href="#promocionales">Plotter e Impresión</a></li>
               <li><a href="#boutique">Regalos Personalizados</a></li>
+              <li><a href="#todos-los-servicios">Directorio Completo</a></li>
             </ul>
           </li>
           <li><a target="_blank" href="https://tienda.promocionalesweb.com/laserinova">Tienda</a></li>
@@ -266,6 +268,112 @@
             <p>Costos competitivos para mayoreo, repetición de pedidos y volumen.</p>
           </div>
         </article>
+      </div>
+    </section>
+
+    <!-- MINI WORKSHOP INTERACTIVE SHOWCASE -->
+    <section class="mini-workshop" aria-label="Tecnología de Producción Inova">
+      <div class="container">
+        <div class="mini-workshop-header" data-reveal="up">
+          <span class="eyebrow">Nuestra Planta Industrial</span>
+          <h2>Procesos de Producción en Tiempo Real</h2>
+          <p>Experimenta de forma interactiva la precisión y velocidad de nuestras principales tecnologías de maquila e impresión.</p>
+        </div>
+        
+        <div class="mini-workshop-grid">
+          <!-- Card 1: Corte Láser -->
+          <div class="mini-workshop-card" data-reveal="up">
+            <div class="mini-canvas-container">
+              <div class="mini-bed bed-laser">
+                <div class="mini-grid-honeycomb"></div>
+                
+                <div class="mini-workpiece-laser">
+                  <svg class="mini-laser-svg" viewBox="0 0 100 100">
+                    <circle class="mini-svg-base" cx="50" cy="50" r="30"></circle>
+                    <circle class="mini-svg-glow" cx="50" cy="50" r="30"></circle>
+                  </svg>
+                </div>
+                
+                <div class="mini-nozzle-assembly">
+                  <div class="mini-nozzle-body"></div>
+                  <div class="mini-beam"></div>
+                  <div class="mini-glow"></div>
+                  <div class="mini-laser-sparks">
+                    <span class="mini-spark ms1"></span>
+                    <span class="mini-spark ms2"></span>
+                    <span class="mini-spark ms3"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mini-card-copy">
+              <h3>Corte Láser CNC</h3>
+              <span>Acrílico y Madera</span>
+            </div>
+          </div>
+          
+          <!-- Card 2: Grabado Láser -->
+          <div class="mini-workshop-card" data-reveal="up">
+            <div class="mini-canvas-container">
+              <div class="mini-bed bed-engrave">
+                <div class="mini-rotary-rollers"></div>
+                <div class="mini-cylindrical-object">
+                  <div class="tumbler-shading"></div>
+                  <div class="tumbler-engraved-glow"></div>
+                </div>
+                <div class="mini-engrave-assembly">
+                  <div class="mini-engrave-nozzle"></div>
+                  <div class="mini-engrave-beam"></div>
+                  <div class="mini-engrave-glow"></div>
+                  <div class="mini-engrave-sparks">
+                    <span class="mini-spark ms1"></span>
+                    <span class="mini-spark ms2"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mini-card-copy">
+              <h3>Grabado de Precisión</h3>
+              <span>Termos y Artículos</span>
+            </div>
+          </div>
+          
+          <!-- Card 3: Cama Plana UV -->
+          <div class="mini-workshop-card" data-reveal="up">
+            <div class="mini-canvas-container">
+              <div class="mini-bed bed-uv">
+                <div class="mini-vacuum-table"></div>
+                <div class="mini-acrylic-print-plate">
+                  <div class="mini-uv-print-design"></div>
+                </div>
+                <div class="mini-uv-gantry-assembly">
+                  <div class="mini-uv-gantry-light"></div>
+                </div>
+              </div>
+            </div>
+            <div class="mini-card-copy">
+              <h3>Impresión UV Plana</h3>
+              <span>Maquila Rígida y Relieve</span>
+            </div>
+          </div>
+          
+          <!-- Card 4: Plotter de Gran Formato -->
+          <div class="mini-workshop-card" data-reveal="up">
+            <div class="mini-canvas-container">
+              <div class="mini-bed bed-plotter">
+                <div class="mini-plotter-bar"></div>
+                <div class="mini-plotter-canvas">
+                  <div class="mini-canvas-printed-graphic"></div>
+                </div>
+                <div class="mini-plotter-head-assembly"></div>
+              </div>
+            </div>
+            <div class="mini-card-copy">
+              <h3>Plotter Gran Formato</h3>
+              <span>Viniles, Lona y Campañas</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -376,6 +484,74 @@
       </div>
     </section>
 
+    <!-- SECCIÓN MAQUILA Y CORTE LÁSER DETALLADO -->
+    <section class="section subpage-machine" id="maquila-corte-laser" aria-labelledby="laser-section-title">
+      <div class="container subpage-machine-grid">
+        <div class="subpage-machine-copy" data-reveal="up">
+          <span class="eyebrow">Maquila Industrial</span>
+          <h2 id="laser-section-title">Corte y Grabado Láser de Precisión</h2>
+          <p>
+            Ofrecemos servicio de maquila por volumen con tecnología CNC avanzada. Cortamos y grabamos con absoluta precisión sobre <strong>MDF, Madera, Acrílico, Cuero, Cartón y plásticos seleccionados</strong>.
+            Diseñado para proyectos arquitectónicos, piezas de ingeniería, maquetas, exhibidores y producción industrial repetible.
+          </p>
+
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-check"></i> Precisión milimétrica de corte y grabado limpio</li>
+            <li><i class="fa-solid fa-check"></i> Capacidad para planos complejos en vectores (DXF, AI, PDF)</li>
+            <li><i class="fa-solid fa-check"></i> Aprovechamiento máximo de material para reducir costos</li>
+            <li><i class="fa-solid fa-check"></i> Entrega rápida en lotes medianos y grandes maquilas</li>
+          </ul>
+
+          <div style="margin-top: 2rem;">
+            <a class="btn btn-primary" href="https://wa.me/525579398727?text=Hola,%20busco%20cotizar%20un%20proyecto%20de%20corte%20y%20grabado%20laser" target="_blank" rel="noopener">
+              Cotizar Corte Láser
+            </a>
+            <a class="btn btn-secondary" href="./subpages/maquila_volumen.html" style="margin-left: 1rem;">
+              Soluciones de Maquila
+            </a>
+          </div>
+        </div>
+
+        <!-- HONEYCOMB CNC LASER MOCKUP -->
+        <div class="laser-mockup-wrapper" data-reveal="left">
+          <div class="laser-machine-bed">
+            <div class="laser-honeycomb-grid"></div>
+            
+            <!-- Workpiece Material being Cut -->
+            <div class="laser-workpiece">
+              <svg class="laser-svg-path" viewBox="0 0 100 100">
+                <circle class="svg-base-circle" cx="50" cy="50" r="35"></circle>
+                <circle class="svg-glow-circle" cx="50" cy="50" r="35"></circle>
+              </svg>
+            </div>
+            
+            <!-- Dynamic Moving Laser Head Nozzle -->
+            <div class="laser-head">
+              <div class="laser-nozzle"></div>
+              <div class="laser-active-beam"></div>
+              <div class="laser-active-glow"></div>
+              <div class="laser-sparks">
+                <span class="spark s1"></span>
+                <span class="spark s2"></span>
+                <span class="spark s3"></span>
+                <span class="spark s4"></span>
+              </div>
+            </div>
+            
+            <!-- High-tech Callouts -->
+            <div class="uv-callout callout-1" style="bottom: 12%; right: 8%;">
+              <span class="callout-dot" style="background: #ff3344; box-shadow: 0 0 8px #ff3344;"></span>
+              <span class="callout-text">Corte en Acrílico y Madera</span>
+            </div>
+            <div class="uv-callout callout-2" style="top: 12%; left: 8%;">
+              <span class="callout-dot" style="background: #ff3344; box-shadow: 0 0 8px #ff3344;"></span>
+              <span class="callout-text">Tolerancia de 0.1mm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section section-dark event-live" id="eventos-vivo" aria-labelledby="eventos-vivo-title">
       <div class="container event-live-grid">
         <div class="event-live-copy" data-reveal="up">
@@ -452,36 +628,42 @@
 
         <div class="solutions-grid">
           <article class="solution-card" data-reveal="up">
+            <i class="fa-solid fa-box-open solution-icon"></i>
             <h3>Kits de bienvenida</h3>
             <p>Termos, plumas, folders, placas y artículos corporativos personalizados para RH y onboarding.</p>
             <a href="./subpages/kits_bienvenida.html">Explorar kits corporativos</a>
           </article>
 
           <article class="solution-card" data-reveal="up">
+            <i class="fa-solid fa-signs-post solution-icon"></i>
             <h3>Señalética para oficinas</h3>
             <p>Placas en acrílico, señalización interior, nombres de sala, branding y displays.</p>
             <a href="./subpages/senaletica_oficinas.html">Ver señalética en acrílico</a>
           </article>
 
           <article class="solution-card" data-reveal="up">
+            <i class="fa-solid fa-industry solution-icon"></i>
             <h3>Producción para agencias</h3>
             <p>Soporte de fabricación para campañas, activaciones, eventos, branding visual y lotes especiales.</p>
             <a href="./subpages/produccion_agencias.html">Ver maquila de corte láser</a>
           </article>
 
           <article class="solution-card" data-reveal="up">
+            <i class="fa-solid fa-gem solution-icon"></i>
             <h3>Promocionales premium</h3>
             <p>Grabado en metal y personalización para termos, botellas, placas y artículos de alto impacto.</p>
             <a href="./subpages/promocionales_premium.html">Ver promocionales premium</a>
           </article>
 
           <article class="solution-card" data-reveal="up">
+            <i class="fa-solid fa-display solution-icon"></i>
             <h3>Displays y materiales visuales</h3>
             <p>Piezas en MDF y acrílico para retail, exhibición, material POP y proyectos especiales.</p>
             <a href="./subpages/displays_materiales_visuales.html">Ver materiales visuales</a>
           </article>
 
           <article class="solution-card" data-reveal="up">
+            <i class="fa-solid fa-gift solution-icon"></i>
             <h3>Regalos empresariales y detalles premium</h3>
             <p>Soluciones boutique para fechas especiales, branding fino y regalos de alto valor percibido.</p>
             <a href="./subpages/regalos_empresariales.html">Ver regalos empresariales</a>
@@ -513,18 +695,30 @@
 
         <div class="production-stats" data-reveal="left">
           <article class="stat-card">
+            <div class="stat-card-icon-wrapper">
+              <i class="fa-solid fa-boxes-stacked"></i>
+            </div>
             <strong>100+</strong>
             <span>Piezas desde lotes cortos</span>
           </article>
           <article class="stat-card">
+            <div class="stat-card-icon-wrapper">
+              <i class="fa-solid fa-industry"></i>
+            </div>
             <strong>10k+</strong>
             <span>Capacidad en proyectos de volumen</span>
           </article>
           <article class="stat-card">
+            <div class="stat-card-icon-wrapper">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
             <strong>24-48h</strong>
             <span>En proyectos urgentes seleccionados</span>
           </article>
           <article class="stat-card">
+            <div class="stat-card-icon-wrapper">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
             <strong>B2B</strong>
             <span>Atención a empresas, agencias y eventos</span>
           </article>
@@ -606,8 +800,12 @@
                 <td>Espejo / vidrio</td>
                 <td>Regalos premium, eventos y aplicaciones especiales</td>
               </tr>
+                            <tr>
+                <td>Impresión Cama Plana UV</td>
+                <td>Acrílico / Madera / Metal</td>
+                <td>Impresión fotográfica directa con tinta blanca y barniz 3D.</td>
+              </tr>
               <tr>
-                <td>Plotter e impresión</td>
                 <td>Lona / vinil</td>
                 <td>Publicidad gran formato, eventos, campañas y puntos de venta</td>
               </tr>
@@ -719,10 +917,41 @@
           </div>
         </div>
 
-        <div class="subpage-machine-visual" data-reveal="left">
-          <img src="./assets/img/subpages/maquinas/uv.webp"
-            alt="Impresión Cama Plana UV sobre acrílico y madera"
-            loading="lazy" decoding="async" />
+        <!-- HIGH-TECH INTERACTIVE CSS MOCKUP -->
+        <div class="uv-mockup-wrapper" data-reveal="left">
+          <div class="uv-machine-bed">
+            <div class="uv-vacuum-grid"></div>
+            
+            <!-- UV LED Bar Animation -->
+            <div class="uv-light-bar">
+              <div class="uv-laser-glow"></div>
+            </div>
+            
+            <!-- Floating Materials Plates -->
+            <div class="uv-plate uv-plate-wood">
+              <span class="plate-label">Madera Barnizada</span>
+              <div class="print-overlay wood-print"></div>
+            </div>
+            <div class="uv-plate uv-plate-acrylic">
+              <span class="plate-label">Acrílico Relieve</span>
+              <div class="print-overlay acrylic-print"></div>
+              <div class="glass-glare"></div>
+            </div>
+            <div class="uv-plate uv-plate-metal">
+              <span class="plate-label">Metal Grabado</span>
+              <div class="print-overlay metal-print"></div>
+            </div>
+            
+            <!-- Floating Specs Callouts -->
+            <div class="uv-callout callout-1">
+              <span class="callout-dot"></span>
+              <span class="callout-text">Tinta Blanca 100% Opaca</span>
+            </div>
+            <div class="uv-callout callout-2">
+              <span class="callout-dot"></span>
+              <span class="callout-text">Barniz 3D Brillante</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -1097,6 +1326,95 @@
       </div>
     </section>
 
+
+
+    <!-- ENLACES SEO / CATALOGO -->
+    <section class="section seo-links" id="todos-los-servicios" aria-labelledby="servicios-completos-title">
+      <div class="container">
+        <div class="section-heading" data-reveal="up">
+          <span class="eyebrow">Soluciones para empresas y particulares</span>
+          <h2 id="servicios-completos-title">Directorio de Especialidades</h2>
+        </div>
+
+        <div class="seo-clusters-grid" data-reveal="up">
+          <!-- Cluster 1: Industrial y Maquila -->
+          <article class="seo-cluster-card">
+            <div class="seo-cluster-header">
+              <i class="fa-solid fa-industry"></i>
+              <h3>Corte y Maquila Industrial</h3>
+            </div>
+            <p class="seo-cluster-desc">Soluciones B2B para producción por lote, maquila de piezas, estructuras y marcaje profundo.</p>
+            <div class="seo-links-list">
+              <a href="./subpages/corte_laser_metal.html">
+                <i class="fa-solid fa-chevron-right"></i> Corte láser en metal
+              </a>
+              <a href="./subpages/maquila_volumen.html">
+                <i class="fa-solid fa-chevron-right"></i> Maquila de volumen
+              </a>
+              <a href="./subpages/produccion_agencias.html">
+                <i class="fa-solid fa-chevron-right"></i> Producción para agencias
+              </a>
+              <a href="./subpages/senaletica_oficinas.html">
+                <i class="fa-solid fa-chevron-right"></i> Señalética y acrílico
+              </a>
+            </div>
+          </article>
+
+          <!-- Cluster 2: Boutique y Promocionales -->
+          <article class="seo-cluster-card">
+            <div class="seo-cluster-header">
+              <i class="fa-solid fa-gift"></i>
+              <h3>Boutique y Promocionales</h3>
+            </div>
+            <p class="seo-cluster-desc">Detalles premium, regalos empresariales y personalización cuidada en materiales elegantes.</p>
+            <div class="seo-links-list">
+              <a href="./subpages/promocionales_premium.html">
+                <i class="fa-solid fa-chevron-right"></i> Promocionales premium
+              </a>
+              <a href="./subpages/grabado_metal.html">
+                <i class="fa-solid fa-chevron-right"></i> Grabado en metal
+              </a>
+              <a href="./subpages/grabado_madera.html">
+                <i class="fa-solid fa-chevron-right"></i> Grabado en madera
+              </a>
+              <a href="./subpages/grabado_espejos.html">
+                <i class="fa-solid fa-chevron-right"></i> Grabado en espejos
+              </a>
+              <a href="./subpages/regalos_empresariales.html">
+                <i class="fa-solid fa-chevron-right"></i> Regalos empresariales
+              </a>
+            </div>
+          </article>
+
+          <!-- Cluster 3: Impresión -->
+          <article class="seo-cluster-card">
+            <div class="seo-cluster-header">
+              <i class="fa-solid fa-print"></i>
+              <h3>Impresión y Gran Formato</h3>
+            </div>
+            <p class="seo-cluster-desc">Desde lonas monumentales hasta impresión directa sobre rígidos con calidad fotográfica.</p>
+            <div class="seo-links-list">
+              <a href="./subpages/impresion_cama_plana_uv.html">
+                <i class="fa-solid fa-chevron-right"></i> Impresión Cama Plana UV
+              </a>
+              <a href="./subpages/plotter_impresion.html">
+                <i class="fa-solid fa-chevron-right"></i> Plotter e Impresión
+              </a>
+              <a href="./subpages/lona_gran_formato.html">
+                <i class="fa-solid fa-chevron-right"></i> Lona Gran Formato
+              </a>
+              <a href="./subpages/vinil_instalacion.html">
+                <i class="fa-solid fa-chevron-right"></i> Vinil e instalación
+              </a>
+              <a href="./subpages/displays_eventos.html">
+                <i class="fa-solid fa-chevron-right"></i> Displays para eventos
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <!-- FAQ -->
     <section class="section" id="faqs" aria-labelledby="faqs-title">
       <div class="container">
@@ -1199,164 +1517,69 @@
       </div>
     </section>
 
-    <!-- CONTACTO -->
+    <!-- CONTACTO Y UBICACIÓN -->
     <section class="section" id="contacto" aria-labelledby="contacto-title">
-      <div class="container contact-grid">
-        <div class="contact-copy" data-reveal="up">
-          <span class="eyebrow">Contacto</span>
-          <h2 id="contacto-title">Solicita una cotización</h2>
-          <p>
-            Escríbenos si buscas <strong>maquila, mayoreo, grabado corporativo, señalética,
-            impresión o regalos personalizados</strong>.
-          </p>
-
-          <ul class="contact-list">
-            <li><i class="fa-solid fa-phone"></i> +52 55 7939 8727</li>
-            <li><i class="fa-solid fa-envelope"></i> informes@laserinova.com</li>
-            <li><i class="fa-solid fa-location-dot"></i> Azcapotzalco, CDMX</li>
-          </ul>
-        </div>
-
-        <form action="/api/contacto.php" method="POST" class="contact-form" novalidate data-reveal="left">
-          <label class="sr-only" for="name">Nombre</label>
-          <input id="name" name="name" type="text" placeholder="Tu nombre" required autocomplete="name" />
-
-          <label class="sr-only" for="email">Correo</label>
-          <input id="email" name="email" type="email" placeholder="Tu correo" required autocomplete="email" />
-
-          <label class="sr-only" for="message">Mensaje</label>
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Cuéntanos tu proyecto: volumen, material, tiempos y tipo de servicio"
-            required
-          ></textarea>
-
-          <input
-            type="text"
-            name="company"
-            tabindex="-1"
-            autocomplete="off"
-            style="position:absolute;left:-9999px;"
-          />
-          <input type="hidden" name="redirect" value="/gracias.html" />
-
-          <button type="submit" class="btn btn-primary btn-full">Enviar Mensaje</button>
-        </form>
-      </div>
-    </section>
-
-    <!-- UBICACIÓN -->
-    <section class="section section-dark" id="ubicacion" aria-labelledby="ubicacion-title">
       <div class="container">
-        <div class="section-heading section-heading-light" data-reveal="up">
-          <span class="eyebrow">Ubicación</span>
-          <h2 id="ubicacion-title">¿Dónde estamos?</h2>
-          <p>Operamos desde Azcapotzalco, CDMX, con atención a proyectos locales y envíos según el alcance.</p>
+        <div class="section-heading section-heading-center section-heading-light" data-reveal="up">
+          <span class="eyebrow">Contacto y Ubicación</span>
+          <h2 id="contacto-title">¿Listo para cotizar tu proyecto?</h2>
+          <p>Déjanos tus datos o visítanos en nuestras instalaciones. Atendemos proyectos corporativos, maquila y mayoreo.</p>
         </div>
 
-        <div class="map-wrap" data-reveal="up">
+        <div class="contact-dense-grid">
+          <div class="contact-info-panel" data-reveal="up">
+            <h3>Información de Contacto</h3>
+            <ul class="contact-list-rich">
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <strong>Teléfono / WhatsApp</strong>
+                  <span>+52 55 7939 8727</span>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <strong>Correo Electrónico</strong>
+                  <span>informes@laserinova.com</span>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>Ubicación</strong>
+                  <span>Cuichapa 223, Petrolera, Azcapotzalco, 02480 CDMX</span>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                  <strong>Horario de Atención</strong>
+                  <span>Lunes a Viernes: 09:00 - 19:00<br>Sábados: 11:00 - 17:00</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <form action="/api/contacto.php" method="POST" class="contact-form-rich" novalidate data-reveal="up">
+            <div class="form-row">
+              <input id="name" name="name" type="text" placeholder="Tu nombre o empresa" required />
+              <input id="email" name="email" type="email" placeholder="Tu correo" required />
+            </div>
+            <textarea id="message" name="message" placeholder="Cuéntanos tu proyecto: volumen, material, tiempos y tipo de servicio" required rows="5"></textarea>
+            <button type="submit" class="btn btn-primary btn-full">Enviar Solicitud</button>
+          </form>
+        </div>
+
+        <div class="map-wrap-rich" data-reveal="up">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.2560389251007!2d-99.20374292381257!3d19.48761718180361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2028ff506eda3%3A0x46063795f2a37abc!2sCuichapa%20223%2C%20Petrolera%2C%20Azcapotzalco%2C%2002480%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1747943048535!5m2!1sen!2smx"
-            width="100%"
-            height="420"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            title="Mapa de ubicación de Laser Inova"
-          ></iframe>
+            width="100%" height="350" style="border:0; border-radius: 16px; margin-top: 2rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa de ubicación de Laser Inova"></iframe>
         </div>
       </div>
     </section>
-
-    <!-- ENLACES SEO -->
-    <section class="section seo-links" aria-labelledby="seo-links-title">
-      <div class="container">
-        <div class="section-heading" data-reveal="up">
-          <span class="eyebrow">Servicios relacionados</span>
-          <h2 id="seo-links-title">Explora subpáginas específicas</h2>
-        </div>
-
-        <div class="seo-clusters-grid" data-reveal="up">
-          <!-- Cluster 1: Industrial y Maquila -->
-          <article class="seo-cluster-card">
-            <div class="seo-cluster-header">
-              <i class="fa-solid fa-industry"></i>
-              <h3>Corte y Maquila Industrial</h3>
-            </div>
-            <p class="seo-cluster-desc">Soluciones B2B para producción por lote, maquila de piezas, estructuras y marcaje profundo.</p>
-            <div class="seo-links-list">
-              <a href="./subpages/corte_laser_metal.html">
-                <i class="fa-solid fa-chevron-right"></i> Corte láser en metal
-              </a>
-              <a href="./subpages/maquila_volumen.html">
-                <i class="fa-solid fa-chevron-right"></i> Maquila de volumen
-              </a>
-              <a href="./subpages/produccion_agencias.html">
-                <i class="fa-solid fa-chevron-right"></i> Producción para agencias
-              </a>
-              <a href="./subpages/senaletica_oficinas.html">
-                <i class="fa-solid fa-chevron-right"></i> Señalética y acrílico
-              </a>
-            </div>
-          </article>
-
-          <!-- Cluster 2: Boutique y Promocionales -->
-          <article class="seo-cluster-card">
-            <div class="seo-cluster-header">
-              <i class="fa-solid fa-gift"></i>
-              <h3>Boutique y Promocionales</h3>
-            </div>
-            <p class="seo-cluster-desc">Detalles premium, regalos empresariales y personalización cuidada en materiales elegantes.</p>
-            <div class="seo-links-list">
-              <a href="./subpages/promocionales_premium.html">
-                <i class="fa-solid fa-chevron-right"></i> Promocionales premium
-              </a>
-              <a href="./subpages/grabado_metal.html">
-                <i class="fa-solid fa-chevron-right"></i> Grabado en metal
-              </a>
-              <a href="./subpages/grabado_madera.html">
-                <i class="fa-solid fa-chevron-right"></i> Grabado en madera
-              </a>
-              <a href="./subpages/grabado_espejos.html">
-                <i class="fa-solid fa-chevron-right"></i> Grabado en espejos
-              </a>
-              <a href="./subpages/regalos_empresariales.html">
-                <i class="fa-solid fa-chevron-right"></i> Regalos empresariales
-              </a>
-            </div>
-          </article>
-
-          <!-- Cluster 3: Impresión -->
-          <article class="seo-cluster-card">
-            <div class="seo-cluster-header">
-              <i class="fa-solid fa-print"></i>
-              <h3>Impresión y Gran Formato</h3>
-            </div>
-            <p class="seo-cluster-desc">Desde lonas monumentales hasta impresión directa sobre rígidos con calidad fotográfica.</p>
-            <div class="seo-links-list">
-              <a href="./subpages/impresion_cama_plana_uv.html">
-                <i class="fa-solid fa-chevron-right"></i> Impresión Cama Plana UV
-              </a>
-              <a href="./subpages/plotter_impresion.html">
-                <i class="fa-solid fa-chevron-right"></i> Plotter e Impresión
-              </a>
-              <a href="./subpages/lona_gran_formato.html">
-                <i class="fa-solid fa-chevron-right"></i> Lona Gran Formato
-              </a>
-              <a href="./subpages/vinil_instalacion.html">
-                <i class="fa-solid fa-chevron-right"></i> Vinil e instalación
-              </a>
-              <a href="./subpages/displays_eventos.html">
-                <i class="fa-solid fa-chevron-right"></i> Displays para eventos
-              </a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-  </main>
+  </main>  </main>
 
   <!-- WhatsApp -->
   <a
@@ -1375,7 +1598,7 @@
       <div class="footer-grid">
         <div class="footer-brand-block">
           <a href="./index.html" class="footer-logo" aria-label="Ir al inicio de Laser Inova">
-            <img src="./assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" width="170" height="170" loading="lazy" decoding="async" />
+            <img src="./assets/img/logo_fondo_negro.png" alt="Logo Laser Inova" width="170" height="170" loading="lazy" decoding="async" />
           </a>
           <p class="footer-brand-text">
             Maquila, grabado corporativo, publicidad gran formato y regalos personalizados en CDMX.

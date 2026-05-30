@@ -130,6 +130,9 @@ document.addEventListener("DOMContentLoaded", () => {
                              entry.target.classList.contains("hero") || 
                              entry.target.tagName.toLowerCase() === "footer";
                              
+              // User wants HIGH CONTRAST:
+              // Dark section -> White header (theme-light)
+              // Light section -> Black header (!theme-light)
               if (isDark) {
                 header.classList.add("theme-light");
               } else {

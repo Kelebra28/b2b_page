@@ -324,9 +324,7 @@ p {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.site-header.theme-light .brand img {
-  filter: invert(1) brightness(0);
-}
+
 
 .site-header.theme-light .nav-list > li > a {
   color: rgba(0, 0, 0, 0.75);
@@ -377,16 +375,9 @@ p {
   flex-shrink: 0;
 }
 
-.brand img {
-  width: 170px;
-  height: auto;
-  object-fit: contain;
-  transition: width var(--transition);
-}
 
-.site-header.is-scrolled .brand img {
-  width: 135px;
-}
+
+.site-header.is-scrolled 
 
 .site-nav {
   justify-self: center;
@@ -1304,37 +1295,42 @@ textarea:focus-visible {
   
   .stat-card {
     position: relative;
-    padding: 1.65rem;
-    border-radius: 22px;
-    background: linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.04));
-    border: 1px solid rgba(255,255,255,0.1);
-    backdrop-filter: blur(12px);
+    padding: 2rem 1.75rem;
+    border-radius: 24px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+    border: 1px solid rgba(255,255,255,0.08);
+    backdrop-filter: blur(16px);
     box-shadow:
-      inset 0 1px 0 rgba(255,255,255,0.03),
-      0 18px 32px rgba(0,0,0,0.12);
+      inset 0 1px 0 rgba(255,255,255,0.02),
+      0 12px 30px rgba(0,0,0,0.2);
     overflow: hidden;
-    transition:
-      transform 0.3s ease,
-      border-color 0.3s ease,
-      box-shadow 0.3s ease,
-      background 0.3s ease;
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .stat-card-icon-wrapper {
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, rgba(198, 40, 49, 0.15), rgba(225, 74, 82, 0.05));
+    border: 1px solid rgba(198, 40, 49, 0.25);
+    display: grid;
+    place-items: center;
+    margin-bottom: 1.25rem;
+    color: #ff4a55;
+    font-size: 1.3rem;
+    transition: all 0.35s ease;
   }
   
   .stat-card::before {
     content: "";
     position: absolute;
-    inset: -40% auto auto -20%;
-    width: 70%;
-    height: 180%;
-    background: linear-gradient(
-      120deg,
-      transparent 0%,
-      rgba(255,255,255,0.06) 40%,
-      transparent 80%
-    );
-    transform: rotate(18deg);
+    inset: 0;
+    background: radial-gradient(circle at 20% 20%, rgba(198, 40, 49, 0.12), transparent 50%);
     opacity: 0;
-    transition: opacity 0.35s ease;
+    transition: opacity 0.4s ease;
     pointer-events: none;
   }
   
@@ -1348,12 +1344,20 @@ textarea:focus-visible {
   }
   
   .stat-card:hover {
-    transform: translateY(-6px);
-    border-color: rgba(225, 74, 82, 0.22);
+    transform: translateY(-8px);
+    border-color: rgba(225, 74, 82, 0.4);
     box-shadow:
-      inset 0 1px 0 rgba(255,255,255,0.04),
-      0 24px 38px rgba(0,0,0,0.18);
-    background: linear-gradient(180deg, rgba(255,255,255,0.085), rgba(255,255,255,0.045));
+      0 20px 40px rgba(198, 40, 49, 0.15),
+      inset 0 1px 0 rgba(255,255,255,0.05);
+    background: linear-gradient(180deg, rgba(255,255,255,0.09), rgba(255,255,255,0.03));
+  }
+  
+  .stat-card:hover .stat-card-icon-wrapper {
+    background: linear-gradient(135deg, #c62831, #ff4a55);
+    border-color: #ff4a55;
+    color: #ffffff;
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 0 15px rgba(255, 74, 82, 0.4);
   }
   
   .stat-card:hover::before {
@@ -1362,23 +1366,29 @@ textarea:focus-visible {
   
   .stat-card strong {
     display: block;
-    color: var(--white);
-    font-size: 2.2rem;
+    color: #ffffff;
+    font-size: 2.5rem;
     font-weight: 800;
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.5rem;
     letter-spacing: -0.03em;
-    transition: transform 0.28s ease, color 0.28s ease;
+    background: linear-gradient(135deg, #ffffff 60%, #ff8a97 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.35s ease;
   }
   
   .stat-card:hover strong {
-    transform: translateY(-1px);
-    color: #ffffff;
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #ffffff 30%, #ff4a55 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   .stat-card span {
-    color: var(--text-soft);
-    font-size: 0.97rem;
-    line-height: 1.6;
+    color: #a0aec0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-weight: 500;
   }
 /* ========= MATERIALS / TECH TABLE ========= */
 /* ========= MATERIALES Y PROCESOS / CAPACIDADES TÉCNICAS ========= */
@@ -1575,7 +1585,7 @@ textarea:focus-visible {
       inset 0 1px 0 rgba(255,255,255,0.35);
   }
   
-  .promo-card-inner {
+  .promo-card-inner-old {
     width: 100%;
     padding: 2.1rem;
     border-radius: 22px;
@@ -2835,9 +2845,7 @@ textarea:focus-visible {
     width: min(calc(100% - 1.25rem), var(--container));
   }
 
-  .brand img {
-    width: 150px;
-  }
+  
 
   .site-header {
     height: 72px;
@@ -3417,13 +3425,7 @@ textarea:focus-visible {
     z-index: 1300;
   }
 
-  .brand img {
-    width: 145px;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
-  }
+  
 
   .header-cta {
     display: none !important;
@@ -3829,9 +3831,7 @@ textarea:focus-visible {
     width: min(100% - 20px, 1200px);
   }
 
-  .brand img {
-    width: 136px;
-  }
+  
 
   .hero h1,
   .event-live h2,
@@ -3880,15 +3880,7 @@ textarea:focus-visible {
     line-height: 0;
   }
 
-  .brand img {
-    display: block;
-    width: 150px;
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    object-fit: contain;
-  }
+  
 
   .menu-toggle {
     flex: 0 0 auto;
@@ -3932,9 +3924,7 @@ textarea:focus-visible {
     max-width: 156px;
   }
 
-  .brand img {
-    width: 140px;
-  }
+  
 
   .menu-toggle {
     width: 48px;
@@ -3945,3 +3935,1418 @@ textarea:focus-visible {
     top: 82px;
   }
 }
+/* =========================================
+   REFINED B2B REDESIGN OVERRIDES (ALTERNATING)
+========================================= */
+
+/* Dark header (Default) */
+.site-header .nav-list > li > a {
+  color: #ffffff;
+}
+
+/* Light header */
+.site-header.theme-light .nav-list > li > a {
+  color: #111722 !important;
+}
+
+/* Base body typography updates for sharp feel */
+:root {
+  --radius-xl: 12px;
+  --radius-lg: 8px;
+  --radius-md: 6px;
+  --radius-sm: 4px;
+}
+
+/* Sections - Alternating Colors */
+.section {
+  background-color: #ffffff !important;
+  color: #111722 !important;
+}
+
+.section-alt {
+  background-color: #f4f7fb !important;
+  color: #111722 !important;
+}
+
+.section-dark, .hero, .event-live {
+  background-color: #050505 !important;
+  color: #ffffff !important;
+}
+
+/* Text visibility inside light sections */
+.section h1, .section h2, .section h3, .section h4, .section strong, 
+.section-alt h1, .section-alt h2, .section-alt h3, .section-alt h4, .section-alt strong {
+  color: #111722 !important;
+}
+
+.section p, .section span, .section li,
+.section-alt p, .section-alt span, .section-alt li {
+  color: #4a5568 !important;
+}
+
+/* Text visibility inside dark sections */
+.section-dark h1, .section-dark h2, .section-dark h3, .section-dark h4, .section-dark strong,
+.hero h1, .hero h2, .hero h3, .hero h4, .hero strong {
+  color: #ffffff !important;
+}
+
+.section-dark p, .section-dark span, .section-dark li,
+.hero p, .hero span, .hero li {
+  color: #a0aec0 !important;
+}
+
+/* Card Styling for Light Sections */
+.section .business-card, .section .solution-card, .section .boutique-card, .section .trust-item,
+.section-alt .business-card, .section-alt .solution-card, .section-alt .boutique-card, .section-alt .trust-item {
+  background: #ffffff !important;
+  border: 1px solid rgba(0,0,0,0.08) !important;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.04) !important;
+  border-radius: var(--radius-xl) !important;
+  color: #111722 !important;
+  transition: all var(--transition) !important;
+}
+
+/* Card Styling for Dark Sections */
+.section-dark .business-card, .hero .hero-card, .section-dark .promo-card-inner-old {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: none !important;
+  border-radius: var(--radius-xl) !important;
+  color: #ffffff !important;
+  transition: all var(--transition) !important;
+}
+
+/* Cinematic Hover Glows (Global) */
+.business-card:hover, .solution-card:hover, .boutique-card:hover, .trust-item:hover, .promo-service-item:hover {
+  transform: translateY(-4px) scale(1.02) !important;
+  box-shadow: 0 0 20px rgba(198, 40, 49, 0.3) !important;
+  border-color: #ff3344 !important;
+}
+
+/* Light Section specific hover fix */
+.section .business-card:hover, .section .solution-card:hover, .section .boutique-card:hover, .section .trust-item:hover,
+.section-alt .business-card:hover, .section-alt .solution-card:hover, .section-alt .boutique-card:hover, .section-alt .trust-item:hover {
+  background: #ffffff !important;
+}
+
+/* Dark Section specific hover fix */
+.section-dark .business-card:hover, .hero .hero-card:hover {
+  background: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Clean up pseudo-elements */
+.business-card::before, .business-card::after, .trust-item::before {
+  display: none !important;
+}
+
+/* Override Grids to Asymmetric */
+.business-grid, .solutions-grid, .boutique-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+  gap: 2.5rem !important;
+}
+
+@media (min-width: 900px) {
+  .business-grid, .solutions-grid, .boutique-grid {
+    grid-template-columns: 1fr 1.3fr !important;
+    align-items: stretch;
+  }
+  .business-card:nth-child(3n), .solution-card:nth-child(3n), .boutique-card:nth-child(3n) {
+    grid-column: span 2;
+  }
+}
+
+/* =========================================
+   USER FEEDBACK REFINEMENTS
+========================================= */
+
+/* 1. Header completely white to hide logo box */
+.site-header.theme-light {
+  background: #ffffff !important;
+}
+
+/* 2. Fix Promo Card Inner (Ensure it stays dark and readable) */
+.promo-card-inner {
+  background: #0b0f15 !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  padding: 2.5rem !important;
+  border-radius: 24px !important;
+  width: 100% !important;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3) !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+.promo-card-inner h3 {
+  color: #ffffff !important;
+  font-size: 1.6rem !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+}
+.promo-card-inner p {
+  color: #bcc6d5 !important;
+  font-size: 1.05rem !important;
+  line-height: 1.7 !important;
+  margin-top: 1.2rem !important;
+  margin-bottom: 1.8rem !important;
+}
+.promo-card-header i {
+  width: 48px !important;
+  height: 48px !important;
+  background: rgba(198, 40, 49, 0.15) !important;
+  border: 1px solid rgba(198, 40, 49, 0.3) !important;
+  border-radius: 12px !important;
+  display: grid !important;
+  place-items: center !important;
+  color: #ff4a55 !important;
+  font-size: 1.2rem !important;
+  margin-bottom: 0 !important;
+}
+.promo-card-specs {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 0.8rem !important;
+  padding-top: 1.5rem !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+@media (max-width: 600px) {
+  .promo-card-specs {
+    grid-template-columns: 1fr !important;
+  }
+}
+.promo-card-specs span {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+  padding: 0.65rem 1rem !important;
+  border-radius: 12px !important;
+  transition: all 0.3s ease !important;
+}
+.promo-card-specs span:hover {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-color: rgba(255, 74, 82, 0.3) !important;
+  transform: translateY(-2px) !important;
+}
+.promo-card-specs i {
+  color: #ff4a55 !important;
+  font-size: 0.85rem !important;
+}
+
+/* 3. Fix Event Live List Text Visibility */
+.event-live-list li, .event-live-list li i {
+  color: #ffffff !important;
+}
+
+/* 4. Fix Solutions Cards (Padding and Icons) */
+.solution-card {
+  padding: 2.5rem 2rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.solution-icon {
+  font-size: 2.2rem;
+  color: #c62831;
+  margin-bottom: 1.2rem;
+}
+.solution-card h3 {
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+}
+
+/* 5. Return Grids to 3 columns to feel denser, but keep asymmetry optional */
+@media (min-width: 900px) {
+  .business-grid, .solutions-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .business-card:nth-child(3n), .solution-card:nth-child(3n), .boutique-card:nth-child(3n) {
+    grid-column: span 1 !important; /* Remove the wide span so it shows 3 columns */
+  }
+}
+
+/* 6. Rich Contact Section Styles */
+.contact-dense-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+@media (min-width: 900px) {
+  .contact-dense-grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+.contact-info-panel {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 2.5rem;
+  border-radius: var(--radius-xl);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.contact-info-panel h3 {
+  margin-bottom: 2rem;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.contact-list-rich {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.contact-list-rich li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.contact-list-rich i {
+  font-size: 1.5rem;
+  color: #c62831;
+  margin-top: 0.2rem;
+}
+.contact-list-rich strong {
+  display: block;
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+.contact-list-rich span {
+  color: #a0aec0;
+  line-height: 1.4;
+}
+.contact-form-rich {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: var(--radius-xl);
+}
+.contact-form-rich .form-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 600px) {
+  .contact-form-rich .form-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.contact-form-rich input, .contact-form-rich textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: var(--radius-md);
+  background: #f4f7fb;
+  color: #111722;
+  margin-bottom: 1rem;
+}
+.contact-form-rich input::placeholder, .contact-form-rich textarea::placeholder {
+  color: #a0aec0;
+}
+
+/* =========================================
+   FINAL UX & UI ADJUSTMENTS
+========================================= */
+
+/* Logo Crossfade Animation */
+.brand {
+  position: relative;
+  width: 170px;
+  height: 84px; /* Fixed height to match header */
+  display: flex;
+  align-items: center;
+}
+.site-header.is-scrolled .brand {
+  width: 135px;
+  height: 72px;
+}
+.brand img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  transition: opacity 0.4s ease-in-out;
+}
+.site-header .logo-light { opacity: 0; }
+.site-header .logo-dark { opacity: 1; }
+.site-header.theme-light .logo-light { opacity: 1; }
+.site-header.theme-light .logo-dark { opacity: 0; }
+
+/* Dark Header Pure Black */
+.site-header {
+  background: #000000 !important;
+  border-color: rgba(255, 255, 255, 0.05) !important;
+}
+.site-header.is-scrolled {
+  background: #000000 !important;
+}
+
+/* Contact Section Refinement */
+.contact-form-rich {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: #ffffff;
+}
+.contact-form-rich input, .contact-form-rich textarea {
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  transition: all var(--transition) !important;
+}
+.contact-form-rich input:focus, .contact-form-rich textarea:focus {
+  border-color: #ff3344 !important;
+  box-shadow: 0 0 10px rgba(198, 40, 49, 0.3) !important;
+  outline: none;
+}
+.contact-info-panel:hover, .contact-form-rich:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 0 20px rgba(198, 40, 49, 0.2);
+  border-color: #c62831;
+  transition: all var(--transition);
+}
+
+/* Fix ID-level background gradient over-riding the black color */
+#contacto {
+  background: #050505 !important;
+}
+
+#contacto::before {
+  display: none !important;
+}
+
+/* Ensure section-dark really has no gradient on top */
+.section-dark {
+  background-image: none !important;
+  background: #050505 !important;
+}
+
+/* Make sure the text is visible */
+.contact-info-panel h3,
+.contact-list-rich strong,
+.contact-list-rich span {
+  color: #ffffff !important;
+}
+
+.section-heading-light h2,
+.section-heading-light p,
+.section-heading-light span {
+  color: #ffffff !important;
+}
+
+/* =========================================
+   CONTACT WHITE BG + LIGHT PREMIUM FORM (FUERZA & PERSONALIDAD)
+========================================= */
+
+#contacto {
+  background: #ffffff !important;
+}
+
+#contacto .section-heading-light h2,
+#contacto .section-heading-light p,
+#contacto .section-heading-light span {
+  color: #111722 !important;
+}
+
+/* Info Panel needs dark text because background is light */
+.contact-info-panel {
+  background: #f8fafc !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.02) !important;
+  transition: all var(--transition) !important;
+}
+.contact-info-panel h3,
+.contact-list-rich strong {
+  color: #111722 !important;
+}
+.contact-list-rich span {
+  color: #4a5568 !important;
+}
+
+/* Form Redesigned to be Light Theme with EXTREME presence & personality */
+.contact-form-rich {
+  background: #ffffff !important;
+  border: 1px solid rgba(198, 40, 49, 0.12) !important;
+  color: #111722 !important;
+  box-shadow: 
+    0 15px 35px rgba(0, 0, 0, 0.04), 
+    0 30px 60px rgba(198, 40, 49, 0.06), 
+    inset 0 1px 0 #ffffff !important;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  padding: 3rem 2.5rem !important;
+  border-radius: 28px !important;
+}
+
+.contact-form-rich input, .contact-form-rich textarea {
+  background: #f8fafc !important;
+  color: #111722 !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
+  font-weight: 500 !important;
+}
+
+.contact-form-rich input::placeholder, .contact-form-rich textarea::placeholder {
+  color: #718096 !important;
+}
+
+.contact-form-rich input:focus, .contact-form-rich textarea:focus {
+  background: #ffffff !important;
+  border-color: #ff3344 !important;
+  box-shadow: 0 0 15px rgba(198, 40, 49, 0.2) !important;
+  outline: none !important;
+}
+
+.contact-info-panel:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.06) !important;
+  border-color: rgba(198, 40, 49, 0.25) !important;
+}
+
+.contact-form-rich:hover {
+  transform: translateY(-8px) !important;
+  box-shadow: 
+    0 25px 45px rgba(0, 0, 0, 0.06), 
+    0 35px 75px rgba(198, 40, 49, 0.12) !important;
+  border-color: rgba(198, 40, 49, 0.4) !important;
+}
+
+/* =========================================
+   FIXING HEADER SPECIFICITY & TRANSITIONS
+========================================= */
+
+/* Ensure smooth transition for the background */
+.site-header {
+  transition: background 0.4s ease-in-out, border-color 0.4s ease-in-out !important;
+}
+
+/* Force theme-light to win over is-scrolled */
+.site-header.theme-light, 
+.site-header.theme-light.is-scrolled {
+  background: #ffffff !important;
+  border-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.site-header.theme-light .nav-list > li > a {
+  color: #111722 !important;
+  transition: color 0.4s ease-in-out;
+}
+
+.site-header:not(.theme-light) .nav-list > li > a {
+  color: #ffffff !important;
+  transition: color 0.4s ease-in-out;
+}
+
+/* =========================================
+   SUBPAGE MACHINE GRID & UV MOCKUP
+========================================= */
+.subpage-machine-grid {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 3.5rem !important;
+  align-items: center !important;
+}
+
+@media (min-width: 992px) {
+  .subpage-machine-grid {
+    grid-template-columns: 1.15fr 0.85fr !important;
+  }
+}
+
+.uv-mockup-wrapper {
+  perspective: 1000px;
+  width: 100%;
+}
+
+.uv-machine-bed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.25;
+  background: #080b0f;
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 
+    0 30px 60px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uv-vacuum-grid {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+  background-size: 20px 20px;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+/* Moving UV light bar animation */
+.uv-light-bar {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 12px;
+  background: linear-gradient(90deg, transparent, rgba(138, 43, 226, 0.8), rgba(0, 191, 255, 0.9), rgba(138, 43, 226, 0.8), transparent);
+  z-index: 10;
+  pointer-events: none;
+  animation: uvScan 6s infinite ease-in-out;
+}
+
+.uv-laser-glow {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  transform: translateY(-50%);
+  background: linear-gradient(180deg, rgba(138, 43, 226, 0.25), transparent);
+  filter: blur(10px);
+  pointer-events: none;
+}
+
+@keyframes uvScan {
+  0% { top: 10%; opacity: 0.8; }
+  50% { top: 90%; opacity: 1; }
+  100% { top: 10%; opacity: 0.8; }
+}
+
+/* Layered floating material plates */
+.uv-plate {
+  position: absolute;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.25rem;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+}
+
+.plate-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 2;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.print-overlay {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0.85;
+}
+
+/* Wood Plate Style */
+.uv-plate-wood {
+  width: 60%;
+  height: 45%;
+  background: linear-gradient(135deg, #8b5a2b, #5c3818);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  left: 10%;
+  top: 15%;
+  transform: rotate(-8deg) translateZ(0);
+  z-index: 2;
+}
+.wood-print {
+  background-image: repeating-linear-gradient(0deg, rgba(0,0,0,0.15) 0px, rgba(0,0,0,0.15) 4px, transparent 4px, transparent 8px);
+}
+
+/* Metal Plate Style */
+.uv-plate-metal {
+  width: 55%;
+  height: 40%;
+  background: linear-gradient(135deg, #2c3e50, #1a252f);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  right: 8%;
+  bottom: 12%;
+  transform: rotate(5deg) translateZ(0);
+  z-index: 3;
+}
+.metal-print {
+  background: 
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.07) 50%, rgba(255, 255, 255, 0.03) 100%),
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.01) 0px, rgba(255,255,255,0.01) 2px, transparent 2px, transparent 4px);
+}
+
+/* Acrylic Plate Style (Top & Crystal Glassmorphic) */
+.uv-plate-acrylic {
+  width: 65%;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  left: 18%;
+  top: 25%;
+  transform: translateZ(20px);
+  z-index: 5;
+  box-shadow: 
+    0 25px 45px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.acrylic-print {
+  background: radial-gradient(circle at center, rgba(198, 40, 49, 0.4) 0%, transparent 70%);
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.glass-glare {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, transparent 50%, rgba(255, 255, 255, 0.03) 100%);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+/* Hover effects for plates */
+.uv-plate:hover {
+  transform: translateY(-8px) scale(1.03) rotate(0deg) !important;
+  z-index: 8 !important;
+  border-color: rgba(255, 74, 82, 0.5) !important;
+  box-shadow: 0 30px 60px rgba(198, 40, 49, 0.25) !important;
+}
+
+/* Glowing specs callouts on mockup */
+.uv-callout {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: rgba(8, 11, 15, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 0.85rem;
+  border-radius: 20px;
+  z-index: 12;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  pointer-events: none;
+}
+
+.callout-dot {
+  width: 8px;
+  height: 8px;
+  background: #ff4a55;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 0 0 8px #ff4a55;
+  animation: pulseDot 2s infinite;
+}
+
+.callout-text {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+@keyframes pulseDot {
+  0% { transform: scale(1); box-shadow: 0 0 8px #ff4a55; }
+  50% { transform: scale(1.4); box-shadow: 0 0 15px #ff4a55; }
+  100% { transform: scale(1); box-shadow: 0 0 8px #ff4a55; }
+}
+
+.callout-1 {
+  bottom: 8%;
+  left: 5%;
+}
+
+.callout-2 {
+  top: 8%;
+  right: 5%;
+}
+
+/* =========================================
+   CNC HONEYCOMB LASER CUTTER MOCKUP
+========================================= */
+.laser-mockup-wrapper {
+  perspective: 1000px;
+  width: 100%;
+}
+
+.laser-machine-bed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.25;
+  background: #06080b;
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 
+    0 30px 60px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Honeycomb Grid Style */
+.laser-honeycomb-grid {
+  position: absolute;
+  inset: 0;
+  background-size: 15px 26px;
+  background-image: 
+    radial-gradient(circle at 7.5px 4.3px, rgba(255,255,255,0.02) 2px, transparent 3px),
+    radial-gradient(circle at 0px 17.3px, rgba(255,255,255,0.02) 2px, transparent 3px),
+    linear-gradient(30deg, rgba(255,255,255,0.01) 25%, transparent 25%),
+    linear-gradient(150deg, rgba(255,255,255,0.01) 25%, transparent 25%),
+    linear-gradient(270deg, rgba(255,255,255,0.01) 25%, transparent 25%),
+    linear-gradient(330deg, rgba(255,255,255,0.01) 25%, transparent 25%);
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+/* Workpiece Acrylic/Wood Sheet */
+.laser-workpiece {
+  position: absolute;
+  width: 60%;
+  height: 50%;
+  background: rgba(225, 74, 82, 0.05);
+  backdrop-filter: blur(4px);
+  border: 1.5px dashed rgba(255, 74, 82, 0.3);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 15px 30px rgba(0, 0, 0, 0.3);
+  transform: translateZ(5px);
+  overflow: hidden;
+}
+
+/* Glowing Cut Vector Path on Sheet (SVG-based) */
+.laser-svg-path {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.svg-base-circle {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.08);
+  stroke-width: 1.5;
+}
+
+.svg-glow-circle {
+  fill: none;
+  stroke: #ff3344;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-dasharray: 220;
+  stroke-dashoffset: 220;
+  transform: rotate(-90deg);
+  transform-origin: 50px 50px;
+  filter: drop-shadow(0 0 6px #ff3344);
+  animation: drawCircle 8s infinite linear;
+}
+
+@keyframes drawCircle {
+  0% { stroke-dashoffset: 220; }
+  98%, 100% { stroke-dashoffset: 0; }
+}
+
+/* Laser Head Nozzle Assembly */
+.laser-head {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  z-index: 10;
+  pointer-events: none;
+  animation: laserTrace 8s infinite linear;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.laser-nozzle {
+  width: 24px;
+  height: 28px;
+  background: linear-gradient(180deg, #576574, #222f3e);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 4px 4px 12px 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  position: relative;
+}
+
+.laser-nozzle::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background: #ff9f43;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #ff9f43;
+}
+
+/* Glowing Laser Beam */
+.laser-active-beam {
+  width: 2px;
+  height: 60px;
+  background: linear-gradient(180deg, #ff3344, rgba(255, 51, 68, 0.4));
+  box-shadow: 
+    0 0 6px #ff3344,
+    0 0 12px rgba(255, 51, 68, 0.8);
+  transform-origin: top center;
+  position: relative;
+  z-index: 9;
+}
+
+/* Red-hot contact point glow */
+.laser-active-glow {
+  position: absolute;
+  bottom: -64px;
+  width: 24px;
+  height: 24px;
+  background: radial-gradient(circle, #ff5000 0%, rgba(255, 51, 68, 0.4) 30%, transparent 70%);
+  border-radius: 50%;
+  filter: blur(1px);
+  box-shadow: 0 0 15px #ff5000;
+  animation: laserSparkle 0.15s infinite alternate;
+}
+
+@keyframes laserSparkle {
+  0% { transform: scale(0.9); opacity: 0.8; }
+  100% { transform: scale(1.2); opacity: 1; }
+}
+
+/* Animated cutting sparks */
+.laser-sparks {
+  position: absolute;
+  bottom: -56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+}
+
+.spark {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #ffbe76;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #ff9f43;
+  opacity: 0;
+}
+
+.s1 { --x: -25px; --y: -25px; animation: sparkOut 0.6s infinite ease-out 0s; }
+.s2 { --x: 25px; --y: -20px; animation: sparkOut 0.5s infinite ease-out 0.15s; }
+.s3 { --x: -15px; --y: -35px; animation: sparkOut 0.7s infinite ease-out 0.3s; }
+.s4 { --x: 20px; --y: -30px; animation: sparkOut 0.45s infinite ease-out 0.05s; }
+
+@keyframes sparkOut {
+  0% { transform: translate(0, 0) scale(1); opacity: 1; }
+  100% { transform: translate(var(--x), var(--y)) scale(0); opacity: 0; }
+}
+
+/* Movement trace coordinates matching the workpiece circular path (r=70px) */
+@keyframes laserTrace {
+  0% { transform: translate(0px, -70px); }
+  6.25% { transform: translate(26.8px, -64.7px); }
+  12.5% { transform: translate(49.5px, -49.5px); }
+  18.75% { transform: translate(64.7px, -26.8px); }
+  25% { transform: translate(70px, 0px); }
+  31.25% { transform: translate(64.7px, 26.8px); }
+  37.5% { transform: translate(49.5px, 49.5px); }
+  43.75% { transform: translate(26.8px, 64.7px); }
+  50% { transform: translate(0px, 70px); }
+  56.25% { transform: translate(-26.8px, 64.7px); }
+  62.5% { transform: translate(-49.5px, 49.5px); }
+  68.75% { transform: translate(-64.7px, 26.8px); }
+  75% { transform: translate(-70px, 0px); }
+  81.25% { transform: translate(-64.7px, -26.8px); }
+  87.5% { transform: translate(-49.5px, -49.5px); }
+  93.75% { transform: translate(-26.8px, -64.7px); }
+  100% { transform: translate(0px, -70px); }
+}
+
+/* =========================================
+   MAQUILA LÁSER CNC - LIGHT THEME OVERRIDES
+========================================= */
+#maquila-corte-laser {
+  background: #ffffff !important;
+}
+
+#maquila-corte-laser h2,
+#maquila-corte-laser p,
+#maquila-corte-laser span.eyebrow {
+  color: #111722 !important;
+}
+
+#maquila-corte-laser .feature-list li {
+  color: #2d3748 !important;
+}
+
+#maquila-corte-laser .feature-list i {
+  color: #c62831 !important; /* Premium Red checkmarks to pop on white bg */
+}
+
+#maquila-corte-laser .btn-secondary {
+  border-color: #111722 !important;
+  color: #111722 !important;
+}
+
+#maquila-corte-laser .btn-secondary:hover {
+  background: #111722 !important;
+  color: #ffffff !important;
+}
+
+/* =========================================
+   MINI WORKSHOP INTERACTIVE SHOWCASE SECTION
+========================================= */
+.mini-workshop {
+  background: #080a0f !important;
+  padding: 6rem 0 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.mini-workshop::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% -20%, rgba(198, 40, 49, 0.1), transparent 70%);
+  pointer-events: none;
+}
+
+.mini-workshop-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.mini-workshop-header h2 {
+  color: #ffffff !important;
+  font-size: 2.2rem !important;
+  font-weight: 800 !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.mini-workshop-header p {
+  color: #a0aec0 !important;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+}
+
+.mini-workshop-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)) !important;
+  gap: 2rem !important;
+}
+
+.mini-workshop-card {
+  background: rgba(255, 255, 255, 0.02) !important;
+  border: 1px solid rgba(255, 255, 255, 0.06) !important;
+  border-radius: 22px !important;
+  padding: 0.85rem !important;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.25rem !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+}
+
+.mini-workshop-card:hover {
+  transform: translateY(-8px) !important;
+  border-color: rgba(225, 74, 82, 0.3) !important;
+  box-shadow: 
+    0 20px 40px rgba(198, 40, 49, 0.18),
+    inset 0 1px 0 rgba(255,255,255,0.05) !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+}
+
+.mini-canvas-container {
+  width: 100% !important;
+  height: 150px !important;
+  background: #040508 !important;
+  border-radius: 14px !important;
+  position: relative !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(255, 255, 255, 0.04) !important;
+}
+
+.mini-bed {
+  position: absolute !important;
+  inset: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.mini-card-copy {
+  padding: 0.25rem 0.5rem 0.5rem !important;
+}
+
+.mini-card-copy h3 {
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  margin: 0 0 0.25rem 0 !important;
+}
+
+.mini-card-copy span {
+  font-size: 0.85rem !important;
+  color: #718096 !important;
+  font-weight: 600 !important;
+}
+
+/* =========================================
+   ANIMATION 1: MINI CORTE LÁSER
+========================================= */
+.mini-grid-honeycomb {
+  position: absolute;
+  inset: 0;
+  background-size: 8px 14px;
+  background-image: 
+    radial-gradient(circle at 4px 2px, rgba(255,255,255,0.03) 1px, transparent 1.5px),
+    radial-gradient(circle at 0px 9px, rgba(255,255,255,0.03) 1px, transparent 1.5px);
+  opacity: 0.8;
+}
+
+.mini-workpiece-laser {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border: 1px dashed rgba(255, 74, 82, 0.25);
+  border-radius: 12px;
+  background: rgba(225, 74, 82, 0.03);
+}
+
+.mini-laser-svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mini-svg-base {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.05);
+  stroke-width: 1.5;
+}
+
+.mini-svg-glow {
+  fill: none;
+  stroke: #ff3344;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-dasharray: 189;
+  stroke-dashoffset: 189;
+  transform: rotate(-90deg);
+  transform-origin: 50px 50px;
+  filter: drop-shadow(0 0 4px #ff3344);
+  animation: miniDrawCircle 6s infinite linear;
+}
+
+@keyframes miniDrawCircle {
+  0% { stroke-dashoffset: 189; }
+  98%, 100% { stroke-dashoffset: 0; }
+}
+
+.mini-nozzle-assembly {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  animation: miniLaserTrace 6s infinite linear;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+}
+
+.mini-nozzle-body {
+  width: 12px;
+  height: 14px;
+  background: #4a5568;
+  border-radius: 2px 2px 5px 5px;
+  border: 0.5px solid rgba(255,255,255,0.2);
+}
+
+.mini-beam {
+  width: 1.5px;
+  height: 38px;
+  background: #ff3344;
+  box-shadow: 0 0 4px #ff3344;
+}
+
+.mini-glow {
+  position: absolute;
+  bottom: -40px;
+  width: 12px;
+  height: 12px;
+  background: radial-gradient(circle, #ff5000 0%, rgba(255,51,68,0.4) 30%, transparent 70%);
+  filter: blur(0.5px);
+  animation: laserSparkle 0.15s infinite alternate;
+}
+
+.mini-laser-sparks {
+  position: absolute;
+  bottom: -36px;
+}
+
+.mini-spark {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: #ffbe76;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.ms1 { --x: -12px; --y: -12px; animation: sparkOut 0.5s infinite ease-out 0s; }
+.ms2 { --x: 12px; --y: -10px; animation: sparkOut 0.4s infinite ease-out 0.15s; }
+.ms3 { --x: -5px; --y: -15px; animation: sparkOut 0.6s infinite ease-out 0.25s; }
+
+@keyframes miniLaserTrace {
+  0% { transform: translate(0px, -30px); }
+  25% { transform: translate(30px, 0px); }
+  50% { transform: translate(0px, 30px); }
+  75% { transform: translate(-30px, 0px); }
+  100% { transform: translate(0px, -30px); }
+}
+
+/* =========================================
+   ANIMATION 2: MINI GRABADO LÁSER
+========================================= */
+.mini-rotary-rollers {
+  position: absolute;
+  width: 120px;
+  height: 8px;
+  background: #2d3748;
+  border-radius: 4px;
+  bottom: 25px;
+}
+
+.mini-cylindrical-object {
+  position: absolute;
+  width: 90px;
+  height: 50px;
+  background: linear-gradient(180deg, #2d3748 0%, #1a202c 40%, #111 70%, #2d3748 100%);
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tumbler-shading {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, transparent 20%, transparent 80%, rgba(0,0,0,0.3) 100%);
+}
+
+.tumbler-engraved-glow {
+  width: 60px;
+  height: 12px;
+  border: 1.5px solid #ff3344;
+  border-radius: 4px;
+  opacity: 0;
+  box-shadow: 0 0 10px rgba(255,51,68,0.5);
+  filter: drop-shadow(0 0 2px #ff3344);
+  animation: engraveReveal 4s infinite ease-in-out;
+}
+
+@keyframes engraveReveal {
+  0%, 100% { opacity: 0; width: 0; }
+  10%, 90% { opacity: 1; }
+  50% { width: 60px; }
+}
+
+.mini-engrave-assembly {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  animation: engraveSweep 4s infinite ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+  top: 15px;
+}
+
+.mini-engrave-nozzle {
+  width: 10px;
+  height: 12px;
+  background: #4a5568;
+  border-radius: 2px;
+}
+
+.mini-engrave-beam {
+  width: 1.5px;
+  height: 48px;
+  background: #ff3344;
+  box-shadow: 0 0 4px #ff3344;
+}
+
+.mini-engrave-glow {
+  position: absolute;
+  bottom: -46px;
+  width: 10px;
+  height: 10px;
+  background: radial-gradient(circle, #ff5000 0%, transparent 70%);
+  box-shadow: 0 0 8px #ff5000;
+}
+
+.mini-engrave-sparks {
+  position: absolute;
+  bottom: -42px;
+}
+
+@keyframes engraveSweep {
+  0%, 100% { transform: translate(-30px, 0px); opacity: 0; }
+  10%, 90% { opacity: 1; }
+  50% { transform: translate(30px, 0px); }
+}
+
+/* =========================================
+   ANIMATION 3: MINI CAMA PLANA UV
+========================================= */
+.mini-vacuum-table {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size: 10px 10px;
+}
+
+.mini-acrylic-print-plate {
+  position: absolute;
+  width: 100px;
+  height: 75px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.mini-uv-print-design {
+  width: 70px;
+  height: 45px;
+  border: 2px solid #00bfff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.3);
+  opacity: 0;
+  animation: uvPrintReveal 5s infinite ease-in-out;
+}
+
+@keyframes uvPrintReveal {
+  0%, 100% { opacity: 0; filter: hue-rotate(0deg); }
+  50% { opacity: 1; filter: hue-rotate(180deg); }
+}
+
+.mini-uv-gantry-assembly {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  z-index: 5;
+  animation: uvGantryScan 5s infinite ease-in-out;
+}
+
+.mini-uv-gantry-light {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(138, 43, 226, 0.8), rgba(0, 191, 255, 0.9), rgba(138, 43, 226, 0.8), transparent);
+  box-shadow: 0 0 12px rgba(0, 191, 255, 0.8);
+}
+
+@keyframes uvGantryScan {
+  0%, 100% { top: 15%; }
+  50% { top: 85%; }
+}
+
+/* =========================================
+   ANIMATION 4: MINI PLOTTER DE GRAN FORMATO
+========================================= */
+.mini-plotter-bar {
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(180deg, #4a5568, #2d3748);
+  top: 25px;
+  z-index: 4;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.mini-plotter-canvas {
+  position: absolute;
+  width: 90px;
+  height: 120px;
+  background: #ffffff;
+  top: 25px;
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+  overflow: hidden;
+}
+
+.mini-canvas-printed-graphic {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    #ff3344 0px,
+    #ff3344 15px,
+    #00bfff 15px,
+    #00bfff 30px,
+    #ff9f43 30px,
+    #ff9f43 45px,
+    #10ac84 45px,
+    #10ac84 60px
+  );
+  animation: feedCanvas 6s infinite linear;
+}
+
+@keyframes feedCanvas {
+  0% { transform: translateY(-60px); }
+  100% { transform: translateY(0px); }
+}
+
+.mini-plotter-head-assembly {
+  position: absolute;
+  width: 16px;
+  height: 14px;
+  background: #1a202c;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 3px;
+  top: 22px;
+  z-index: 6;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+  animation: plotterHeadSweep 2.5s infinite ease-in-out;
+}
+
+@keyframes plotterHeadSweep {
+  0%, 100% { left: 15%; }
+  50% { left: 75%; }
+}
+
+
