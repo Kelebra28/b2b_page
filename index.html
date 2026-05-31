@@ -44,19 +44,14 @@
     />
     <meta name="twitter:image" content="https://www.laserinova.com/inova_laser_og_ready.png" />
   
-    <!-- Favicons -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="./favicon_inova_laser.svg" type="image/svg+xml" />
-    <link rel="icon" href="./favicon_inova_laser.png" type="image/png" sizes="32x32" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_inova_laser.png" />
-    <link rel="icon" type="image/png" sizes="192x192" href="./favicon_inova_laser.png" />
+    <!-- Favicons (Optimized) -->
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   
     <!-- Search Console -->
     <meta name="google-site-verification" content="xLexKAFDq-OGWO5uXmbzkCB-yAGpcjUXMTxzucvNEPU" />
-
-    <!-- Performance Optimizations -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <!-- Librerías -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -168,7 +163,7 @@
             <ul class="nav-dropdown-menu">
               <li><a href="#soluciones">Soluciones Corporativas</a></li>
               <li><a href="#negocios">Servicios de Maquila</a></li>
-              <li><a href="#promocionales">Plotter e Impresión</a></li>
+              <li><a href="#promocionales" aria-label="Ver sección de Plotter e Impresión en esta página">Plotter e Impresión</a></li>
               <li><a href="#boutique">Regalos Personalizados</a></li>
               <li><a href="#todos-los-servicios">Directorio Completo</a></li>
             </ul>
@@ -1012,15 +1007,15 @@
     
         <div class="gallery-toolbar" data-reveal="up">
           <div class="gallery-filters" role="tablist" aria-label="Filtrar galería">
-            <button class="gallery-filter is-active" type="button" data-filter="all">Todos</button>
-            <button class="gallery-filter" type="button" data-filter="corporativo">Corporativo</button>
-            <button class="gallery-filter" type="button" data-filter="oficina">Oficina</button>
-            <button class="gallery-filter" type="button" data-filter="tecnologia">Tecnología</button>
-            <button class="gallery-filter" type="button" data-filter="metal">Metal</button>
-            <button class="gallery-filter" type="button" data-filter="madera">Madera</button>
-            <button class="gallery-filter" type="button" data-filter="mdf">MDF</button>
-            <button class="gallery-filter" type="button" data-filter="acrilico">Acrílico</button>
-            <button class="gallery-filter" type="button" data-filter="boutique">Boutique</button>
+            <button class="gallery-filter is-active" type="button" data-filter="all" role="tab" aria-selected="true">Todos</button>
+            <button class="gallery-filter" type="button" data-filter="corporativo" role="tab" aria-selected="false">Corporativo</button>
+            <button class="gallery-filter" type="button" data-filter="oficina" role="tab" aria-selected="false">Oficina</button>
+            <button class="gallery-filter" type="button" data-filter="tecnologia" role="tab" aria-selected="false">Tecnología</button>
+            <button class="gallery-filter" type="button" data-filter="metal" role="tab" aria-selected="false">Metal</button>
+            <button class="gallery-filter" type="button" data-filter="madera" role="tab" aria-selected="false">Madera</button>
+            <button class="gallery-filter" type="button" data-filter="mdf" role="tab" aria-selected="false">MDF</button>
+            <button class="gallery-filter" type="button" data-filter="acrilico" role="tab" aria-selected="false">Acrílico</button>
+            <button class="gallery-filter" type="button" data-filter="boutique" role="tab" aria-selected="false">Boutique</button>
           </div>
     
           <div class="gallery-nav">
@@ -1398,7 +1393,7 @@
               <a href="./subpages/impresion_cama_plana_uv.html">
                 <i class="fa-solid fa-chevron-right"></i> Impresión Cama Plana UV
               </a>
-              <a href="./subpages/plotter_impresion.html">
+              <a href="./subpages/plotter_impresion.html" aria-label="Ir a la subpágina especializada de Plotter e Impresión">
                 <i class="fa-solid fa-chevron-right"></i> Plotter e Impresión
               </a>
               <a href="./subpages/lona_gran_formato.html">

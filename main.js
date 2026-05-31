@@ -237,8 +237,12 @@ if (gallerySlider && galleryPrev && galleryNext && galleryFilters.length) {
     button.addEventListener("click", () => {
       const filter = button.dataset.filter;
 
-      galleryFilters.forEach((btn) => btn.classList.remove("is-active"));
+      galleryFilters.forEach((btn) => {
+        btn.classList.remove("is-active");
+        btn.setAttribute("aria-selected", "false");
+      });
       button.classList.add("is-active");
+      button.setAttribute("aria-selected", "true");
 
       galleryCards.forEach((card) => {
         const categories = card.dataset.category || "";
