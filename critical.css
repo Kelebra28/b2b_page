@@ -652,7 +652,20 @@ textarea:focus-visible {
   display: block;
   max-width: 100%;
   height: auto;
-  aspect-ratio: 273/99;
+}
+
+@media (max-width: 991px) {
+  .logo-dark, .logo-light {
+    width: 273px;
+    aspect-ratio: 273 / 99;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo-dark, .logo-light {
+    width: 170px;
+    aspect-ratio: 170 / 57;
+  }
 }
 
 .hero-copy {
@@ -750,16 +763,3 @@ textarea:focus-visible {
   content: "";
   position: absolute;
   inset: 18% 16% 18% 16%;
-  border-radius: 26px;
-  border: 1px dashed rgba(255, 255, 255, 0.08);
-  pointer-events: none;
-}
-
-.hero-card {
-  position: absolute;
-  width: clamp(200px, 26vw, 260px);
-  padding: 1.15rem 1.1rem;
-  border-radius: 18px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.045));
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  color: var(--white);

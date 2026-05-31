@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     if (menuToggle && siteNav) {
       menuToggle.addEventListener("click", () => {
+        if (window.innerWidth >= 992) return;
         const isOpen = siteNav.classList.toggle("is-open");
         menuToggle.setAttribute("aria-expanded", String(isOpen));
         document.body.classList.toggle("menu-open", isOpen);
@@ -41,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
       navLinks.forEach((link) => {
         link.addEventListener("click", () => {
+          if (window.innerWidth >= 992) return;
           siteNav.classList.remove("is-open");
           menuToggle.setAttribute("aria-expanded", "false");
           document.body.classList.remove("menu-open");
@@ -48,6 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   
       document.addEventListener("click", (event) => {
+        if (window.innerWidth >= 992) return;
         const clickedInsideNav = siteNav.contains(event.target);
         const clickedToggle = menuToggle.contains(event.target);
   

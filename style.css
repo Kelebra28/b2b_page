@@ -652,7 +652,20 @@ textarea:focus-visible {
   display: block;
   max-width: 100%;
   height: auto;
-  aspect-ratio: 273/99;
+}
+
+@media (max-width: 991px) {
+  .logo-dark, .logo-light {
+    width: 273px;
+    aspect-ratio: 273 / 99;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo-dark, .logo-light {
+    width: 170px;
+    aspect-ratio: 170 / 57;
+  }
 }
 
 .hero-copy {
@@ -3499,6 +3512,40 @@ textarea:focus-visible {
 
   .footer-grid > div:last-child {
     grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 780px) {
+  .promo-image {
+    padding-top: 1rem;
+  }
+}
+
+/* ========= OPTIMIZACIONES EXTREMAS ESCRITORIO (WPO) ========= */
+@media (min-width: 992px) {
+  /* 1. Estabilización Trust Bar (CLS 0) */
+  .trust-bar {
+    height: 120px;
+    contain: layout size;
+  }
+  .trust-item p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+
+  /* 2. Reducción Main Thread Work (Hardware Acceleration) */
+  .business-card,
+  .stat-card,
+  .solution-card {
+    transition: transform 0.3s ease, opacity 0.3s ease !important;
+  }
+
+  [data-reveal="up"], 
+  [data-reveal="down"], 
+  [data-reveal="left"], 
+  [data-reveal="right"] {
+    will-change: transform, opacity;
   }
 }
 
