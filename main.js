@@ -100,28 +100,22 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   
     /* =========================
-       4. HEADER ON SCROLL
+       4. HEADER ON SCROLL (OBSERVER)
     ========================= */
     const header = document.querySelector(".site-header");
-  
-    const updateHeaderOnScroll = () => {
-      if (!header) return;
-      if (!window.headerTicking) {
+    if (header && "IntersectionObserver" in window) {
+      const sentinel = document.createElement("div");
+      sentinel.id = "header-sentinel";
+      sentinel.style.cssText = "position:absolute; top:16px; width:1px; height:1px; visibility:hidden;";
+      document.body.prepend(sentinel);
+
+      const headerObserver = new IntersectionObserver(([entry]) => {
         window.requestAnimationFrame(() => {
-          const scrollPos = window.scrollY;
-          if (scrollPos > 16) {
-            header.classList.add("is-scrolled");
-          } else {
-            header.classList.remove("is-scrolled");
-          }
-          window.headerTicking = false;
+          header.classList.toggle("is-scrolled", !entry.isIntersecting);
         });
-        window.headerTicking = true;
-      }
-    };
-  
-    updateHeaderOnScroll();
-    window.addEventListener("scroll", updateHeaderOnScroll, { passive: true });
+      }, { rootMargin: "0px", threshold: 0 });
+      headerObserver.observe(sentinel);
+    }
 
     /* =========================
        4.5. DYNAMIC HEADER THEME
@@ -213,17 +207,17 @@ const galleryCards = document.querySelectorAll(".gallery-product-card");
 if (gallerySlider && galleryPrev && galleryNext && galleryFilters.length) {
   let cachedScrollAmount = 300;
   const updateScrollAmount = () => {
-    const firstCard = gallerySlider.querySelector(".gallery-product-card:not(.is-hidden)");
-    if (!firstCard) return;
-    const styles = window.getComputedStyle(gallerySlider);
-    const gap = parseFloat(styles.columnGap || styles.gap || 0);
-    cachedScrollAmount = firstCard.offsetWidth + gap;
+    window.requestAnimationFrame(() => {
+      const firstCard = gallerySlider.querySelector(".gallery-product-card:not(.is-hidden)");
+      if (!firstCard) return;
+      const styles = window.getComputedStyle(gallerySlider);
+      const gap = parseFloat(styles.columnGap || styles.gap || 0);
+      cachedScrollAmount = firstCard.offsetWidth + gap;
+    });
   };
   
   updateScrollAmount();
-  window.addEventListener("resize", () => {
-    window.requestAnimationFrame(updateScrollAmount);
-  }, { passive: true });
+  window.addEventListener("resize", updateScrollAmount, { passive: true });
 
   galleryNext.addEventListener("click", () => {
     gallerySlider.scrollBy({ left: cachedScrollAmount, behavior: "smooth" });

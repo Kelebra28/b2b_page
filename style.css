@@ -4,6 +4,24 @@
    Enfoque: B2B / Premium / Industrial
 ========================================= */
 
+/* ========= FONT OVERRIDES (WPO) ========= */
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/webfonts/fa-solid-900.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter-Fallback";
+  src: local("Arial");
+  size-adjust: 104%;
+  ascent-override: 90%;
+  descent-override: 22%;
+  line-gap-override: 0%;
+}
+
 /* ========= RESET / BASE ========= */
 *,
 *::before,
@@ -54,7 +72,7 @@ body {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", "Inter-Fallback", sans-serif;
   background: var(--white);
   color: var(--text-dark);
   line-height: 1.6;
