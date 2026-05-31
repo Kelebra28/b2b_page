@@ -105,11 +105,17 @@ document.addEventListener("DOMContentLoaded", () => {
   
     const updateHeaderOnScroll = () => {
       if (!header) return;
-  
-      if (window.scrollY > 16) {
-        header.classList.add("is-scrolled");
-      } else {
-        header.classList.remove("is-scrolled");
+      const scrollPos = window.scrollY;
+      if (!window.headerTicking) {
+        window.requestAnimationFrame(() => {
+          if (scrollPos > 16) {
+            header.classList.add("is-scrolled");
+          } else {
+            header.classList.remove("is-scrolled");
+          }
+          window.headerTicking = false;
+        });
+        window.headerTicking = true;
       }
     };
   
@@ -238,3 +244,31 @@ if (gallerySlider && galleryPrev && galleryNext && galleryFilters.length) {
     });
   });
 }
+
+/* =========================
+   6. LAZY LOAD GTM
+========================= */
+const loadGTM = () => {
+  if (window.gtmLoaded) return;
+  window.gtmLoaded = true;
+  
+  const script = document.createElement("script");
+  script.src = "https://www.googletagmanager.com/gtag/js?id=G-ET4MM9DNK0";
+  script.async = true;
+  document.head.appendChild(script);
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ET4MM9DNK0');
+
+  document.removeEventListener("scroll", loadGTM);
+  document.removeEventListener("click", loadGTM);
+  document.removeEventListener("mousemove", loadGTM);
+  document.removeEventListener("touchstart", loadGTM);
+};
+
+document.addEventListener("scroll", loadGTM, { passive: true, once: true });
+document.addEventListener("click", loadGTM, { passive: true, once: true });
+document.addEventListener("mousemove", loadGTM, { passive: true, once: true });
+document.addEventListener("touchstart", loadGTM, { passive: true, once: true });

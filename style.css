@@ -4512,9 +4512,9 @@ textarea:focus-visible {
 }
 
 @keyframes uvScan {
-  0% { top: 10%; opacity: 0.8; }
-  50% { top: 90%; opacity: 1; }
-  100% { top: 10%; opacity: 0.8; }
+  0% { transform: translateY(0) scaleY(1); opacity: 0.8; }
+  50% { transform: translateY(400%) scaleY(1.5); opacity: 1; }
+  100% { transform: translateY(0) scaleY(1); opacity: 0.8; }
 }
 
 /* Layered floating material plates */
@@ -4652,9 +4652,9 @@ textarea:focus-visible {
 }
 
 @keyframes pulseDot {
-  0% { transform: scale(1); box-shadow: 0 0 8px #ff4a55; }
-  50% { transform: scale(1.4); box-shadow: 0 0 15px #ff4a55; }
-  100% { transform: scale(1); box-shadow: 0 0 8px #ff4a55; }
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.4); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.8; }
 }
 
 .callout-1 {
@@ -5169,13 +5169,14 @@ textarea:focus-visible {
   opacity: 0;
   box-shadow: 0 0 10px rgba(255,51,68,0.5);
   filter: drop-shadow(0 0 2px #ff3344);
+  transform-origin: left center;
   animation: engraveReveal 4s infinite ease-in-out;
 }
 
 @keyframes engraveReveal {
-  0%, 100% { opacity: 0; width: 0; }
+  0%, 100% { opacity: 0; transform: scaleX(0); }
   10%, 90% { opacity: 1; }
-  50% { width: 60px; }
+  50% { transform: scaleX(1); opacity: 1; }
 }
 
 .mini-engrave-assembly {
@@ -5266,6 +5267,7 @@ textarea:focus-visible {
 
 .mini-uv-gantry-assembly {
   position: absolute;
+  top: 15%;
   left: 0;
   width: 100%;
   height: 6px;
@@ -5281,8 +5283,8 @@ textarea:focus-visible {
 }
 
 @keyframes uvGantryScan {
-  0%, 100% { top: 15%; }
-  50% { top: 85%; }
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(50px); }
 }
 
 /* =========================================
@@ -5339,14 +5341,15 @@ textarea:focus-visible {
   border: 1px solid rgba(255,255,255,0.2);
   border-radius: 3px;
   top: 22px;
+  left: 15%;
   z-index: 6;
   box-shadow: 0 3px 6px rgba(0,0,0,0.4);
   animation: plotterHeadSweep 2.5s infinite ease-in-out;
 }
 
 @keyframes plotterHeadSweep {
-  0%, 100% { left: 15%; }
-  50% { left: 75%; }
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(120px); }
 }
 
 
