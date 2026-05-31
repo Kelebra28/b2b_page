@@ -80,6 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
       button.addEventListener("click", () => {
         const isOpen = item.classList.contains("is-open");
+        const targetHeight = !isOpen ? answer.scrollHeight : 0;
   
         faqItems.forEach((faq) => {
           const faqButton = faq.querySelector(".faq-question");
@@ -93,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!isOpen) {
           item.classList.add("is-open");
           button.setAttribute("aria-expanded", "true");
-          answer.style.maxHeight = `${answer.scrollHeight}px`;
+          answer.style.maxHeight = `${targetHeight}px`;
         }
       });
     });
@@ -105,9 +106,9 @@ document.addEventListener("DOMContentLoaded", () => {
   
     const updateHeaderOnScroll = () => {
       if (!header) return;
-      const scrollPos = window.scrollY;
       if (!window.headerTicking) {
         window.requestAnimationFrame(() => {
+          const scrollPos = window.scrollY;
           if (scrollPos > 16) {
             header.classList.add("is-scrolled");
           } else {
@@ -210,20 +211,26 @@ const galleryFilters = document.querySelectorAll(".gallery-filter");
 const galleryCards = document.querySelectorAll(".gallery-product-card");
 
 if (gallerySlider && galleryPrev && galleryNext && galleryFilters.length) {
-  const getScrollAmount = () => {
+  let cachedScrollAmount = 300;
+  const updateScrollAmount = () => {
     const firstCard = gallerySlider.querySelector(".gallery-product-card:not(.is-hidden)");
-    if (!firstCard) return 300;
+    if (!firstCard) return;
     const styles = window.getComputedStyle(gallerySlider);
     const gap = parseFloat(styles.columnGap || styles.gap || 0);
-    return firstCard.offsetWidth + gap;
+    cachedScrollAmount = firstCard.offsetWidth + gap;
   };
+  
+  updateScrollAmount();
+  window.addEventListener("resize", () => {
+    window.requestAnimationFrame(updateScrollAmount);
+  }, { passive: true });
 
   galleryNext.addEventListener("click", () => {
-    gallerySlider.scrollBy({ left: getScrollAmount(), behavior: "smooth" });
+    gallerySlider.scrollBy({ left: cachedScrollAmount, behavior: "smooth" });
   });
 
   galleryPrev.addEventListener("click", () => {
-    gallerySlider.scrollBy({ left: -getScrollAmount(), behavior: "smooth" });
+    gallerySlider.scrollBy({ left: -cachedScrollAmount, behavior: "smooth" });
   });
 
   galleryFilters.forEach((button) => {

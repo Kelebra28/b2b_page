@@ -594,6 +594,8 @@ textarea:focus-visible {
 
 .hero-copy {
   max-width: 760px;
+  min-height: 420px;
+  contain: layout;
 }
 
 .hero-copy .eyebrow {
@@ -714,13 +716,17 @@ textarea:focus-visible {
 .hero-card i {
   width: 48px;
   height: 48px;
-  display: inline-grid;
-  place-items: center;
+  min-width: 48px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 14px;
   margin-bottom: 0.9rem;
   background: rgba(255, 255, 255, 0.08);
   color: #ffadb3;
   font-size: 1.2rem;
+  contain: layout size;
 }
 
 .hero-card span {
@@ -958,11 +964,23 @@ textarea:focus-visible {
   box-shadow:
     0 18px 36px rgba(10, 16, 26, 0.07),
     inset 0 1px 0 rgba(255, 255, 255, 0.7);
-  transition:
-    transform 0.28s ease,
-    box-shadow 0.28s ease,
-    border-color 0.28s ease;
+  transition: transform 0.28s ease;
+  transform: translateZ(0);
   overflow: hidden;
+}
+
+.business-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 1px solid rgba(198, 40, 49, 0.14);
+  box-shadow:
+    0 26px 44px rgba(10, 16, 26, 0.11),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  transition: opacity 0.28s ease;
+  pointer-events: none;
 }
 
 .business-card::after {
@@ -976,12 +994,10 @@ textarea:focus-visible {
 }
 
 .business-card:hover {
-  transform: translateY(-6px);
-  box-shadow:
-    0 26px 44px rgba(10, 16, 26, 0.11),
-    inset 0 1px 0 rgba(255, 255, 255, 0.7);
-  border-color: rgba(198, 40, 49, 0.14);
+  transform: translateY(-6px) translateZ(0);
 }
+
+.business-card:hover::before,
 
 .business-card:hover::after {
   opacity: 1;
@@ -1117,14 +1133,30 @@ textarea:focus-visible {
     background: var(--white);
     border: 1px solid rgba(15, 23, 42, 0.08);
     box-shadow: var(--shadow-md);
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: translateZ(0);
     overflow: hidden;
   }
   
-  .solution-card:hover {
-    transform: translateY(-8px);
+  .solution-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    border: 1px solid rgba(198, 40, 49, 0.15);
     box-shadow: var(--shadow-xl);
-    border-color: rgba(198, 40, 49, 0.15);
+    opacity: 0;
+    transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    pointer-events: none;
+    z-index: 2;
+  }
+  
+  .solution-card:hover {
+    transform: translateY(-8px) translateZ(0);
+  }
+
+  .solution-card:hover::before {
+    opacity: 1;
   }
 
   /* Contenedor de Imagen en Card */
@@ -1647,23 +1679,41 @@ textarea:focus-visible {
   }
 
   .promo-service-item {
+    position: relative;
     display: flex;
     gap: 1rem;
     padding: 1.1rem;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.6);
     border: 1px solid #e7edf5;
-    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: translateZ(0);
     text-decoration: none; /* Reset link style */
     color: inherit; /* Reset link color */
     cursor: pointer;
+    overflow: hidden;
+  }
+
+  .promo-service-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: #ffffff;
+    border: 1px solid rgba(198, 40, 49, 0.18);
+    box-shadow: 0 16px 32px rgba(10, 16, 26, 0.08);
+    opacity: 0;
+    transition: opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    pointer-events: none;
+    z-index: -1;
   }
 
   .promo-service-item:hover {
-    background: #ffffff;
-    transform: translateY(-5px) scale(1.01);
-    box-shadow: 0 16px 32px rgba(10, 16, 26, 0.08);
-    border-color: rgba(198, 40, 49, 0.18);
+    transform: translateY(-5px) scale(1.01) translateZ(0);
+  }
+
+  .promo-service-item:hover::before {
+    opacity: 1;
   }
 
   .promo-service-item i {
@@ -1833,18 +1883,35 @@ textarea:focus-visible {
 }
 
 .gallery-product-card {
+  position: relative;
   border-radius: 24px;
   overflow: hidden;
   background: linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.03));
   border: 1px solid rgba(255,255,255,0.08);
   box-shadow: 0 18px 34px rgba(0,0,0,0.14);
-  transition: transform 0.28s ease, border-color 0.28s ease, box-shadow 0.28s ease;
+  transition: transform 0.28s ease;
+  transform: translateZ(0);
+}
+
+.gallery-product-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 1px solid rgba(225, 74, 82, 0.18);
+  box-shadow: 0 24px 40px rgba(0,0,0,0.2);
+  opacity: 0;
+  transition: opacity 0.28s ease;
+  pointer-events: none;
+  z-index: 2;
 }
 
 .gallery-product-card:hover {
-  transform: translateY(-5px);
-  border-color: rgba(225, 74, 82, 0.18);
-  box-shadow: 0 24px 40px rgba(0,0,0,0.2);
+  transform: translateY(-5px) translateZ(0);
+}
+
+.gallery-product-card:hover::before {
+  opacity: 1;
 }
 
 .gallery-product-image {
@@ -4958,24 +5025,42 @@ textarea:focus-visible {
 }
 
 .mini-workshop-card {
+  position: relative !important;
   background: rgba(255, 255, 255, 0.02) !important;
   border: 1px solid rgba(255, 255, 255, 0.06) !important;
   border-radius: 22px !important;
   padding: 0.85rem !important;
-  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  transform: translateZ(0);
   display: flex !important;
   flex-direction: column !important;
   gap: 1.25rem !important;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+  overflow: hidden;
 }
 
-.mini-workshop-card:hover {
-  transform: translateY(-8px) !important;
-  border-color: rgba(225, 74, 82, 0.3) !important;
+.mini-workshop-card::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  border-radius: inherit !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: 1px solid rgba(225, 74, 82, 0.3) !important;
   box-shadow: 
     0 20px 40px rgba(198, 40, 49, 0.18),
     inset 0 1px 0 rgba(255,255,255,0.05) !important;
-  background: rgba(255, 255, 255, 0.04) !important;
+  opacity: 0 !important;
+  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  pointer-events: none !important;
+  z-index: 2;
+}
+
+.mini-workshop-card:hover {
+  transform: translateY(-8px) translateZ(0) !important;
+}
+
+.mini-workshop-card:hover::before {
+  opacity: 1 !important;
 }
 
 .mini-canvas-container {
