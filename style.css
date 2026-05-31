@@ -221,6 +221,7 @@ p {
 
 /* ========= BUTTONS ========= */
 .btn {
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -231,17 +232,25 @@ p {
   border: 1px solid transparent;
   font-weight: 700;
   letter-spacing: -0.01em;
-  transition:
-    transform var(--transition),
-    box-shadow var(--transition),
-    background var(--transition),
-    border-color var(--transition),
-    color var(--transition);
+  transition: transform var(--transition), color var(--transition);
+  transform: translateZ(0);
   cursor: pointer;
+  overflow: hidden;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity var(--transition);
+  pointer-events: none;
+  z-index: -1;
 }
 
 .btn:hover {
-  transform: translateY(-2px);
+  transform: translateY(-2px) translateZ(0);
 }
 
 .btn-primary {
@@ -250,8 +259,12 @@ p {
   box-shadow: 0 16px 34px rgba(198, 40, 49, 0.26);
 }
 
-.btn-primary:hover {
+.btn-primary::before {
   box-shadow: 0 20px 38px rgba(198, 40, 49, 0.32);
+}
+
+.btn-primary:hover::before {
+  opacity: 1;
 }
 
 .btn-secondary {
@@ -259,6 +272,10 @@ p {
   background: rgba(255, 255, 255, 0.04);
   color: var(--white);
   backdrop-filter: blur(10px);
+}
+
+.btn-secondary::before {
+  border: 1px solid var(--primary);
 }
 
 .section:not(.section-dark) .btn-secondary,
@@ -271,8 +288,11 @@ p {
 }
 
 .btn-secondary:hover {
-  border-color: var(--primary);
   color: var(--primary);
+}
+
+.btn-secondary:hover::before {
+  opacity: 1;
 }
 
 .btn-full {
@@ -396,16 +416,33 @@ p {
   font-weight: 500;
   letter-spacing: 0.02em;
   white-space: nowrap;
-  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); /* Bouncy premium transition */
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), color 0.3s ease;
+  transform: translateZ(0);
   padding: 0.6rem 1rem;
   border-radius: 12px;
+}
+
+.nav-list > li > a::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: rgba(198, 40, 49, 0.12);
+  opacity: 0;
+  transition: opacity 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  pointer-events: none;
+  z-index: -1;
 }
 
 .nav-list > li > a:hover,
 .nav-list > li > a.active {
   color: var(--primary-soft);
-  background: rgba(198, 40, 49, 0.12); /* Subtle red glow */
-  transform: translateY(-2px);
+  transform: translateY(-2px) translateZ(0);
+}
+
+.nav-list > li > a:hover::before,
+.nav-list > li > a.active::before {
+  opacity: 1;
 }
 
 /* --- Dropdown Premium --- */
@@ -587,9 +624,17 @@ textarea:focus-visible {
   z-index: 2;
   display: grid;
   grid-template-columns: 1.18fr 0.82fr;
+  grid-template-rows: minmax(420px, auto);
   align-items: center;
   gap: 2rem;
   padding: 5rem 0 6rem;
+}
+
+.logo-dark, .logo-light {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 273/99;
 }
 
 .hero-copy {
@@ -737,18 +782,18 @@ textarea:focus-visible {
 }
 
 .hero-card-top {
-  top: 8%;
-  right: 2%;
+  top: 40px;
+  right: 10px;
 }
 
 .hero-card-mid {
-  top: 39%;
+  top: 200px;
   left: 0;
 }
 
 .hero-card-bottom {
-  bottom: 6%;
-  right: 8%;
+  bottom: 30px;
+  right: 40px;
 }
 
 /* ========= TRUST BAR ========= */
@@ -1823,6 +1868,7 @@ textarea:focus-visible {
 }
 
 .gallery-filter {
+  position: relative;
   min-height: 42px;
   padding: 0.75rem 1rem;
   border-radius: 999px;
@@ -1831,14 +1877,33 @@ textarea:focus-visible {
   color: var(--text-soft);
   font-weight: 700;
   cursor: pointer;
-  transition: all 0.25s ease;
+  transition: transform 0.25s ease, color 0.25s ease;
+  transform: translateZ(0);
+  overflow: hidden;
+}
+
+.gallery-filter::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 1px solid rgba(225, 74, 82, 0.24);
+  background: rgba(198, 40, 49, 0.12);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+  z-index: -1;
 }
 
 .gallery-filter:hover,
 .gallery-filter.is-active {
   color: var(--white);
-  border-color: rgba(225, 74, 82, 0.24);
-  background: rgba(198, 40, 49, 0.12);
+  transform: translateY(-2px) translateZ(0);
+}
+
+.gallery-filter:hover::before,
+.gallery-filter.is-active::before {
+  opacity: 1;
 }
 
 .gallery-nav {
