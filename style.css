@@ -656,15 +656,17 @@ textarea:focus-visible {
 
 @media (max-width: 991px) {
   .logo-dark, .logo-light {
-    width: 273px;
-    aspect-ratio: 273 / 92;
+    width: 273px !important;
+    height: auto !important;
+    aspect-ratio: 273 / 99 !important;
   }
 }
 
 @media (min-width: 992px) {
   .logo-dark, .logo-light {
-    width: 170px;
-    aspect-ratio: 170 / 57;
+    width: 170px !important;
+    height: auto !important;
+    aspect-ratio: 170 / 57 !important;
   }
 }
 
@@ -5602,3 +5604,16 @@ textarea:focus-visible {
 }
 
 
+
+@media (max-width: 991px) {
+  .hero-grid {
+    display: grid !important;
+    min-height: 75svh !important;
+    contain: layout size style !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-grid { min-height: auto !important; contain: none !important; }
+  .trust-bar { height: 50px !important; contain: layout size style !important; }
+}

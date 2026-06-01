@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ========================= */
     const revealItems = document.querySelectorAll("[data-reveal]");
   
-    if ("IntersectionObserver" in window) {
+    if (window.innerWidth < 992 && "IntersectionObserver" in window) {
       const revealObserver = new IntersectionObserver(
         (entries, observer) => {
           entries.forEach((entry) => {
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
        4. HEADER ON SCROLL (OBSERVER)
     ========================= */
     const header = document.querySelector(".site-header");
-    if (header && "IntersectionObserver" in window) {
+    if (window.innerWidth < 992 && header && "IntersectionObserver" in window) {
       const sentinel = document.createElement("div");
       sentinel.id = "header-sentinel";
       sentinel.style.cssText = "position:absolute; top:16px; width:1px; height:1px; visibility:hidden;";
@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ========================= */
     const sections = document.querySelectorAll("section, footer");
     
-    if ("IntersectionObserver" in window && header) {
+    if (window.innerWidth < 992 && "IntersectionObserver" in window && header) {
       const themeObserver = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ========================= */
     const navLinksArray = document.querySelectorAll(".nav-list a[href^='#']");
     
-    if ("IntersectionObserver" in window && navLinksArray.length > 0) {
+    if (window.innerWidth < 992 && "IntersectionObserver" in window && navLinksArray.length > 0) {
       const spyObserver = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
