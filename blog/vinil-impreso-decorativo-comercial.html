@@ -56,29 +56,52 @@
   <!-- Header -->
   <header class="site-header" id="top">
     <div class="container header-shell">
-      <a class="brand" href="../index.html">
-        <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" />
+      <a class="brand" href="../index.html" aria-label="Ir al inicio de Laser Inova">
+        <img class="logo-dark" src="../assets/img/logo_fondo_negro.webp" alt="Logo Laser Inova" width="273" height="99" fetchpriority="high" />
+        <img class="logo-light" src="../assets/img/logo_fondo_blanco.webp" alt="Logo Laser Inova" width="273" height="92" fetchpriority="high" />
       </a>
 
-      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span></span><span></span><span></span>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Abrir menú"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
 
-      <nav class="site-nav" id="site-nav">
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
         <ul class="nav-list">
           <li><a href="../index.html#hero">Inicio</a></li>
-          <li><a href="../index.html#soluciones">Soluciones Corporativas</a></li>
-          <li><a href="../index.html#negocios">Servicios de Maquila</a></li>
-          <li><a href="../index.html#promocionales">Plotter e Impresión</a></li>
-          <li><a href="../index.html#boutique">Regalos Personalizados</a></li>
-          <li><a target="_blank" href="https://tienda.promocionalesweb.com/laserinova">Productos</a></li>
+          <li class="nav-dropdown">
+            <a href="../index.html#soluciones" class="nav-dropdown-toggle">Servicios <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="nav-dropdown-menu">
+              <li><a href="../index.html#soluciones">Soluciones Corporativas</a></li>
+              <li><a href="../index.html#negocios">Servicios de Maquila</a></li>
+              <li><a href="../index.html#promocionales" aria-label="Ver sección de Plotter e Impresión en esta página">Plotter e Impresión</a></li>
+              <li><a href="../index.html#boutique">Regalos Personalizados</a></li>
+              <li><a href="../index.html#todos-los-servicios">Directorio Completo</a></li>
+            </ul>
+          </li>
+          <li><a target="_blank" href="https://tienda.promocionalesweb.com/laserinova">Tienda</a></li>
           <li><a href="../index.html#galeria">Galería</a></li>
-          <li><a href="./index.html">Blog</a></li>
+          <li><a href="../blog/index.html">Blog</a></li>
           <li><a href="../index.html#contacto">Contacto</a></li>
         </ul>
       </nav>
 
-      <a class="header-cta" href="https://wa.me/525579398727?text=Hola,%20busco%20informaci%C3%B3n%20sobre%20vinil%20impreso%20y%20rotulaci%C3%B3n" target="_blank" rel="noopener">WhatsApp</a>
+      <a
+        class="header-cta"
+        href="https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20un%20proyecto%20corporativo%20o%20de%20mayoreo"
+        target="_blank"
+        rel="noopener"
+      >
+        WhatsApp
+      </a>
     </div>
   </header>
 
@@ -254,8 +277,15 @@
   </main>
 
   <!-- WhatsApp Float -->
-  <a href="https://wa.me/525579398727?text=Hola,%20busco%20informaci%C3%B3n%20sobre%20vinil%20impreso" class="whatsapp-float" target="_blank" rel="noopener">
-    <i class="fa-brands fa-whatsapp"></i><span>Ventas</span>
+  <a
+    href="https://wa.me/525579398727?text=Hola,%20quiero%20informaci%C3%B3n%20de%20Ventas%20Corporativas"
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener"
+    aria-label="Hablar con Ventas Corporativas por WhatsApp"
+  >
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>Ventas</span>
   </a>
 
   <footer class="site-footer">
@@ -263,7 +293,7 @@
       <div class="footer-grid">
         <div class="footer-brand-block">
           <a href="../index.html" class="footer-logo" aria-label="Ir al inicio de Laser Inova">
-            <img src="../assets/img/laser_inova_navbar_mas_grande.png" alt="Logo Laser Inova" width="170" height="170" loading="lazy" decoding="async" />
+            <img src="../assets/img/logo_fondo_negro.webp" alt="Logo Laser Inova" width="273" height="99" loading="lazy" decoding="async" />
           </a>
           <p class="footer-brand-text">
             Maquila, grabado corporativo, publicidad gran formato y regalos personalizados en CDMX.
@@ -274,8 +304,10 @@
           <h3>Servicios</h3>
           <ul>
             <li><a href="../subpages/maquila_volumen.html">Maquila de corte láser</a></li>
+            <li><a href="../subpages/corte_laser_metal.html">Corte láser en metal</a></li>
             <li><a href="../subpages/promocionales_premium.html">Grabado corporativo</a></li>
-            <li><a href="../subpages/plotter_impresion.html">Impresión</a></li>
+            <li><a href="../subpages/impresion_cama_plana_uv.html">Impresión cama plana UV</a></li>
+            <li><a href="../subpages/plotter_impresion.html">Plotter y gran formato</a></li>
             <li><a href="../subpages/senaletica_oficinas.html">Señalética y acrílico</a></li>
           </ul>
         </div>
@@ -286,6 +318,7 @@
             <li><a href="../subpages/grabado_espejos.html">Grabado en espejo</a></li>
             <li><a href="../subpages/grabado_madera.html">Grabado en madera</a></li>
             <li><a href="../subpages/grabado_metal.html">Grabado en metal</a></li>
+            <li><a href="../subpages/grabado_cuero_plastico.html">Grabado en cuero</a></li>
             <li><a href="../subpages/grabado_laser.html">Grabado láser</a></li>
           </ul>
         </div>
@@ -319,6 +352,6 @@
     </div>
   </footer>
 
-  <script src="../main.js"></script>
+  <script src="../main.js?v=1780290441"></script>
 </body>
 </html>
