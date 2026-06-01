@@ -5617,3 +5617,20 @@ textarea:focus-visible {
   .hero-grid { min-height: auto !important; contain: none !important; }
   .trust-bar { height: 50px !important; contain: layout size style !important; }
 }
+
+/* =========================================
+   MOBILE WPO HOTFIX (GPU OFFLOADING)
+========================================= */
+@media (max-width: 991px) {
+  /* Offload non-composited transitions */
+  .btn, .btn::before, .btn::after,
+  .solution-card, .boutique-card, .gallery-product-card,
+  .nav-list a, .header-cta {
+    transition-property: transform, opacity !important;
+  }
+  
+  /* Isolate SVG animations */
+  .svg-glow-circle, .mini-svg-glow-circle, .laser-svg-path {
+    will-change: transform, opacity;
+  }
+}
