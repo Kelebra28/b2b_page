@@ -2797,8 +2797,6 @@ textarea:focus-visible {
   .hero-grid {
     grid-template-columns: 1fr;
     padding: 3.2rem 0 5rem;
-    min-height: 75svh;
-    contain: layout size;
   }
 
   .hero-copy h1 {

@@ -208,26 +208,20 @@ const galleryFilters = document.querySelectorAll(".gallery-filter");
 const galleryCards = document.querySelectorAll(".gallery-product-card");
 
 if (gallerySlider && galleryPrev && galleryNext && galleryFilters.length) {
-  let cachedScrollAmount = 300;
-  const updateScrollAmount = () => {
-    window.requestAnimationFrame(() => {
-      const firstCard = gallerySlider.querySelector(".gallery-product-card:not(.is-hidden)");
-      if (!firstCard) return;
-      const styles = window.getComputedStyle(gallerySlider);
-      const gap = parseFloat(styles.columnGap || styles.gap || 0);
-      cachedScrollAmount = firstCard.offsetWidth + gap;
-    });
+  const getScrollAmount = () => {
+    const firstCard = gallerySlider.querySelector(".gallery-product-card:not(.is-hidden)");
+    if (!firstCard) return 300;
+    const styles = window.getComputedStyle(gallerySlider);
+    const gap = parseFloat(styles.columnGap || styles.gap || 0);
+    return firstCard.offsetWidth + gap;
   };
-  
-  updateScrollAmount();
-  window.addEventListener("resize", updateScrollAmount, { passive: true });
 
   galleryNext.addEventListener("click", () => {
-    gallerySlider.scrollBy({ left: cachedScrollAmount, behavior: "smooth" });
+    gallerySlider.scrollBy({ left: getScrollAmount(), behavior: "smooth" });
   });
 
   galleryPrev.addEventListener("click", () => {
-    gallerySlider.scrollBy({ left: -cachedScrollAmount, behavior: "smooth" });
+    gallerySlider.scrollBy({ left: -getScrollAmount(), behavior: "smooth" });
   });
 
   galleryFilters.forEach((button) => {
