@@ -9,15 +9,18 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^laserinova\.com$ [NC]
 RewriteRule ^(.*)$ https://www.laserinova.com/$1 [L,R=301]
 
+# --- REDIRECCIONES 301 (MIGRACIÓN SEO) ---
+# Evita la pérdida de autoridad redirigiendo URLs antiguas a su nueva ubicación B2B
+Redirect 301 /grabado_metal.html /subpages/grabado_metal.html
+Redirect 301 /corte_laser.html /subpages/maquila_volumen.html
+Redirect 301 /grabado_madera.html /subpages/grabado_madera.html
+Redirect 301 /grabado_corte_acrilico.html /subpages/displays_materiales_visuales.html
+Redirect 301 /impresion_dft_uv.html /subpages/impresion_cama_plana_uv.html
+Redirect 301 /grabado_corporativo.html /subpages/promocionales_premium.html
+Redirect 301 /blog/grabado_metal.html /blog/grabado-metal-volumen.html
+
 # Establecer index.html como archivo por defecto
 DirectoryIndex index.html
-
-# Redirección para Single Page Applications (como las de Vite, React, etc.)
-<IfModule mod_rewrite.c>
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule ^ index.html [L]
-</IfModule>
 
 # Forzar que los archivos .xml se sirvan con el tipo MIME correcto
 AddType application/xml .xml
