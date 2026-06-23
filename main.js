@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+    const isMobile = window.innerWidth < 992;
     /* =========================
        1. REVEAL ON SCROLL
     ========================= */
@@ -22,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
       revealItems.forEach((item) => revealObserver.observe(item));
     };
 
-    if (window.innerWidth < 992) {
+    if (isMobile) {
       document.addEventListener("scroll", function lazyReveal() {
         initRevealObserver();
         document.removeEventListener("scroll", lazyReveal);
@@ -40,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     if (menuToggle && siteNav) {
       menuToggle.addEventListener("click", () => {
-        if (window.innerWidth >= 992) return;
+        if (!isMobile) return;
         const isOpen = siteNav.classList.toggle("is-open");
         menuToggle.setAttribute("aria-expanded", String(isOpen));
         document.body.classList.toggle("menu-open", isOpen);
@@ -48,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
       navLinks.forEach((link) => {
         link.addEventListener("click", () => {
-          if (window.innerWidth >= 992) return;
+          if (!isMobile) return;
           siteNav.classList.remove("is-open");
           menuToggle.setAttribute("aria-expanded", "false");
           document.body.classList.remove("menu-open");
@@ -56,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   
       document.addEventListener("click", (event) => {
-        if (window.innerWidth >= 992) return;
+        if (!isMobile) return;
         const clickedInsideNav = siteNav.contains(event.target);
         const clickedToggle = menuToggle.contains(event.target);
   
@@ -112,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
        4. HEADER ON SCROLL (OBSERVER)
     ========================= */
     const header = document.querySelector(".site-header");
-    if (window.innerWidth < 992 && header && "IntersectionObserver" in window) {
+    if (isMobile && header && "IntersectionObserver" in window) {
       const sentinel = document.createElement("div");
       sentinel.id = "header-sentinel";
       sentinel.style.cssText = "position:absolute; top:16px; width:1px; height:1px; visibility:hidden;";
@@ -131,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ========================= */
     const sections = document.querySelectorAll("section, footer");
     
-    if (window.innerWidth < 992 && "IntersectionObserver" in window && header) {
+    if (isMobile && "IntersectionObserver" in window && header) {
       const themeObserver = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
@@ -166,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ========================= */
     const navLinksArray = document.querySelectorAll(".nav-list a[href^='#']");
     
-    if (window.innerWidth < 992 && "IntersectionObserver" in window && navLinksArray.length > 0) {
+    if (isMobile && "IntersectionObserver" in window && navLinksArray.length > 0) {
       const spyObserver = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
