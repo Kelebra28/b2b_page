@@ -3,3 +3,5 @@
 .label { display: block; margin-bottom: 0.15rem; font-size: var(--fs-sm); font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-on-dark-subtle); }
 .value { white-space: pre-line; color: var(--white); line-height: 1.5; }
 a.value:hover { color: var(--beam); }
+.extra { display: block; margin-top: 0.15rem; font-size: var(--fs-sm); font-weight: 600; color: var(--beam); }
+.extra:hover { text-decoration: underline; }

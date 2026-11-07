@@ -1,5 +1,5 @@
 /** Contenido de la home. Los textos conservan los de laserinova.com (SEO). */
-import { wa } from "@/content/site";
+import { wa, whatsappBot, whatsappPerson } from "@/content/site";
 import type { IconName } from "@/components/atoms/Icon";
 
 export type RichText = Array<string | { strong: string } | { em: string }>;
@@ -562,11 +562,18 @@ export const contact = {
   text: "Déjanos tus datos o visítanos en nuestras instalaciones. Atendemos proyectos corporativos, maquila y mayoreo.",
   infoTitle: "Información de Contacto",
   info: [
-    { icon: "phone", label: "Teléfono / WhatsApp", value: "+52 55 7939 8727", href: "tel:+525579398727" },
+    { icon: "whatsapp", label: "WhatsApp · asistente virtual", value: whatsappBot.label, href: whatsappBot.href },
+    {
+      icon: "phone",
+      label: "Llamadas o WhatsApp con una persona",
+      value: "+52 55 7939 8727",
+      href: "tel:+525579398727",
+      extra: { label: "Escribir por WhatsApp", href: whatsappPerson.href },
+    },
     { icon: "mail", label: "Correo Electrónico", value: "informes@laserinova.com", href: "mailto:informes@laserinova.com" },
     { icon: "pin", label: "Ubicación", value: "Cuichapa 223, Petrolera, Azcapotzalco, 02480 CDMX" },
     { icon: "clock", label: "Horario de Atención", value: "Lunes a Viernes: 09:00 - 19:00\nSábados: 11:00 - 17:00" },
-  ] as { icon: IconName; label: string; value: string; href?: string }[],
+  ] as { icon: IconName; label: string; value: string; href?: string; extra?: { label: string; href: string } }[],
   form: {
     name: "Tu nombre o empresa",
     email: "Tu correo",

@@ -5,7 +5,7 @@ import { Icon } from "@/components/atoms/Icon";
 import { FooterColumn } from "@/components/molecules/FooterColumn";
 import { serviceGroups } from "@/content/navigation";
 import { cookiesRoute, privacyRoute } from "@/content/legal";
-import { site } from "@/content/site";
+import { site, whatsappBot } from "@/content/site";
 import styles from "./Footer.module.css";
 
 /** Organism: pie de página. Server component, datos desde content/. */
@@ -24,6 +24,12 @@ export function Footer() {
                 <a href={site.phone.href}>
                   <Icon name="phone" />
                   <span>{site.phone.label}</span>
+                </a>
+              </li>
+              <li>
+                <a href={whatsappBot.href} target="_blank" rel="noopener">
+                  <Icon name="whatsapp" />
+                  <span>WhatsApp: {whatsappBot.label}</span>
                 </a>
               </li>
               <li>

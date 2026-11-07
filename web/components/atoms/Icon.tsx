@@ -1,6 +1,6 @@
 export type IconName =
   | "phone" | "mail" | "pin" | "factory" | "truck" | "tag"
-  | "building" | "invoice" | "boxes" | "arrow" | "printer" | "sign" | "medal" | "gift" | "check" | "display" | "gem" | "bolt" | "briefcase" | "layers" | "window" | "eye" | "clock";
+  | "whatsapp" | "building" | "invoice" | "boxes" | "arrow" | "printer" | "sign" | "medal" | "gift" | "check" | "display" | "gem" | "bolt" | "briefcase" | "layers" | "window" | "eye" | "clock";
 
 const paths: Record<IconName, string[]> = {
   phone: ["M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"],
@@ -11,6 +11,7 @@ const paths: Record<IconName, string[]> = {
   tag: ["M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L2 12V2h10l8.6 8.6a2 2 0 0 1 0 2.8z", "M7 7h.01"],
   building: ["M3 21h18", "M5 21V7l8-4v18", "M19 21V11l-6-4", "M9 9v.01", "M9 12v.01", "M9 15v.01", "M9 18v.01"],
   invoice: ["M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z", "M14 2v6h6", "M16 13H8", "M16 17H8", "M10 9H8"],
+  whatsapp: ["M20 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-4.2A8.5 8.5 0 1 1 20 11.5z", "M9 9.2c.3 2.4 2.4 4.6 5.4 5.6l1.1-1.3-1.8-.9-.8.6c-.9-.4-1.7-1.2-2.1-2.1l.6-.8-.9-1.8z"],
   boxes: ["M21 8l-9-5-9 5v8l9 5 9-5z", "M3.3 7L12 12l8.7-5", "M12 22V12"],
   arrow: ["M5 12h14", "M12 5l7 7-7 7"],
   briefcase: ["M2 7h20v14H2z", "M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"],

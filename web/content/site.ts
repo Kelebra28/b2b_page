@@ -24,6 +24,17 @@ export const wa = (text: string) => `https://wa.me/${whatsappNumber}?text=${text
 /** Cambia el número de cualquier enlace wa.me por el configurado (para contenido en JSON). */
 export const toWhatsApp = (href: string) => href.replace(/^(https:\/\/wa\.me\/)\d+/, `$1${whatsappNumber}`);
 
+const pretty = (n: string) => n.replace(/^(\d{2})(\d{2})(\d{4})(\d{4})$/, "+$1 $2 $3 $4");
+
+/** WhatsApp del asistente virtual (bot): el de todos los botones del sitio. */
+export const whatsappBot = { label: pretty(whatsappNumber), href: wa("Hola,%20quiero%20informaci%C3%B3n%20de%20Ventas%20Corporativas") };
+
+/** WhatsApp directo con una persona de ventas, para quien no quiere usar el asistente (mismo número que `site.phone`). */
+export const whatsappPerson = {
+  label: "+52 55 7939 8727",
+  href: "https://wa.me/525579398727?text=Hola,%20quiero%20hablar%20con%20una%20persona%20de%20Ventas",
+};
+
 /** JSON-LD del negocio (el teléfono ahora coincide con el visible: +52 55 7939 8727). */
 export const localBusinessLd = {
   "@type": "LocalBusiness",
