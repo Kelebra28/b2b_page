@@ -132,13 +132,22 @@ document.addEventListener("DOMContentLoaded", () => {
     ========================= */
     const sections = document.querySelectorAll("section, footer");
     
-    if (isMobile && "IntersectionObserver" in window && header) {
+    if ("IntersectionObserver" in window && header) {
       const themeObserver = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
-              const isDark = entry.target.classList.contains("section-dark") || 
-                             entry.target.classList.contains("hero") || 
+              // Detecta oscuro por el color de fondo real (o por clase como respaldo)
+              let el = entry.target, rgb = null;
+              while (el) {
+                const m = getComputedStyle(el).backgroundColor.match(/[\d.]+/g);
+                if (m && (m.length < 4 || parseFloat(m[3]) > 0.5)) { rgb = m.map(Number); break; }
+                el = el.parentElement;
+              }
+              const luminance = rgb ? (0.299 * rgb[0] + 0.587 * rgb[1] + 0.114 * rgb[2]) : 255;
+              const isDark = luminance < 128 ||
+                             entry.target.classList.contains("section-dark") ||
+                             entry.target.classList.contains("hero") ||
                              entry.target.tagName.toLowerCase() === "footer";
                              
               // User wants HIGH CONTRAST:
@@ -167,7 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ========================= */
     const navLinksArray = document.querySelectorAll(".nav-list a[href^='#']");
     
-    if (isMobile && "IntersectionObserver" in window && navLinksArray.length > 0) {
+    if ("IntersectionObserver" in window && navLinksArray.length > 0) {
       const spyObserver = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
