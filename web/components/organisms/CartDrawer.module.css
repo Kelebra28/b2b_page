@@ -4,7 +4,7 @@
 .drawer[open] { animation: slideIn 0.3s var(--ease-out); }
 .drawer[open]::backdrop { animation: fade 0.3s ease; }
 .panel { display: flex; flex-direction: column; height: 100%; }
-:global(body):has(dialog[open]) { overflow: hidden; }
+:global(body):has(.drawer[open]) { overflow: hidden; }
 @keyframes slideIn { from { transform: translateX(100%); } to { transform: none; } }
 @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
 
