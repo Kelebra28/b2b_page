@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!p) return {};
   const url = `${siteUrl}${p.path}`;
   // Este artículo ya tenía su propia imagen social en el sitio anterior: se conserva.
-  const image = OG_IMAGE_OVERRIDE[p.slug] ?? `${siteUrl}/inova_laser_og_ready.png`;
+  const image = OG_IMAGE_OVERRIDE[p.slug] ?? `${siteUrl}/og-laser-inova.png`;
   return {
     title: p.meta.title,
     description: p.meta.description,

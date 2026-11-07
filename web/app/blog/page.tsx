@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     url,
     title: m.ogTitle,
     description: m.ogDescription,
-    images: [{ url: `${siteUrl}/inova_laser_og_ready.png`, width: 1200, height: 630 }],
+    images: [{ url: `${siteUrl}/og-laser-inova.png`, width: 1200, height: 630 }],
   },
-  twitter: { card: "summary_large_image", title: m.twitterTitle || m.ogTitle, description: m.twitterDescription || m.ogDescription, images: [`${siteUrl}/inova_laser_og_ready.png`] },
+  twitter: { card: "summary_large_image", title: m.twitterTitle || m.ogTitle, description: m.twitterDescription || m.ogDescription, images: [`${siteUrl}/og-laser-inova.png`] },
 };
 
 export default function BlogRoute() {

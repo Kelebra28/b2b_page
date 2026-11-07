@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: { canonical: url },
-    openGraph: { type: "website", locale: "es_MX", siteName: "Laser Inova", url, title, description, images: [{ url: `${siteUrl}/inova_laser_og_ready.png`, width: 1200, height: 630 }] },
+    openGraph: { type: "website", locale: "es_MX", siteName: "Laser Inova", url, title, description, images: [{ url: `${siteUrl}/og-laser-inova.png`, width: 1200, height: 630 }] },
   };
 }
 

@@ -24,7 +24,7 @@ import { faqs, finalCta } from "@/content/home";
 import { Contact } from "@/components/organisms/Contact";
 
 const title = "Maquila de Corte Láser y Publicidad Gran Formato en CDMX | Laser Inova";
-const image = `${siteUrl}/inova_laser_og_ready.png`;
+const image = `${siteUrl}/og-laser-inova.png`;
 
 export const metadata: Metadata = {
   title,

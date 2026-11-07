@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `${p.name} personalizado | Laser Inova`;
   const description = (p.description ?? `${p.name}. Personalización con grabado láser o impresión UV. Cotiza por WhatsApp.`).slice(0, 160);
   const url = `${siteUrl}/tienda/producto/${p.slug}`;
-  const image = safeImage(p.images[0]) ?? `${siteUrl}/inova_laser_og_ready.png`;
+  const image = safeImage(p.images[0]) ?? `${siteUrl}/og-laser-inova.png`;
   return {
     title,
     description,

@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = getService(slug);
   if (!s) return {};
   const url = `${siteUrl}${s.path}`;
-  const image = `${siteUrl}/inova_laser_og_ready.png`;
+  const image = `${siteUrl}/og-laser-inova.png`;
   return {
     title: s.meta.title,
     description: s.meta.description,
