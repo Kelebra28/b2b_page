@@ -40,7 +40,7 @@ const nextConfig: NextConfig = {
   },
   partialPrefetching: true,
   /**
-   * Redirects permanentes del sitio anterior (los 7 del .htaccess + duplicados de URL).
+   * Redirects permanentes del sitio anterior (los 7 del .htaccess + duplicados de URL + /old_page/ + rutas de imágenes /assets/…).
    * Next responde 308, que Google trata igual que un 301. Mantener al menos 1 año.
    */
   /** Cabeceras de seguridad solo en producción (en desarrollo Next necesita `eval` y WebSockets). */
@@ -60,6 +60,30 @@ const nextConfig: NextConfig = {
       { source: "/impresion_dft_uv.html", destination: "/subpages/impresion_cama_plana_uv.html", permanent: true },
       { source: "/grabado_corporativo.html", destination: "/subpages/promocionales_premium.html", permanent: true },
       { source: "/blog/grabado_metal.html", destination: "/blog/grabado-metal-volumen.html", permanent: true },
+
+      // Carpeta antigua /old_page/ (hoy responde 200 en el sitio vivo): cada página va a su equivalente actual.
+      { source: "/old_page", destination: "/", permanent: true },
+      { source: "/old_page/index.html", destination: "/", permanent: true },
+      { source: "/old_page/readme.html", destination: "/", permanent: true },
+      { source: "/old_page/servicios.html", destination: "/", permanent: true },
+      { source: "/old_page/corte_laser.html", destination: "/subpages/maquila_volumen.html", permanent: true },
+      { source: "/old_page/grabado_espejos.html", destination: "/subpages/grabado_espejos.html", permanent: true },
+      { source: "/old_page/grabado_madera.html", destination: "/subpages/grabado_madera.html", permanent: true },
+      { source: "/old_page/grabado_laser.html", destination: "/subpages/grabado_laser.html", permanent: true },
+      { source: "/old_page/grabado_metal.html", destination: "/subpages/grabado_metal.html", permanent: true },
+      { source: "/old_page/grabado_corporativo.html", destination: "/subpages/promocionales_premium.html", permanent: true },
+      { source: "/old_page/grabado_corte_acrilico.html", destination: "/subpages/displays_materiales_visuales.html", permanent: true },
+      { source: "/old_page/impresion_dft_uv.html", destination: "/subpages/impresion_cama_plana_uv.html", permanent: true },
+
+      // Imágenes: el sitio viejo las servía desde /assets/…; ahora viven en /img/… (así Google Imágenes no pierde las URLs ya indexadas).
+      // Primero los logos, que cambiaron de formato (webp/png → svg) y no tienen el mismo nombre.
+      { source: "/assets/img/logo_fondo_negro.webp", destination: "/img/logo-inova-blanco.svg", permanent: true },
+      { source: "/assets/img/small_logo_fondo_negro.webp", destination: "/img/logo-inova-blanco.svg", permanent: true },
+      { source: "/assets/img/logo_fondo_blanco.webp", destination: "/img/logo-inova-negro.svg", permanent: true },
+      { source: "/assets/img/small_logo_fondo_blanco.webp", destination: "/img/logo-inova-negro.svg", permanent: true },
+      { source: "/assets/img/laser_inova_navbar_mas_grande.png", destination: "/img/logo-inova-negro.svg", permanent: true },
+      { source: "/assets/gallery/:path*", destination: "/img/gallery/:path*", permanent: true },
+      { source: "/assets/img/:path*", destination: "/img/:path*", permanent: true },
     ];
   },
 };
