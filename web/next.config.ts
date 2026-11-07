@@ -82,6 +82,9 @@ const nextConfig: NextConfig = {
       { source: "/assets/img/logo_fondo_blanco.webp", destination: "/img/logo-inova-negro.svg", permanent: true },
       { source: "/assets/img/small_logo_fondo_blanco.webp", destination: "/img/logo-inova-negro.svg", permanent: true },
       { source: "/assets/img/laser_inova_navbar_mas_grande.png", destination: "/img/logo-inova-negro.svg", permanent: true },
+      // Esta imagen tenía un espacio en el nombre y ahora lleva guion.
+      { source: "/assets/img/subpages/cama_plana_uv/impresion_cama%20plana.jpg", destination: "/img/subpages/cama_plana_uv/impresion_cama-plana.jpg", permanent: true },
+      { source: "/assets/img/subpages/cama_plana_uv/impresion_cama plana.jpg", destination: "/img/subpages/cama_plana_uv/impresion_cama-plana.jpg", permanent: true },
       { source: "/assets/gallery/:path*", destination: "/img/gallery/:path*", permanent: true },
       { source: "/assets/img/:path*", destination: "/img/:path*", permanent: true },
     ];
