@@ -1,0 +1,16 @@
+# Sistema
+.DS_Store
+
+# Variables de entorno: nunca se suben (solo los .env.example)
+.env
+.env.*
+!.env.example
+
+# Dependencias y compilados (cada proyecto, como web/, trae los suyos)
+node_modules/
+.next/
+.vercel
+
+# Registros y archivos de trabajo locales
+*.log
+*.tsbuildinfo
