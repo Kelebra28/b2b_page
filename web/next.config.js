@@ -1,5 +1,3 @@
-import type { NextConfig } from "next";
-
 /**
  * Política de contenido (CSP), activa (bloquea lo que no esté permitido).
  * Permite: GA4, el mapa de Google, fotos de Unsplash (blog) y los estilos/scripts en línea que Next necesita.
@@ -27,7 +25,8 @@ const securityHeaders = [
   { key: "Content-Security-Policy", value: csp },
 ];
 
-const nextConfig: NextConfig = {
+/** @type {import("next").NextConfig} */
+const nextConfig = {
   /* config options here */
   poweredByHeader: false, // no anunciar que el sitio corre con Next.js
   cacheComponents: true,
@@ -94,4 +93,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
