@@ -66,7 +66,7 @@ export const serviceGroups: ServiceGroup[] = [
 export const mainNav: NavItem[] = [
   { label: "Inicio", href: "/" },
   { label: "Servicios", href: "/#todos-los-servicios", groups: serviceGroups },
-  { label: "Tienda", href: "https://tienda.promocionalesweb.com/laserinova", external: true },
+  { label: "Tienda", href: "/tienda" },
   { label: "Galería", href: "/#galeria" },
   { label: "Blog", href: "/blog" },
   { label: "Contacto", href: "/#contacto" },
