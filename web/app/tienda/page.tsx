@@ -13,6 +13,8 @@ export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: `${siteUrl}/tienda` },
+  // Mientras el catálogo no esté conectado (sin CATALOG_API_URL) la página queda vacía: que Google no la indexe todavía.
+  ...(process.env.CATALOG_API_URL ? {} : { robots: { index: false, follow: false } }),
   openGraph: { type: "website", locale: "es_MX", siteName: "Laser Inova", url: `${siteUrl}/tienda`, title, description, images: [{ url: `${siteUrl}/inova_laser_og_ready.png`, width: 1200, height: 630 }] },
 };
 
