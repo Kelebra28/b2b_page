@@ -1,6 +1,7 @@
 "use client";
 
 import Image, { type ImageProps } from "next/image";
+import { isStorePhoto } from "@/lib/store-photo";
 import styles from "./FadeImage.module.css";
 
 /**
@@ -14,6 +15,7 @@ export function FadeImage({ className, ...props }: ImageProps) {
     <span className={styles.frame}>
       <Image
         {...props}
+        unoptimized={props.unoptimized ?? isStorePhoto(props.src)}
         className={[styles.img, className].filter(Boolean).join(" ")}
         ref={(el) => { if (el && !el.complete) el.setAttribute("data-pending", ""); }}
         onLoad={done}

@@ -1,4 +1,5 @@
 import { cacheLife } from "next/cache";
+import { imageHost } from "@/lib/store-photo";
 
 /**
  * Cliente del catálogo. Consume la API pública de solo lectura del CRM (servidor a servidor).
@@ -65,7 +66,11 @@ async function get<T>(path: string): Promise<T | null> {
 export async function getCategories(): Promise<Category[]> {
   "use cache";
   cacheLife({ stale: 300, revalidate: 600, expire: 86400 });
-  return ((await get<{ categories: Category[] }>("/categories"))?.categories ?? []).map((c) => ({ ...c, name: prettyName(c.name) }));
+  const data = await get<{ categories: Category[] }>("/categories");
+  // Con la tienda configurada, una lista vacía es una falla del CRM: que no se guarde (ni se publiquen páginas 404 en el build).
+  if (data && !data.categories.length) throw new Error("Catálogo: categorías vacías");
+  // "- ninguna subfamilia -" es un comodín del proveedor, no una categoría para el público.
+  return (data?.categories ?? []).filter((c) => c.slug !== "-ninguna-subfamilia-").map((c) => ({ ...c, name: prettyName(c.name) }));
 }
 
 /** Todos los productos (de una categoría, o de todas las publicadas). */
@@ -97,7 +102,7 @@ export async function getProduct(slug: string): Promise<Product | null> {
 }
 
 /** Las fotos solo se aceptan de nuestro propio dominio de imágenes (nunca del proveedor). */
-export const imageHost = "img.laserinova.com";
+export { imageHost };
 export const safeImage = (src?: string) => {
   try {
     if (!src) return null;

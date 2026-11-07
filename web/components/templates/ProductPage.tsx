@@ -24,7 +24,7 @@ export function ProductPage({ product: p, related = [], categoryTotal = 0 }: { p
     "@graph": [
       {
         "@type": "Product",
-        name: p.name,
+        name: title,
         description: p.description ?? undefined,
         sku: p.model,
         mpn: p.model,
@@ -41,7 +41,7 @@ export function ProductPage({ product: p, related = [], categoryTotal = 0 }: { p
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Tienda", item: `${siteUrl}/tienda` },
           { "@type": "ListItem", position: 2, name: p.category.name, item: `${siteUrl}/tienda/${p.category.slug}` },
-          { "@type": "ListItem", position: 3, name: p.name, item: url },
+          { "@type": "ListItem", position: 3, name: title, item: url },
         ],
       },
       localBusinessLd,

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { QuantityInput } from "@/components/molecules/QuantityInput";
+import { isStorePhoto } from "@/lib/store-photo";
 import { formatPieces } from "@/lib/product-format";
 import type { CartItem } from "@/lib/cart-store";
 import styles from "./CartLine.module.css";
@@ -13,7 +14,7 @@ export function CartLine({ item, onQty, onRemove, onNavigate }: Props) {
   return (
     <li className={styles.line}>
       <Link href={`/tienda/producto/${item.slug}`} className={styles.thumb} onClick={onNavigate} aria-label={`Ver ${item.name}`}>
-        {item.image ? <Image src={item.image} alt="" fill sizes="72px" /> : <span aria-hidden="true">·</span>}
+        {item.image ? <Image src={item.image} alt="" fill sizes="72px" unoptimized={isStorePhoto(item.image)} /> : <span aria-hidden="true">·</span>}
       </Link>
       <div className={styles.body}>
         <Link href={`/tienda/producto/${item.slug}`} className={styles.name} onClick={onNavigate}>{item.name}</Link>

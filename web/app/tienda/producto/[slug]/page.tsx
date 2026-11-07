@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ProductPage } from "@/components/templates/ProductPage";
 import { siteUrl } from "@/content/site";
 import { getProduct, getProducts, safeImage } from "@/lib/catalog";
+import { cleanName } from "@/lib/product-format";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -25,8 +26,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const p = await getProduct(slug);
   if (!p) return {};
-  const title = `${p.name} personalizado | Laser Inova`;
-  const description = (p.description ?? `${p.name}. Personalización con grabado láser o impresión UV. Cotiza por WhatsApp.`).slice(0, 160);
+  const name = cleanName(p.name, p.model).title; // el proveedor manda el nombre en MAYÚSCULAS
+  const title = `${name} ${p.model} personalizado | Laser Inova`;
+  const description = (p.description ?? `${name}. Personalización con grabado láser o impresión UV. Cotiza por WhatsApp.`).slice(0, 160);
   const url = `${siteUrl}/tienda/producto/${p.slug}`;
   const image = safeImage(p.images[0]) ?? `${siteUrl}/og-laser-inova.png`;
   return {

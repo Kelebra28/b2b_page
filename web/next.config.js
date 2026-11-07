@@ -53,6 +53,8 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Sin www → con www (lo que hacía el .htaccess del sitio anterior): evita contenido duplicado en dos dominios.
+      { source: "/:path*", has: [{ type: "host", value: "laserinova.com" }], destination: "https://www.laserinova.com/:path*", permanent: true },
       { source: "/index.html", destination: "/", permanent: true },
       { source: "/blog/index.html", destination: "/blog.html", permanent: true },
       { source: "/grabado_metal.html", destination: "/subpages/grabado_metal.html", permanent: true },
