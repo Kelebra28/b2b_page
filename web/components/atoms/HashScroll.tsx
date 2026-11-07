@@ -48,11 +48,12 @@ export function HashScroll() {
     };
 
     const onClick = (e: MouseEvent) => {
-      if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
       const a = (e.target as Element).closest?.("a[href]") as HTMLAnchorElement | null;
       if (!a || a.target === "_blank" || a.origin !== location.origin || a.pathname !== location.pathname) return;
       if (a.search !== location.search || (!a.hash && a.pathname !== "/")) return;
       e.preventDefault();
+      e.stopPropagation(); // que el <Link> de Next no navegue/restaure scroll por su cuenta
       history.pushState(null, "", a.pathname + a.search + a.hash);
       go(a.hash, true);
     };
@@ -60,7 +61,7 @@ export function HashScroll() {
     const onPop = () => go(location.hash, false);
     const stopEvents = ["wheel", "touchstart", "keydown"] as const;
 
-    document.addEventListener("click", onClick);
+    document.addEventListener("click", onClick, true);
     window.addEventListener("popstate", onPop);
     stopEvents.forEach((ev) => window.addEventListener(ev, cancel, { passive: true }));
 
@@ -68,7 +69,7 @@ export function HashScroll() {
 
     return () => {
       cancel();
-      document.removeEventListener("click", onClick);
+      document.removeEventListener("click", onClick, true);
       window.removeEventListener("popstate", onPop);
       stopEvents.forEach((ev) => window.removeEventListener(ev, cancel));
     };

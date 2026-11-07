@@ -69,8 +69,8 @@ export default function Home() {
         <PlotterPromo />
         <UvPrinting />
         <Boutique />
-        <Gallery />
         <Directory />
+        <Gallery />
         <Faqs {...faqs} group="faq-home" />
         <FinalCta {...finalCta} />
         <Contact />
