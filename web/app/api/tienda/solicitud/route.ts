@@ -1,4 +1,5 @@
 import { clientIp, rateLimit } from "@/lib/rate-limit";
+import { sameOrigin } from "@/lib/request-guard";
 import { postQuoteRequest } from "@/lib/quote-request";
 
 const esc = (s: string) =>
@@ -6,19 +7,6 @@ const esc = (s: string) =>
 
 const MAX_BODY_BYTES = 30_000;
 const MAX_ITEMS = 40;
-
-/** Acepta solo peticiones que vienen del propio sitio (o de localhost en desarrollo). */
-function sameOrigin(request: Request): boolean {
-  const origin = request.headers.get("origin");
-  if (!origin) return false;
-  try {
-    const host = new URL(origin).host;
-    const own = request.headers.get("x-forwarded-host") ?? request.headers.get("host");
-    return host === own || host.startsWith("localhost:") || host === "localhost";
-  } catch {
-    return false;
-  }
-}
 
 const clean = (v: unknown, max: number) => String(v ?? "").trim().slice(0, max);
 

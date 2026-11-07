@@ -4,7 +4,8 @@ import { blogIndex } from "@/content/blog";
 import { siteUrl } from "@/content/site";
 
 const m = blogIndex.meta;
-const url = `${siteUrl}/blog`;
+/** Google tiene indexada /blog.html: esa es la URL canónica (/blog responde lo mismo, con canonical a /blog.html). */
+const url = `${siteUrl}/blog.html`;
 
 export const metadata: Metadata = {
   title: m.title,

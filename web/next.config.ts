@@ -1,8 +1,7 @@
 import type { NextConfig } from "next";
 
 /**
- * Política de contenido (CSP). Se despliega en modo "report-only": el navegador avisa en consola de lo que
- * bloquearía, pero no bloquea nada. Cuando no haya avisos en staging, cambiar a `Content-Security-Policy`.
+ * Política de contenido (CSP), activa (bloquea lo que no esté permitido).
  * Permite: GA4, el mapa de Google, fotos de Unsplash (blog) y los estilos/scripts en línea que Next necesita.
  */
 const csp = [
@@ -25,11 +24,12 @@ const securityHeaders = [
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
   { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), payment=(), usb=()" },
   { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains" },
-  { key: "Content-Security-Policy-Report-Only", value: csp },
+  { key: "Content-Security-Policy", value: csp },
 ];
 
 const nextConfig: NextConfig = {
   /* config options here */
+  poweredByHeader: false, // no anunciar que el sitio corre con Next.js
   cacheComponents: true,
   // El blog usa fotos de Unsplash (mismas que el sitio anterior). Pendiente: reemplazarlas por fotos propias.
   images: {
@@ -48,11 +48,14 @@ const nextConfig: NextConfig = {
     if (process.env.NODE_ENV !== "production") return [];
     return [{ source: "/:path*", headers: securityHeaders }];
   },
+  /** /blog.html (la URL que Google tiene indexada) se sirve con la misma página que /blog. */
+  async rewrites() {
+    return [{ source: "/blog.html", destination: "/blog" }];
+  },
   async redirects() {
     return [
       { source: "/index.html", destination: "/", permanent: true },
-      { source: "/blog/index.html", destination: "/blog", permanent: true },
-      { source: "/blog.html", destination: "/blog", permanent: true },
+      { source: "/blog/index.html", destination: "/blog.html", permanent: true },
       { source: "/grabado_metal.html", destination: "/subpages/grabado_metal.html", permanent: true },
       { source: "/corte_laser.html", destination: "/subpages/maquila_volumen.html", permanent: true },
       { source: "/grabado_madera.html", destination: "/subpages/grabado_madera.html", permanent: true },

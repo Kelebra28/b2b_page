@@ -1,22 +1,10 @@
 import { clientIp, rateLimit } from "@/lib/rate-limit";
+import { sameOrigin } from "@/lib/request-guard";
 
 const esc = (s: string) =>
   s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 
 const MAX_BODY_BYTES = 20_000;
-
-/** Acepta solo peticiones que vienen del propio sitio (o de localhost en desarrollo). */
-function sameOrigin(request: Request): boolean {
-  const origin = request.headers.get("origin");
-  if (!origin) return false;
-  try {
-    const host = new URL(origin).host;
-    const own = request.headers.get("x-forwarded-host") ?? request.headers.get("host");
-    return host === own || host.startsWith("localhost:") || host === "localhost";
-  } catch {
-    return false;
-  }
-}
 
 /** Formulario de contacto (reemplaza api/contacto.php). Envía con la API de Resend; la API key vive solo en variables de entorno. */
 export async function POST(request: Request) {

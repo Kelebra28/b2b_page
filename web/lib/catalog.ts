@@ -45,13 +45,21 @@ async function get<T>(path: string): Promise<T | null> {
   const base = process.env.CATALOG_API_URL;
   const key = process.env.CATALOG_API_KEY;
   if (!base || !key) return null; // tienda sin configurar: las páginas muestran "próximamente"
-  const res = await fetch(`${base.replace(/\/$/, "")}/api/public/v1${path}`, {
-    headers: { Authorization: `Bearer ${key}` },
-    signal: AbortSignal.timeout(10_000),
-  });
-  if (res.status === 404) return null;
-  if (!res.ok) throw new Error(`Catálogo: ${res.status}`);
-  return res.json() as Promise<T>;
+  // Al construir el sitio se piden muchas páginas a la vez y el CRM puede responder 429 (o 5xx): se reintenta con espera.
+  const maxAttempts = 6;
+  for (let attempt = 1; ; attempt++) {
+    const res = await fetch(`${base.replace(/\/$/, "")}/api/public/v1${path}`, {
+      headers: { Authorization: `Bearer ${key}` },
+      signal: AbortSignal.timeout(10_000),
+    });
+    if (res.status === 404) return null;
+    if (res.ok) return res.json() as Promise<T>;
+    const retryable = res.status === 429 || res.status >= 500;
+    if (!retryable || attempt >= maxAttempts) throw new Error(`Catálogo: ${res.status}`);
+    const retryAfter = Number(res.headers.get("retry-after"));
+    const wait = Math.min(15_000, (retryAfter > 0 ? retryAfter * 1000 : 500 * 2 ** attempt) + Math.random() * 500);
+    await new Promise((r) => setTimeout(r, wait));
+  }
 }
 
 export async function getCategories(): Promise<Category[]> {

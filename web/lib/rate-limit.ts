@@ -20,8 +20,11 @@ export function rateLimit(key: string, limit: number, windowMs: number): { ok: b
   return { ok: true, retryAfter: 0 };
 }
 
-/** IP del visitante según las cabeceras que pone Vercel / el proxy. */
+/**
+ * IP del visitante. Se toma la ÚLTIMA entrada de x-forwarded-for: es la que añade nuestro proxy (Vercel o el de Hostinger);
+ * las anteriores las puede escribir el propio visitante para esquivar el límite.
+ */
 export function clientIp(request: Request): string {
-  const fwd = request.headers.get("x-forwarded-for");
-  return (fwd?.split(",")[0] ?? request.headers.get("x-real-ip") ?? "desconocida").trim();
+  const fwd = request.headers.get("x-forwarded-for")?.split(",").map((p) => p.trim()).filter(Boolean);
+  return fwd?.length ? fwd[fwd.length - 1] : (request.headers.get("x-real-ip") ?? "desconocida").trim();
 }
