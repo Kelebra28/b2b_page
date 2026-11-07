@@ -1,0 +1,192 @@
+{
+  "slug": "impresion_cama_plana_uv",
+  "path": "/subpages/impresion_cama_plana_uv.html",
+  "meta": {
+    "title": "Impresión Cama Plana UV en CDMX | Rígidos y Acrílico | Laser Inova",
+    "description": "Servicio de impresión en cama plana UV en CDMX. Alta resolución sobre materiales rígidos como acrílico, plástico, madera, metal y artículos promocionales B2B.",
+    "keywords": "impresión cama plana uv cdmx, impresión en rígidos, impresión uv, imprimir en acrílico, imprimir en madera, imprimir promocionales, impresión uv industrial, Laser Inova",
+    "ogTitle": "Impresión Cama Plana UV en CDMX | Laser Inova",
+    "ogDescription": "Impresión directa de alta resolución sobre rígidos: acrílico, madera, metal y promocionales.",
+    "ogImageAlt": "Impresión Cama Plana UV por Laser Inova en CDMX",
+    "twitterTitle": "Impresión Cama Plana UV en CDMX | Laser Inova",
+    "twitterDescription": "Impresión directa de alta resolución sobre rígidos: acrílico, madera, metal y promocionales."
+  },
+  "ld": {
+    "name": "Impresión Cama Plana UV",
+    "serviceType": "Impresión de alta resolución sobre rígidos y promocionales",
+    "description": "Servicio de impresión UV en cama plana para materiales rígidos como acrílico, plástico, madera, vidrio y metal."
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "eyebrow": "Tecnología sin límites",
+      "title": "Imprime sobre casi cualquier superficie con secado instantáneo",
+      "paragraphs": [
+        [
+          "A diferencia de la impresión en plotter que requiere imprimir un vinil y luego montarlo, la ",
+          {
+            "strong": "impresión de Cama Plana UV"
+          },
+          " inyecta la tinta directamente sobre el material final. La luz ultravioleta seca la tinta al instante, logrando una adherencia brutal y colores vibrantes en ",
+          {
+            "strong": "superficies rígidas o irregulares"
+          },
+          "."
+        ],
+        [
+          "Esto abre un abanico de posibilidades para el mercado ",
+          {
+            "strong": "B2B y publicitario"
+          },
+          ": desde imprimir logotipos a todo color en ",
+          {
+            "strong": "agendas de cuero, carcasas de plástico y pelotas de golf"
+          },
+          ", hasta imprimir señalética completa en placas de ",
+          {
+            "strong": "acrílico, trovicel (PVC) o madera"
+          },
+          ", todo con acabados premium que incluyen texturas, relieves (barniz) y bases blancas para materiales oscuros o transparentes."
+        ]
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Aplicaciones de Cama Plana UV",
+      "title": "Resolviendo los retos de impresión más exigentes",
+      "cards": [
+        {
+          "title": "Impresión en Acrílico y Vidrio",
+          "text": "Señalética corporativa elegante, directorios y reconocimientos con efecto de profundidad gracias a la tinta blanca y barniz."
+        },
+        {
+          "title": "Promocionales Premium",
+          "text": "Impresión directa en plumas, libretas de cuero, USBs, encendedores y carcasas con calidad fotográfica y texturas."
+        },
+        {
+          "title": "Madera y MDF",
+          "text": "Cajas de vino, rompecabezas, invitaciones y mobiliario para displays POP impresos a todo color con excelente anclaje."
+        },
+        {
+          "title": "Plástico y PVC",
+          "text": "Impresión de gafetes, tarjetas de presentación plásticas, piezas de ingeniería y señalamientos industriales duraderos."
+        },
+        {
+          "title": "Metal",
+          "text": "Aplicación de color sobre placas de acero o aluminio, ideal para combinar con grabado láser para resultados inigualables."
+        },
+        {
+          "title": "Efectos y Relieves",
+          "text": "Uso de barniz UV sectorizado y capas de tinta para crear texturas, braille y acabados premium que se sienten al tacto."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "id": "ejemplo",
+      "eyebrow": "Ventaja Tecnológica",
+      "title": "Color, Blanco y Barniz: El tridente de la Cama Plana",
+      "paragraphs": [
+        [
+          "El mayor poder de esta tecnología es su versatilidad. Al incorporar ",
+          {
+            "strong": "Tinta Blanca"
+          },
+          ", podemos fondear materiales oscuros o transparentes (como el acrílico) para que los colores resalten como nunca. Y con el ",
+          {
+            "strong": "Barniz UV"
+          },
+          ", podemos destacar logos, textos o patrones creando un efecto 3D brillante que atrapa la atención."
+        ],
+        [
+          "Nuestros equipos calibrados aseguran repetibilidad perfecta, ideal para ",
+          {
+            "strong": "maquilar lotes enteros"
+          },
+          " de artículos promocionales o señalética para franquicias sin variaciones de color."
+        ]
+      ],
+      "features": [
+        "Secado instantáneo: Cero tiempos de espera",
+        "Resistente a rayaduras y rayos UV del sol",
+        "Amigable con el medio ambiente (bajas emisiones)",
+        "Capacidad volumétrica para agencias y marcas"
+      ],
+      "image": {
+        "src": "/img/subpages/cama_plana_uv/impresion_cama-plana.jpg",
+        "alt": "Detalle de cabezales de Impresión Cama Plana UV"
+      }
+    }
+  ],
+  "hero": {
+    "eyebrow": "Rígidos · Promocionales · Fotografía · Industrial",
+    "title": "Impresión Cama Plana UV en CDMX",
+    "text": [
+      "Tecnología de ",
+      {
+        "strong": "impresión directa de curado UV"
+      },
+      " que nos permite plasmar gráficos de alta resolución, con color blanco y barniz, directamente sobre ",
+      {
+        "strong": "acrílico, plástico, madera, vidrio, metal y artículos promocionales"
+      },
+      "."
+    ],
+    "primary": {
+      "label": "Cotizar impresión UV",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20impresion%20cama%20plana%20UV"
+    },
+    "secondary": {
+      "label": "Ver capacidades",
+      "href": "#ejemplo"
+    },
+    "badges": [
+      "Impresión directa sobre rígidos",
+      "Tinta blanca y barniz sectorizado",
+      "Alta durabilidad y calidad fotográfica"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Señalética corporativa, promocionales premium, empaques, reconocimientos y stands."
+    },
+    "image": {
+      "src": "/img/subpages/maquinas/cama-plana-uv.webp",
+      "alt": "Impresión Cama Plana UV directa en rígidos en CDMX"
+    }
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre la Impresión UV",
+    "items": [
+      {
+        "q": "¿Cuál es la diferencia entre cama plana UV y serigrafía?",
+        "a": "La cama plana UV imprime a todo color (CMYK) con calidad fotográfica y gradientes sin necesidad de crear pantallas por cada color, y permite tirajes cortos o personalizar cada pieza con datos variables (nombres distintos)."
+      },
+      {
+        "q": "¿Qué altura máxima puede tener el objeto a imprimir?",
+        "a": "Dependiendo del equipo, podemos imprimir sobre objetos que tengan hasta varios centímetros de altura (ideal para cajas, termos o estuches gruesos)."
+      },
+      {
+        "q": "¿Es resistente para exteriores?",
+        "a": "Sí, la tinta curada con luz UV es muy resistente a la decoloración por el sol y a la fricción, siendo una gran opción para señalética de exteriores."
+      },
+      {
+        "q": "¿Pueden imprimir mis propios productos promocionales?",
+        "a": "Claro, ofrecemos el servicio de maquila de impresión. Tú traes el producto (libretas, pelotas, carcasas) y nosotros aplicamos el arte con precisión milimétrica."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Impresión de Alta Gama",
+    "title": "¿Listo para elevar la calidad de tus materiales impresos?",
+    "text": "Ya sea para señalética corporativa, displays, o regalos premium a todo color, la cama plana UV es la respuesta. Escríbenos y coticemos tu proyecto.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20impresion%20cama%20plana%20UV"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

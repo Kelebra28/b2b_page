@@ -1,0 +1,12 @@
+.item { border-radius: var(--radius-lg); background: var(--white); border: 1px solid var(--ink-a9); transition: border-color 0.3s, box-shadow 0.3s; }
+.item[open] { border-color: var(--primary-a40); box-shadow: 0 16px 36px var(--ink-a9); }
+.question { display: flex; align-items: center; justify-content: space-between; gap: 1.2rem; padding: 1.3rem 1.5rem; font-size: var(--fs-lg); font-weight: 700; color: var(--text-dark); cursor: pointer; list-style: none; }
+.question::-webkit-details-marker { display: none; }
+.question:focus-visible { outline: 2px solid var(--beam); outline-offset: 3px; border-radius: var(--radius-lg); }
+.plus { position: relative; flex-shrink: 0; width: 32px; height: 32px; border-radius: var(--radius-round); background: var(--primary-a8); transition: background 0.3s, transform 0.4s var(--ease-out); }
+.plus::before, .plus::after { content: ""; position: absolute; left: 50%; top: 50%; width: 12px; height: 2px; background: var(--primary); transform: translate(-50%, -50%); transition: transform 0.4s var(--ease-out), background 0.3s; }
+.plus::after { transform: translate(-50%, -50%) rotate(90deg); }
+.item[open] .plus { background: var(--primary); transform: rotate(180deg); }
+.item[open] .plus::before, .item[open] .plus::after { background: var(--white); }
+.item[open] .plus::after { transform: translate(-50%, -50%) rotate(0deg); }
+.answer { margin: 0; padding: 0 1.5rem 1.4rem; color: var(--ink-600); line-height: 1.7; max-width: 70ch; }

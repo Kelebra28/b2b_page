@@ -1,0 +1,231 @@
+{
+  "slug": "maquila_volumen",
+  "path": "/subpages/maquila_volumen.html",
+  "meta": {
+    "title": "Maquila de Volumen en CDMX | Producción en MDF, Acrílico, Metal y Plástico | Laser Inova",
+    "description": "Servicio de maquila de volumen en CDMX para producción repetible en MDF, acrílico, metal, plástico, madera, cuero y vidrio para proyectos corporativos B2B.",
+    "keywords": "maquila de volumen CDMX, producción en MDF, maquila en acrílico, corte de metal por volumen, producción repetible, maquila en plástico, fabricación por lote",
+    "ogTitle": "Maquila de Volumen en CDMX | Laser Inova",
+    "ogDescription": "Producción repetible para MDF, acrílico, metal, plástico, madera, cuero y vidrio.",
+    "ogImageAlt": "Maquila de volumen y producción en MDF, acrílico y madera por Laser Inova en CDMX",
+    "twitterTitle": "Maquila de Volumen en CDMX | Laser Inova",
+    "twitterDescription": "Producción repetible para MDF, acrílico, madera y piezas para empresas o proyectos especiales."
+  },
+  "ld": {
+    "name": "Maquila de volumen",
+    "serviceType": "Producción repetible en MDF, acrílico, metal, plástico, madera y vidrio",
+    "description": "Maquila de volumen para producción repetible en MDF, acrílico, metal, plástico, madera, cuero y vidrio para empresas o proyectos especiales."
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "eyebrow": "Producción repetible",
+      "title": "Cuando el proyecto necesita volumen, consistencia y capacidad de fabricación",
+      "paragraphs": [
+        [
+          "La ",
+          {
+            "strong": "maquila de volumen"
+          },
+          " es clave cuando una empresa o proyecto necesita producir varias piezas con orden, repetibilidad y tiempos claros. En Laser Inova trabajamos con materiales como ",
+          {
+            "strong": "MDF, acrílico y madera"
+          },
+          " para resolver producción física de piezas repetitivas, estructuras visuales, componentes de apoyo o proyectos especiales."
+        ],
+        "Optimizamos la cadena de suministro de su negocio mediante nuestro servicio de maquila de corte y grabado láser en volumen en la Ciudad de México. Con precios altamente competitivos al por mayor, maquinaria industrial de última generación y un estricto control de calidad, somos el aliado ideal para fabricantes, carpinterías industriales, despachos de diseño y marcas masivas."
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Qué tipo de proyectos entran aquí",
+      "title": "Aplicaciones frecuentes de la maquila de volumen",
+      "paragraphs": [
+        "Esta línea funciona cuando el cliente necesita fabricar varias piezas iguales o similares, con materiales estables y procesos repetibles."
+      ],
+      "cards": [
+        {
+          "title": "Producción por lote",
+          "text": "Ideal para piezas repetitivas, estructuras visuales o componentes que deben fabricarse en cantidad."
+        },
+        {
+          "title": "Piezas en acrílico",
+          "text": "Fabricación para branding visual, exhibición, señalización o soportes personalizados."
+        },
+        {
+          "title": "Piezas en MDF",
+          "text": "Soluciones para displays, estructuras, maquetas, cajas, bases y producción funcional."
+        },
+        {
+          "title": "Producción en madera",
+          "text": "Proyectos con estética más cálida o piezas que requieren presencia natural y personalizable."
+        },
+        {
+          "title": "Empresas y marcas",
+          "text": "Fabricación útil para clientes corporativos, branding físico, campañas o materiales especiales."
+        },
+        {
+          "title": "Proyectos especiales",
+          "text": "Producción para ideas fuera de lo estándar que necesitan estructura y ejecución consistente."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "eyebrow": "Capacidad de fabricación",
+      "title": "MDF, acrílico, metal, plástico y madera para producir de forma repetible y funcional",
+      "paragraphs": [
+        [
+          "Nuestra línea de maquila se apoya en materiales robustos que permiten trabajar proyectos con excelente estabilidad de producción. El enfoque aquí no es solo “cortar algo”, sino poder resolver ",
+          {
+            "strong": "fabricación repetible para necesidades visuales, estructurales o de apoyo comercial"
+          },
+          ", incluyendo corte de metal e impresión en cama plana."
+        ]
+      ],
+      "features": [
+        "Producción organizada para lotes y series",
+        "Materiales versátiles para aplicaciones distintas",
+        "Útil para empresas, campañas y proyectos especiales",
+        "Enfoque en repetibilidad y consistencia"
+      ],
+      "image": {
+        "src": "/img/subpages/maquinas/maquinas-cnc-cortadora-laser-cnc-laser-1060.webp",
+        "alt": "Proceso de producción repetible en MDF, acrílico y madera"
+      }
+    },
+    {
+      "theme": "light",
+      "id": "ejemplos",
+      "eyebrow": "Ejemplos visuales",
+      "title": "Piezas repetibles para empresas, branding físico y proyectos especiales",
+      "paragraphs": [
+        "Una muestra de producción en lote y piezas fabricadas en MDF, acrílico y madera."
+      ],
+      "examples": [
+        {
+          "src": "/img/subpages/volumen_mdf/D_NQ_NP_2X_966790-MLM74327827225_012024-F.webp",
+          "alt": "Producción en MDF por volumen para proyecto especial",
+          "title": "Producción en MDF",
+          "text": "Piezas repetibles para estructuras, soporte visual o fabricación funcional.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/volumen_mdf/D_NQ_NP_2X_917130-CBT86002679677_062025-F-etiquetas-laser-con-espejo-corte-personalizado-acrilico-ov.webp",
+          "alt": "Piezas en acrílico para producción repetible",
+          "title": "Piezas en acrílico",
+          "text": "Aplicaciones para branding, señalización o exhibición por lote.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/volumen_mdf/A3183_lrg.jpg",
+          "alt": "Fabricación repetible en madera para empresas",
+          "title": "Madera por lote",
+          "text": "Producción para proyectos especiales o líneas con estética más cálida.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/volumen_mdf/A3240_lrg.jpg",
+          "alt": "Proyecto especial con fabricación repetible para empresa",
+          "title": "Proyecto especial",
+          "text": "Fabricación útil para marcas, empresas o campañas con necesidades específicas.",
+          "machine": false
+        }
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Ventajas",
+      "title": "Por qué conviene una maquila orientada a repetibilidad",
+      "benefits": [
+        {
+          "title": "Escalable",
+          "text": "Permite atender proyectos donde una sola pieza ya no alcanza y se necesita producción real por lote."
+        },
+        {
+          "title": "Más orden de fabricación",
+          "text": "Ayuda a sostener consistencia cuando el proyecto requiere varias piezas similares o repetidas."
+        },
+        {
+          "title": "Útil para empresas",
+          "text": "Funciona muy bien cuando el cliente necesita producción física con un objetivo comercial, visual o estructural."
+        },
+        {
+          "title": "Versatilidad de materiales",
+          "text": "MDF, acrílico y madera permiten resolver distintos tipos de aplicaciones con buena adaptabilidad."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Producción · Repetibilidad · Empresas · Lotes",
+    "title": "Maquila de volumen en CDMX",
+    "text": [
+      "Servicio de ",
+      {
+        "strong": "producción repetible (MDF, acrílico, madera, metal, plástico, cuero, vidrio)"
+      },
+      " pensado para empresas, marcas, despachos, agencias y proyectos que necesitan ",
+      {
+        "strong": "volumen, orden y consistencia"
+      },
+      ", ya sea en proyectos industriales o detalles boutique."
+    ],
+    "primary": {
+      "label": "Cotizar maquila",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20maquila%20de%20volumen"
+    },
+    "secondary": {
+      "label": "Ver aplicaciones",
+      "href": "#ejemplos"
+    },
+    "badges": [
+      "Producción por lote y repetible",
+      "MDF, acrílico, metal, plástico, cuero y madera",
+      "Soluciones para empresas y proyectos boutique"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Empresas, despachos, campañas, arquitectura, branding físico y producción de piezas repetitivas."
+    },
+    "image": {
+      "src": "/img/subpages/volumen_mdf/D_NQ_NP_2X_732838-MLM87238739157_072025-F.webp",
+      "alt": "Maquila de volumen para MDF, acrílico y madera en CDMX"
+    }
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre maquila de volumen",
+    "items": [
+      {
+        "q": "¿Qué significa maquila de volumen en este contexto?",
+        "a": "Se refiere a producción repetible de piezas o componentes en cantidad, no solo una pieza única o aislada."
+      },
+      {
+        "q": "¿Solo trabajan con MDF?",
+        "a": "No. También trabajamos acrílico, madera y otros enfoques de proyecto según la necesidad específica."
+      },
+      {
+        "q": "¿Sirve para empresas y proyectos especiales?",
+        "a": "Totalmente. Nos especializamos en la producción repetible a escala industrial, garantizando la uniformidad absoluta de cada pieza desde la unidad 1 hasta la 10,000 bajo contratos de servicio B2B establecidos."
+      },
+      {
+        "q": "¿Pueden fabricar piezas para branding visual o campañas?",
+        "a": "Sí. La maquila puede aplicarse a exhibición, branding físico, soportes, material visual o proyectos especiales de campaña."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Tu proyecto necesita producción repetible por volumen?",
+    "text": "Cuéntanos qué tipo de piezas necesitas, el material y el volumen estimado. Podemos ayudarte a aterrizar una solución de maquila más clara, ordenada y útil para tu empresa o proyecto.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20maquila%20de%20volumen"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

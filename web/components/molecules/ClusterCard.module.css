@@ -1,0 +1,13 @@
+.card { padding: 2rem; border-radius: var(--radius-xl); background: var(--white); border: 1px solid var(--ink-a9); transition: box-shadow 0.4s var(--ease-out), transform 0.4s var(--ease-out); }
+.card:hover { transform: translateY(-4px); box-shadow: 0 24px 50px var(--ink-a9); }
+.head { display: flex; align-items: center; gap: 0.9rem; margin-bottom: 0.9rem; }
+.icon { display: grid; place-items: center; width: 46px; height: 46px; border-radius: var(--radius-md); color: var(--primary); background: var(--primary-a8); border: 1px solid var(--primary-a25); flex-shrink: 0; }
+.title { margin: 0; font-size: var(--fs-xl); font-weight: 800; letter-spacing: -0.02em; color: var(--text-dark); }
+.text { margin: 0 0 1.2rem; color: var(--ink-600); line-height: 1.6; font-size: var(--fs-md); }
+.links { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ink-a9); }
+.links li + li { border-top: 1px solid var(--ink-a6); }
+.links a { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.8rem 0.1rem; font-weight: 600; color: var(--text-dark); transition: color 0.25s, padding 0.3s var(--ease-out); }
+.links a svg { color: var(--primary); opacity: 0; transform: translateX(-6px); transition: opacity 0.25s, transform 0.3s var(--ease-out); }
+.links a:hover, .links a:focus-visible { color: var(--primary); padding-left: 0.5rem; }
+.links a:hover svg, .links a:focus-visible svg { opacity: 1; transform: none; }
+.links a:focus-visible { outline: 2px solid var(--beam); outline-offset: 2px; border-radius: var(--radius-xs); }

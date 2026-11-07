@@ -1,0 +1,86 @@
+{
+  "slug": "impresion-publicidad",
+  "path": "/blog/impresion-publicidad.html",
+  "meta": {
+    "title": "Impresión para publicidad B2B y corporativa | Blog Laser Inova",
+    "description": "Descubre cómo la impresión en gran formato y soluciones visuales para agencias y empresas mejoran tu impacto. B2B CDMX.",
+    "keywords": "impresion para publicidad, impresion gran formato, lonas, vinil publicitario, impresion comercial CDMX",
+    "canonical": "https://www.laserinova.com/blog/impresion-publicidad.html",
+    "ogTitle": "Impresión para publicidad B2B y corporativa | Laser Inova",
+    "ogDescription": "Descubre cómo la impresión en gran formato y soluciones visuales para agencias y empresas mejoran tu impacto. B2B CDMX.",
+    "ogType": "article",
+    "twitterTitle": "",
+    "twitterDescription": ""
+  },
+  "ld": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Impresión para publicidad B2B y corporativa",
+    "description": "Descubre cómo la impresión en gran formato y soluciones visuales para agencias y empresas mejoran tu impacto. B2B CDMX.",
+    "image": "https://www.laserinova.com/inova_laser_og_ready.png",
+    "url": "https://www.laserinova.com/blog/impresion-publicidad.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Laser Inova",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.laserinova.com/inova_laser_og_ready.png"
+      }
+    }
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "title": "Impacto Visual para Campañas y Marcas",
+      "paragraphs": [
+        "Para las agencias y departamentos de mercadotecnia, contar con un proveedor que resuelva proyectos de lona, vinil de corte y exhibidores en alta resolución es vital. Trabajamos bajo un esquema de producción escalable capaz de atender las métricas corporativas y exigencias de marca más estrictas."
+      ]
+    },
+    {
+      "theme": "light",
+      "cards": [
+        {
+          "title": "Gran Formato Impresión de lonas y materiales para espectaculares garantizando densidad de color y durabilidad.",
+          "text": "Impresión de lonas y materiales para espectaculares garantizando densidad de color y durabilidad."
+        },
+        {
+          "title": "Calidad Comercial Atención enfocada en agencias que buscan resolución en displays, material POP y retail.",
+          "text": "Atención enfocada en agencias que buscan resolución en displays, material POP y retail."
+        },
+        {
+          "title": "Tiempos y Maquila Cumplimos con cronogramas exigentes, con validación de arte y pruebas de color opcionales.",
+          "text": "Cumplimos con cronogramas exigentes, con validación de arte y pruebas de color opcionales."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Publicidad · Impresión · Agencias",
+    "title": "La Impresión para Publicidad y sus Ventajas B2B",
+    "text": "En Laser Inova somos especialistas en escalar tus proyectos publicitarios. Ya sea para eventos masivos, puntos de venta o campañas corporativas, la impresión en gran formato entrega resultados consistentes y de alto impacto.",
+    "primary": {
+      "label": "Escribir por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20me%20interesa%20la%20impresi%C3%B3n%20para%20publicidad%20y%20agencias"
+    },
+    "secondary": null,
+    "badges": [],
+    "card": null,
+    "image": {
+      "src": "/img/subpages/plotter/gran_formato.jpg",
+      "alt": "Impresión de gran formato para publicidad y campañas corporativas"
+    }
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Tienes un proyecto similar?",
+    "text": "Cuéntanos qué necesitas y te ayudamos a cotizarlo.",
+    "primary": {
+      "label": "Cotizar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20me%20interesa%20la%20impresi%C3%B3n%20para%20publicidad%20y%20agencias"
+    },
+    "secondary": {
+      "label": "Ver más artículos",
+      "href": "/blog"
+    }
+  }
+}

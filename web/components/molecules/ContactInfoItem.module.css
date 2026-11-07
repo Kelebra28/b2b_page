@@ -1,0 +1,5 @@
+.item { display: flex; gap: 1rem; align-items: flex-start; }
+.icon { display: grid; place-items: center; width: 44px; height: 44px; border-radius: var(--radius-md); flex-shrink: 0; color: var(--beam); background: var(--accent-a8); border: 1px solid var(--accent-a35); }
+.label { display: block; margin-bottom: 0.15rem; font-size: var(--fs-sm); font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-on-dark-subtle); }
+.value { white-space: pre-line; color: var(--white); line-height: 1.5; }
+a.value:hover { color: var(--beam); }

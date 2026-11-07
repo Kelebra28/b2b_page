@@ -1,0 +1,86 @@
+{
+  "slug": "grabado-metal-volumen",
+  "path": "/blog/grabado-metal-volumen.html",
+  "meta": {
+    "title": "Grabado de Metal en Volumen | Maquila Especializada | Blog Laser Inova",
+    "description": "Trabajamos dijes, plaquitas, llaveros y artículos promocionales de metal en alto volumen. Excelencia B2B.",
+    "keywords": "grabado de metal en volumen, dijes grabados, plaquitas para mascotas metal, maquila grabado laser metal",
+    "canonical": "https://www.laserinova.com/blog/grabado-metal-volumen.html",
+    "ogTitle": "Grabado de Metal en Volumen | Maquila Especializada | Laser Inova",
+    "ogDescription": "Trabajamos dijes, plaquitas, llaveros y artículos promocionales de metal en alto volumen. Excelencia B2B.",
+    "ogType": "article",
+    "twitterTitle": "",
+    "twitterDescription": ""
+  },
+  "ld": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Grabado de Metal en Volumen | Maquila Especializada",
+    "description": "Trabajamos dijes, plaquitas, llaveros y artículos promocionales de metal en alto volumen. Excelencia B2B.",
+    "image": "https://www.laserinova.com/inova_laser_og_ready.png",
+    "url": "https://www.laserinova.com/blog/grabado-metal-volumen.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Laser Inova",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.laserinova.com/inova_laser_og_ready.png"
+      }
+    }
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "title": "Soluciones Industriales y Promocionales Premium",
+      "paragraphs": [
+        "Nuestro sistema permite manejar matrices para repetir milimétricamente diseños en piezas de escalas menores. Esto es valioso para fabricantes que buscan marcas en sus propias herramientas o agencias de regalos armando kits extensos."
+      ]
+    },
+    {
+      "theme": "light",
+      "cards": [
+        {
+          "title": "Maquila Masiva",
+          "text": "El grabado en fibra óptica garantiza que incluso tipografías diminutas en dijes y piezas B2B resulten 100% legibles en todo el lote."
+        },
+        {
+          "title": "Marcaje Técnico",
+          "text": "Números de serie, códigos QR, logotipos de maquinaria e información trazable, con acabados indelebles sobre acero, aluminio y latón."
+        },
+        {
+          "title": "Calidad para Mayoristas",
+          "text": "Fabricación para revendedores de regalos promocionales. Entregas en plazos pactados y soporte técnico completo."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Maquila · Mayoreo · Volumen",
+    "title": "Grabado de Metal en Volumen",
+    "text": "El metal transmite durabilidad, exclusividad y resistencia. Procesamos lotes de cientos a miles de placas pequeñas, dijes corporativos, llaveros ejecutivos y piezas técnicas con extrema precisión por láser.",
+    "primary": {
+      "label": "Escribir por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20de%20metal%20por%20volumen"
+    },
+    "secondary": null,
+    "badges": [],
+    "card": null,
+    "image": {
+      "src": "/img/gallery/A3199_lrg.jpg",
+      "alt": "Llaveros destapador de metal con placa grabada con láser para producción por volumen"
+    }
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Tienes un proyecto similar?",
+    "text": "Cuéntanos qué necesitas y te ayudamos a cotizarlo.",
+    "primary": {
+      "label": "Cotizar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20de%20metal%20por%20volumen"
+    },
+    "secondary": {
+      "label": "Ver más artículos",
+      "href": "/blog"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+.footer {
+  position: relative;
+  background: var(--bg-deep);
+  color: var(--white);
+  padding: 4.5rem 0 1.6rem;
+}
+.footer::before { /* línea láser superior */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8%;
+  right: 8%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--beam), transparent);
+  box-shadow: 0 0 18px var(--beam-glow);
+}
+.shell {
+  width: min(calc(100% - 2rem), 1400px);
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1.4fr repeat(5, minmax(0, 1fr));
+  gap: 2rem 1.6rem;
+}
+.brand { min-width: 0; }
+.tagline {
+  margin: 1.1rem 0 1.4rem;
+  max-width: 30ch;
+  color: var(--text-on-dark-subtle);
+  font-size: var(--fs-md);
+  line-height: 1.55;
+}
+.contact { display: grid; gap: 0.2rem; }
+.contact a,
+.static {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.3rem 0;
+  color: var(--text-on-dark-body);
+  font-size: var(--fs-md);
+  transition: color 0.25s ease;
+}
+.contact a:hover,
+.contact a:focus-visible { color: var(--beam); outline: none; }
+.contact svg { color: var(--beam); flex-shrink: 0; }
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-top: 1.3rem;
+  border-top: 1px solid var(--white-a8);
+  color: var(--text-on-dark-subtle);
+  font-size: var(--fs-sm);
+}
+.bottom p { margin: 0; }
+.bottom a:hover { color: var(--white); }
+
+@media (max-width: 1180px) {
+  .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .brand { grid-column: 1 / -1; }
+}
+@media (max-width: 640px) {
+  .footer { padding-top: 3.5rem; }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .bottom { flex-direction: column; }
+}
+.legal { display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; }
+.linkButton { padding: 0; font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+.linkButton:hover { color: var(--white); }
+.linkButton:focus-visible, .legal a:focus-visible { outline: 2px solid var(--beam); outline-offset: 3px; border-radius: var(--radius-xs); }
+@media (max-width: 640px) { .legal { flex-direction: column; align-items: flex-start; } }

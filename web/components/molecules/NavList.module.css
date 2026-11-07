@@ -1,0 +1,244 @@
+.list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.indicator {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 40px;
+  width: 0;
+  margin-top: -20px;
+  border-radius: var(--radius-md);
+  background: var(--ind-bg);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform 0.45s var(--ease-out),
+    width 0.45s var(--ease-out),
+    opacity 0.25s ease,
+    background 0.4s ease;
+}
+.indicator[data-on="true"] { opacity: 1; }
+.indicator::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--beam);
+  box-shadow: 0 0 10px var(--beam), 0 0 22px var(--beam-glow);
+}
+
+.link {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.65rem 1.05rem;
+  color: var(--fg);
+  font-size: var(--fs-md);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  border-radius: var(--radius-md);
+  transition: color 0.3s ease;
+}
+.link:hover,
+.link[aria-current] { color: var(--fg-strong); }
+.link:focus-visible { outline: 2px solid var(--beam); outline-offset: 2px; }
+
+.chevron {
+  width: 7px;
+  height: 7px;
+  margin-left: 0.5rem;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-2px) rotate(45deg);
+  transition: transform 0.3s ease;
+}
+.hasMenu:hover .chevron,
+.hasMenu:focus-within .chevron { transform: translateY(1px) rotate(-135deg); }
+
+/* ---- Mega menú de servicios ----
+   position: fixed dentro de la barra (que tiene transform) => se ancla a la barra
+   y ocupa todo su ancho, sin depender de la posición del link. */
+.hasMenu { position: static; }
+.mega {
+  position: fixed;
+  top: calc(100% + 12px);
+  left: 0;
+  right: 0;
+  padding: 1.6rem 1.8rem 1.1rem;
+  background: var(--panel-bg);
+  backdrop-filter: blur(28px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.35s var(--ease-out), transform 0.35s var(--ease-out), visibility 0.35s;
+}
+.mega::before { /* puente para que el hover no se corte */
+  content: "";
+  position: absolute;
+  top: -14px;
+  left: 0;
+  width: 100%;
+  height: 14px;
+}
+.mega::after { /* línea láser que se dibuja al abrir */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 6%;
+  right: 6%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--beam), transparent);
+  box-shadow: 0 0 14px var(--beam);
+  transform: scaleX(0);
+  transition: transform 0.6s var(--ease-out) 0.05s;
+}
+.hasMenu:hover .mega,
+.hasMenu:focus-within .mega {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+@media (min-width: 992px) {
+  .list[data-dismissed="true"] .hasMenu .mega { opacity: 0; visibility: hidden; transform: translateY(10px); pointer-events: none; }
+}
+.hasMenu:hover .mega::after,
+.hasMenu:focus-within .mega::after { transform: scaleX(1); }
+
+.megaGrid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+.group { min-width: 0; }
+.groupTitle {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0 0 0.7rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--fg-strong);
+  font-size: var(--fs-md);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+.groupNum {
+  color: var(--beam);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.08em;
+}
+.megaLink {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.6rem 0.5rem 1rem;
+  color: var(--fg);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  line-height: 1.3;
+  border-radius: var(--radius-sm);
+  transition: color 0.25s ease, background 0.25s ease, padding 0.3s var(--ease-out);
+}
+.megaLink::before {
+  content: "";
+  position: absolute;
+  left: 0.3rem;
+  top: 50%;
+  width: 5px;
+  height: 5px;
+  background: var(--beam);
+  box-shadow: 0 0 8px var(--beam);
+  transform: translateY(-50%) rotate(45deg) scale(0);
+  transition: transform 0.3s var(--ease-spring);
+}
+.megaLink:hover,
+.megaLink:focus-visible {
+  padding-left: 1.3rem;
+  background: var(--ind-bg);
+  color: var(--fg-strong);
+  outline: none;
+}
+.megaLink:hover::before,
+.megaLink:focus-visible::before { transform: translateY(-50%) rotate(45deg) scale(1); }
+
+.megaFoot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--line);
+  color: var(--fg);
+  font-size: var(--fs-sm);
+  opacity: 0.95;
+}
+.megaAll {
+  color: var(--fg-strong);
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius-sm);
+  transition: background 0.25s ease, color 0.25s ease;
+}
+.megaAll:hover,
+.megaAll:focus-visible { background: var(--ind-bg); color: var(--beam); outline: none; }
+
+/* Pantallas medianas: 3 columnas */
+@media (max-width: 1180px) and (min-width: 992px) {
+  .megaGrid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+/* ---- Móvil: lista vertical, grupos siempre visibles ---- */
+@media (max-width: 991px) {
+  .list {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 0.8rem;
+  }
+  .indicator { display: none; }
+  .link {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.95rem 1rem;
+    font-size: var(--fs-base);
+  }
+  .link[aria-current] { background: var(--ind-bg); }
+  .chevron { display: none; }
+  .mega {
+    position: static;
+    padding: 0 0 0.6rem 0.4rem;
+    opacity: 1;
+    visibility: inherit; /* hereda del panel: con el menú cerrado sus enlaces no reciben foco ni se leen */
+    transform: none;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    backdrop-filter: none;
+    overflow: visible;
+  }
+  .mega::before, .mega::after, .megaFoot { display: none; }
+  .megaGrid { grid-template-columns: 1fr; gap: 0.4rem; }
+  .group { padding: 0.4rem 0.6rem; }
+  .groupTitle { border: 0; margin-bottom: 0.2rem; padding-bottom: 0; font-size: var(--fs-sm); text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.85; }
+  .megaLink { padding: 0.65rem 0.6rem 0.65rem 1.2rem; font-size: var(--fs-md); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .indicator, .mega, .mega::after, .megaLink, .megaLink::before { transition: none; }
+}

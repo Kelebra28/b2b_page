@@ -1,0 +1,24 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: calc(var(--header-height) + 4.5rem) 0 5rem;
+  background:
+    radial-gradient(700px circle at 85% 10%, var(--accent-a20), transparent 60%),
+    linear-gradient(180deg, var(--deep-a80), var(--deep-a95)),
+    url("/img/hero-laser.webp") center / cover no-repeat,
+    var(--bg-deep);
+}
+.grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 3.5rem; align-items: center; }
+.eyebrow { display: inline-flex; align-items: center; gap: 0.8rem; margin-bottom: 1.1rem; color: var(--beam); font-size: var(--fs-xs); font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; }
+.eyebrow::before { content: ""; width: 30px; height: 2px; background: currentColor; box-shadow: 0 0 10px var(--beam); }
+.title { margin: 0 0 1.2rem; font-size: var(--fs-display); font-weight: 800; line-height: 1.04; letter-spacing: -0.035em; color: var(--white); text-wrap: balance; }
+.text { margin: 0 0 1.8rem; max-width: 60ch; font-size: var(--fs-lg); line-height: 1.65; color: var(--text-on-dark-muted); }
+.text strong { color: var(--white); font-weight: 600; }
+.actions { display: flex; flex-wrap: wrap; gap: 0.9rem; margin-bottom: 2rem; }
+.visual { display: grid; gap: 1.1rem; }
+.card { display: grid; gap: 0.4rem; padding: 1.3rem 1.5rem; border-radius: var(--radius-lg); background: var(--white-a4); border: 1px solid var(--white-a16); backdrop-filter: blur(8px); }
+.card strong { color: var(--beam); font-size: var(--fs-sm); letter-spacing: 0.1em; text-transform: uppercase; }
+.card span { color: var(--text-on-dark-body); line-height: 1.55; }
+.frame { position: relative; aspect-ratio: 4 / 3; border-radius: var(--radius-xl); overflow: hidden; border: 1px solid var(--white-a16); box-shadow: 0 30px 70px var(--black-a55); }
+.frame img { object-fit: cover; }
+@media (max-width: 960px) { .grid { grid-template-columns: 1fr; gap: 2.5rem; } .hero { padding-bottom: 3.5rem; } }

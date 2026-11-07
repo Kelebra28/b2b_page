@@ -1,0 +1,20 @@
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1rem;
+  padding: 1.8rem 1.6rem;
+}
+.icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-md);
+  color: var(--beam);
+  border: 1px solid var(--accent-a35);
+  background: var(--accent-a8);
+  box-shadow: 0 0 24px var(--accent-a12) inset;
+}
+.title { margin: 0 0 0.35rem; font-size: var(--fs-lg); font-weight: 700; color: var(--white); }
+.text { margin: 0; font-size: var(--fs-md); line-height: 1.55; color: var(--text-on-dark-muted); }

@@ -1,0 +1,197 @@
+{
+  "slug": "vinil_instalacion",
+  "path": "/subpages/vinil_instalacion.html",
+  "meta": {
+    "title": "Vinil Impreso y Rotulación Comercial en CDMX | Instalación Profesional | Laser Inova",
+    "description": "Transforma tus espacios con vinil impreso y rotulación comercial en CDMX. Especialistas en vinil microperforado, decorativo y para oficinas con instalación profesional.",
+    "keywords": "vinil impreso CDMX, rotulación comercial, vinil microperforado, vinil decorativo oficinas, rotulación de negocios, vinil para vidrios, instalación de viniles CDMX, branding corporativo vinil, vinil de corte",
+    "ogTitle": "Vinil Impreso y Rotulación Comercial en CDMX | Laser Inova",
+    "ogDescription": "Expertos en vinil impreso y rotulación comercial. Instalación profesional en oficinas, locales y cristales.",
+    "ogImageAlt": "",
+    "twitterTitle": "",
+    "twitterDescription": ""
+  },
+  "ld": {
+    "name": "Vinil Impreso y Rotulación Comercial",
+    "serviceType": "Publicidad y branding en vinil",
+    "description": "Servicio de impresión e instalación de viniles decorativos, microperforados y rotulación de negocios en CDMX."
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "id": "aplicaciones",
+      "eyebrow": "Soluciones de Marca",
+      "title": "Transforma tus Muros y Cristales en Herramientas de Branding",
+      "paragraphs": [
+        [
+          "El ",
+          {
+            "strong": "vinil impreso en CDMX"
+          },
+          " es uno de los recursos más versátiles para renovar la imagen de tu empresa sin necesidad de obras complejas. En ",
+          {
+            "strong": "Laser Inova"
+          },
+          ", dominamos desde la selección del material adecuado hasta la aplicación final, asegurando un acabado sin burbujas y de larga duración. La rotulación comercial no solo embellece, sino que comunica profesionalismo y solidez a tus clientes desde el primer contacto."
+        ],
+        [
+          "Ya sea que busques ",
+          {
+            "strong": "vinil microperforado"
+          },
+          " para las ventanas de tu local (que permite publicidad exterior sin perder luz natural), o ",
+          {
+            "strong": "vinil decorativo"
+          },
+          " para personalizar las salas de juntas de tu oficina, contamos con sustratos premium adaptados a cada superficie. Nuestra tecnología de impresión garantiza una fidelidad de color excepcional, respetando escrupulosamente los manuales de identidad de las marcas más exigentes."
+        ]
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Qué resolvemos",
+      "title": "Aplicaciones de Vinil para tu Empresa",
+      "cards": [
+        {
+          "title": "Vinil para Cristales",
+          "text": "Desde vinil microperforado hasta esmerilado (frosted) para dar privacidad y estilo a tus vidrios."
+        },
+        {
+          "title": "Murales y Decoración",
+          "text": "Vinil adhesivo para muros lisos, ideal para branding corporativo en oficinas y pasillos."
+        },
+        {
+          "title": "Vinil de Corte",
+          "text": "Logotipos y textos precisos sin fondo, perfectos para horarios, señalética y detalles minimalistas."
+        },
+        {
+          "title": "Rotulación Vehicular",
+          "text": "Lleva tu marca a las calles con rotulación de alta adherencia para autos y camionetas de empresa."
+        },
+        {
+          "title": "Floor Graphics",
+          "text": "Vinil de alta resistencia para pisos, ideal para señalética de sana distancia o promociones en PDV."
+        },
+        {
+          "title": "Branding de Oficinas",
+          "text": "Personalización total de espacios corporativos, desde salas de juntas hasta áreas comunes."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "eyebrow": "Calidad Industrial",
+      "title": "Materiales Premium e Instalación de Precisión",
+      "paragraphs": [
+        [
+          "No todos los viniles son iguales. Un material de baja calidad se levanta o pierde color en pocos meses. En ",
+          {
+            "strong": "Laser Inova"
+          },
+          " utilizamos marcas líderes y laminados protectores que garantizan la durabilidad de tu ",
+          {
+            "strong": "rotulación comercial"
+          },
+          ". Además, nuestro equipo de instaladores cuenta con la experiencia necesaria para trabajar en cualquier entorno corporativo de la Ciudad de México."
+        ]
+      ],
+      "features": [
+        "Tintas Eco-Solventes de alta definición",
+        "Laminados Mate o Brillantes para protección extra",
+        "Servicio de remoción de vinil anterior",
+        "Levantamiento de medidas en sitio"
+      ],
+      "image": {
+        "src": "/img/subpages/vinil_instalacion/vinil_2.jpg",
+        "alt": "Instalación de vinil publicitario profesional"
+      }
+    },
+    {
+      "theme": "light",
+      "eyebrow": "Ventajas Laser Inova",
+      "title": "¿Por qué elegir nuestro servicio de rotulación?",
+      "benefits": [
+        {
+          "title": "Acabado Impecable",
+          "text": "Garantizamos una aplicación libre de burbujas y cortes milimétricos en cada proyecto."
+        },
+        {
+          "title": "Versatilidad Total",
+          "text": "Resolvemos desde un solo cristal hasta el branding completo de un edificio corporativo."
+        },
+        {
+          "title": "Atención B2B",
+          "text": "Entendemos los requerimientos de seguridad y horarios de las empresas y centros comerciales."
+        },
+        {
+          "title": "Asesoría de Material",
+          "text": "Te recomendamos el adhesivo y sustrato ideal según la superficie (vidrio, muro, metal o madera)."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Versatilidad · Branding · Instalación Profesional",
+    "title": "Vinil Impreso y Rotulación Comercial",
+    "text": [
+      "Dale vida a tus espacios y cristales. Especialistas en ",
+      {
+        "strong": "vinil impreso de alta resolución"
+      },
+      " y rotulación de negocios para oficinas, locales comerciales y activaciones en la ",
+      {
+        "strong": "CDMX"
+      },
+      "."
+    ],
+    "primary": {
+      "label": "Cotizar mi proyecto",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20un%20proyecto%20de%20vinil%20o%20rotulaci%C3%B3n"
+    },
+    "secondary": {
+      "label": "Ver aplicaciones",
+      "href": "#aplicaciones"
+    },
+    "badges": [
+      "Impresión fotográfica HD",
+      "Vinil decorativo y microperforado",
+      "Instalación garantizada en CDMX"
+    ],
+    "card": null,
+    "image": {
+      "src": "/img/subpages/vinil_instalacion/vinil_1.jpg",
+      "alt": "Branding de oficinas con vinil impreso decorativo"
+    }
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas sobre Vinil e Instalación",
+    "items": [
+      {
+        "q": "¿Qué es el vinil microperforado?",
+        "a": "Es un vinil con pequeños agujeros que permite ver hacia afuera desde el interior, pero proyecta una imagen sólida hacia el exterior. Ideal para locales comerciales."
+      },
+      {
+        "q": "¿Se puede aplicar vinil sobre cualquier pared?",
+        "a": "La pared debe ser lisa (sin textura), estar bien pintada y libre de humedad o polvo para garantizar la adherencia del material."
+      },
+      {
+        "q": "¿Dañan la superficie al retirarse?",
+        "a": "Si se utiliza material de calidad y se retira correctamente (aplicando un poco de calor), no dañan el cristal ni la pintura de la pared."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Contacto Profesional",
+    "title": "¿Quieres renovar la imagen de tu negocio?",
+    "text": "Cuéntanos tu idea, envíanos las medidas o solicita un levantamiento. Estamos listos para ayudarte a materializar el branding de tu oficina o local en CDMX.",
+    "primary": {
+      "label": "WhatsApp Ventas",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20un%20proyecto%20de%20vinil%20e%20instalaci%C3%B3n"
+    },
+    "secondary": {
+      "label": "Solicitar Cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

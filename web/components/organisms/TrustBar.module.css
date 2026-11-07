@@ -1,0 +1,17 @@
+.bar {
+  position: relative;
+  background: var(--bg-deep);
+  border-top: 1px solid var(--white-a8);
+  border-bottom: 1px solid var(--white-a8);
+}
+.grid {
+  width: min(calc(100% - 2rem), 1400px);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid > * + * { border-left: 1px solid var(--white-a8); }
+@media (max-width: 860px) {
+  .grid { grid-template-columns: 1fr; }
+  .grid > * + * { border-left: 0; border-top: 1px solid var(--white-a8); }
+}

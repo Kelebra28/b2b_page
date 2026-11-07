@@ -1,0 +1,7 @@
+.section {
+  background:
+    radial-gradient(900px circle at 0% 0%, var(--accent-a8), transparent 55%),
+    var(--surface-925);
+  padding: var(--section-y) 0;
+}
+@media (max-width: 960px) { .section { padding: var(--section-y-sm) 0; } }

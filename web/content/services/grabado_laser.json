@@ -1,0 +1,186 @@
+{
+  "slug": "grabado_laser",
+  "path": "/subpages/grabado_laser.html",
+  "meta": {
+    "title": "Grabado Láser en CDMX | Personalización y Proyectos Especiales | Laser Inova",
+    "description": "Servicio de grabado láser en CDMX para personalización y proyectos especiales en distintos materiales. Soluciones para regalos, branding, decoración y piezas personalizadas.",
+    "keywords": "grabado láser CDMX, personalización láser, proyectos especiales, grabado en distintos materiales, grabado personalizado, regalos personalizados, branding láser, piezas decorativas personalizadas",
+    "ogTitle": "Grabado Láser en CDMX | Laser Inova",
+    "ogDescription": "Explora la línea completa de personalización y proyectos especiales en distintos materiales.",
+    "ogImageAlt": "Grabado láser y personalización en distintos materiales por Laser Inova en CDMX",
+    "twitterTitle": "Grabado Láser en CDMX | Laser Inova",
+    "twitterDescription": "Explora la línea completa de personalización y proyectos especiales en distintos materiales."
+  },
+  "ld": {
+    "name": "Grabado láser",
+    "serviceType": "Personalización y grabado láser en distintos materiales",
+    "description": "Servicio de grabado láser para personalización y proyectos especiales en distintos materiales."
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "eyebrow": "Línea general de personalización",
+      "title": "Una puerta amplia para proyectos de grabado láser que no caben en una sola categoría",
+      "paragraphs": [
+        "Ofrecemos soluciones de grabado láser industrial y comercial en CDMX, con la versatilidad de trabajar sobre una amplia gama de materiales como acero, aluminio, maderas finas, acrílicos de alto impacto, cuero legítimo y vidrio. Nuestra tecnología de punta (láser CO₂ y fibra) garantiza un marcado indeleble y de alta definición.",
+        [
+          "En Laser Inova usamos esta línea para atender proyectos que pueden involucrar ",
+          {
+            "strong": "madera, metal, espejos, acrílico u otros materiales"
+          },
+          ", dependiendo del objetivo visual, funcional o comercial de la pieza. Esta versatilidad nos permite cubrir desde la serialización de placas técnicas e industriales hasta la personalización masiva de artículos promocionales con un registro micrométrico perfecto. “grabado láser”, “personalización láser” o “proyectos especiales”."
+        ],
+        [
+          "También sirve para clientes que quieren entender primero la posibilidad general del servicio y luego aterrizar la solución específica. Proveemos asesoría experta en la selección del tipo de grabado adecuado según el material y el uso final de la pieza, asegurando un óptimo contraste. usuarios que todavía no saben si necesitan ",
+          {
+            "strong": "grabado en madera, metal, espejo o una combinación de líneas"
+          },
+          "."
+        ]
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Aplicaciones",
+      "title": "¿Para qué tipo de proyecto sirve el grabado láser?",
+      "paragraphs": [
+        "Nuestra planta cuenta con múltiples estaciones de grabado láser simultáneas, lo que nos permite resolver proyectos con la mayor velocidad de entrega de la CDMX, cumpliendo con los estándares de calidad más rigurosos del sector corporativo."
+      ],
+      "cards": [
+        {
+          "title": "Regalos personalizados",
+          "text": "Ideal para detalles especiales, recuerdos, piezas boutique y obsequios con intención más personal."
+        },
+        {
+          "title": "Branding corporativo",
+          "text": "También puede aplicarse a artículos empresariales, kits, branding fino y piezas institucionales."
+        },
+        {
+          "title": "Decoración personalizada",
+          "text": "Funciona muy bien cuando la pieza debe tener presencia visual y adaptarse a un espacio o estilo."
+        },
+        {
+          "title": "Piezas especiales",
+          "text": "Para ideas que no son estándar y necesitan un enfoque más flexible de material o formato."
+        },
+        {
+          "title": "Distintos materiales",
+          "text": "La ventaja del grabado láser general es que no te limita de entrada a una sola familia de producto."
+        },
+        {
+          "title": "Ideas por aterrizar",
+          "text": "Es una excelente puerta de entrada cuando el cliente tiene una idea, pero aún no sabe qué material conviene más."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "id": "ejemplo",
+      "eyebrow": "Ejemplo visual",
+      "title": "Una línea flexible para personalización, branding y proyectos especiales",
+      "paragraphs": [
+        "El grabado láser se adapta a distintos materiales y objetivos. No es una categoría cerrada, sino una solución abierta para proyectos creativos o personalizados."
+      ],
+      "features": [
+        "Funciona en distintos materiales según el proyecto",
+        "Útil para regalos, branding y decoración",
+        "Buena opción para ideas especiales o no estándar",
+        "Punto de partida para explorar madera, metal, espejos y más"
+      ],
+      "image": {
+        "src": "/img/subpages/servicios/A2733_lrg.jpg",
+        "alt": "Ejemplo de grabado láser en distintos materiales"
+      }
+    },
+    {
+      "theme": "light",
+      "eyebrow": "Por qué funciona",
+      "title": "Por qué empezar por el grabado láser general",
+      "benefits": [
+        {
+          "title": "Ideal si aún no defines el material",
+          "text": "Si buscas “grabado láser” sin especificar todavía el material, aquí te orientamos."
+        },
+        {
+          "title": "Para ideas en desarrollo",
+          "text": "Sirve si tienes una idea, pero todavía no sabes exactamente qué tipo de pieza necesitas."
+        },
+        {
+          "title": "Conecta con otras líneas",
+          "text": "Desde aquí puedes pasar a madera, metal, espejos u otras categorías más específicas."
+        },
+        {
+          "title": "Personalización completa",
+          "text": "Reúne la parte boutique y de personalización: regalos, branding y piezas especiales."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Personalización · Distintos materiales · Proyectos especiales",
+    "title": "Grabado láser en CDMX",
+    "text": [
+      "Desarrollamos ",
+      {
+        "strong": "proyectos de grabado láser en distintos materiales"
+      },
+      " para regalos, branding, decoración, piezas funcionales y personalización especial con una amplia variedad de aplicaciones."
+    ],
+    "primary": {
+      "label": "Cotizar grabado láser",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20un%20proyecto%20de%20grabado%20láser"
+    },
+    "secondary": {
+      "label": "Ver ejemplo",
+      "href": "#ejemplo"
+    },
+    "badges": [
+      "Personalización para distintos materiales",
+      "Regalos, branding y decoración",
+      "Proyectos especiales y piezas personalizadas"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Clientes que buscan una solución más abierta de personalización y proyectos especiales sin limitarse a una sola categoría."
+    },
+    "image": {
+      "src": "/img/subpages/servicios/A2571_lrg.jpg",
+      "alt": "Grabado láser personalizado en CDMX"
+    }
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre grabado láser general",
+    "items": [
+      {
+        "q": "¿Qué diferencia tiene esta página con las de madera, metal o espejo?",
+        "a": "Brindamos soluciones integrales de marcado láser sobre cualquier tipo de sustrato físico, adaptándonos al diseño y tolerancias que exijan sus planos o manuales de identidad corporativa."
+      },
+      {
+        "q": "¿Sirve si todavía no sé en qué material quiero hacer mi proyecto?",
+        "a": "Por supuesto. Nuestro departamento de diseño e ingeniería le asesorará para determinar qué tecnología (fibra, CO₂ o UV) ofrece el mejor contraste y acabado estético según el material de su proyecto."
+      },
+      {
+        "q": "¿El grabado láser solo es para regalos?",
+        "a": "No. También puede servir para branding, decoración, piezas funcionales, artículos empresariales y proyectos especiales."
+      },
+      {
+        "q": "¿Esta página me dirige a otras categorías más específicas?",
+        "a": "Sí. Es una página amplia que puede derivar naturalmente hacia madera, metal, espejos u otras líneas según el proyecto."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Tienes una idea de grabado láser y aún no sabes cómo aterrizarla?",
+    "text": "Cuéntanos qué quieres personalizar y te ayudamos a encontrar la mejor forma de convertir esa idea en una pieza real, bien presentada y alineada con tu intención.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20un%20proyecto%20de%20grabado%20láser"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

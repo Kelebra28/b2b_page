@@ -1,0 +1,86 @@
+{
+  "slug": "grabado-madera-eventos",
+  "path": "/blog/grabado-madera-eventos.html",
+  "meta": {
+    "title": "Grabado de Madera para Bodas y Eventos Premium | Blog Laser Inova",
+    "description": "Toques personalizados y orgánicos para tus celebraciones. Cajas, centros de mesa y recuerdos de madera para eventos.",
+    "keywords": "grabado de madera para bodas, recuerdos de madera grabada, eventos premium, madera cortada con laser",
+    "canonical": "https://www.laserinova.com/blog/grabado-madera-eventos.html",
+    "ogTitle": "Grabado de Madera para Bodas y Eventos Premium | Laser Inova",
+    "ogDescription": "Toques personalizados y orgánicos para tus celebraciones. Cajas, centros de mesa y recuerdos de madera para eventos.",
+    "ogType": "article",
+    "twitterTitle": "",
+    "twitterDescription": ""
+  },
+  "ld": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Grabado de Madera para Bodas y Eventos Premium",
+    "description": "Toques personalizados y orgánicos para tus celebraciones. Cajas, centros de mesa y recuerdos de madera para eventos.",
+    "image": "https://www.laserinova.com/inova_laser_og_ready.png",
+    "url": "https://www.laserinova.com/blog/grabado-madera-eventos.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Laser Inova",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.laserinova.com/inova_laser_og_ready.png"
+      }
+    }
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "title": "Diseños Elegantes con Estética Orgánica",
+      "paragraphs": [
+        "La madera es un material sumamente noble que conecta con la sobriedad y la elegancia. Proveemos soluciones completas a Wedding Planners, de forma eficiente e integrada para coordinar colores, tipografías y el estilo integral de todo evento."
+      ]
+    },
+    {
+      "theme": "light",
+      "cards": [
+        {
+          "title": "Bodas y Recepciones",
+          "text": "Libros de invitados, números de mesa en madera MDF premium e identificadores cálidos para los invitados."
+        },
+        {
+          "title": "Detalles Finos",
+          "text": "El láser deja los característicos bordes oscurecidos generando gran contraste visual ideal para decoraciones vintage y rústicas."
+        },
+        {
+          "title": "Alianza con Organizadores",
+          "text": "Tratamos directamente con agencias que realizan muchos eventos al año, simplificando su producción y reduciendo costos por pedido."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Bodas · Eventos · Boutique",
+    "title": "Grabado de Madera para Eventos y Bodas",
+    "text": "Añade un toque cálido y personal a tu ocasión especial. Fabricamos cortes y grabados en madera fina, ideal para centros de mesa, recuerdos de bodas, bautizos, menús premium y recepciones corporativas exclusivas.",
+    "primary": {
+      "label": "Escribir por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20de%20madera%20para%20un%20evento"
+    },
+    "secondary": null,
+    "badges": [],
+    "card": null,
+    "image": {
+      "src": "/img/gallery/A3144_lrg.jpg",
+      "alt": "Portarretrato de madera y acrílico con logotipo grabado para eventos y regalos"
+    }
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Tienes un proyecto similar?",
+    "text": "Cuéntanos qué necesitas y te ayudamos a cotizarlo.",
+    "primary": {
+      "label": "Cotizar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20de%20madera%20para%20un%20evento"
+    },
+    "secondary": {
+      "label": "Ver más artículos",
+      "href": "/blog"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.section { background: var(--white); color: var(--text-dark); padding: calc(var(--header-height) + 4rem) 0 5rem; }
+.doc { max-width: 760px; margin-inline: auto; }
+.title { margin: 0 0 0.6rem; font-size: var(--fs-h2); font-weight: 800; line-height: 1.1; letter-spacing: -0.03em; }
+.updated { margin: 0 0 1.6rem; font-size: var(--fs-md); color: var(--ink-600); }
+.intro { margin: 0 0 2.2rem; font-size: var(--fs-lg); line-height: 1.7; color: var(--ink-700); }
+.block { margin-bottom: 2rem; }
+.heading { margin: 0 0 0.7rem; font-size: var(--fs-xl); font-weight: 800; letter-spacing: -0.01em; }
+.block p, .block li { line-height: 1.75; color: var(--ink-700); }
+.block p { margin: 0 0 0.8rem; }
+.block ul { margin: 0 0 0.8rem; padding-left: 1.3rem; }
+.block li { margin-bottom: 0.45rem; }
+.more { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--ink-a12); }
+.more a { color: var(--primary); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 640px) { .section { padding-bottom: 3.5rem; } }

@@ -1,0 +1,237 @@
+{
+  "slug": "kits_bienvenida",
+  "path": "/subpages/kits_bienvenida.html",
+  "meta": {
+    "title": "Kits de Bienvenida para Empresas en CDMX | Onboarding Corporativo | Laser Inova",
+    "description": "Diseñamos kits de bienvenida para empresas en CDMX con termos, plumas, folders, placas y artículos corporativos personalizados. Ideal para RH, onboarding y branding interno.",
+    "keywords": "kits de bienvenida para empresas, onboarding corporativo, regalos corporativos para empleados, kits de onboarding CDMX, termos personalizados para empresas, plumas grabadas corporativas, folders personalizados, artículos promocionales RH",
+    "ogTitle": "Kits de Bienvenida para Empresas en CDMX | Laser Inova",
+    "ogDescription": "Kits de bienvenida personalizados para RH, onboarding y branding interno con termos, plumas, folders y artículos corporativos.",
+    "ogImageAlt": "Kits de bienvenida corporativos y onboarding para empresas por Laser Inova en CDMX",
+    "twitterTitle": "Kits de Bienvenida para Empresas en CDMX | Laser Inova",
+    "twitterDescription": "Kits de bienvenida personalizados para RH, onboarding y branding interno con termos, plumas, folders y artículos corporativos."
+  },
+  "ld": {
+    "name": "Kits de bienvenida para empresas",
+    "serviceType": "Diseño y personalización de kits de onboarding corporativo",
+    "description": "Kits de bienvenida para empresas con termos, plumas, folders, placas y artículos personalizados para onboarding, RH y branding interno."
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "eyebrow": "Kits corporativos personalizados",
+      "title": "Onboarding corporativo con productos útiles, memorables y alineados a tu marca",
+      "paragraphs": [
+        [
+          "Un buen kit de bienvenida no solo entrega objetos: comunica cultura, orden, identidad y experiencia de marca desde el primer día. En Laser Inova ayudamos a empresas, agencias, áreas de recursos humanos y equipos de operaciones a crear ",
+          {
+            "strong": "kits de bienvenida para empleados, colaboradores o clientes"
+          },
+          " con una presentación profesional y una personalización coherente con la imagen de la organización."
+        ],
+        [
+          "Podemos integrar desde ",
+          {
+            "strong": "termos grabados, plumas metálicas, libretas, folders, placas, identificadores y promocionales"
+          },
+          " hasta piezas más premium para directivos, eventos internos o campañas especiales. Nuestro enfoque combina ",
+          {
+            "strong": "grabado, branding, selección de producto y producción por volumen"
+          },
+          "."
+        ]
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Qué puede incluir tu kit",
+      "title": "Componentes frecuentes en kits de bienvenida empresariales",
+      "paragraphs": [
+        "Cada empresa tiene una necesidad distinta. Algunos kits son funcionales para oficina y onboarding, otros están enfocados en branding, cultura interna o regalo corporativo."
+      ],
+      "cards": [
+        {
+          "title": "Termos y botellas",
+          "text": "Artículos de alto uso diario con gran valor percibido y excelente espacio para marca."
+        },
+        {
+          "title": "Plumas y escritura",
+          "text": "Bolígrafos metálicos, sets ejecutivos y piezas útiles para equipos internos o clientes."
+        },
+        {
+          "title": "Folders y papelería",
+          "text": "Folders, libretas y materiales de oficina para reforzar orden, branding y presentación."
+        },
+        {
+          "title": "Placas o piezas especiales",
+          "text": "Elementos premium para áreas directivas, eventos internos o campañas institucionales."
+        },
+        {
+          "title": "Promocionales integrados",
+          "text": "Accesorios útiles o memorables que elevan la experiencia del kit y la recordación de marca."
+        },
+        {
+          "title": "Presentación personalizada",
+          "text": "Configuramos el kit con visión corporativa, estética uniforme y enfoque funcional."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "eyebrow": "Producción y personalización",
+      "title": "Fabricación, grabado y personalización para kits corporativos por volumen",
+      "paragraphs": [
+        [
+          "Nuestra capacidad permite combinar productos promocionales con técnicas de ",
+          {
+            "strong": "grabado láser, marcado en metal, corte en MDF o acrílico y piezas visuales complementarias"
+          },
+          " para construir kits con una identidad más sólida."
+        ]
+      ],
+      "features": [
+        "Producción para lotes medianos y volumen corporativo",
+        "Personalización coherente con branding interno",
+        "Integración de artículos útiles y premium",
+        "Atención para RH, cultura organizacional y eventos"
+      ],
+      "image": {
+        "src": "/img/subpages/maquinas/20-05-19-10-29-19-laser-co2-y-fribrapng.png",
+        "alt": "Proceso de personalización de artículos para kits de bienvenida corporativos"
+      }
+    },
+    {
+      "theme": "light",
+      "id": "ejemplos",
+      "eyebrow": "Ejemplos visuales",
+      "title": "Aplicaciones reales para kits de bienvenida y onboarding",
+      "paragraphs": [
+        "Una muestra de productos terminados para kits de bienvenida y onboarding, con variedad de piezas para reforzar la imagen de tu marca."
+      ],
+      "examples": [
+        {
+          "src": "/img/subpages/kits_bienvenida/A2645_lrg.jpg",
+          "alt": "Termos personalizados para kits de bienvenida empresariales",
+          "title": "Termos personalizados",
+          "text": "Ideales para branding interno, RH y regalos de uso diario.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/kits_bienvenida/A2989_lrg.jpg",
+          "alt": "Plumas corporativas para onboarding y kits empresariales",
+          "title": "Plumas corporativas",
+          "text": "Una pieza clásica y funcional para reforzar imagen de marca.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/kits_bienvenida/A2576_lrg.jpg",
+          "alt": "Folders y materiales de oficina personalizados para empresas",
+          "title": "Folders y oficina",
+          "text": "Útiles para procesos internos, documentación y presentación formal.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/kits_bienvenida/OF842_lrg.jpg",
+          "alt": "Kits corporativos premium para colaboradores y eventos empresariales",
+          "title": "Kits premium",
+          "text": "Opciones más completas para directivos, campañas internas o clientes especiales.",
+          "machine": false
+        }
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Por qué Laser Inova",
+      "title": "Un proveedor útil para RH, branding interno y regalos empresariales",
+      "benefits": [
+        {
+          "title": "Más que un artículo suelto",
+          "text": "Te ayudamos a construir una solución coherente para onboarding o cultura interna."
+        },
+        {
+          "title": "Enfoque corporativo",
+          "text": "Trabajamos con empresas, branding, lotes y necesidades reales de implementación."
+        },
+        {
+          "title": "Personalización con identidad",
+          "text": "Buscamos que el resultado se sienta alineado con la marca y no como un promocional genérico."
+        },
+        {
+          "title": "Escalable",
+          "text": "Podemos atender desde kits pequeños hasta pedidos para onboarding y eventos con mayor volumen."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "RH · Onboarding · Branding interno",
+    "title": "Kits de bienvenida para empresas en CDMX",
+    "text": [
+      "Diseñamos y personalizamos ",
+      {
+        "strong": "kits de bienvenida corporativos"
+      },
+      " con ",
+      {
+        "strong": "termos, plumas, folders, placas y artículos promocionales"
+      },
+      " para procesos de onboarding, recursos humanos, eventos internos y cultura organizacional."
+    ],
+    "primary": {
+      "label": "Cotizar kits de bienvenida",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20kits%20de%20bienvenida%20para%20mi%20empresa"
+    },
+    "secondary": {
+      "label": "Ver ejemplos",
+      "href": "#ejemplos"
+    },
+    "badges": [
+      "Personalización para RH y onboarding",
+      "Opciones por volumen y mayoreo",
+      "Soluciones corporativas integrales"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Onboarding, cultura interna, eventos empresariales y branding."
+    },
+    "image": {
+      "src": "/img/subpages/kits_bienvenida/vida_mia_snack_bar_centrada.jpg",
+      "alt": "Kits de bienvenida corporativos con artículos personalizados para empresas en CDMX"
+    }
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre kits de bienvenida para empresas",
+    "items": [
+      {
+        "q": "¿Pueden armar kits para empleados nuevos o procesos de onboarding?",
+        "a": "Sí. Esta solución está pensada precisamente para onboarding, RH, cultura organizacional y branding interno."
+      },
+      {
+        "q": "¿Manejan volumen para empresas?",
+        "a": "Sí, podemos trabajar pedidos por lote, especialmente cuando se trata de kits corporativos, promocionales o eventos internos."
+      },
+      {
+        "q": "¿Pueden integrar varios tipos de productos en un mismo kit?",
+        "a": "Sí. Podemos combinar artículos de escritura, bebidas, papelería, piezas premium y otros promocionales según el objetivo del kit."
+      },
+      {
+        "q": "¿Sirve también para eventos corporativos o regalos internos?",
+        "a": "Totalmente. Además del onboarding, funcionan muy bien para aniversarios, convenciones, campañas de RH o regalos a colaboradores."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Buscas kits de bienvenida personalizados para tu empresa?",
+    "text": "Cuéntanos el tipo de empresa, el volumen estimado, los productos deseados y el enfoque del kit. Podemos ayudarte a construir una propuesta más alineada a tu marca.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20kits%20de%20bienvenida%20para%20mi%20empresa"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

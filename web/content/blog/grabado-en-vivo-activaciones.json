@@ -1,0 +1,86 @@
+{
+  "slug": "grabado-en-vivo-activaciones",
+  "path": "/blog/grabado-en-vivo-activaciones.html",
+  "meta": {
+    "title": "Grabado en Vivo para Activaciones y Eventos | Blog Laser Inova",
+    "description": "Personalización y grabado láser en sitio para activaciones de marca, ferias corporativas y presenciales.",
+    "keywords": "grabado en vivo, activaciones de marca, grabado in situ, eventos premium CDMX",
+    "canonical": "https://www.laserinova.com/blog/grabado-en-vivo-activaciones.html",
+    "ogTitle": "Grabado en Vivo para Activaciones y Eventos | Laser Inova",
+    "ogDescription": "Personalización y grabado láser en sitio para activaciones de marca, ferias corporativas y presenciales.",
+    "ogType": "article",
+    "twitterTitle": "",
+    "twitterDescription": ""
+  },
+  "ld": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Grabado en Vivo para Activaciones y Eventos",
+    "description": "Personalización y grabado láser en sitio para activaciones de marca, ferias corporativas y presenciales.",
+    "image": "https://www.laserinova.com/inova_laser_og_ready.png",
+    "url": "https://www.laserinova.com/blog/grabado-en-vivo-activaciones.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Laser Inova",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.laserinova.com/inova_laser_og_ready.png"
+      }
+    }
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "title": "El Marketing Experiencial a Otro Nivel",
+      "paragraphs": [
+        "Hacer que tus clientes sientan una conexión instantánea con tu marca es posible si ofreces personalización en tiempo real. Esta experiencia crea recuerdos perdurables; el asistente no solo recibe un obsequio, es parte fundamental del proceso de manufactura."
+      ]
+    },
+    {
+      "theme": "light",
+      "cards": [
+        {
+          "title": "Interacción y Engagement",
+          "text": "Retención visual alta en ferias o stands, logrando que el público espere por su obsequio personalizado con su nombre."
+        },
+        {
+          "title": "Infraestructura Segura",
+          "text": "Llevamos equipos y un montaje que cumple con especificaciones de instalaciones para hoteles o exposiciones en CDMX."
+        },
+        {
+          "title": "Resultados Premium",
+          "text": "Agrega alto valor percibido en cuestión de segundos sobre metal, vidrio u otros materiales."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Eventos · Experiencia · Marca",
+    "title": "Grabado en Vivo como Activación de Marca",
+    "text": "Eleva la experiencia presencial de tu evento. Llevamos nuestro equipo de grabado directamente a sedes y recintos para personalizar termos, plumas y promocionales frente a los ojos del público.",
+    "primary": {
+      "label": "Escribir por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20en%20vivo%20para%20activaci%C3%B3n"
+    },
+    "secondary": null,
+    "badges": [],
+    "card": null,
+    "image": {
+      "src": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=600&auto=format&fit=crop",
+      "alt": "Grabado láser en vivo de artículos promocionales durante un evento de marca"
+    }
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Tienes un proyecto similar?",
+    "text": "Cuéntanos qué necesitas y te ayudamos a cotizarlo.",
+    "primary": {
+      "label": "Cotizar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20en%20vivo%20para%20activaci%C3%B3n"
+    },
+    "secondary": {
+      "label": "Ver más artículos",
+      "href": "/blog"
+    }
+  }
+}

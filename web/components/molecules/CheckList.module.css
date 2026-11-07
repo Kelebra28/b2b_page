@@ -1,0 +1,16 @@
+.list { display: grid; gap: 0.9rem; margin: 0; }
+.list li { display: flex; align-items: flex-start; gap: 0.85rem; font-size: var(--fs-base); line-height: 1.5; }
+.light li { color: var(--ink-700); }
+.dark li { color: var(--text-on-dark-body); }
+.mark {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  margin-top: 1px;
+  border-radius: var(--radius-round);
+  color: var(--beam);
+  background: var(--accent-a8);
+  border: 1px solid var(--accent-a35);
+}

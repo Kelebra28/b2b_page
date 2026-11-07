@@ -1,0 +1,71 @@
+"use client";
+
+import { useEffect } from "react";
+import { CONSENT_CHANGE_EVENT, readConsent, type Consent } from "@/lib/consent";
+
+declare global {
+  interface Window {
+    dataLayer?: unknown[];
+    gtagLoaded?: boolean;
+    [key: `ga-disable-${string}`]: boolean | undefined;
+  }
+}
+
+/**
+ * Atom (client): Google Analytics 4 SOLO con consentimiento.
+ * - Sin elección o con «rechazar»: no se descarga nada de Google Analytics.
+ * - Con «aceptar»: se carga al instante si acaba de aceptar, o en la primera interacción en visitas siguientes.
+ * - Si después rechaza: se desactiva el envío y se borran las cookies `_ga*` de este sitio.
+ * Solo en producción.
+ */
+export function Analytics({ id }: { id: string }) {
+  useEffect(() => {
+    if (process.env.NODE_ENV !== "production") return;
+    const events = ["scroll", "click", "mousemove", "touchstart"] as const;
+
+    const load = () => {
+      if (window.gtagLoaded) return;
+      window.gtagLoaded = true;
+      events.forEach((e) => document.removeEventListener(e, load));
+      window[`ga-disable-${id}`] = false;
+      const s = document.createElement("script");
+      s.src = `https://www.googletagmanager.com/gtag/js?id=${id}`;
+      s.async = true;
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      // gtag necesita recibir `arguments`, no un arreglo.
+      function gtag(..._args: unknown[]) {
+        // eslint-disable-next-line prefer-rest-params
+        window.dataLayer!.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", id);
+    };
+
+    const disable = () => {
+      window[`ga-disable-${id}`] = true;
+      document.cookie.split(";").forEach((c) => {
+        const name = c.split("=")[0].trim();
+        if (name === "_ga" || name.startsWith("_ga_")) {
+          document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/`;
+          document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=.${location.hostname.replace(/^www\./, "")}`;
+        }
+      });
+    };
+
+    const arm = () => events.forEach((e) => document.addEventListener(e, load, { passive: true, once: true }));
+    if (readConsent() === "granted") arm();
+
+    const onChange = (e: Event) => {
+      const v = (e as CustomEvent<Consent>).detail;
+      if (v === "granted") load();
+      else disable();
+    };
+    window.addEventListener(CONSENT_CHANGE_EVENT, onChange);
+    return () => {
+      window.removeEventListener(CONSENT_CHANGE_EVENT, onChange);
+      events.forEach((e) => document.removeEventListener(e, load));
+    };
+  }, [id]);
+  return null;
+}

@@ -1,0 +1,16 @@
+.spot {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  background: radial-gradient(
+    420px circle at var(--x, 50%) var(--y, 50%),
+    var(--ember-a16),
+    var(--accent-a8) 40%,
+    transparent 70%
+  );
+  mix-blend-mode: screen;
+}
+.spot[data-on="true"] { opacity: 1; }

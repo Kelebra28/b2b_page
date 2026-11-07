@@ -1,0 +1,223 @@
+{
+  "slug": "senaletica_oficinas",
+  "path": "/subpages/senaletica_oficinas.html",
+  "meta": {
+    "title": "Señalética para Oficinas en CDMX | Placas en Acrílico y Señalización Interior | Laser Inova",
+    "description": "Fabricamos señalética para oficinas en CDMX con placas en acrílico, nombres de sala, señalización interior, branding corporativo y displays personalizados para empresas.",
+    "keywords": "señalética para oficinas, placas en acrílico CDMX, señalización interior corporativa, nombres de sala acrílico, branding para oficinas, placas corporativas, displays en acrílico, señalética empresarial",
+    "ogTitle": "Señalética para Oficinas en CDMX | Laser Inova",
+    "ogDescription": "Placas en acrílico, nombres de sala, señalización interior y branding para oficinas con acabados profesionales.",
+    "ogImageAlt": "Señalética para oficinas y placas en acrílico por Laser Inova en CDMX",
+    "twitterTitle": "Señalética para Oficinas en CDMX | Laser Inova",
+    "twitterDescription": "Placas en acrílico, nombres de sala, señalización interior y branding para oficinas con acabados profesionales."
+  },
+  "ld": {
+    "name": "Señalética para oficinas",
+    "serviceType": "Fabricación de placas en acrílico y señalización interior corporativa",
+    "description": "Señalética para oficinas con placas en acrílico, nombres de sala, branding interior, displays y señalización corporativa."
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "eyebrow": "Señalización corporativa",
+      "title": "Placas, nombres de sala y branding interior para oficinas con imagen profesional",
+      "paragraphs": [
+        [
+          "La ",
+          {
+            "strong": "señalética para oficinas"
+          },
+          " no solo organiza espacios; también transmite identidad, orden y profesionalismo. En Laser Inova desarrollamos ",
+          {
+            "strong": "placas en acrílico, señalización interior, displays corporativos y nombres de sala"
+          },
+          " pensados para empresas que cuidan su imagen en recepciones, oficinas, pasillos, salas de juntas y áreas de atención."
+        ],
+        [
+          "Podemos trabajar desde piezas funcionales como ",
+          {
+            "strong": "números, nombres, rutas internas, placas de identificación y letreros en acrílico"
+          },
+          ", hasta soluciones más visuales de ",
+          {
+            "strong": "branding interior y exhibición"
+          },
+          ". El objetivo es que la señalización no se vea genérica, sino alineada con la estética de tu empresa."
+        ]
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Qué fabricamos",
+      "title": "Aplicaciones comunes de señalética corporativa",
+      "paragraphs": [
+        "Esta solución puede adaptarse a espacios administrativos, oficinas, recepciones, corporativos, agencias, clínicas, despachos o puntos de atención al cliente."
+      ],
+      "cards": [
+        {
+          "title": "Nombres de sala",
+          "text": "Identificación de salas de juntas, oficinas privadas, áreas comunes o espacios internos."
+        },
+        {
+          "title": "Señalización interior",
+          "text": "Letreros funcionales para rutas, zonas, avisos, áreas restringidas o servicios internos."
+        },
+        {
+          "title": "Branding de oficina",
+          "text": "Elementos visuales que ayudan a reforzar identidad de marca en muros y espacios clave."
+        },
+        {
+          "title": "Placas en acrílico",
+          "text": "Piezas limpias y elegantes para identificación, señalización o presentación institucional."
+        },
+        {
+          "title": "Displays y exhibición",
+          "text": "Soportes, exhibidores y elementos visuales para recepción, retail u oficinas comerciales."
+        },
+        {
+          "title": "Proyectos a medida",
+          "text": "Soluciones adaptadas al espacio, al material y al estilo visual de tu empresa."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "eyebrow": "Materiales y proceso",
+      "title": "Fabricación en acrílico y corte láser para señalética clara, durable y bien presentada",
+      "paragraphs": [
+        [
+          "Para esta línea trabajamos principalmente con ",
+          {
+            "strong": "acrílico y procesos de corte o grabado"
+          },
+          ", buscando piezas limpias, legibles y visualmente coherentes con el entorno corporativo. También podemos integrar otros materiales cuando el proyecto lo requiera."
+        ]
+      ],
+      "features": [
+        "Corte y grabado en acrílico con acabados limpios",
+        "Soluciones funcionales y de branding visual",
+        "Aplicación para oficinas, recepciones y espacios internos",
+        "Desarrollo de piezas individuales o por lote"
+      ],
+      "image": {
+        "src": "/img/subpages/maquinas/maquinas-cnc-cortadora-laser-cnc-laser-1060.webp",
+        "alt": "Fabricación de señalética en acrílico para oficinas"
+      }
+    },
+    {
+      "theme": "light",
+      "id": "ejemplos",
+      "eyebrow": "Ejemplos visuales",
+      "title": "Señalización interior, nombres de sala y displays corporativos",
+      "paragraphs": [
+        "A continuación mostramos ejemplos de proyectos reales de señalización e identidad corporativa instalados en oficinas corporativas y naves industriales en la Ciudad de México, cumpliendo estrictamente con las especificaciones de marca e indicaciones de seguridad."
+      ],
+      "examples": [
+        {
+          "src": "/img/subpages/senaletica_oficinas/senalitica4.jpg",
+          "alt": "Branding interior con señalética corporativa",
+          "title": "Branding interior",
+          "text": "Elementos visuales que refuerzan la imagen y organización de la oficina.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/senaletica_oficinas/senalitica5.jpg",
+          "alt": "Displays y señalización visual para oficinas",
+          "title": "Displays corporativos",
+          "text": "Piezas visuales para recepción, atención al cliente o exhibición institucional.",
+          "machine": false
+        }
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Ventajas",
+      "title": "Por qué conviene trabajar la señalética con una solución personalizada",
+      "benefits": [
+        {
+          "title": "Mejor imagen profesional",
+          "text": "Una oficina bien señalizada transmite orden, atención al detalle y seriedad institucional."
+        },
+        {
+          "title": "Funcionalidad real",
+          "text": "Ayuda a ubicar espacios, facilitar recorridos y mejorar la experiencia dentro del lugar."
+        },
+        {
+          "title": "Branding coherente",
+          "text": "Permite integrar colores, estilo visual y lenguaje de marca dentro de la oficina."
+        },
+        {
+          "title": "Adaptable",
+          "text": "Podemos desarrollar desde piezas puntuales hasta sistemas completos de señalización corporativa."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Acrílico · Oficinas · Branding interior",
+    "title": "Señalética para oficinas en CDMX",
+    "text": [
+      "Fabricamos ",
+      {
+        "strong": "placas en acrílico, señalización interior, nombres de sala, branding para oficinas y displays corporativos"
+      },
+      " con acabados profesionales para empresas, corporativos, despachos y espacios comerciales."
+    ],
+    "primary": {
+      "label": "Cotizar señalética",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20señalética%20para%20oficinas"
+    },
+    "secondary": {
+      "label": "Ver ejemplos",
+      "href": "#ejemplos"
+    },
+    "badges": [
+      "Placas y nombres de sala",
+      "Acrílico y branding interior",
+      "Soluciones para oficinas y corporativos"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Recepciones, oficinas, salas de juntas, áreas internas, señalización y branding visual."
+    },
+    "image": {
+      "src": "/img/subpages/senaletica_oficinas/senalitica1.jpg",
+      "alt": "Señalética para oficinas en acrílico con branding corporativo"
+    }
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre señalética para oficinas",
+    "items": [
+      {
+        "q": "¿Solo hacen placas o también proyectos completos de señalización?",
+        "a": "Podemos hacer ambas cosas: desde placas individuales hasta soluciones más completas para oficinas y espacios corporativos."
+      },
+      {
+        "q": "¿Trabajan principalmente en acrílico?",
+        "a": "Sí, es uno de los materiales más útiles para esta línea, aunque podemos evaluar otros según el proyecto."
+      },
+      {
+        "q": "¿Sirve para branding interior además de señalización?",
+        "a": "Sí. Ofrecemos soluciones integrales de branding para corporativos, incluyendo desde directorios y placas de escritorio hasta señalización de seguridad bajo normativas de Protección Civil."
+      },
+      {
+        "q": "¿Pueden fabricar por lote para varias áreas o sedes?",
+        "a": "Sí, dependiendo del proyecto podemos trabajar piezas repetitivas para distintas salas, áreas o espacios corporativos."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Buscas placas en acrílico o señalética para oficinas?",
+    "text": "Cuéntanos qué tipo de espacio tienes, qué piezas necesitas y si buscas solo señalización, branding interior o ambas cosas. Te ayudamos a aterrizar una propuesta funcional y bien presentada.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20señalética%20para%20oficinas"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

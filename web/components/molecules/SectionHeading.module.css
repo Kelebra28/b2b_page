@@ -1,0 +1,37 @@
+.heading { max-width: 760px; margin-bottom: 3.2rem; }
+.center { margin-inline: auto; text-align: center; }
+.center .eyebrow { justify-content: center; }
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.eyebrow::before {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: currentColor;
+}
+.dark .eyebrow { color: var(--beam); }
+.dark .eyebrow::before { box-shadow: 0 0 10px var(--beam); }
+.title {
+  margin: 0 0 1rem;
+  font-size: var(--fs-h2);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+.light .title { color: var(--text-dark); }
+.dark .title { color: var(--white); }
+.text { margin: 0; font-size: var(--fs-lg); line-height: 1.65; }
+.light .text { color: var(--ink-600); }
+.light .text strong { color: var(--text-dark); font-weight: 600; }
+.dark .text { color: var(--text-on-dark-muted); }
+.dark .text strong { color: var(--white); font-weight: 600; }

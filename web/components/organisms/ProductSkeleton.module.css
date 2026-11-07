@@ -1,0 +1,13 @@
+.section { padding: calc(var(--header-height) + 2rem) 0 var(--section-y); background: var(--white); }
+.crumbs { width: 16rem; height: 0.9rem; margin-bottom: 1.4rem; }
+.grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 3.5rem; align-items: start; }
+.photo { aspect-ratio: 1 / 1; border-radius: var(--radius-xl); }
+.info { display: grid; gap: 0.9rem; }
+.cat { width: 5rem; height: 0.8rem; }
+.title { width: 90%; height: 2.4rem; }
+.titleShort { width: 55%; height: 2.4rem; }
+.para { height: 1rem; }
+.chips { display: flex; gap: 0.6rem; margin-top: 0.6rem; }
+.chip { width: 5.5rem; height: 2.2rem; border-radius: var(--radius-pill); }
+.cta { height: 3.4rem; margin-top: 1.4rem; border-radius: var(--radius-pill); }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; gap: 1.8rem; } }

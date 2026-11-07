@@ -1,0 +1,11 @@
+.section {
+  background:
+    radial-gradient(800px circle at 10% 90%, var(--accent-a8), transparent 60%),
+    var(--bg-deep);
+  padding: var(--section-y) 0;
+}
+.grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); gap: 4rem; align-items: center; }
+.grid :global(header) { margin-bottom: 1.8rem; }
+.stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+@media (max-width: 960px) { .grid { grid-template-columns: 1fr; gap: 2.5rem; } .section { padding: var(--section-y-sm) 0; } }
+@media (max-width: 480px) { .stats { grid-template-columns: 1fr; } }

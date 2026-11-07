@@ -1,0 +1,223 @@
+{
+  "slug": "produccion_agencias",
+  "path": "/subpages/produccion_agencias.html",
+  "meta": {
+    "title": "Producción para Agencias en CDMX | Activaciones, Eventos y Branding Visual | Laser Inova",
+    "description": "Soporte de producción para agencias en CDMX. Fabricamos piezas para campañas, activaciones, eventos, branding visual, lotes especiales y personalización en vivo con equipos transportables.",
+    "keywords": "producción para agencias, activaciones de marca CDMX, branding visual para eventos, soporte para agencias, fabricación para campañas, grabado en vivo para eventos, producción para activaciones, lotes especiales corporativos",
+    "ogTitle": "Producción para Agencias en CDMX | Laser Inova",
+    "ogDescription": "Soporte de fabricación para campañas, activaciones, eventos, branding visual y personalización en vivo.",
+    "ogImageAlt": "Producción para agencias, activaciones y branding visual por Laser Inova en CDMX",
+    "twitterTitle": "Producción para Agencias en CDMX | Laser Inova",
+    "twitterDescription": "Soporte de fabricación para campañas, activaciones, eventos, branding visual y personalización en vivo."
+  },
+  "ld": {
+    "name": "Producción para agencias",
+    "serviceType": "Soporte de fabricación para campañas, activaciones, eventos y branding visual",
+    "description": "Producción para agencias con soporte para campañas, activaciones, eventos, branding visual, lotes especiales y personalización en vivo."
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "eyebrow": "Soporte operativo para agencias",
+      "title": "Fabricación, personalización y ejecución para campañas con tiempos reales",
+      "paragraphs": [
+        [
+          "En Laser Inova trabajamos como ",
+          {
+            "strong": "aliado de producción para agencias"
+          },
+          " que necesitan resolver piezas visuales, promocionales, branding físico, artículos personalizados o ejecuciones especiales para campañas, activaciones y eventos. Nuestro enfoque combina ",
+          {
+            "strong": "fabricación, personalización, branding y respuesta operativa"
+          },
+          "."
+        ],
+        "Nos convertimos en el brazo productor y aliado estratégico de agencias de publicidad, BTL y marketing en la Ciudad de México. Con capacidad operativa para grandes volúmenes de corte, grabado e impresión, aseguramos la entrega en tiempos récord y con un control de calidad estricto para proteger su reputación frente a marcas globales."
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Qué podemos resolver",
+      "title": "Aplicaciones frecuentes para campañas, eventos y branding visual",
+      "paragraphs": [
+        "Esta solución sirve cuando la agencia necesita una mezcla de producción física, personalización, branding o activación con tiempos definidos y ejecución real."
+      ],
+      "cards": [
+        {
+          "title": "Campañas y activaciones",
+          "text": "Producción de piezas para lanzamientos, dinámicas de marca y acciones promocionales."
+        },
+        {
+          "title": "Eventos en vivo",
+          "text": "Soporte para experiencias de personalización, branding y contacto directo con asistentes."
+        },
+        {
+          "title": "Branding visual",
+          "text": "Displays, señalética, identificadores, piezas de apoyo visual y material para stands."
+        },
+        {
+          "title": "Lotes especiales",
+          "text": "Producción por cantidad para campañas, kits, entregables o materiales promocionales."
+        },
+        {
+          "title": "Personalización premium",
+          "text": "Grabado o marcado para elevar la percepción de valor en artículos corporativos."
+        },
+        {
+          "title": "Trabajo con agencia",
+          "text": "Nos integramos como partner de fabricación para resolver necesidades tácticas y especiales."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "id": "maquinas",
+      "eyebrow": "Equipo disponible para activaciones",
+      "title": "Las 3 máquinas que podemos llevar a eventos y experiencias en vivo",
+      "paragraphs": [
+        "Más que mostrar productos finales, te mostramos el equipo que hace posible una activación de personalización en sitio."
+      ],
+      "examples": [
+        {
+          "src": "/img/subpages/maquinas/20-05-19-10-29-19-laser-co2-y-fribrapng.png",
+          "alt": "Máquina transportable para grabado en vivo en eventos",
+          "title": "Grabado para artículos promocionales",
+          "text": "Ideal para personalización en vivo de termos, plumas, accesorios y piezas premium.",
+          "machine": true
+        },
+        {
+          "src": "/img/subpages/maquinas/xtool.jpg",
+          "alt": "Equipo transportable para producción visual y branding en sitio",
+          "title": "Producción visual y branding",
+          "text": "Útil para piezas visuales, branding de apoyo y materiales especiales para activaciones.",
+          "machine": true
+        },
+        {
+          "src": "/img/subpages/maquinas/uv.webp",
+          "alt": "Máquina para experiencias de personalización en eventos corporativos",
+          "title": "Experiencia de marca en vivo",
+          "text": "Perfecta para eventos corporativos, congresos, lanzamientos y experiencias memorables.",
+          "machine": true
+        }
+      ]
+    },
+    {
+      "theme": "light",
+      "eyebrow": "Cómo colaboramos",
+      "title": "Un proveedor útil cuando la campaña necesita ejecución, no solo ideas",
+      "benefits": [
+        {
+          "title": "Respuesta para proyectos especiales",
+          "text": "Trabajamos necesidades que salen del promocional genérico y requieren solución operativa real."
+        },
+        {
+          "title": "Integración con la agencia",
+          "text": "Nos sumamos como soporte de fabricación, branding o personalización según el alcance del proyecto."
+        },
+        {
+          "title": "Potencial para activaciones en vivo",
+          "text": "Llevamos equipo cuando la experiencia necesita producción frente al asistente o consumidor."
+        },
+        {
+          "title": "Branding con mayor valor percibido",
+          "text": "Buscamos que lo producido se vea bien, se entienda rápido y sume a la experiencia de marca."
+        }
+      ]
+    },
+    {
+      "theme": "alt",
+      "id": "ejemplos",
+      "eyebrow": "Dónde encaja mejor",
+      "title": "Escenarios comunes para producción con agencias",
+      "paragraphs": [
+        "Esta solución es especialmente útil cuando la agencia necesita material físico, piezas de apoyo o personalización para elevar una campaña o activación."
+      ],
+      "cards": [
+        {
+          "title": "Stands y expos",
+          "text": "Displays, personalización en vivo y piezas de apoyo para ferias, congresos o exposiciones."
+        },
+        {
+          "title": "Lanzamientos de marca",
+          "text": "Producción de materiales, artículos y branding físico para nuevas campañas o productos."
+        },
+        {
+          "title": "Eventos corporativos",
+          "text": "Experiencias para asistentes, colaboradores o clientes con enfoque visual y memorable."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Campañas · Activaciones · Eventos · Producción",
+    "title": "Producción para agencias en CDMX",
+    "text": [
+      "Damos ",
+      {
+        "strong": "soporte de fabricación para campañas, activaciones, eventos, branding visual y lotes especiales"
+      },
+      ". También podemos integrar ",
+      {
+        "strong": "personalización en vivo con equipos transportables"
+      },
+      " para experiencias de marca y producción en sitio."
+    ],
+    "primary": {
+      "label": "Cotizar proyecto para agencia",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20producción%20para%20agencia,%20campaña%20o%20activación"
+    },
+    "secondary": {
+      "label": "Ver equipo disponible",
+      "href": "#maquinas"
+    },
+    "badges": [
+      "Producción para campañas y activaciones",
+      "Branding visual y lotes especiales",
+      "Personalización en vivo para eventos"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Agencias BTL, eventos, lanzamientos, experiencias de marca, congresos y activaciones."
+    },
+    "image": {
+      "src": "/img/subpages/maquinas/uv.webp",
+      "alt": "Producción para agencias, campañas y activaciones en CDMX"
+    }
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre producción para agencias",
+    "items": [
+      {
+        "q": "¿Pueden apoyar a agencias con campañas y activaciones?",
+        "a": "Sí. Esta página está pensada justo para eso: campañas, activaciones, branding visual, eventos y proyectos especiales."
+      },
+      {
+        "q": "¿Pueden llevar equipo a un evento para personalizar en vivo?",
+        "a": "Sí. Cuando el proyecto lo permite, podemos llevar máquinas transportables para generar una experiencia de personalización en sitio."
+      },
+      {
+        "q": "¿Solo hacen artículos promocionales?",
+        "a": "No. También podemos resolver branding visual, señalética, piezas especiales, displays y otros materiales para campaña."
+      },
+      {
+        "q": "¿Sirve para lotes o entregas especiales?",
+        "a": "Sí. Podemos trabajar lotes medianos o especiales cuando el proyecto requiere producción organizada y personalizada."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Tu agencia necesita soporte de producción para una campaña o activación?",
+    "text": "Cuéntanos el tipo de evento, la marca, el volumen o la dinámica que tienes en mente. Podemos ayudarte a aterrizar una solución más útil, visual y ejecutable.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20producción%20para%20agencia,%20campaña%20o%20activación"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

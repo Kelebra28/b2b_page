@@ -1,0 +1,143 @@
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: var(--bg-deep);
+  isolation: isolate;
+}
+.bg {
+  object-fit: cover;
+  object-position: 72% center;
+  z-index: -2;
+}
+.shade { /* viñeta: legibilidad a la izquierda, la chispa queda visible a la derecha */
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(90deg, var(--deep-a95) 0%, var(--deep-a70) 38%, var(--deep-a5) 75%),
+    linear-gradient(0deg, var(--deep-a80) 0%, transparent 28%);
+}
+.inner {
+  position: relative;
+  z-index: 2;
+  width: min(calc(100% - 2rem), 1400px);
+  margin: 0 auto;
+  padding: calc(var(--header-height) + 5rem) 1.2rem 5rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  align-items: center;
+  gap: 3rem;
+}
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1.4rem;
+  color: var(--beam);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.eyebrow::before {
+  content: "";
+  width: 36px;
+  height: 2px;
+  background: var(--beam);
+  box-shadow: 0 0 12px var(--beam);
+}
+.title {
+  margin: 0 0 1.5rem;
+  max-width: 16ch;
+  color: var(--white);
+  font-size: var(--fs-display-xl);
+  font-weight: 800;
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+.hl { /* subrayado láser que se "dibuja" al cargar */
+  position: relative;
+  white-space: nowrap;
+}
+.hl::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.06em;
+  height: 0.07em;
+  min-height: 3px;
+  background: linear-gradient(90deg, var(--beam), var(--ember));
+  box-shadow: 0 0 18px var(--beam), 0 0 40px var(--beam-glow);
+  transform-origin: left;
+  transform: scaleX(0);
+  animation: draw 1.1s var(--ease-out) 0.5s forwards;
+}
+@keyframes draw { to { transform: scaleX(1); } }
+
+.text {
+  max-width: 58ch;
+  margin: 0 0 2rem;
+  color: var(--text-on-dark-muted);
+  font-size: clamp(1rem, 1.25vw, 1.15rem);
+  line-height: 1.65;
+}
+.text strong { color: var(--white); font-weight: 600; }
+.actions { display: flex; flex-wrap: wrap; gap: 0.9rem; margin-bottom: 2.2rem; }
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.6rem;
+  color: var(--text-on-dark-body);
+  font-size: var(--fs-md);
+}
+.badges li { display: inline-flex; align-items: center; gap: 0.55rem; }
+.badges svg { color: var(--beam); }
+
+/* Etiquetas flotantes sobre la chispa (decorativas) */
+.tags { display: grid; gap: 0.9rem; justify-items: end; }
+.tags li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.85rem 1.3rem;
+  border-radius: var(--radius-md);
+  color: var(--white);
+  font-size: var(--fs-md);
+  font-weight: 600;
+  background: var(--panel-a55);
+  border: 1px solid var(--white-a16);
+  backdrop-filter: blur(14px);
+  animation: float 6s ease-in-out infinite;
+  animation-delay: calc(var(--i) * -2s);
+}
+.tags li:nth-child(2) { margin-right: 2.2rem; }
+.tags li span {
+  width: 8px;
+  height: 8px;
+  background: var(--beam);
+  box-shadow: 0 0 10px var(--beam);
+  transform: rotate(45deg);
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@media (max-width: 991px) {
+  .inner { grid-template-columns: 1fr; padding-top: calc(var(--header-height) + 3rem); }
+  .tags { display: none; }
+  .bg { object-position: 78% center; }
+  .shade {
+    background:
+      linear-gradient(180deg, var(--deep-a80) 0%, var(--deep-a55) 45%, var(--deep-a95) 100%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hl::after { animation: none; transform: scaleX(1); }
+  .tags li { animation: none; }
+}

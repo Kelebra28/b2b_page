@@ -1,0 +1,28 @@
+.card {
+  padding: 2rem;
+  border-radius: var(--radius-xl);
+  background: var(--bg-alt);
+  border: 1px solid var(--ink-a6);
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0 0 1.2rem;
+  color: var(--text-dark);
+  font-size: var(--fs-xl);
+  font-weight: 700;
+}
+.title::before { content: ""; width: 8px; height: 8px; background: var(--primary); transform: rotate(45deg); }
+.chips { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.chips li {
+  padding: 0.55rem 1rem;
+  border-radius: var(--radius-pill);
+  color: var(--ink-700);
+  font-size: var(--fs-md);
+  font-weight: 500;
+  background: var(--white);
+  border: 1px solid var(--ink-a9);
+  transition: border-color 0.25s ease, color 0.25s ease;
+}
+.chips li:hover { border-color: var(--primary); color: var(--primary); }

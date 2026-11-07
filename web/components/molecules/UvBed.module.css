@@ -1,0 +1,116 @@
+.bed {
+  --cycle: 6s;
+  position: relative;
+  aspect-ratio: 1 / 0.92;
+  padding: 12% 7% 16%;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  background:
+    radial-gradient(420px circle at 80% 0%, var(--accent-a20), transparent 60%),
+    linear-gradient(160deg, #15151b, var(--surface-925));
+  border: 1px solid var(--white-a8);
+  box-shadow: 0 40px 90px var(--black-a55), inset 0 1px 0 var(--white-a8);
+}
+.vacuum {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--white-a4) 1px, transparent 1px),
+    linear-gradient(90deg, var(--white-a4) 1px, transparent 1px);
+  background-size: 26px 26px;
+  mask-image: radial-gradient(circle at 50% 50%, var(--black) 40%, transparent 85%);
+}
+.plates {
+  position: relative;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5%;
+}
+.plate {
+  position: relative;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: 0 14px 30px var(--black-a55);
+}
+.wood { background: linear-gradient(135deg, #b98350, #7d4f2a 55%, #a56d3d); }
+.acrylic { background: linear-gradient(135deg, rgba(190, 235, 255, 0.35), rgba(120, 180, 220, 0.18)); border: 1px solid var(--white-a40); }
+.metal { background: linear-gradient(135deg, #d5d9df, #8c929b 50%, #c7ccd3); }
+.label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 8%;
+  text-align: center;
+  font-size: clamp(0.55rem, 1.2vw, 0.72rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-on-dark-body);
+  text-shadow: 0 1px 4px var(--black-a55);
+  z-index: 2;
+}
+.metal .label { color: #222; text-shadow: none; }
+/* La "impresión" se revela de arriba hacia abajo al paso de la barra */
+.print {
+  position: absolute;
+  inset: 14% 16% 26%;
+  border-radius: var(--radius-sm);
+  background:
+    radial-gradient(circle at 30% 30%, var(--white) 0 14%, transparent 15%),
+    linear-gradient(135deg, var(--primary), var(--beam) 60%, #ff9a3c);
+  box-shadow: 0 0 22px var(--accent-a50);
+  animation: reveal var(--cycle) linear infinite;
+}
+.acrylic .print { background: radial-gradient(circle at 30% 30%, var(--white) 0 14%, transparent 15%), linear-gradient(135deg, #1f6bff, #19d4ff); box-shadow: 0 0 22px rgba(25, 212, 255, 0.5); }
+.metal .print { background: radial-gradient(circle at 30% 30%, var(--white) 0 14%, transparent 15%), linear-gradient(135deg, #111, #3a3f4a); box-shadow: 0 0 18px var(--black-a40); }
+.glare {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(115deg, transparent 35%, var(--white-a24) 48%, transparent 60%);
+}
+.bar {
+  position: absolute;
+  left: 3%;
+  right: 3%;
+  height: 4px;
+  top: 12%;
+  border-radius: var(--radius-xs);
+  background: var(--white);
+  box-shadow: 0 0 12px 2px rgba(150, 120, 255, 0.9), 0 0 36px 8px rgba(124, 77, 255, 0.55);
+  animation: sweep var(--cycle) linear infinite;
+}
+@keyframes sweep {
+  0% { top: 12%; opacity: 0; }
+  6% { opacity: 1; }
+  88% { top: 84%; opacity: 1; }
+  100% { top: 84%; opacity: 0; }
+}
+@keyframes reveal {
+  0%, 6% { clip-path: inset(0 0 100% 0); }
+  88%, 100% { clip-path: inset(0 0 0 0); }
+}
+.callout {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.45rem 0.8rem;
+  border-radius: var(--radius-pill);
+  font-size: clamp(0.62rem, 1.4vw, 0.78rem);
+  font-weight: 600;
+  color: var(--white);
+  background: var(--panel-a82);
+  border: 1px solid var(--white-a16);
+  backdrop-filter: blur(8px);
+  z-index: 3;
+}
+.c1 { top: 4%; left: 6%; }
+.c2 { bottom: 5%; right: 6%; }
+.dot { width: 8px; height: 8px; border-radius: var(--radius-round); background: var(--beam); box-shadow: 0 0 10px var(--beam); }
+@media (prefers-reduced-motion: reduce) {
+  .bar { animation: none; opacity: 0; }
+  .print { animation: none; }
+}

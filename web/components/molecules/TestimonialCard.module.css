@@ -1,0 +1,22 @@
+.card {
+  position: relative;
+  margin: 0;
+  padding: 2.4rem 1.8rem 1.8rem;
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  border: 1px solid var(--ink-a9);
+  box-shadow: 0 10px 30px var(--ink-a6);
+}
+.card::before {
+  content: "“";
+  position: absolute;
+  top: 0.4rem;
+  left: 1.4rem;
+  color: var(--primary);
+  font-size: 4.2rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.quote { margin: 0 0 1.3rem; color: var(--ink-700); font-size: var(--fs-base); line-height: 1.65; }
+.author { color: var(--text-dark); font-weight: 700; font-size: var(--fs-md); }
+.author::before { content: "— "; color: var(--primary); }

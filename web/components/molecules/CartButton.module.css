@@ -1,0 +1,7 @@
+.button { position: relative; display: inline-flex; align-items: center; gap: 0.5rem; height: 44px; padding: 0 0.9rem; border-radius: var(--radius-md); border: 1px solid var(--line, var(--ink-a24)); background: transparent; color: var(--fg-strong, var(--white)); font: inherit; font-size: var(--fs-md); font-weight: 600; cursor: pointer; transition: background 0.25s, border-color 0.25s; }
+.button:hover { background: var(--ind-bg, var(--white-a8)); }
+.button:focus-visible { outline: 2px solid var(--beam); outline-offset: 2px; }
+.badge { display: grid; place-items: center; min-width: 1.35rem; height: 1.35rem; padding: 0 0.35rem; border-radius: var(--radius-pill); background: var(--primary); color: var(--white); font-size: var(--fs-xs); font-weight: 800; animation: bump 0.45s var(--ease-spring); }
+@keyframes bump { 0% { transform: scale(0.4); } 100% { transform: scale(1); } }
+@media (max-width: 760px) { .label { display: none; } .button { padding: 0 0.7rem; } .badge { position: absolute; top: -0.35rem; right: -0.35rem; } }
+@media (prefers-reduced-motion: reduce) { .badge { animation: none; } }

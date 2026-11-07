@@ -1,0 +1,4 @@
+.card { padding: 1.9rem; border-radius: var(--radius-lg); background: var(--card-bg); border: 1px solid var(--card-border); }
+.title { margin: 0 0 1.1rem; font-size: var(--fs-xl); font-weight: 800; color: var(--text-main); }
+.text { margin: 0 0 1rem; color: var(--text-soft); line-height: 1.6; font-size: var(--fs-md); }
+.text:last-child { margin-bottom: 0; }

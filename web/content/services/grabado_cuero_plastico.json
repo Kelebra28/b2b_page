@@ -1,0 +1,134 @@
+{
+  "slug": "grabado_cuero_plastico",
+  "path": "/subpages/grabado_cuero_plastico.html",
+  "meta": {
+    "title": "Grabado Láser en Cuero y Plástico en CDMX | Laser Inova",
+    "description": "Servicio de grabado láser en cuero, piel, tactopiel y plásticos en CDMX. Personalización premium de libretas, agendas, gafetes y marroquinería para empresas.",
+    "keywords": "grabado láser cuero, grabado en tactopiel, grabado de agendas, grabado de libretas, grabado láser en plástico, gafetes grabados, marroquinería láser, Laser Inova",
+    "ogTitle": "Grabado Láser en Cuero y Plástico | Laser Inova",
+    "ogDescription": "Personalización premium de artículos de cuero, tactopiel y plásticos. Ideal para agendas, libretas y regalos corporativos.",
+    "ogImageAlt": "",
+    "twitterTitle": "Grabado Láser en Cuero y Plástico en CDMX",
+    "twitterDescription": "Personalización premium para marroquinería, agendas corporativas y piezas de plástico mediante grabado láser de alta definición."
+  },
+  "ld": {
+    "name": "Grabado Láser en Cuero y Plástico",
+    "serviceType": "Personalización y Grabado Láser",
+    "description": "Servicio de grabado láser en cuero, tactopiel y plásticos, enfocado en agendas corporativas, libretas, artículos promocionales y marroquinería."
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "eyebrow": "Precisión y Estilo Corporativo",
+      "title": "Texturas y contrastes que elevan tu marca",
+      "paragraphs": [
+        [
+          "Al grabar sobre ",
+          {
+            "strong": "cuero o tactopiel"
+          },
+          ", el láser de CO2 genera un efecto de termo-grabado que oscurece el material creando un bajorrelieve súper elegante y duradero. Esta es la técnica favorita para personalizar regalos de fin de año, kits de bienvenida (onboarding) y libretas ejecutivas."
+        ],
+        [
+          "Por otro lado, el ",
+          {
+            "strong": "grabado sobre plástico"
+          },
+          " (como carcasas de memorias USB, power banks, bolígrafos plásticos o gafetes bicapa) permite marcar de forma indeleble logotipos y textos con una nitidez incomparable, siendo la solución perfecta para artículos promocionales duraderos."
+        ]
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Materiales y Usos",
+      "title": "Todo lo que podemos personalizar para tu empresa",
+      "cards": [
+        {
+          "title": "Agendas y Libretas",
+          "text": "Grabado de logos corporativos y personalización uno a uno (nombres) en tapas de cuero o poliuretano (PU)."
+        },
+        {
+          "title": "Marroquinería Fina",
+          "text": "Personalización de carteras, monederos, llaveros de piel, porta pasaportes y accesorios de equipaje."
+        },
+        {
+          "title": "Gafetes y Señalización",
+          "text": "Grabado y corte de plásticos bicapa (Rowmark) para gafetes de empleados, placas de escritorio y numeración."
+        },
+        {
+          "title": "Artículos Tech",
+          "text": "Marcaje en carcasas de power banks, bocinas Bluetooth, memorias USB plásticas y accesorios de escritorio."
+        },
+        {
+          "title": "Carpetas Corporativas",
+          "text": "Grabado de logotipos grandes en porta documentos, porta menús de restaurantes y carpetas de entrega."
+        },
+        {
+          "title": "Etiquetas y Parches",
+          "text": "Grabado y corte de parches de piel (polipiel) para coser en gorras, chamarras, mochilas y uniformes industriales."
+        }
+      ],
+      "id": "aplicaciones"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Agendas · Marroquinería · Promocionales",
+    "title": "Grabado Láser en Cuero y Plástico",
+    "text": [
+      "Personalización de alto contraste y acabado premium. El grabado láser térmico sobre ",
+      {
+        "strong": "cuero auténtico, tactopiel (PU) y polímeros"
+      },
+      " revela detalles elegantes imposibles de lograr con otros métodos. Ideal para regalos ejecutivos y artículos de oficina."
+    ],
+    "primary": {
+      "label": "Cotizar servicio",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20en%20cuero%20o%20plastico"
+    },
+    "secondary": {
+      "label": "Ver aplicaciones",
+      "href": "#aplicaciones"
+    },
+    "badges": [
+      "Efecto \"quemado\" elegante en piel",
+      "Precisión milimétrica en plásticos rígidos",
+      "Lotes corporativos de agendas y libretas"
+    ],
+    "card": {
+      "title": "Acabado Boutique:",
+      "text": "Perfecto para agendas Moleskine, carpetas, carteras, porta gafetes y promocionales tech."
+    },
+    "image": null
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre grabado en cuero y plástico",
+    "items": [
+      {
+        "q": "¿Cuál es la diferencia entre grabar piel natural y tactopiel (PU)?",
+        "a": "Ambos graban muy bien. La piel natural suele dejar un grabado más quemado y profundo, mientras que el tactopiel reacciona cambiando a un color de alto contraste (generalmente negro o marrón oscuro) con acabados muy consistentes."
+      },
+      {
+        "q": "¿Pueden personalizar agendas con un nombre distinto cada una?",
+        "a": "Sí, ofrecemos el servicio de grabado con datos variables. Solo necesitas enviarnos el lote de agendas y un archivo de Excel con los nombres que deseas grabar."
+      },
+      {
+        "q": "¿Todos los plásticos se pueden grabar con láser?",
+        "a": "No todos. Grabamos plásticos como acrílico, ABS y plásticos bicapa. Materiales como el PVC no se graban con láser porque emiten gases tóxicos, pero en esos casos utilizamos nuestra Cama Plana UV para imprimirlos."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Personalización Boutique y B2B",
+    "title": "¿Tienes un proyecto de agendas o artículos corporativos?",
+    "text": "Garantizamos la máxima atención al detalle en cada pieza. Escríbenos para cotizar el grabado de tu marroquinería o plásticos promocionales.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20en%20cuero%20o%20plastico"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+.section { background: var(--white); color: var(--text-dark); padding: var(--section-y) 0; }
+.grid { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 4rem; align-items: start; }
+.grid > :first-child { position: sticky; top: calc(var(--header-height) + 2.5rem); margin-bottom: 0; }
+.list { display: grid; gap: 0.8rem; }
+@media (max-width: 960px) { .grid { grid-template-columns: 1fr; gap: 2rem; } .grid > :first-child { position: static; } .section { padding: var(--section-y-sm) 0; } }

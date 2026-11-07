@@ -1,0 +1,164 @@
+.canvas {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 10 / 7;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 120%, var(--accent-a12), transparent 60%),
+    var(--surface-900);
+  border: 1px solid var(--white-a8);
+}
+.svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+/* ---- Corte láser ---- */
+.laser::before { /* panal de la cama */
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--white-a4) 1px, transparent 1px),
+    linear-gradient(90deg, var(--white-a4) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+.guide { fill: var(--white-a4); stroke: var(--white-a16); stroke-width: 1; stroke-dasharray: 3 3; }
+.cut {
+  fill: none;
+  stroke: var(--beam);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  transform: rotate(-90deg);
+  transform-origin: 100px 76px;
+  filter: drop-shadow(0 0 4px var(--beam));
+  animation: cut 4.5s ease-in-out infinite;
+}
+.spark {
+  fill: var(--white);
+  filter: drop-shadow(0 0 4px #ff8c3c) drop-shadow(0 0 9px var(--accent-a90));
+  offset-path: path("M100 42a34 34 0 0 1 0 68a34 34 0 0 1 0-68");
+  offset-rotate: 0deg;
+  animation: orbit 4.5s ease-in-out infinite;
+}
+@keyframes cut {
+  0% { stroke-dashoffset: 100; opacity: 1; }
+  70% { stroke-dashoffset: 0; opacity: 1; }
+  90%, 100% { stroke-dashoffset: 0; opacity: 0; }
+}
+@keyframes orbit {
+  0% { offset-distance: 0%; opacity: 1; }
+  70% { offset-distance: 100%; opacity: 1; }
+  71%, 100% { offset-distance: 100%; opacity: 0; }
+}
+
+/* ---- Grabado ---- */
+.line { fill: none; stroke: #ffb27a; stroke-width: 2.4; stroke-linecap: round; stroke-dasharray: 100; stroke-dashoffset: 100; filter: drop-shadow(0 0 3px #ff8c3c); animation: engrave 5s ease-in-out infinite; }
+.l2 { animation-delay: 0.9s; }
+.l3 { animation-delay: 1.8s; }
+.dot { fill: var(--white); filter: drop-shadow(0 0 6px #ff8c3c); offset-path: path("M78 52h44v16H78v16h30"); animation: trace 5s ease-in-out infinite; }
+@keyframes engrave {
+  0% { stroke-dashoffset: 100; opacity: 1; }
+  35% { stroke-dashoffset: 0; opacity: 1; }
+  85% { stroke-dashoffset: 0; opacity: 1; }
+  100% { stroke-dashoffset: 0; opacity: 0; }
+}
+@keyframes trace {
+  0% { offset-distance: 0%; opacity: 1; }
+  60% { offset-distance: 100%; opacity: 1; }
+  61%, 100% { opacity: 0; }
+}
+
+/* ---- UV plana ---- */
+.plate {
+  position: absolute;
+  left: 18%;
+  right: 18%;
+  top: 20%;
+  bottom: 20%;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(135deg, #1d1d24, #2c2c36);
+  border: 1px solid var(--white-a12);
+  overflow: hidden;
+}
+.print {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, var(--primary) 0%, #ff8c3c 45%, #ffd36b 100%);
+  clip-path: inset(0 0 100% 0);
+  animation: uvprint 4.5s ease-in-out infinite;
+}
+.gantry {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  height: 4px;
+  top: 14%;
+  border-radius: var(--radius-xs);
+  background: #b9a8ff;
+  box-shadow: 0 0 14px 3px rgba(160, 130, 255, 0.85);
+  animation: gantry 4.5s ease-in-out infinite;
+}
+@keyframes uvprint {
+  0% { clip-path: inset(0 0 100% 0); }
+  65% { clip-path: inset(0 0 0 0); }
+  90% { clip-path: inset(0 0 0 0); opacity: 1; }
+  100% { clip-path: inset(0 0 0 0); opacity: 0; }
+}
+@keyframes gantry {
+  0% { top: 16%; opacity: 1; }
+  65% { top: 78%; opacity: 1; }
+  66%, 100% { top: 78%; opacity: 0; }
+}
+
+/* ---- Plotter ---- */
+.roll {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 30%;
+  bottom: 18%;
+  background: #15151a;
+  border: 1px solid var(--white-a8);
+  border-radius: var(--radius-xs);
+  overflow: hidden;
+}
+.band {
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(90deg, #00c2ff 0 22%, #ff2fa0 22% 44%, #ffd800 44% 66%, #19d36b 66% 88%, var(--primary) 88% 100%);
+  clip-path: inset(0 100% 0 0);
+  animation: plot 5s ease-in-out infinite;
+}
+.head {
+  position: absolute;
+  top: 18%;
+  width: 14px;
+  height: 22px;
+  margin-left: -7px;
+  border-radius: 3px;
+  background: #e8e8ee;
+  box-shadow: 0 0 10px var(--white-a55);
+  left: 10%;
+  animation: plothead 5s ease-in-out infinite;
+}
+@keyframes plot {
+  0% { clip-path: inset(0 100% 0 0); }
+  70% { clip-path: inset(0 0 0 0); }
+  90% { clip-path: inset(0 0 0 0); opacity: 1; }
+  100% { clip-path: inset(0 0 0 0); opacity: 0; }
+}
+@keyframes plothead {
+  0% { left: 10%; opacity: 1; }
+  70% { left: 90%; opacity: 1; }
+  100% { left: 90%; opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cut { animation: none; stroke-dashoffset: 0; }
+  .spark, .dot, .gantry, .head { display: none; }
+  .line { animation: none; stroke-dashoffset: 0; }
+  .print { animation: none; clip-path: inset(0); }
+  .band { animation: none; clip-path: inset(0); }
+}

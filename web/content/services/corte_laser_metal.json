@@ -1,0 +1,188 @@
+{
+  "slug": "corte_laser_metal",
+  "path": "/subpages/corte_laser_metal.html",
+  "meta": {
+    "title": "Corte Láser Industrial y Maquila en Metal en CDMX | Laser Inova",
+    "description": "Maquila de corte láser industrial en metal en CDMX. Especialistas en celosías, piezas estructurales, placas de datos, acero, aluminio y producción B2B.",
+    "keywords": "corte láser metal CDMX, maquila de corte de metal, celosías de metal, piezas estructurales, placas de datos, grabado industrial en metal, corte en acero inoxidable, producción industrial Laser Inova",
+    "ogTitle": "Corte Láser Industrial y Maquila en Metal en CDMX | Laser Inova",
+    "ogDescription": "Soluciones industriales de maquila para corte de metal, fabricación de celosías, piezas estructurales y grabado de placas de datos.",
+    "ogImageAlt": "Corte láser industrial de celosías y piezas metálicas por Laser Inova en CDMX",
+    "twitterTitle": "Corte Láser Industrial y Maquila en Metal en CDMX",
+    "twitterDescription": "Soluciones industriales de maquila para corte de metal, fabricación de celosías, piezas estructurales y grabado de placas de datos."
+  },
+  "ld": {
+    "name": "Maquila de corte láser industrial en metal",
+    "serviceType": "Fabricación de celosías, piezas estructurales y placas de datos en metal",
+    "description": "Corte láser industrial en metal y maquila B2B. Especialistas en celosías arquitectónicas, piezas estructurales, acero inoxidable, aluminio y grabado de placas de datos."
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "eyebrow": "Maquila y Producción de Metal Mecánica",
+      "title": "Cuando tu proyecto estructural exige la máxima precisión industrial",
+      "paragraphs": [
+        [
+          "Trabajar con metal exige equipos de alta capacidad. En Laser Inova lideramos en ",
+          {
+            "strong": "corte láser industrial a nivel maquila"
+          },
+          " para el sector de la construcción, arquitectura e ingeniería, ofreciendo desde ",
+          {
+            "strong": "celosías de diseño complejo"
+          },
+          " hasta piezas de ensamblaje masivo."
+        ],
+        [
+          "Ya sea que necesites ",
+          {
+            "strong": "cortar celosías decorativas, fabricar piezas estructurales para maquinaria"
+          },
+          ", o grabar ",
+          {
+            "strong": "placas de datos industriales y números de serie"
+          },
+          ", nuestra línea responde a las exigencias más duras del sector industrial y B2B en CDMX. Dejamos los promocionales a un lado para enfocarnos en ",
+          {
+            "strong": "producción industrial real"
+          },
+          "."
+        ]
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Aplicaciones de Metal",
+      "title": "Corte y Grabado: Lo que podemos resolver para tu empresa",
+      "cards": [
+        {
+          "title": "Corte láser industrial",
+          "text": "Piezas en serie, componentes para manufactura, estructuras metálicas y corte de acero o aluminio a medida."
+        },
+        {
+          "title": "Grabado de placas de datos",
+          "text": "Marcaje en acero inoxidable o aluminio anodizado para maquinaria, inventarios, códigos QR y números de serie."
+        },
+        {
+          "title": "Señalización y Arquitectura",
+          "text": "Corte de letras 3D en metal, paneles perforados, celosías y señalética corporativa para fachadas u oficinas."
+        },
+        {
+          "title": "Grabado láser por Fibra",
+          "text": "Precisión milimétrica para marcaje profundo en herramientas mecánicas, instrumental y componentes metálicos."
+        },
+        {
+          "title": "Reconocimientos y Trofeos",
+          "text": "Grabado de placas conmemorativas y corte de metales para entregar piezas de alto impacto visual y corporativo."
+        },
+        {
+          "title": "Maquila por lotes",
+          "text": "Atendemos la producción masiva o repetible, manteniendo la consistencia en el corte o el grabado de cada lote."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "id": "ejemplo",
+      "eyebrow": "Enfoque Técnico",
+      "title": "Grabado industrial inalterable y corte limpio sin rebabas",
+      "paragraphs": [
+        [
+          "El metal no perdona errores. Por eso usamos tecnologías específicas como el láser de fibra que interactúa a nivel microscópico con la superficie (ya sea acero inoxidable, aluminio anodizado, latón o carbón) garantizando un ",
+          {
+            "strong": "marcaje de altísimo contraste y durabilidad permanente"
+          },
+          ", resistente a solventes, desgaste y exposición a la intemperie."
+        ],
+        [
+          "Para los procesos de ",
+          {
+            "strong": "corte láser"
+          },
+          ", la calibración asegura piezas listas para ensamblaje, reduciendo tiempos de post-procesamiento."
+        ]
+      ],
+      "features": [
+        "Marcaje resistente a ambientes industriales pesados",
+        "Corte preciso con tolerancias estrictas",
+        "Resultados perfectos en acero inoxidable, aluminio y más",
+        "Ideal para normas de identificación industrial y serialización"
+      ],
+      "image": {
+        "src": "/img/subpages/maquinas/uv.webp",
+        "alt": "Proceso láser en metales para industria"
+      }
+    }
+  ],
+  "hero": {
+    "eyebrow": "Maquila Industrial · Celosías · Placas de Datos",
+    "title": "Corte láser industrial en metal en CDMX",
+    "text": [
+      "Soluciones robustas de ",
+      {
+        "strong": "maquila de corte láser industrial y grabado técnico"
+      },
+      " para acero, aluminio y metales. Alta capacidad productiva para ",
+      {
+        "strong": "celosías arquitectónicas, piezas estructurales de precisión y placas de datos"
+      },
+      " B2B."
+    ],
+    "primary": {
+      "label": "Cotizar servicio en metal",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20corte%20y%20grabado%20en%20metal"
+    },
+    "secondary": {
+      "label": "Ver capacidades",
+      "href": "#ejemplo"
+    },
+    "badges": [
+      "Corte láser industrial y maquila de volumen",
+      "Fabricación de celosías y piezas estructurales",
+      "Producción seriada de placas de datos"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Arquitectura, industria metalmecánica, fabricación de celosías, señalización industrial, placas de inventario y piezas estructurales seriadas."
+    },
+    "image": {
+      "src": "/img/subpages/servicios/A3162_lrg.jpg",
+      "alt": "Corte y grabado en metal personalizado en CDMX"
+    }
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre corte y grabado en metal",
+    "items": [
+      {
+        "q": "¿Qué metales pueden cortar y grabar?",
+        "a": "Trabajamos principalmente acero inoxidable, acero al carbón, aluminio, latón y metales anodizados, tanto para corte profundo como para marcaje superficial."
+      },
+      {
+        "q": "¿El grabado láser de fibra se borra?",
+        "a": "No. El grabado láser altera la superficie del metal y es prácticamente permanente, por lo que es la técnica estándar para placas de datos y números de serie industriales."
+      },
+      {
+        "q": "¿Tienen capacidad para maquila de alto volumen?",
+        "a": "Sí, estamos estructurados para B2B y producción repetitiva, asegurando consistencia desde la primera pieza hasta la última del lote."
+      },
+      {
+        "q": "¿Fabricamos celosías arquitectónicas a medida?",
+        "a": "Totalmente. El corte láser industrial nos permite crear celosías metálicas y recubrimientos para fachadas con patrones complejos, ideales para constructoras y despachos de arquitectura."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización B2B",
+    "title": "¿Tienes un proyecto industrial o requieres maquila de metal?",
+    "text": "Envíanos los detalles de tus placas, piezas de corte o necesidades de grabado. Te ayudamos a estructurar una corrida de producción confiable y de alta precisión.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20corte%20o%20grabado%20industrial%20en%20metal"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

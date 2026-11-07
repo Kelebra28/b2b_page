@@ -1,0 +1,86 @@
+{
+  "slug": "impresion-vehicular",
+  "path": "/blog/impresion-vehicular.html",
+  "meta": {
+    "title": "Impresión para Publicidad en Autos y Flotillas | Blog Laser Inova",
+    "description": "Rotulación y publicidad en camionetas corporativas. Lleva tu marca a todas partes con vinil fundido y calidad comercial.",
+    "keywords": "impresion publicidad autos, rotulacion flotillas, publicidad vehicular, vinil para vehiculos",
+    "canonical": "https://www.laserinova.com/blog/impresion-vehicular.html",
+    "ogTitle": "Impresión para Publicidad en Autos y Flotillas | Laser Inova",
+    "ogDescription": "Rotulación y publicidad en camionetas corporativas. Lleva tu marca a todas partes con vinil fundido y calidad comercial.",
+    "ogType": "article",
+    "twitterTitle": "",
+    "twitterDescription": ""
+  },
+  "ld": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Impresión para Publicidad en Autos y Flotillas",
+    "description": "Rotulación y publicidad en camionetas corporativas. Lleva tu marca a todas partes con vinil fundido y calidad comercial.",
+    "image": "https://www.laserinova.com/inova_laser_og_ready.png",
+    "url": "https://www.laserinova.com/blog/impresion-vehicular.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Laser Inova",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.laserinova.com/inova_laser_og_ready.png"
+      }
+    }
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "title": "Lleva la Identidad de tu Empresa a la Calle",
+      "paragraphs": [
+        "Un vehículo sin rotular es un espacio publicitario perdido. Imprimimos el material con tintas optimizadas para resistir lluvia y rayos UV, protegiendo las pinturas originales y cumpliendo especificaciones de identidad."
+      ]
+    },
+    {
+      "theme": "light",
+      "cards": [
+        {
+          "title": "Rotulación Especializada",
+          "text": "Vinil microperforado para cristales y vinil fundido para carrocerías con adaptabilidad a curvas."
+        },
+        {
+          "title": "Flotillas y Carga",
+          "text": "Estandarización de imagen e impresión masiva para cientos de vehículos utilitarios sin perder el tono de marca."
+        },
+        {
+          "title": "Impacto Masivo",
+          "text": "Un costo por impresión bajo comparado con otros medios, ideal para logística con rutas establecidas."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Flotillas · Rotulación · Branding",
+    "title": "Impresión para Publicidad en Autos y Flotillas",
+    "text": "Transforma los vehículos de tu empresa en anuncios rodantes 24/7. Un esquema rentable de branding corporativo con viniles de larga duración y resistencia a la intemperie.",
+    "primary": {
+      "label": "Escribir por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20me%20interesa%20la%20rotulaci%C3%B3n%20vehicular%20y%20flotillas"
+    },
+    "secondary": null,
+    "badges": [],
+    "card": null,
+    "image": {
+      "src": "https://images.unsplash.com/photo-1621360841013-c7683c659ec6?q=80&w=600&auto=format&fit=crop",
+      "alt": "Vehículo rotulado con publicidad impresa para flotillas"
+    }
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Tienes un proyecto similar?",
+    "text": "Cuéntanos qué necesitas y te ayudamos a cotizarlo.",
+    "primary": {
+      "label": "Cotizar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20me%20interesa%20la%20rotulaci%C3%B3n%20vehicular%20y%20flotillas"
+    },
+    "secondary": {
+      "label": "Ver más artículos",
+      "href": "/blog"
+    }
+  }
+}

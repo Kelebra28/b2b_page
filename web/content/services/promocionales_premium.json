@@ -1,0 +1,241 @@
+{
+  "slug": "promocionales_premium",
+  "path": "/subpages/promocionales_premium.html",
+  "meta": {
+    "title": "Promocionales Premium en CDMX | Grabado de Precisión (Metal, Cuero, Vidrio) | Laser Inova",
+    "description": "Promocionales premium en CDMX con grabado láser de precisión en metal, cuero, vidrio y plástico para regalos ejecutivos, kits y branding corporativo de alto impacto.",
+    "keywords": "promocionales premium CDMX, grabado en metal, grabado en cuero, grabado en vidrio, regalos ejecutivos personalizados, branding corporativo, termos y agendas personalizadas",
+    "ogTitle": "Promocionales Premium en CDMX | Laser Inova",
+    "ogDescription": "Grabado de precisión en metal, cuero y vidrio para artículos corporativos de alto impacto.",
+    "ogImageAlt": "Promocionales premium y grabado en metal por Laser Inova en CDMX",
+    "twitterTitle": "Promocionales Premium en CDMX | Laser Inova",
+    "twitterDescription": "Grabado en metal y personalización para termos, botellas, placas y artículos corporativos de alto impacto."
+  },
+  "ld": {
+    "name": "Promocionales premium",
+    "serviceType": "Grabado en metal, cuero, vidrio y personalización premium",
+    "description": "Promocionales premium con grabado en metal, cuero, vidrio y plástico para artículos corporativos de alto impacto."
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "eyebrow": "Artículos corporativos premium",
+      "title": "Promocionales que elevan la percepción de marca y se sienten realmente valiosos",
+      "paragraphs": [
+        [
+          "No todos los promocionales generan el mismo impacto. Cuando una empresa quiere proyectar una imagen más sólida, más ejecutiva o más premium, conviene apostar por piezas que se vean bien, duren y ",
+          {
+            "strong": "personalización con mejor acabado"
+          },
+          ". En Laser Inova trabajamos ",
+          {
+            "strong": "promocionales premium con grabado de precisión (metal, cuero, vidrio y acrílico)"
+          },
+          " para dar una presencia más fuerte a la marca."
+        ],
+        [
+          "Esta línea funciona especialmente bien en ",
+          {
+            "strong": "termos, botellas, plumas, placas, accesorios y artículos corporativos"
+          },
+          " donde el grabado transmite limpieza, permanencia y mayor valor percibido. Es ideal para ",
+          {
+            "strong": "regalos ejecutivos, kits corporativos, clientes importantes, campañas especiales y eventos"
+          },
+          "."
+        ]
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Productos frecuentes",
+      "title": "Qué tipo de promocionales premium personalizamos",
+      "paragraphs": [
+        "Esta categoría está pensada para productos con presencia, funcionalidad y mejor impacto visual frente a clientes, colaboradores o asistentes."
+      ],
+      "cards": [
+        {
+          "title": "Termos premium",
+          "text": "Una de las piezas más fuertes para branding premium, kits corporativos y campañas de alto valor."
+        },
+        {
+          "title": "Botellas y cilindros",
+          "text": "Artículos de uso frecuente que funcionan muy bien para eventos, clientes y cultura interna."
+        },
+        {
+          "title": "Plumas metálicas",
+          "text": "Un clásico ejecutivo que sigue funcionando muy bien en regalos institucionales y branding fino."
+        },
+        {
+          "title": "Placas y piezas especiales",
+          "text": "Reconocimientos, branding institucional o piezas con enfoque premium y corporativo."
+        },
+        {
+          "title": "Regalos ejecutivos",
+          "text": "Productos de mejor presencia para clientes importantes, directivos o campañas especiales."
+        },
+        {
+          "title": "Artículos corporativos (Cuero y Plástico)",
+          "text": "Agendas en cuero, libretas, USBs y promocionales plásticos grabados con alta precisión para no verse genéricos."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "eyebrow": "Grabado en metal",
+      "title": "Marcado limpio, durable y con mejor percepción de calidad",
+      "paragraphs": [
+        [
+          "La ventaja del ",
+          {
+            "strong": "grabado en metal"
+          },
+          " es que genera una personalización más sobria, más permanente y visualmente más sólida que otras técnicas. Esto hace que el promocional se sienta mejor resuelto y más alineado con marcas que quieren proyectar calidad."
+        ]
+      ],
+      "features": [
+        "Excelente para metal, cuero, vidrio y artículos premium",
+        "Acabado limpio y duradero mediante láser CO₂ y fibra",
+        "Ideal para branding ejecutivo y corporativo",
+        "Funciona muy bien en lotes y campañas especiales"
+      ],
+      "image": {
+        "src": "/img/subpages/maquinas/uv.webp",
+        "alt": "Proceso de grabado en metal para promocionales premium"
+      }
+    },
+    {
+      "theme": "light",
+      "id": "ejemplos",
+      "eyebrow": "Ejemplos visuales",
+      "title": "Termos, botellas, placas y artículos de alto impacto",
+      "paragraphs": [
+        "Presentamos una selección de nuestros proyectos de grabado premium más destacados en CDMX, diseñados con tolerancias mínimas para garantizar la legibilidad y fineza del logotipo de su marca en cualquier soporte metálico o de cuero."
+      ],
+      "examples": [
+        {
+          "src": "/img/subpages/promocionales_premiun/A2319_lrg.jpg",
+          "alt": "Termos premium personalizados con grabado en metal",
+          "title": "Termos personalizados",
+          "text": "Una de las opciones más fuertes para branding y regalo corporativo premium.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/promocionales_premiun/A2667_lrg.jpg",
+          "alt": "Botellas grabadas para empresas y campañas especiales",
+          "title": "Botellas grabadas",
+          "text": "Piezas útiles y visualmente potentes para campañas o eventos de marca.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/promocionales_premiun/premium1.jpg",
+          "alt": "Placas metálicas corporativas personalizadas",
+          "title": "Placas premium",
+          "text": "Reconocimientos, branding institucional o piezas especiales con mejor presencia.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/promocionales_premiun/A2506_lrg.jpg",
+          "alt": "Artículos promocionales premium para ejecutivos y empresas",
+          "title": "Artículos ejecutivos",
+          "text": "Promocionales de mayor impacto para clientes, directivos o campañas premium.",
+          "machine": false
+        }
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Ventajas",
+      "title": "Por qué conviene trabajar promocionales premium",
+      "benefits": [
+        {
+          "title": "Mayor valor percibido",
+          "text": "La pieza se siente más sólida, más cuidada y más alineada con marcas que quieren destacar."
+        },
+        {
+          "title": "Mejor branding",
+          "text": "El grabado en metal genera una presencia visual más limpia que eleva la imagen corporativa."
+        },
+        {
+          "title": "Útil para clientes y ejecutivos",
+          "text": "Funciona muy bien cuando el objetivo es entregar algo que sí se use y se perciba de calidad."
+        },
+        {
+          "title": "Ideal para campañas especiales",
+          "text": "Sirve para eventos, activaciones, kits corporativos, lanzamientos o relaciones comerciales importantes."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Metal · Branding · Regalo ejecutivo",
+    "title": "Promocionales premium en CDMX",
+    "text": [
+      "Personalizamos ",
+      {
+        "strong": "termos, botellas, placas y artículos corporativos premium"
+      },
+      " con ",
+      {
+        "strong": "grabado en metal, cuero, plástico y vidrio"
+      },
+      " para empresas, campañas, eventos, regalos ejecutivos y branding de alto impacto."
+    ],
+    "primary": {
+      "label": "Cotizar promocionales premium",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20promocionales%20premium%20con%20grabado%20en%20metal"
+    },
+    "secondary": {
+      "label": "Ver ejemplos",
+      "href": "#ejemplos"
+    },
+    "badges": [
+      "Grabado en metal con alto valor percibido",
+      "Ideal para empresas y eventos premium",
+      "Termos, botellas, placas y más"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Regalos ejecutivos, RH, clientes premium, branding corporativo y eventos especiales."
+    },
+    "image": {
+      "src": "/img/subpages/promocionales_premiun/A3045_lrg.jpg",
+      "alt": "Promocionales premium con grabado en metal en CDMX"
+    }
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre promocionales premium",
+    "items": [
+      {
+        "q": "¿Qué diferencia hay entre un promocional normal y uno premium?",
+        "a": "Principalmente el tipo de producto, el acabado, el valor percibido y cómo se siente frente al cliente o colaborador."
+      },
+      {
+        "q": "¿El grabado en metal funciona bien en termos y botellas?",
+        "a": "Sí. Es una de las aplicaciones más fuertes de esta línea y genera un resultado muy limpio y durable."
+      },
+      {
+        "q": "¿Sirve para regalos corporativos o ejecutivos?",
+        "a": "Totalmente. Esta línea está enfocada exclusivamente en artículos de alta gama que elevan el posicionamiento de su marca frente a directivos, inversionistas y clientes AAA."
+      },
+      {
+        "q": "¿Se puede trabajar por lote o para campañas especiales?",
+        "a": "Sí. Podemos trabajar desde necesidades corporativas puntuales hasta lotes para campañas, eventos o kits empresariales."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Buscas promocionales premium con mejor impacto visual?",
+    "text": "Cuéntanos el tipo de artículo, el volumen aproximado y el objetivo del proyecto. Podemos ayudarte a aterrizar una propuesta con mejor presencia y branding más sólido.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20promocionales%20premium%20con%20grabado%20en%20metal"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

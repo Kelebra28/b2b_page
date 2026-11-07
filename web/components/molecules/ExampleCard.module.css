@@ -1,0 +1,10 @@
+.card { display: flex; flex-direction: column; border-radius: var(--radius-lg); overflow: hidden; background: var(--card-bg); border: 1px solid var(--card-border); transition: transform 0.4s var(--ease-out), box-shadow 0.4s; }
+.card:hover { transform: translateY(-5px); box-shadow: 0 22px 44px var(--card-shadow); }
+.media { position: relative; aspect-ratio: 4 / 3; background: var(--surface-muted); overflow: hidden; }
+.media img { object-fit: cover; transition: transform 0.7s var(--ease-out); }
+.card:hover .media img { transform: scale(1.05); }
+.contain { background: var(--white); }
+.contain img { object-fit: contain; padding: 0.6rem; }
+.body { padding: 1.2rem 1.3rem 1.4rem; }
+.title { margin: 0 0 0.4rem; font-size: var(--fs-lg); font-weight: 800; color: var(--text-main); }
+.text { margin: 0; color: var(--text-soft); line-height: 1.55; font-size: var(--fs-md); }

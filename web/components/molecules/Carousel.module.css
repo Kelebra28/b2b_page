@@ -1,0 +1,15 @@
+.wrap { position: relative; --gap: 1.2rem; }
+.track { display: flex; gap: var(--gap); overflow-x: auto; scroll-snap-type: x proximity; scroll-padding-inline: 0; scrollbar-width: none; -ms-overflow-style: none; padding: 0.4rem 0 1rem; margin: -0.4rem 0 -1rem; }
+.track::-webkit-scrollbar { display: none; }
+.track:focus-visible { outline: 2px solid var(--beam); outline-offset: 4px; border-radius: var(--radius-lg); }
+.item { flex: 0 0 calc((100% - 3 * var(--gap)) / 4); min-width: 0; scroll-snap-align: start; display: grid; }
+.item > * { min-width: 0; }
+.arrow { position: absolute; top: 40%; z-index: 3; display: grid; place-items: center; width: 3rem; height: 3rem; padding: 0; border-radius: var(--radius-round); border: 1px solid var(--ink-a9); background: var(--white); color: var(--text-strong); box-shadow: var(--shadow-light-md); cursor: pointer; transition: transform 0.2s var(--ease-out), opacity 0.2s, background 0.2s, color 0.2s; }
+.arrow:hover:not(:disabled) { background: var(--text-strong); color: var(--white); transform: scale(1.06); }
+.arrow:focus-visible { outline: 2px solid var(--beam); outline-offset: 3px; }
+.arrow:disabled { opacity: 0; pointer-events: none; }
+.prev { left: -1.2rem; }
+.next { right: -1.2rem; }
+@media (max-width: 1200px) { .item { flex-basis: calc((100% - 2 * var(--gap)) / 3); } .prev { left: -0.6rem; } .next { right: -0.6rem; } }
+@media (max-width: 800px) { .wrap { --gap: 0.8rem; } .item { flex-basis: 62%; } .arrow { display: none; } }
+@media (prefers-reduced-motion: reduce) { .arrow { transition: none; } }

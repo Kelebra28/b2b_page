@@ -1,0 +1,183 @@
+{
+  "slug": "grabado_madera",
+  "path": "/subpages/grabado_madera.html",
+  "meta": {
+    "title": "Grabado en Madera en CDMX | Menús, Cajas, Placas y Recuerdos Personalizados | Laser Inova",
+    "description": "Grabado en madera en CDMX para menús, cajas personalizadas, placas, recuerdos y objetos decorativos con identidad propia. Soluciones personalizadas con acabado cálido y profesional.",
+    "keywords": "grabado en madera CDMX, menús de madera, cajas personalizadas, placas en madera, recuerdos grabados, objetos decorativos personalizados, madera grabada, grabado láser en madera",
+    "ogTitle": "Grabado en Madera en CDMX | Laser Inova",
+    "ogDescription": "Menús, cajas, placas, recuerdos y objetos decorativos con identidad propia.",
+    "ogImageAlt": "Grabado en madera personalizado por Laser Inova en CDMX",
+    "twitterTitle": "Grabado en Madera en CDMX | Laser Inova",
+    "twitterDescription": "Menús, cajas, placas, recuerdos y objetos decorativos con identidad propia."
+  },
+  "ld": {
+    "name": "Grabado en madera",
+    "serviceType": "Personalización y grabado láser en madera",
+    "description": "Grabado en madera para menús, cajas, placas, recuerdos y objetos decorativos personalizados."
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "eyebrow": "Personalización en madera",
+      "title": "Piezas con textura, calidez y una identidad visual más natural",
+      "paragraphs": [
+        [
+          "El ",
+          {
+            "strong": "grabado en madera en CDMX"
+          },
+          " es una excelente opción cuando se busca una pieza que se sienta más cercana, más cálida y con una personalidad visual distinta al metal o al acrílico. En Laser Inova trabajamos esta línea para desarrollar ",
+          {
+            "strong": "menús, cajas, placas, recuerdos y objetos decorativos personalizados"
+          },
+          " que combinan presentación, funcionalidad y diseño."
+        ],
+        "Nuestra especialidad en madera está dirigida a restaurantes, hoteles, agencias y marcas premium en CDMX que buscan proyectar sofisticación, calidez y un carácter orgánico en cada detalle. Mediante tecnología láser de alta resolución, logramos contrastes profundos y bordes limpios sobre cualquier tipo de madera, desde pino y caoba hasta MDF y maderas de ingeniería."
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Aplicaciones",
+      "title": "¿Qué tipo de piezas funcionan mejor en grabado en madera?",
+      "paragraphs": [
+        "La madera personalizada es la solución idónea para marcas con identidad ecológica o conceptos rústico-elegantes en CDMX. Con acabados libres de astillas y cortes de alta precisión, garantizamos menús de restaurante, cajas de empaque y piezas de señalización con la mayor fineza y calidad táctil."
+      ],
+      "cards": [
+        {
+          "title": "Menús personalizados",
+          "text": "Muy útiles para restaurantes, bares, cafeterías y conceptos con una estética más cálida o artesanal."
+        },
+        {
+          "title": "Cajas personalizadas",
+          "text": "Funcionan muy bien para presentación, packaging premium o regalos con mejor identidad visual."
+        },
+        {
+          "title": "Placas y reconocimientos",
+          "text": "Piezas con mejor presencia visual para mensajes, dedicatorias o elementos conmemorativos."
+        },
+        {
+          "title": "Recuerdos especiales",
+          "text": "Una excelente opción para ocasiones donde el detalle debe sentirse más personal y cálido."
+        },
+        {
+          "title": "Objetos decorativos",
+          "text": "Piezas para ambientación, decoración interior o detalles visuales con una estética natural."
+        },
+        {
+          "title": "Proyectos con identidad",
+          "text": "La madera funciona muy bien cuando el proyecto necesita personalidad visual y una sensación menos industrial."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "id": "ejemplo",
+      "eyebrow": "Ejemplo visual",
+      "title": "La madera destaca cuando el proyecto necesita presencia cálida y mejor personalidad",
+      "paragraphs": [
+        "El grabado en madera destaca por su capacidad de transmitir texturas tridimensionales y contrastes naturales inigualables. Es la opción predilecta para menús de restaurantes de alta cocina, empaques corporativos de lujo y señalización rústica pero sofisticada."
+      ],
+      "features": [
+        "Apariencia más cálida que otros materiales",
+        "Buena opción para menús, cajas y decoración",
+        "Ideal para marcas o proyectos con identidad propia",
+        "Excelente línea para regalo, ambientación o presentación"
+      ],
+      "image": {
+        "src": "/img/subpages/servicios/A3174_lrg.jpg",
+        "alt": "Ejemplo de grabado en madera personalizado"
+      }
+    },
+    {
+      "theme": "light",
+      "eyebrow": "Por qué funciona",
+      "title": "Ventajas del grabado en madera como línea de personalización",
+      "benefits": [
+        {
+          "title": "Estética natural",
+          "text": "La madera comunica calidez, cercanía y una personalidad visual muy distinta a otros materiales."
+        },
+        {
+          "title": "Muy versátil",
+          "text": "Funciona bien tanto en piezas funcionales como menús o cajas, como en elementos decorativos o recuerdos."
+        },
+        {
+          "title": "Valor visual",
+          "text": "Ayuda a que la pieza se sienta menos genérica y más alineada con una identidad propia."
+        },
+        {
+          "title": "Estética artesanal de alta precisión",
+          "text": "Una categoría muy solicitada para regalos, decoración y proyectos de marca."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Madera · Personalización · Identidad visual",
+    "title": "Grabado en madera en CDMX",
+    "text": [
+      "Desarrollamos ",
+      {
+        "strong": "menús, cajas personalizadas, placas, recuerdos y objetos decorativos en madera"
+      },
+      " con una estética cálida, profesional y con identidad propia para marcas, negocios y proyectos especiales."
+    ],
+    "primary": {
+      "label": "Cotizar grabado en madera",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20en%20madera"
+    },
+    "secondary": {
+      "label": "Ver ejemplo",
+      "href": "#ejemplo"
+    },
+    "badges": [
+      "Menús, cajas y placas",
+      "Recuerdos y decoración personalizada",
+      "Estética cálida y artesanal con precisión"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Negocios, restaurantes, regalos especiales, marcas, decoración y piezas con personalidad visual."
+    },
+    "image": {
+      "src": "/img/subpages/servicios/A2510_lrg.jpg",
+      "alt": "Grabado en madera personalizado en CDMX"
+    }
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre grabado en madera",
+    "items": [
+      {
+        "q": "¿Qué tipo de productos funcionan mejor en madera?",
+        "a": "Menús, cajas, placas, recuerdos, objetos decorativos y piezas donde la estética natural aporta valor."
+      },
+      {
+        "q": "¿La madera sirve para negocios como restaurantes o cafeterías?",
+        "a": "Sí. Es una excelente opción para menús, señalización o piezas con una identidad visual más cálida."
+      },
+      {
+        "q": "¿También funciona como regalo personalizado?",
+        "a": "Sí. La madera suele sentirse más especial y personal, por eso funciona muy bien en recuerdos o detalles con intención emocional."
+      },
+      {
+        "q": "¿Se puede usar para decoración?",
+        "a": "Sí. Esta línea es muy útil para objetos decorativos, placas, ambientación o elementos visuales con presencia natural."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Buscas una pieza en madera con mejor identidad visual?",
+    "text": "Cuéntanos qué tipo de proyecto tienes en mente y te ayudamos a aterrizar una propuesta con mejor presentación, mayor calidez visual y una pieza que sí represente tu idea.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20en%20madera"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

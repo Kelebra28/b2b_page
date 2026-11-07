@@ -1,0 +1,10 @@
+.section {
+  background:
+    radial-gradient(700px circle at 100% 100%, var(--accent-a12), transparent 60%),
+    var(--bg-deep);
+  padding: var(--section-y) 0;
+}
+.grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 4rem; align-items: center; }
+.grid :global(header) { margin-bottom: 1.6rem; }
+.actions { display: flex; flex-wrap: wrap; gap: 0.9rem; margin-top: 2rem; }
+@media (max-width: 960px) { .grid { grid-template-columns: 1fr; gap: 2.5rem; } .section { padding: var(--section-y-sm) 0; } }

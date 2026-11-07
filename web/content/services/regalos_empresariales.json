@@ -1,0 +1,231 @@
+{
+  "slug": "regalos_empresariales",
+  "path": "/subpages/regalos_empresariales.html",
+  "meta": {
+    "title": "Regalos Empresariales en CDMX | Kits Premium (Cuero y Madera) | Laser Inova",
+    "description": "Regalos empresariales en CDMX con enfoque premium (cuero, madera, vidrio y metal grabado) para fechas especiales, branding fino, clientes y detalles de alto valor percibido.",
+    "keywords": "regalos empresariales CDMX, regalos corporativos premium, grabado en cuero, grabado en madera, kits ejecutivos, regalos para clientes, branding fino",
+    "ogTitle": "Regalos Empresariales Premium en CDMX | Laser Inova",
+    "ogDescription": "Soluciones boutique y regalos en cuero, madera y metal para branding fino corporativo.",
+    "ogImageAlt": "Regalos empresariales premium y branding fino por Laser Inova en CDMX",
+    "twitterTitle": "Regalos Empresariales en CDMX | Laser Inova",
+    "twitterDescription": "Soluciones boutique para fechas especiales, branding fino y regalos empresariales de alto valor percibido."
+  },
+  "ld": {
+    "name": "Regalos empresariales y detalles premium",
+    "serviceType": "Kits ejecutivos premium en cuero, madera, metal y vidrio",
+    "description": "Regalos empresariales y detalles premium (cuero, madera y grabado en metal) para fechas especiales, branding fino y artículos corporativos."
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "eyebrow": "Regalo corporativo con intención",
+      "title": "Cuando el detalle debe representar mejor a la empresa y generar una impresión más fuerte",
+      "paragraphs": [
+        [
+          "Un ",
+          {
+            "strong": "regalo empresarial premium"
+          },
+          " no es solo un objeto bonito: es una extensión de la marca, de la relación comercial y del nivel de atención que una empresa quiere comunicar. En Laser Inova desarrollamos soluciones más boutique para organizaciones que buscan entregar algo con ",
+          {
+            "strong": "mejor presencia, mejor branding y una sensación de mayor valor"
+          },
+          "."
+        ],
+        "Diseñamos y fabricamos regalos ejecutivos y corporativos a la medida que superan el estándar genérico. Enfocados en directores de compras y capital humano que buscan piezas elegantes (de metal, cuero o madera fina) que dejen una impresión duradera en clientes estratégicos, directivos y equipos de alto rendimiento en CDMX."
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Tipos de solución",
+      "title": "Qué tipo de regalos empresariales premium podemos desarrollar",
+      "paragraphs": [
+        "Esta línea funciona muy bien cuando la empresa quiere salir de lo promocional básico y apostar por un detalle con mejor percepción y mejor presentación."
+      ],
+      "cards": [
+        {
+          "title": "Regalos para clientes",
+          "text": "Detalles con mejor presencia para fortalecer relaciones comerciales o entregas estratégicas."
+        },
+        {
+          "title": "Regalos ejecutivos",
+          "text": "Piezas orientadas a directivos, socios, gerencias o perfiles con mayor valor institucional."
+        },
+        {
+          "title": "Fechas especiales",
+          "text": "Soluciones para fin de año, aniversarios, agradecimientos o campañas con motivo puntual."
+        },
+        {
+          "title": "Branding fino",
+          "text": "Personalización más sobria y cuidada para marcas que buscan proyectar más nivel."
+        },
+        {
+          "title": "Kits premium (Cuero y Madera)",
+          "text": "Conjuntos que combinan texturas elegantes como cuero y madera grabada para elevar la experiencia del regalo."
+        },
+        {
+          "title": "Piezas especiales",
+          "text": "Detalles personalizados para campañas institucionales o momentos que requieren mayor impacto."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "eyebrow": "Detalle, acabado y presentación",
+      "title": "Regalos que se sienten mejor resueltos y más alineados con una marca seria",
+      "paragraphs": [
+        [
+          "En esta línea el valor está en la percepción del resultado: un objeto útil, una personalización limpia, una selección más cuidada y una presentación que haga sentido para la marca o la ocasión. Podemos integrar ",
+          {
+            "strong": "grabado láser sobre cuero, madera, vidrio y metal, branding fino y artículos premium"
+          },
+          " según el perfil del proyecto."
+        ]
+      ],
+      "features": [
+        "Mejor valor percibido frente a un promocional genérico",
+        "Más útil para clientes, directivos y relaciones estratégicas",
+        "Branding sobrio y con mejor presencia",
+        "Soluciones para campañas especiales o fechas clave"
+      ],
+      "image": {
+        "src": "/img/subpages/maquinas/uv.webp",
+        "alt": "Proceso de personalización para regalos empresariales premium"
+      }
+    },
+    {
+      "theme": "light",
+      "id": "ejemplos",
+      "eyebrow": "Ejemplos visuales",
+      "title": "Detalles premium para clientes, directivos y ocasiones especiales",
+      "paragraphs": [
+        "Una muestra de sets, regalos ejecutivos, piezas premium y productos con branding más fino."
+      ],
+      "examples": [
+        {
+          "src": "/img/subpages/regalos_empresariales/A3130_lrg.jpg",
+          "alt": "Regalo empresarial premium para cliente o ejecutivo",
+          "title": "Detalle premium",
+          "text": "Pieza con mejor presencia para relaciones comerciales o entregas especiales.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/regalos_empresariales/A3177_lrg.jpg",
+          "alt": "Regalo ejecutivo personalizado para empresa",
+          "title": "Regalo ejecutivo",
+          "text": "Ideal para directivos, clientes importantes o campañas institucionales.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/regalos_empresariales/A2404_lrg.jpg",
+          "alt": "Kit corporativo premium con branding fino",
+          "title": "Kit premium",
+          "text": "Una solución más completa para generar mejor impacto y recordación.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/regalos_empresariales/A3238_lrg.jpg",
+          "alt": "Detalle corporativo de alto valor percibido",
+          "title": "Alto valor percibido",
+          "text": "Regalos que se sienten más especiales y mejor alineados con una marca premium.",
+          "machine": false
+        }
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Ventajas",
+      "title": "Por qué conviene invertir en un regalo corporativo mejor resuelto",
+      "benefits": [
+        {
+          "title": "Mejor impresión de marca",
+          "text": "Un detalle premium refuerza profesionalismo, cuidado y percepción de calidad."
+        },
+        {
+          "title": "Más recordación",
+          "text": "Cuando el regalo se siente útil, especial o bien presentado, permanece más en la memoria del receptor."
+        },
+        {
+          "title": "Más útil para relaciones clave",
+          "text": "Es una solución ideal para clientes importantes, directivos, agradecimientos o campañas delicadas."
+        },
+        {
+          "title": "Branding más fino",
+          "text": "La personalización puede verse más sobria y mejor alineada con empresas que cuidan su imagen."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Boutique · Corporativo · Detalle premium",
+    "title": "Regalos empresariales y detalles premium en CDMX",
+    "text": [
+      "Desarrollamos ",
+      {
+        "strong": "regalos empresariales con enfoque premium"
+      },
+      " para fechas especiales, branding fino, clientes, directivos y campañas donde el objetivo es entregar un detalle con ",
+      {
+        "strong": "alto valor percibido"
+      },
+      "."
+    ],
+    "primary": {
+      "label": "Cotizar regalos empresariales",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20regalos%20empresariales%20premium"
+    },
+    "secondary": {
+      "label": "Ver ejemplos",
+      "href": "#ejemplos"
+    },
+    "badges": [
+      "Regalos con mejor presentación",
+      "Branding fino y detalles premium",
+      "Ideal para clientes, directivos y fechas especiales"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Clientes especiales, fin de año, aniversarios, directivos, campañas de relación y regalos institucionales."
+    },
+    "image": {
+      "src": "/img/subpages/regalos_empresariales/A3130_lrg.jpg",
+      "alt": "Regalos empresariales premium con branding fino en CDMX"
+    }
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre regalos empresariales premium",
+    "items": [
+      {
+        "q": "¿Qué diferencia hay entre un regalo empresarial premium y un promocional normal?",
+        "a": "La diferencia suele estar en el tipo de producto, la presentación, el valor percibido y cómo se alinea con una relación o momento más importante."
+      },
+      {
+        "q": "¿Sirve para clientes importantes o directivos?",
+        "a": "Sí. Esta línea está pensada justo para perfiles donde conviene entregar algo con mejor presencia y mejor impacto."
+      },
+      {
+        "q": "¿Pueden trabajar regalos para fechas especiales o campañas de fin de año?",
+        "a": "Sí. Funciona muy bien para cierres de año, aniversarios, agradecimientos, campañas institucionales o temporadas especiales."
+      },
+      {
+        "q": "¿También se puede personalizar con branding corporativo?",
+        "a": "Sí. La idea es justamente integrar la marca de una forma más fina y cuidada, sin perder elegancia en la pieza."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Buscas regalos empresariales con mejor valor percibido?",
+    "text": "Cuéntanos qué tipo de relación, fecha o perfil tienes en mente y te ayudamos a aterrizar una propuesta con más presencia, mejor branding y un detalle que sí represente a tu empresa.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20regalos%20empresariales%20premium"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

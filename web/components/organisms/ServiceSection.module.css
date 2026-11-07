@@ -1,0 +1,19 @@
+.section { padding: var(--section-y) 0; }
+.light { --card-bg: var(--white); --card-border: var(--ink-a9); --card-shadow: var(--ink-a12); --text-main: var(--text-dark); --text-soft: var(--text-muted); --num-color: var(--ink-a9); background: var(--white); color: var(--text-dark); }
+.alt { --card-bg: var(--white); --card-border: var(--ink-a9); --card-shadow: var(--ink-a12); --text-main: var(--text-dark); --text-soft: var(--text-muted); --num-color: var(--ink-a9); background: var(--bg-alt); color: var(--text-dark); }
+.dark { --card-bg: var(--surface-850); --card-border: var(--white-a12); --card-shadow: var(--black-a55); --text-main: var(--white); --text-soft: var(--text-on-dark-muted); --num-color: var(--white-a12); background: radial-gradient(700px circle at 100% 0%, var(--accent-a8), transparent 60%), var(--bg-deep); color: var(--white); }
+.split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 3.5rem; align-items: center; }
+.photo { position: relative; aspect-ratio: 4 / 3; border-radius: var(--radius-xl); overflow: hidden; border: 1px solid var(--card-border); box-shadow: 0 30px 70px var(--card-shadow); }
+.photo img { object-fit: cover; }
+.prose { max-width: 78ch; }
+.paragraph { margin: 0 0 1.1rem; font-size: var(--fs-base); line-height: 1.75; color: var(--text-soft); }
+.paragraph strong { color: var(--text-main); font-weight: 600; }
+.split .paragraph:last-of-type { margin-bottom: 1.6rem; }
+.grid { display: grid; gap: 1.2rem; margin-top: 2.6rem; }
+.split + .grid, .prose + .grid { margin-top: 3rem; }
+.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.four { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.8rem; }
+.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 1060px) { .four { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 960px) { .split { grid-template-columns: 1fr; gap: 2.2rem; } .three { grid-template-columns: repeat(2, minmax(0, 1fr)); } .section { padding: var(--section-y-sm) 0; } }
+@media (max-width: 640px) { .three, .four, .two { grid-template-columns: 1fr; } }

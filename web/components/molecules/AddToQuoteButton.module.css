@@ -1,0 +1,12 @@
+.button { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; width: 100%; font: inherit; font-weight: 700; cursor: pointer; border-radius: var(--radius-pill); transition: background 0.25s, color 0.25s, border-color 0.25s, transform 0.2s var(--ease-out); }
+.button:active { transform: scale(0.98); }
+.button:focus-visible { outline: 2px solid var(--beam); outline-offset: 3px; }
+.card { z-index: 2; margin-top: 0.7rem; padding: 0.55rem 0.9rem; font-size: var(--fs-sm); border: 1px solid var(--ink-a24); background: var(--white); color: var(--text-strong); }
+.card:hover { background: var(--text-strong); border-color: var(--text-strong); color: var(--white); }
+.primary { min-height: 3.4rem; padding: 0 1.8rem; font-size: var(--fs-lg); font-weight: 800; border: 0; background: var(--primary); color: var(--white); }
+.primary:hover { background: var(--primary-soft); transform: translateY(-2px); }
+.button[data-done="true"] { background: var(--success-strong, var(--whatsapp)); border-color: transparent; color: var(--white); }
+.live { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+@media (prefers-reduced-motion: reduce) { .button { transition: none; } }
+.button:disabled { opacity: 0.55; cursor: not-allowed; transform: none; }
+.primary:disabled:hover { background: var(--primary); transform: none; }

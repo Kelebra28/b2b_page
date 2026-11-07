@@ -1,0 +1,218 @@
+{
+  "slug": "index",
+  "path": "/blog",
+  "meta": {
+    "title": "Blog de Corte Láser, Grabado y Promocionales en CDMX | Laser Inova",
+    "description": "Blog de Laser Inova sobre corte láser, grabado, señalética, promocionales, impresión y soluciones para empresas en CDMX.",
+    "keywords": "blog corte láser, blog grabado láser, señalética CDMX, promocionales personalizados, impresión gran formato, Laser Inova",
+    "canonical": "https://www.laserinova.com/blog",
+    "ogTitle": "Blog de Corte Láser, Grabado y Promocionales | Laser Inova",
+    "ogDescription": "Ideas, guías y contenido sobre corte láser, grabado, señalética, promocionales e impresión en CDMX.",
+    "ogType": "website",
+    "twitterTitle": "Blog de Corte Láser, Grabado y Promocionales | Laser Inova",
+    "twitterDescription": "Ideas, guías y contenido sobre corte láser, grabado, señalética, promocionales e impresión en CDMX."
+  },
+  "ld": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Blog",
+        "name": "Blog de Laser Inova",
+        "url": "https://www.laserinova.com/blog/index.html",
+        "description": "Artículos y contenido sobre corte láser, grabado, señalética, promocionales e impresión en CDMX.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Laser Inova",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.laserinova.com/inova_laser_og_ready.png"
+          }
+        }
+      },
+      {
+        "@type": "LocalBusiness",
+        "name": "Laser Inova",
+        "image": "https://www.laserinova.com/inova_laser_og_ready.png",
+        "url": "https://www.laserinova.com",
+        "telephone": "+52 56 1995 9385",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Cuichapa 223",
+          "addressLocality": "Ciudad de México",
+          "addressRegion": "CDMX",
+          "postalCode": "02480",
+          "addressCountry": "MX"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 19.491835,
+          "longitude": -99.191547
+        },
+        "priceRange": "$$",
+        "sameAs": [
+          "https://www.instagram.com/laserinova23"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "eyebrow": "Experiencia y Tecnología",
+      "title": "Soluciones de Corte, Grabado e Impresión Publicitaria",
+      "paragraphs": [
+        "Nuestro taller en CDMX se especializa en brindar soluciones integrales de publicidad y maquila para negocios y corporativos. A través de estos artículos, exploramos cómo la tecnología láser y la impresión de alta resolución pueden optimizar tus procesos, mejorar tu señalética y crear artículos promocionales premium que impacten a tus clientes."
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Blog · Ideas · Guías · CDMX",
+    "title": "Blog de Laser Inova",
+    "text": [
+      "Descubre las últimas tendencias, guías y soluciones en ",
+      {
+        "strong": "corte láser, grabado industrial y publicidad de gran formato"
+      },
+      ". Compartimos nuestra experiencia para ayudarte a llevar la imagen y producción de tu empresa al siguiente nivel con precisión y calidad."
+    ],
+    "primary": {
+      "label": "Ver artículos",
+      "href": "#articulos"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    },
+    "badges": [],
+    "card": {
+      "title": "Temas del blog",
+      "text": "Corte láser, grabado, promocionales premium, señalética e impresión para empresas."
+    },
+    "image": null
+  },
+  "posts": [
+    {
+      "slug": "impresion-campanas-publicitarias-agencias",
+      "title": "Producción Impresa para Campañas Publicitarias",
+      "excerpt": "Descubre cómo una sólida estrategia de impresión B2B maximiza el impacto visual y garantiza la consistencia de marca para agencias.",
+      "date": "2026-04-18",
+      "dateLabel": "18 de Abril, 2026",
+      "badge": "Agencias de Publicidad",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1474&q=80",
+        "alt": "Producción para Campañas Publicitarias B2B"
+      },
+      "linkLabel": "Leer artículo completo"
+    },
+    {
+      "slug": "impresion-lona-gran-formato",
+      "title": "Impresión en Lona Gran Formato: Guía de Alto Impacto",
+      "excerpt": "Domina la publicidad exterior con lonas Frontlit, Mesh y Backlit. Calidad industrial para fachadas, eventos y vallas en CDMX.",
+      "date": "2026-04-17",
+      "dateLabel": "17 de Abril, 2026",
+      "badge": "Publicidad Exterior",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1474&auto=format&fit=crop",
+        "alt": "Impresión en Lona Gran Formato"
+      },
+      "linkLabel": "Leer artículo completo"
+    },
+    {
+      "slug": "vinil-impreso-decorativo-comercial",
+      "title": "Vinil Impreso y Rotulación Comercial: Versatilidad para tu Marca",
+      "excerpt": "Transforma tus cristales, muros y oficinas con vinil de alta resolución. Soluciones creativas para branding y puntos de venta.",
+      "date": "2026-04-17",
+      "dateLabel": "17 de Abril, 2026",
+      "badge": "Branding Comercial",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1470&auto=format&fit=crop",
+        "alt": "Vinil Impreso y Rotulación Comercial"
+      },
+      "linkLabel": "Leer artículo completo"
+    },
+    {
+      "slug": "impresion-publicidad",
+      "title": "Impresión para publicidad B2B y campañas",
+      "excerpt": "Descubre cómo la impresión en gran formato (lona, vinil, DTF) potencia la comunicación visual de tu empresa en eventos y puntos de venta.",
+      "date": "2026-04-15",
+      "dateLabel": "15 de Abril, 2026",
+      "badge": "Marketing B2B",
+      "image": {
+        "src": "/img/subpages/plotter/gran_formato.jpg",
+        "alt": "Impresión de gran formato para publicidad y campañas corporativas"
+      },
+      "linkLabel": "Leer artículo completo"
+    },
+    {
+      "slug": "impresion-vehicular",
+      "title": "Impresión para publicidad en autos y flotillas",
+      "excerpt": "Convierte tus vehículos corporativos en publicidad móvil 24/7. Ideal para flotillas comerciales y rotulación que impacta ventas.",
+      "date": "2026-04-12",
+      "dateLabel": "12 de Abril, 2026",
+      "badge": "Publicidad Móvil",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1621360841013-c7683c659ec6?q=80&w=1432&auto=format&fit=crop",
+        "alt": "Publicidad en Autos y Flotillas"
+      },
+      "linkLabel": "Leer artículo completo"
+    },
+    {
+      "slug": "grabado-en-vivo-activaciones",
+      "title": "Grabado en vivo en activaciones de marca y eventos",
+      "excerpt": "Lleva tus eventos corporativos al siguiente nivel con personalización láser en vivo de artículos promocionales y regalos premium.",
+      "date": "2026-04-08",
+      "dateLabel": "08 de Abril, 2026",
+      "badge": "Eventos",
+      "image": {
+        "src": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1471&auto=format&fit=crop",
+        "alt": "Grabado en Vivo Laser Inova"
+      },
+      "linkLabel": "Leer artículo completo"
+    },
+    {
+      "slug": "grabado-metal-volumen",
+      "title": "Maquila de grabado en metal para volumen (dijes, llaveros)",
+      "excerpt": "Producción en masa y maquila especializada de grabados en acero y metales para agencias, mayoristas y corporativos.",
+      "date": "2026-04-05",
+      "dateLabel": "05 de Abril, 2026",
+      "badge": "Industrial",
+      "image": {
+        "src": "/img/gallery/A3199_lrg.jpg",
+        "alt": "Llaveros destapador de metal con placa grabada con láser para producción por volumen"
+      },
+      "linkLabel": "Leer artículo completo"
+    },
+    {
+      "slug": "grabado-madera-eventos",
+      "title": "Grabado y corte de madera para bodas y eventos premium",
+      "excerpt": "Soluciones personalizadas en madera con corte láser: invitaciones, cajas, letreros y recuerdos únicos para organizadores de eventos.",
+      "date": "2026-04-02",
+      "dateLabel": "02 de Abril, 2026",
+      "badge": "Premium",
+      "image": {
+        "src": "/img/gallery/A3144_lrg.jpg",
+        "alt": "Portarretrato de madera y acrílico con logotipo grabado para eventos y regalos"
+      },
+      "linkLabel": "Leer artículo completo"
+    }
+  ],
+  "postsHeading": {
+    "id": "articulos",
+    "eyebrow": "Artículos destacados",
+    "title": "Contenido útil sobre grabado, corte láser e impresión",
+    "text": "Explora nuestras guías técnicas y artículos especializados sobre tendencias industriales, materiales y mejores prácticas de grabado, corte y producción B2B en la Ciudad de México."
+  },
+  "cta": {
+    "eyebrow": "Lleva tu marca al siguiente nivel",
+    "title": "Potencia tu Marca con Tecnología de Vanguardia",
+    "text": "No te conformes con lo convencional. Ya sea que necesites maquila por volumen o personalización de alta gama para un evento especial, en Laser Inova tenemos la capacidad técnica y el compromiso para hacerlo realidad.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20un%20proyecto%20con%20Laser%20Inova"
+    },
+    "secondary": {
+      "label": "Volver al inicio",
+      "href": "https://www.laserinova.com/"
+    }
+  }
+}

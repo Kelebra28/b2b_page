@@ -1,0 +1,227 @@
+{
+  "slug": "displays_materiales_visuales",
+  "path": "/subpages/displays_materiales_visuales.html",
+  "meta": {
+    "title": "Displays y Materiales Visuales en CDMX | MDF, Acrílico y Material POP | Laser Inova",
+    "description": "Fabricamos displays y materiales visuales en CDMX con MDF y acrílico para retail, exhibición, material POP, branding visual y proyectos especiales.",
+    "keywords": "displays en acrílico CDMX, material POP, materiales visuales para retail, exhibidores MDF, exhibición para punto de venta, displays personalizados, branding visual retail, piezas en MDF y acrílico",
+    "ogTitle": "Displays y Materiales Visuales en CDMX | Laser Inova",
+    "ogDescription": "Piezas en MDF y acrílico para retail, exhibición, material POP y proyectos especiales.",
+    "ogImageAlt": "Displays y materiales visuales en MDF y acrílico por Laser Inova en CDMX",
+    "twitterTitle": "Displays y Materiales Visuales en CDMX | Laser Inova",
+    "twitterDescription": "Piezas en MDF y acrílico para retail, exhibición, material POP y proyectos especiales."
+  },
+  "ld": {
+    "name": "Displays y materiales visuales",
+    "serviceType": "Fabricación de piezas en MDF y acrílico para retail, exhibición y material POP",
+    "description": "Displays y materiales visuales en MDF y acrílico para retail, exhibición, material POP, branding visual y proyectos especiales."
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "eyebrow": "Exhibición y branding visual",
+      "title": "Piezas físicas que ayudan a mostrar producto, organizar espacio y fortalecer marca",
+      "paragraphs": [
+        [
+          "Los ",
+          {
+            "strong": "displays y materiales visuales"
+          },
+          " son clave cuando una marca necesita exhibir producto, comunicar mejor en punto de venta o dar soporte visual a una campaña. En Laser Inova desarrollamos ",
+          {
+            "strong": "piezas en MDF y acrílico"
+          },
+          " para exhibición, retail, material POP y proyectos especiales que requieren presencia física, estructura visual y mejor presentación."
+        ],
+        "Diseñamos y producimos displays, stands corporativos, glorificadores de acrílico y material para punto de venta (POP) que capturan la atención del consumidor en la Ciudad de México. Fusionando corte láser de precisión milimétrica, termoformado y ensamble experto, desarrollamos soportes visuales robustos e impactantes para campañas de retail de alto nivel."
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Aplicaciones frecuentes",
+      "title": "Tipos de displays y materiales visuales que desarrollamos",
+      "paragraphs": [
+        "Estas soluciones pueden funcionar para retail, oficinas, ferias, eventos, puntos de venta, lanzamientos o campañas visuales con enfoque comercial."
+      ],
+      "cards": [
+        {
+          "title": "Displays para retail",
+          "text": "Exhibidores y estructuras visuales para mostrar producto y mejorar presencia en punto de venta."
+        },
+        {
+          "title": "Material POP",
+          "text": "Piezas de apoyo visual para campañas, promociones, lanzamientos y comunicación comercial."
+        },
+        {
+          "title": "Acrílico personalizado",
+          "text": "Material ideal para piezas limpias, modernas y visualmente atractivas para exhibición."
+        },
+        {
+          "title": "MDF para estructura visual",
+          "text": "Útil para soportes, displays, bases, maquetas comerciales y fabricación visual especial."
+        },
+        {
+          "title": "Proyectos para punto de venta",
+          "text": "Soluciones pensadas para marcas que necesitan presencia física dentro del espacio comercial."
+        },
+        {
+          "title": "Proyectos especiales",
+          "text": "Piezas a medida para marcas, eventos, campañas o necesidades fuera del display estándar."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "eyebrow": "Producción en MDF y acrílico",
+      "title": "Materiales versátiles para exhibición, branding visual y apoyo comercial",
+      "paragraphs": [
+        [
+          "Trabajamos principalmente con ",
+          {
+            "strong": "MDF y acrílico"
+          },
+          " porque permiten fabricar piezas visuales funcionales, limpias y adaptables a distintos entornos. Esto ayuda a desarrollar desde un exhibidor sencillo hasta estructuras o soportes más orientados a retail, material POP o campañas visuales."
+        ]
+      ],
+      "features": [
+        "Fabricación en materiales útiles para exhibición y visual merchandising",
+        "Soluciones para campañas, retail y espacios comerciales",
+        "Desarrollo de piezas funcionales y visualmente limpias",
+        "Producción adaptable para proyectos especiales"
+      ],
+      "image": {
+        "src": "/img/subpages/maquinas/maquinas-cnc-cortadora-laser-cnc-laser-1060.webp",
+        "alt": "Proceso de fabricación de displays y materiales visuales en MDF y acrílico"
+      }
+    },
+    {
+      "theme": "light",
+      "id": "ejemplos",
+      "eyebrow": "Ejemplos visuales",
+      "title": "Displays, exhibidores y material POP para marcas y espacios comerciales",
+      "paragraphs": [
+        "Una muestra de piezas en acrílico, MDF, exhibidores y materiales de apoyo para retail y branding visual."
+      ],
+      "examples": [
+        {
+          "src": "/img/subpages/materiales_visuales/D_NQ_NP_2X_928741-MLM84787544534_052025-F-1-portashots-letras-acrilico-40-cm-9-shots-meses-sin-interes.webp",
+          "alt": "Display en acrílico para exhibición de producto",
+          "title": "Displays en acrílico",
+          "text": "Soluciones limpias y visuales para mostrar producto con mejor presencia.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/materiales_visuales/D_NQ_NP_2X_985114-MLM73224377248_122023-F.webp",
+          "alt": "Exhibidor en MDF para material POP o retail",
+          "title": "Exhibidores en MDF",
+          "text": "Piezas funcionales para campañas, retail o visual merchandising.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/promocionales_premiun/plotter.jpg",
+          "alt": "Material POP personalizado para campañas de marca",
+          "title": "Material POP",
+          "text": "Apoyo visual para promociones, lanzamientos y campañas comerciales.",
+          "machine": false
+        },
+        {
+          "src": "/img/subpages/materiales_visuales/proyecto_especial.jpg",
+          "alt": "Proyecto especial en acrílico y MDF para branding visual",
+          "title": "Proyecto especial",
+          "text": "Piezas a medida para marcas, eventos o necesidades visuales específicas.",
+          "machine": false
+        }
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Ventajas",
+      "title": "Por qué conviene trabajar materiales visuales personalizados",
+      "benefits": [
+        {
+          "title": "Mejor exhibición",
+          "text": "Ayuda a presentar productos y mensajes de forma más ordenada, clara y atractiva."
+        },
+        {
+          "title": "Más presencia de marca",
+          "text": "Los materiales visuales bien diseñados elevan la percepción del espacio o del punto de venta."
+        },
+        {
+          "title": "Adaptable a distintos proyectos",
+          "text": "Desde una pieza puntual hasta una solución más amplia de apoyo visual o comercial."
+        },
+        {
+          "title": "Fabricación útil y visual",
+          "text": "Combinamos materiales versátiles con ejecución orientada a funcionalidad y estética."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "Retail · Exhibición · POP · Acrílico y MDF",
+    "title": "Displays y materiales visuales en CDMX",
+    "text": [
+      "Fabricamos ",
+      {
+        "strong": "piezas en MDF y acrílico para retail, exhibición, material POP y proyectos especiales"
+      },
+      ". Diseñamos soluciones visuales que ayudan a mostrar producto, ordenar espacios y reforzar la presencia de marca."
+    ],
+    "primary": {
+      "label": "Cotizar displays",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20displays%20y%20materiales%20visuales"
+    },
+    "secondary": {
+      "label": "Ver ejemplos",
+      "href": "#ejemplos"
+    },
+    "badges": [
+      "Material POP y exhibición",
+      "MDF y acrílico personalizados",
+      "Soluciones para retail y branding visual"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Retail, puntos de venta, marcas, lanzamientos, eventos, exhibición y proyectos visuales especiales."
+    },
+    "image": {
+      "src": "/img/subpages/materiales_visuales/A3143_lrg.jpg",
+      "alt": "Displays y materiales visuales en MDF y acrílico para retail"
+    }
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre displays y materiales visuales",
+    "items": [
+      {
+        "q": "¿Trabajan displays solo para retail?",
+        "a": "No. También pueden servir para eventos, oficinas, campañas, branding visual y proyectos especiales."
+      },
+      {
+        "q": "¿Qué materiales usan más para esta línea?",
+        "a": "Principalmente MDF y acrílico, porque son versátiles y muy útiles para exhibición y apoyo visual."
+      },
+      {
+        "q": "¿Solo hacen piezas estándar o también proyectos especiales?",
+        "a": "También hacemos proyectos especiales. Esta línea está pensada justo para adaptarse a distintas necesidades visuales."
+      },
+      {
+        "q": "¿Sirve para branding visual de campañas?",
+        "a": "Sí. El material POP y los displays pueden funcionar muy bien como apoyo visual para campañas o puntos de contacto físicos."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Buscas displays o materiales visuales para tu marca?",
+    "text": "Cuéntanos qué tipo de pieza necesitas, el material que tienes en mente y el objetivo del proyecto. Podemos ayudarte a desarrollar una solución visual más clara, funcional y comercial.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20displays%20y%20materiales%20visuales"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.banner {
+  position: fixed;
+  left: max(1rem, env(safe-area-inset-left));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  z-index: 95;
+  display: grid;
+  gap: 0.9rem;
+  width: min(430px, calc(100vw - 6.5rem)); /* deja libre el botón flotante de WhatsApp */
+  padding: 1.1rem 1.2rem;
+  border-radius: var(--radius-lg);
+  color: var(--white);
+  background: var(--panel-a96);
+  border: 1px solid var(--white-a16);
+  box-shadow: 0 20px 50px var(--black-a40);
+  backdrop-filter: blur(10px);
+}
+.text { margin: 0; font-size: var(--fs-md); line-height: 1.55; color: var(--text-on-dark-body); }
+.text a { color: var(--white); text-decoration: underline; text-underline-offset: 3px; }
+.text a:hover { color: var(--beam); }
+.actions { display: flex; gap: 0.6rem; }
+.button {
+  flex: 1;
+  min-height: 44px;
+  padding: 0 1rem;
+  border-radius: var(--radius-md);
+  font: inherit;
+  font-size: var(--fs-md);
+  font-weight: 700;
+  color: var(--white);
+  background: transparent;
+  border: 1px solid var(--white-a40);
+  cursor: pointer;
+  transition: background 0.25s, border-color 0.25s;
+}
+.button:hover { background: var(--white-a12); border-color: var(--white); }
+.button:focus-visible, .text a:focus-visible { outline: 2px solid var(--beam); outline-offset: 3px; }
+@media (max-width: 480px) { .banner { width: calc(100vw - 2rem - 62px); } }

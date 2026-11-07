@@ -1,0 +1,150 @@
+/**
+ * Design tokens de Laser Inova — ÚNICA fuente de verdad de color, tipografía, radios, sombras y espaciado.
+ *
+ * Capas:
+ *   1. Paleta (primitivos): valores crudos con nombre.
+ *   2. Escalas de transparencia por color: --white-a8 = blanco al 8 %. Formato #RRGGBBAA (los 2 últimos
+ *      dígitos son la opacidad en hexadecimal: 14 = 8 %, 1f = 12 %, 8c = 55 %, ff = 100 %).
+ *   3. Semánticos: para qué sirve cada valor (texto, líneas, acento). Prefiere estos en los componentes.
+ *   4. Tipografía, radios, sombras y espaciado de sección.
+ *
+ * Regla: los CSS de componentes NO llevan colores sueltos (#hex / rgba). Usan estos tokens.
+ * Excepción: ilustraciones (ver scripts/check-tokens.mjs).
+ */
+:root {
+  /* ---------- 1. Paleta ---------- */
+  --white: #ffffff;
+  --black: #000000;
+
+  --ink-900: #111722; /* texto principal sobre claro */
+  --ink-700: #334155; /* texto de lectura sobre claro */
+  --ink-600: #4a5565; /* texto secundario sobre claro */
+  --ink-500: #697386; /* texto terciario sobre claro (mín. 4.5:1 sobre blanco) */
+
+  --bg: #07090d;
+  --bg-deep: #050505; /* fondo de secciones oscuras */
+  --surface-925: #08080b;
+  --surface-900: #0a0a0d; /* paneles y tarjetas oscuras */
+  --surface-850: #101015; /* tarjetas sobre fondo oscuro */
+  --bg-alt: #f4f7fb; /* fondo de secciones claras alternas */
+  --surface-muted: #e9edf3; /* hueco de imágenes mientras cargan */
+  --text: #edf2f8;
+
+  --primary: #c62831; /* rojo de marca */
+  --primary-soft: #e14a52;
+  --beam: #ff3344; /* rojo láser (resaltes sobre oscuro) */
+  --beam-glow: #ff3344a6;
+
+  --surface-800: #1b1b22;
+
+  --whatsapp: #1faa59;
+  --whatsapp-hover: #25c466;
+  --ember: #ff8c3c; /* naranja de la chispa láser */
+  --rose-soft: #ff8c8c;
+
+  --success: #6ee7a0;
+  --danger-soft: #ff8a93;
+
+  /* ---------- 2. Transparencias ---------- */
+  --ink900-a78: #111722c7; /* texto del header sobre fondo claro */
+  --white-a4: #ffffff0a;
+  --white-a8: #ffffff14;
+  --white-a12: #ffffff1f;
+  --white-a16: #ffffff29;
+  --white-a24: #ffffff3d;
+  --white-a40: #ffffff66;
+  --white-a55: #ffffff8c;
+  --white-a70: #ffffffb2;
+  --white-a82: #ffffffd1;
+
+  --ink-a6: #0f172a0f;
+  --ink-a9: #0f172a17;
+  --ink-a12: #0f172a1f;
+  --ink-a24: #0f172a3d;
+
+  --accent-a8: #ff334414;
+  --accent-a12: #ff33441f;
+  --accent-a20: #ff334433;
+  --accent-a35: #ff334459;
+  --accent-a50: #ff334480;
+  --accent-a90: #ff3344e6;
+
+  --primary-a8: #c6283114;
+  --primary-a25: #c6283140;
+  --primary-a40: #c6283166;
+  --primary-a90: #c62831e6;
+
+  --black-a6: #0000000f;
+  --black-a10: #0000001a;
+  --black-a25: #00000040;
+  --black-a40: #00000066;
+  --black-a55: #0000008c;
+
+  --ember-a16: #ff8c3c29;
+
+  --deep-a5: #0505050d;
+  --deep-a55: #0505058c;
+  --deep-a70: #050505b2;
+  --deep-a80: #050505cc;
+  --deep-a95: #050505f2;
+
+  --panel-a55: #0a0a0d8c;
+  --panel-a82: #0a0a0dd1;
+  --panel-a96: #0a0a0df5;
+
+  /* ---------- 3. Semánticos ---------- */
+  --text-strong: var(--ink-900);
+  --text-body: var(--ink-700);
+  --text-muted: var(--ink-600);
+  --text-subtle: var(--ink-500);
+  --text-dark: var(--ink-900); /* alias histórico */
+
+  --text-on-dark: var(--white);
+  --text-on-dark-body: var(--white-a82);
+  --text-on-dark-muted: var(--white-a70);
+  --text-on-dark-subtle: var(--white-a55);
+
+  --line-light: var(--ink-a9);
+  --line-dark: var(--white-a12);
+  --accent: var(--primary);
+
+  /* ---------- 4. Tipografía (escala de 9 pasos) ---------- */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.85rem;
+  --fs-md: 0.95rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.1rem;
+  --fs-xl: 1.25rem;
+  --fs-2xl: 1.5rem;
+  --fs-3xl: 2.25rem;
+  --fs-4xl: 2.6rem;
+  --fs-h2: clamp(1.9rem, 3.6vw, 3rem); /* título de sección */
+  --fs-h2-sm: clamp(1.6rem, 3vw, 2.4rem);
+  --fs-display: clamp(2.1rem, 4.6vw, 3.7rem); /* h1 de páginas internas */
+  --fs-display-xl: clamp(2.5rem, 5.4vw, 5rem); /* h1 de la home */
+
+  /* ---------- Radios ---------- */
+  --radius-xs: 4px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 26px;
+  --radius-2xl: 32px;
+  --radius-pill: 999px;
+  --radius-round: 50%;
+
+  /* ---------- Sombras ---------- */
+  --shadow-light-sm: 0 12px 28px var(--ink-a9);
+  --shadow-light-md: 0 22px 44px var(--ink-a12);
+  --shadow-dark-md: 0 24px 50px var(--black-a40);
+  --shadow-dark-lg: 0 40px 90px var(--black-a55);
+
+  /* ---------- Espaciado de sección ---------- */
+  --section-y: 6rem;
+  --section-y-sm: 4rem;
+
+  /* ---------- Layout y movimiento ---------- */
+  --header-height: 84px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}

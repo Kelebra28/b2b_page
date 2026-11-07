@@ -1,0 +1,202 @@
+.shell {
+  /* colores por tema: barra negra (secciones claras) / blanca (oscuras) */
+  --bar-bg: var(--black);
+  --fg: var(--text-on-dark-body);
+  --fg-strong: var(--white);
+  --line: var(--white-a12);
+  --track: var(--white-a12);
+  --ind-bg: var(--white-a8);
+  --panel-bg: var(--panel-a96);
+  --shadow: 0 20px 40px var(--black-a40);
+
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1200;
+  width: min(calc(100% - 2rem), 1400px);
+  height: var(--header-height);
+  background: var(--bar-bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  display: flex;
+  align-items: center;
+  transition:
+    background 0.4s ease-in-out,
+    border-color 0.4s ease-in-out,
+    height 0.4s var(--ease-out),
+    top 0.4s var(--ease-out),
+    box-shadow 0.4s ease;
+}
+.shell[data-bar="white"] {
+  --bar-bg: var(--white);
+  --fg: var(--ink900-a78);
+  --fg-strong: var(--ink-900);
+  --line: var(--black-a10);
+  --track: var(--black-a10);
+  --ind-bg: var(--black-a6);
+  --panel-bg: var(--white);
+  --shadow: 0 14px 34px var(--black-a10);
+}
+.shell[data-scrolled="true"] {
+  top: 0.5rem;
+  height: 72px;
+  box-shadow: var(--shadow);
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  padding: 0 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+/* ---- Marca: cruce de logos según el tema ---- */
+.brand {
+  position: relative;
+  width: 170px;
+  height: 57px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  transition: filter 0.4s ease;
+}
+.brand:hover {
+  filter: drop-shadow(0 0 10px var(--beam-glow));
+}
+.brand a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.brand img {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  transition: opacity 0.4s ease-in-out;
+}
+.shell[data-bar="black"] [data-logo="negro"],
+.shell[data-bar="white"] [data-logo="blanco"] {
+  opacity: 0;
+}
+.shell[data-scrolled="true"] .brand {
+  width: 140px;
+}
+
+.nav {
+  display: none;
+  justify-self: center;
+}
+.cta {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+/* ---- Rayo de progreso ---- */
+.beam {
+  position: absolute;
+  left: 28px;
+  right: 28px;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--track);
+  pointer-events: none;
+}
+.beamFill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: calc(var(--p, 0) * 100%);
+  border-radius: 2px;
+  background: linear-gradient(90deg, transparent, var(--beam) 70%, var(--white) 100%);
+}
+.beamFill::after {
+  content: "";
+  position: absolute;
+  right: -7px;
+  top: 50%;
+  width: 14px;
+  height: 14px;
+  transform: translateY(-50%);
+  background:
+    radial-gradient(circle, var(--white) 0 16%, transparent 17%),
+    radial-gradient(circle, var(--beam-glow) 0, transparent 70%);
+  filter: drop-shadow(0 0 6px var(--beam));
+  opacity: min(1, calc(var(--p, 0) * 40));
+}
+
+/* ---- Botón hamburguesa ---- */
+.toggle {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 44px;
+  height: 44px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: var(--radius-md);
+  background: transparent;
+  cursor: pointer;
+}
+.toggle span {
+  display: block;
+  height: 2px;
+  background: var(--fg-strong);
+  border-radius: 2px;
+  transition: transform 0.35s var(--ease-out), opacity 0.2s ease, background 0.4s ease;
+}
+.shell[data-open="true"] .toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.shell[data-open="true"] .toggle span:nth-child(2) { opacity: 0; }
+.shell[data-open="true"] .toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+.toggle:focus-visible {
+  outline: 2px solid var(--beam);
+  outline-offset: 2px;
+}
+
+/* ---- Móvil: panel desplegable ---- */
+@media (max-width: 991px) {
+  .shell {
+    --header-height: 72px;
+    border-radius: var(--radius-lg);
+  }
+  .brand { width: 140px; height: 47px; }
+  .nav {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    right: 0;
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    background: var(--panel-bg);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    transition: max-height 0.5s var(--ease-out), opacity 0.3s ease, visibility 0.3s;
+  }
+  .shell[data-open="true"] .nav {
+    max-height: 80vh;
+    opacity: 1;
+    visibility: visible;
+    overflow-y: auto;
+  }
+}
+
+/* ---- Escritorio ---- */
+@media (min-width: 992px) {
+  .nav { display: block; }
+  .toggle { display: none; }
+  .cta { margin-left: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shell, .toggle span, .brand img { transition: none; }
+}
