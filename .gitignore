@@ -14,3 +14,8 @@ node_modules/
 # Registros y archivos de trabajo locales
 *.log
 *.tsbuildinfo
+
+# Notas internas de trabajo (se quedan solo en local, no en el repo público)
+DEPLOY_TIENDA.md
+MIGRATION_PLAN.md
+PLAN_PULIDO.md
