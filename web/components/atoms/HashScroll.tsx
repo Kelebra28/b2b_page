@@ -27,12 +27,13 @@ export function HashScroll() {
       cancelled = false;
       const id = decodeURIComponent(hash.replace(/^#/, ""));
       const find = () => (id ? document.getElementById(id) : null);
+      // "auto" obedecería el `scroll-behavior: smooth` del CSS: al llegar desde otra página debe ser salto directo ("instant").
       const align = (behavior: ScrollBehavior) => {
         const el = find();
         if (el) el.scrollIntoView({ behavior, block: "start" });
         else if (!id) window.scrollTo({ top: 0, behavior });
       };
-      align(smooth && !reduce ? "smooth" : "auto");
+      align(smooth && !reduce ? "smooth" : "instant");
       // Correcciones cuando el layout se asienta (imágenes y fuentes).
       const pad = parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) || 0;
       for (const ms of [700, 1400, 2400]) {
@@ -41,7 +42,7 @@ export function HashScroll() {
             if (cancelled) return;
             const el = find();
             const off = el ? el.getBoundingClientRect().top - pad : -window.scrollY;
-            if (Math.abs(off) > 8) align("auto");
+            if (Math.abs(off) > 8) align("instant");
           }, ms),
         );
       }
