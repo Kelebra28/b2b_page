@@ -14,6 +14,8 @@ type Props = {
   colors: string[];
   techniques: string[];
   image: string | null;
+  /** Foto principal: se usa si la foto del color pedido no existe. */
+  fallbackImage?: string | null;
   priceLabel?: string;
   /** Color elegido por el cliente (filtro o búsqueda): se manda con el producto a la cotización. */
   quoteColor?: string | null;
@@ -23,12 +25,12 @@ type Props = {
 };
 
 /** Molecule: tarjeta de producto. La tarjeta entera es el enlace; "Cotizar" es una acción rápida aparte. Dumb. */
-export function ProductCard({ slug, href, name, model, category, colors, techniques, image, priceLabel, quoteColor = null, stock, priority }: Props) {
+export function ProductCard({ slug, href, name, model, category, colors, techniques, image, fallbackImage, priceLabel, quoteColor = null, stock, priority }: Props) {
   return (
     <article className={styles.card}>
       <div className={styles.media}>
         {image ? (
-          <FadeImage src={image} alt={`${name} para personalizar`} fill priority={priority} sizes="(max-width: 640px) 50vw, (max-width: 1100px) 33vw, 25vw" />
+          <FadeImage src={image} fallbackSrc={fallbackImage} alt={`${name} para personalizar`} fill priority={priority} sizes="(max-width: 640px) 50vw, (max-width: 1100px) 33vw, 25vw" />
         ) : (
           <span className={styles.empty} aria-hidden="true">
             <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 8a2 2 0 0 1 2-2h2l1.5-2h7L17 6h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /><circle cx="12" cy="13" r="3.5" /></svg>

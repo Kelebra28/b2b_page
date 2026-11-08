@@ -208,7 +208,7 @@ export function StoreBrowser({ products, loadAll, above, gridTitle, suggestions 
               void price; void material;
               const wanted = wantedColor(p, color, deferredQ);
               const photo = (wanted && colorImages?.[wanted]) || image;
-              return <ProductCard key={p.slug} href={`/tienda/producto/${p.slug}`} priority={i < 4} image={photo} quoteColor={wanted} stock={wanted && colorStock ? colorStock[wanted] ?? stock : stock} {...card} />;
+              return <ProductCard key={p.slug} href={`/tienda/producto/${p.slug}`} priority={i < 4} image={photo} fallbackImage={image} quoteColor={wanted} stock={wanted && colorStock ? colorStock[wanted] ?? stock : stock} {...card} />;
             })}
           </div>
         )}
