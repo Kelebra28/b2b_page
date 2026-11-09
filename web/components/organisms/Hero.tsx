@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { RichText } from "@/components/atoms/RichText";
 import { Button } from "@/components/atoms/Button";
 import { Icon } from "@/components/atoms/Icon";
@@ -35,9 +36,9 @@ export function Hero() {
           </p>
           <div className={styles.actions}>
             <Button href={hero.primary.href}>{hero.primary.label}</Button>
-            <Button href={hero.secondary.href} variant="ghost">
+            <Link className={styles.secondary} href={hero.secondary.href}>
               {hero.secondary.label}
-            </Button>
+            </Link>
           </div>
           <ul className={styles.badges} aria-label="Beneficios destacados">
             {hero.badges.map((b) => (

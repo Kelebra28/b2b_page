@@ -141,3 +141,18 @@
   .hl::after { animation: none; transform: scaleX(1); }
   .tags li { animation: none; }
 }
+
+/* Acción secundaria discreta: un solo botón principal por pantalla. */
+.secondary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.9rem 0.4rem;
+  color: var(--text-on-dark-body);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--white-a40);
+  text-underline-offset: 0.35em;
+  transition: color 0.25s ease, text-decoration-color 0.25s ease;
+}
+.secondary:hover, .secondary:focus-visible { color: var(--white); text-decoration-color: var(--beam); }
+.secondary:focus-visible { outline: 2px solid var(--beam); outline-offset: 3px; border-radius: var(--radius-xs); }
