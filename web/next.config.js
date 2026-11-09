@@ -63,6 +63,8 @@ const nextConfig = {
       { source: "/grabado_corte_acrilico.html", destination: "/subpages/displays_materiales_visuales.html", permanent: true },
       { source: "/impresion_dft_uv.html", destination: "/subpages/impresion_cama_plana_uv.html", permanent: true },
       { source: "/grabado_corporativo.html", destination: "/subpages/promocionales_premium.html", permanent: true },
+      { source: "/grabado_laser.html", destination: "/subpages/grabado_laser.html", permanent: true },
+      { source: "/grabado_espejos.html", destination: "/subpages/grabado_espejos.html", permanent: true },
       { source: "/blog/grabado_metal.html", destination: "/blog/grabado-metal-volumen.html", permanent: true },
 
       // Carpeta antigua /old_page/ (hoy responde 200 en el sitio vivo): cada página va a su equivalente actual.
