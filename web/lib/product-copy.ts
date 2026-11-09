@@ -10,7 +10,7 @@ type Input = {
 };
 
 /** Uso típico según el tipo de producto (primera coincidencia gana). */
-const USES: [RegExp, string][] = [
+export const USES: [RegExp, string][] = [
   [/llavero/, "kits de bienvenida, regalos de fin de año y detalles para clientes"],
   [/termo|vaso|taza|cilindro|botella|tequil|bebida/, "regalos corporativos, onboarding de personal y eventos de marca"],
   [/boligrafo|pluma|lapiz|marcador|resaltador/, "papelería corporativa, congresos, ferias y entregas masivas"],
@@ -38,9 +38,10 @@ const BENEFIT: Record<string, string> = {
 
 /** "Acero Inoxidable / Plástico" → "acero inoxidable / plástico" (siglas como PU o ABS se respetan). */
 const niceMaterial = (m: string) => m.replace(/\p{L}+/gu, (w) => (w === w.toUpperCase() && w.length <= 4 ? w : w.toLowerCase()));
+export const useFor = (key: string) => USES.find(([re]) => re.test(norm(key)))?.[1] ?? "regalos corporativos, eventos y campañas de marca";
 const hash = (s: string) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
 const pick = <T,>(arr: T[], seed: number) => arr[seed % arr.length];
-const list = (a: string[]) => (a.length <= 1 ? a.join("") : `${a.slice(0, -1).join(", ")} y ${a[a.length - 1]}`);
+export const list = (a: string[]) => (a.length <= 1 ? a.join("") : `${a.slice(0, -1).join(", ")} y ${a[a.length - 1]}`);
 
 /**
  * Texto propio de cada ficha de producto (no la descripción del proveedor, que repiten todas las tiendas).
@@ -48,8 +49,7 @@ const list = (a: string[]) => (a.length <= 1 ? a.join("") : `${a.slice(0, -1).jo
  */
 export function productCopy({ slug, title, category, material, measurements, techniques }: Input): { heading: string; paragraphs: string[] } {
   const h = hash(slug);
-  const key = norm(`${title} ${category}`);
-  const use = USES.find(([re]) => re.test(key))?.[1] ?? "regalos corporativos, eventos y campañas de marca";
+  const use = useFor(`${title} ${category}`);
   const cat = category.toLowerCase();
 
   const made = material ? ` Está fabricado en ${niceMaterial(material)}${measurements ? ` y mide ${measurements}` : ""}.` : measurements ? ` Mide ${measurements}.` : "";

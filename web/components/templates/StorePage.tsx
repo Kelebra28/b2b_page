@@ -1,3 +1,4 @@
+import { Container } from "@/components/atoms/Container";
 import { JsonLd } from "@/components/atoms/JsonLd";
 import { Footer } from "@/components/organisms/Footer";
 import { Header } from "@/components/organisms/Header";
@@ -7,14 +8,15 @@ import { StoreHero } from "@/components/organisms/StoreHero";
 import { localBusinessLd, siteUrl, wa } from "@/content/site";
 import { safeImage, type Product } from "@/lib/catalog";
 import { cleanName, formatMXN, techniqueLabels } from "@/lib/product-format";
+import styles from "./StorePage.module.css";
 import { colorImages, colorStock } from "@/lib/search-index";
 
-type Props = { title: string; text: string; crumbs?: { label: string; href?: string }[]; path: string; categoryName: string; categoryNav: CategoryChip[]; activeSlug: string; others: CategoryTile[]; products: Product[] };
+type Props = { title: string; text: string; crumbs?: { label: string; href?: string }[]; path: string; categoryName: string; categoryNav: CategoryChip[]; activeSlug: string; copy?: { heading: string; paragraphs: string[] } | null; others: CategoryTile[]; products: Product[] };
 
 const priceLabel = (p: Product) => (p.priceFrom ? `Desde ${formatMXN(p.priceFrom)}` : undefined);
 
 /** Template: listado de la tienda (todas las categorías o una). */
-export function StorePage({ title, text, crumbs, path, categoryName, categoryNav, activeSlug, others, products }: Props) {
+export function StorePage({ title, text, crumbs, path, categoryName, categoryNav, activeSlug, others, products, copy }: Props) {
   const ld = {
     "@context": "https://schema.org",
     "@graph": [
@@ -60,6 +62,14 @@ export function StorePage({ title, text, crumbs, path, categoryName, categoryNav
             };
           })}
         />
+        {copy && (
+          <section className={styles.copy} aria-labelledby="categoria-texto">
+            <Container>
+              <h2 id="categoria-texto">{copy.heading}</h2>
+              {copy.paragraphs.map((t) => <p key={t}>{t}</p>)}
+            </Container>
+          </section>
+        )}
         <CategoryGrid id="otras-categorias" title="Explora otras categorías" categories={others} tone="light" />
       </main>
       <Footer />

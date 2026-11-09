@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { StorePage } from "@/components/templates/StorePage";
 import { siteUrl } from "@/content/site";
 import { getCategories, getProducts } from "@/lib/catalog";
+import { categoryCopy } from "@/lib/category-copy";
 import { categoryTiles, photosFirst } from "@/lib/search-index";
 
 type Props = { params: Promise<{ category: string }> };
@@ -48,6 +49,7 @@ export default async function CategoryRoute({ params }: Props) {
       activeSlug={cat.slug}
       others={tiles.filter((c) => c.slug !== cat.slug).slice(0, 12)}
       products={photosFirst(products)}
+      copy={categoryCopy(cat.name, products)}
     />
   );
 }
