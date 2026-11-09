@@ -28,7 +28,7 @@ export function ServicePage({ service }: { service: Service }) {
         {service.sections.map((s, i) => (
           <ServiceSection key={i} section={s} index={i} />
         ))}
-        <Faqs sectionId="faqs" id="faqs-title" group={`faq-${service.slug}`} {...service.faqs} />
+        <Faqs sectionId="faqs" id="faqs-title" group={`faq-${service.slug}`} {...service.faqs} more={{ label: "Ver todas las preguntas frecuentes", href: "/preguntas-frecuentes" }} />
         <FinalCta id="cta-final-title" {...service.cta} />
       </main>
       <Footer />

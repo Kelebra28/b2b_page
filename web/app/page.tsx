@@ -71,7 +71,7 @@ export default function Home() {
         <Boutique />
         <Directory />
         <Gallery />
-        <Faqs {...faqs} group="faq-home" />
+        <Faqs {...faqs} group="faq-home" more={{ label: "Ver todas las preguntas frecuentes", href: "/preguntas-frecuentes" }} />
         <FinalCta {...finalCta} />
         <Contact />
       </main>
