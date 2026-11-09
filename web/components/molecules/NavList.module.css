@@ -242,3 +242,8 @@
 @media (prefers-reduced-motion: reduce) {
   .indicator, .mega, .mega::after, .megaLink, .megaLink::before { transition: none; }
 }
+
+/* Escritorio justo (992–1180px): enlaces más compactos para que quepa el ítem extra y el botón Cotizar. */
+@media (max-width: 1180px) and (min-width: 992px) {
+  .link { padding-inline: 0.7rem; }
+}

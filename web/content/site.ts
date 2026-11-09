@@ -39,6 +39,7 @@ export const whatsappPerson = {
 export const localBusinessLd = {
   "@type": "LocalBusiness",
   name: "Laser Inova",
+  foundingDate: "2020",
   image: `${siteUrl}/inova_laser_og_ready.png`,
   url: siteUrl,
   telephone: "+52 55 7939 8727",

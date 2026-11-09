@@ -55,6 +55,8 @@ export function Footer() {
             &copy; {site.year} {site.name}. Todos los derechos reservados.
           </p>
           <nav className={styles.legal} aria-label="Legal y blog">
+            <Link href="/nosotros">Nosotros</Link>
+            <Link href="/preguntas-frecuentes">Preguntas frecuentes</Link>
             <Link href="/blog">Blog</Link>
             <Link href={privacyRoute}>Aviso de privacidad</Link>
             <Link href={cookiesRoute}>Política de cookies</Link>
