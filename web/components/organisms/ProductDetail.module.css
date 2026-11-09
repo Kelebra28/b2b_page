@@ -11,7 +11,8 @@
 .category { display: inline-block; margin-bottom: 0.6rem; color: var(--primary); font-size: var(--fs-xs); font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
 .title { margin: 0 0 0.4rem; font-size: var(--fs-3xl); font-weight: 800; line-height: 1.1; letter-spacing: -0.025em; color: var(--text-strong); text-wrap: balance; }
 .model { margin: 0 0 1.2rem; font-size: var(--fs-sm); color: var(--text-subtle); }
-.price { margin: 0 0 1rem; font-size: var(--fs-xl); font-weight: 800; color: var(--text-strong); }
+.price { margin: 0 0 0.3rem; font-size: var(--fs-xl); font-weight: 800; color: var(--text-strong); }
+.priceNote { margin: 0 0 1.2rem; font-size: var(--fs-sm); color: var(--text-subtle); line-height: 1.5; }
 .description { margin: 0 0 1.8rem; color: var(--text-muted); font-size: var(--fs-lg); line-height: 1.7; }
 .block { margin-bottom: 1.5rem; }
 .sub { margin: 0 0 0.7rem; font-size: var(--fs-xs); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-subtle); }

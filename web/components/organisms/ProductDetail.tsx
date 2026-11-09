@@ -49,7 +49,12 @@ export function ProductDetail({ slug, name, model, category, categoryHref, descr
               <span className={styles.category}>{category}</span>
               <h1 id="product-title" className={styles.title}>{name}</h1>
               <p className={styles.model}>Modelo {model}</p>
-              {priceLabel && <p className={styles.price}>{priceLabel}</p>}
+              {priceLabel && (
+                <>
+                  <p className={styles.price}>{priceLabel}</p>
+                  <p className={styles.priceNote}>Precio por pieza sin personalizar. Entre más piezas, menor el precio por pieza. El grabado o impresión de tu logotipo se cotiza por separado.</p>
+                </>
+              )}
               {description && <p className={styles.description}>{description}</p>}
             </>
           }
