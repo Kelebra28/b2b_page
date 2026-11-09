@@ -1,5 +1,6 @@
 "use client";
 
+import { track } from "@/lib/analytics";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -34,6 +35,7 @@ export function QuoteRequestForm({ items, notes, onBack, onSent }: Props) {
       if (res.status === 429) return setStatus("limited");
       if (!res.ok) return setStatus("error");
       const data = (await res.json()) as { folio?: string | null };
+      track("generate_lead", { lead_type: "cotizacion_tienda", items: items.length, pieces: items.reduce((n, i) => n + i.qty, 0) });
       onSent(data.folio ?? null);
     } catch {
       setStatus("error");

@@ -1,5 +1,6 @@
 "use client";
 
+import { track } from "@/lib/analytics";
 import Link from "next/link";
 import { useState } from "react";
 import styles from "./ContactForm.module.css";
@@ -30,6 +31,7 @@ export function ContactForm({ labels, privacy }: { labels: Labels; privacy: Priv
       }
       if (res.status === 429) return setStatus("limited");
       if (!res.ok) return setStatus("error");
+      track("generate_lead", { lead_type: "formulario_contacto" });
       form.reset();
       setStatus("ok");
     } catch {

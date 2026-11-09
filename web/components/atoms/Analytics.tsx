@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { gtagSend, track } from "@/lib/analytics";
 import { CONSENT_CHANGE_EVENT, readConsent, type Consent } from "@/lib/consent";
 
 declare global {
@@ -32,14 +33,10 @@ export function Analytics({ id }: { id: string }) {
       s.src = `https://www.googletagmanager.com/gtag/js?id=${id}`;
       s.async = true;
       document.head.appendChild(s);
-      window.dataLayer = window.dataLayer || [];
-      // gtag necesita recibir `arguments`, no un arreglo.
-      function gtag(..._args: unknown[]) {
-        // eslint-disable-next-line prefer-rest-params
-        window.dataLayer!.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", id);
+      gtagSend("js", new Date());
+      gtagSend("config", id);
+      // Eventos que esperaban a que cargara el script (p. ej. el clic que aceptó las cookies).
+      (window.gaPending ?? []).splice(0).forEach(([name, params]) => gtagSend("event", name, params));
     };
 
     const disable = () => {
@@ -62,7 +59,24 @@ export function Analytics({ id }: { id: string }) {
       else disable();
     };
     window.addEventListener(CONSENT_CHANGE_EVENT, onChange);
+
+    // Clics en WhatsApp, teléfono y correo (en cualquier parte del sitio).
+    const onLink = (e: MouseEvent) => {
+      const a = (e.target as Element).closest?.("a[href]") as HTMLAnchorElement | null;
+      if (!a) return;
+      const href = a.getAttribute("href") ?? "";
+      const name = /^https:\/\/(wa\.me|api\.whatsapp\.com)\//.test(href)
+        ? "click_whatsapp"
+        : href.startsWith("tel:")
+          ? "click_telefono"
+          : href.startsWith("mailto:")
+            ? "click_correo"
+            : null;
+      if (name) track(name, { link_url: href.split("?")[0], page_path: location.pathname });
+    };
+    document.addEventListener("click", onLink, true);
     return () => {
+      document.removeEventListener("click", onLink, true);
       window.removeEventListener(CONSENT_CHANGE_EVENT, onChange);
       events.forEach((e) => document.removeEventListener(e, load));
     };

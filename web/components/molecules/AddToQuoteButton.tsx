@@ -1,5 +1,6 @@
 "use client";
 
+import { track } from "@/lib/analytics";
 import { useEffect, useRef, useState } from "react";
 import { cartActions, DEFAULT_QTY, type NewCartItem } from "@/lib/cart-store";
 import styles from "./AddToQuoteButton.module.css";
@@ -23,6 +24,7 @@ export function AddToQuoteButton({ item, qty = DEFAULT_QTY, variant = "card", op
   const add = () => {
     if (disabled) return;
     cartActions.add(item, qty);
+    track("add_to_cart", { item_id: item.model, item_name: item.name, quantity: qty });
     if (openCart) cartActions.openDrawer();
     setDone(true);
     clearTimeout(timer.current);
