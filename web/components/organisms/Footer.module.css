@@ -73,3 +73,9 @@
 .linkButton:hover { color: var(--white); }
 .linkButton:focus-visible, .legal a:focus-visible { outline: 2px solid var(--beam); outline-offset: 3px; border-radius: var(--radius-xs); }
 @media (max-width: 640px) { .legal { flex-direction: column; align-items: flex-start; } }
+
+/* Móvil: zonas táctiles de al menos 24px de alto en los enlaces legales. */
+@media (max-width: 640px) {
+  .legal { gap: 0; }
+  .legal a, .legal .linkButton { display: inline-flex; align-items: center; min-height: 32px; }
+}
