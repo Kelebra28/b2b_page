@@ -17,6 +17,8 @@ type Props = {
   specs: { label: string; value: string }[];
   priceLabel?: string;
   ctaHref: string;
+  /** Texto propio de la ficha (SEO): título y párrafos. */
+  copy?: { heading: string; paragraphs: string[] };
 };
 
 const STEPS = [
@@ -26,7 +28,7 @@ const STEPS = [
 ];
 
 /** Organism: ficha de producto (foto, colores, técnicas, especificaciones y botón de WhatsApp). */
-export function ProductDetail({ slug, name, model, category, categoryHref, description, image, colors, stock, techniques, specs, priceLabel, ctaHref }: Props) {
+export function ProductDetail({ slug, name, model, category, categoryHref, description, image, colors, stock, techniques, specs, priceLabel, ctaHref, copy }: Props) {
   return (
     <section className={styles.section} aria-labelledby="product-title">
       <Container>
@@ -72,6 +74,13 @@ export function ProductDetail({ slug, name, model, category, categoryHref, descr
             </>
           }
         />
+
+        {copy && (
+          <div className={styles.copy}>
+            <h2>{copy.heading}</h2>
+            {copy.paragraphs.map((t) => <p key={t}>{t}</p>)}
+          </div>
+        )}
 
         <ol className={styles.steps} aria-label="Cómo funciona">
           {STEPS.map((s, i) => (

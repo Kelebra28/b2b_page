@@ -73,3 +73,7 @@
 .stockLine[data-out="true"] { color: var(--text-subtle); }
 .stockLine[data-out="true"]::before { background: var(--ink-a24); box-shadow: none; }
 .liveTag { margin-left: 0.2rem; padding: 0.1rem 0.55rem; border-radius: var(--radius-pill); background: var(--bg-alt); font-size: var(--fs-xs); font-weight: 600; color: var(--text-subtle); }
+
+.copy { max-width: 46rem; margin: 3.5rem 0 0; }
+.copy h2 { margin: 0 0 0.8rem; font-size: var(--fs-h2-sm); font-weight: 800; letter-spacing: -0.02em; color: var(--text-strong); }
+.copy p { margin: 0 0 0.9rem; color: var(--text-muted); font-size: var(--fs-md); line-height: 1.7; }

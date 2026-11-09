@@ -6,6 +6,7 @@ import { RelatedProducts } from "@/components/organisms/RelatedProducts";
 import { localBusinessLd, siteUrl, wa } from "@/content/site";
 import { safeImage, type Product } from "@/lib/catalog";
 import { cleanName, formatMXN, techniqueLabels } from "@/lib/product-format";
+import { productCopy } from "@/lib/product-copy";
 
 /** Template: ficha de producto. El botón abre WhatsApp con el producto ya escrito. */
 export function ProductPage({ product: p, related = [], categoryTotal = 0 }: { product: Product; related?: Product[]; categoryTotal?: number }) {
@@ -65,6 +66,7 @@ export function ProductPage({ product: p, related = [], categoryTotal = 0 }: { p
           colors={p.colors.map((c) => ({ name: c.name, image: safeImage(c.image), stock: c.stock }))}
           stock={p.stock}
           specs={specs}
+          copy={productCopy({ slug: p.slug, title, category: p.category.name, material: p.material, measurements: p.measurements, techniques: techniqueLabels(p.printTechniques) })}
           priceLabel={p.priceFrom ? `Desde ${formatMXN(p.priceFrom)}` : undefined}
           ctaHref={wa(encodeURIComponent(`Hola, quiero cotizar: ${title} (modelo ${model}). ¿Me ayudas con precio y tiempos de entrega?`))}
         />
