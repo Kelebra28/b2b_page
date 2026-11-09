@@ -18,6 +18,8 @@ import { UvPrinting } from "@/components/organisms/UvPrinting";
 import { Boutique } from "@/components/organisms/Boutique";
 import { Gallery } from "@/components/organisms/Gallery";
 import { Directory } from "@/components/organisms/Directory";
+import { WorkGrid } from "@/components/organisms/WorkGrid";
+import { work } from "@/content/work";
 import { Faqs } from "@/components/organisms/Faqs";
 import { FinalCta } from "@/components/organisms/FinalCta";
 import { faqs, finalCta } from "@/content/home";
@@ -59,6 +61,7 @@ export default function Home() {
         <Hero />
         <TrustBar />
         <ProcessShowcase />
+        <WorkGrid {...work} />
         <SocialProof />
         <BusinessLines />
         <LaserService />

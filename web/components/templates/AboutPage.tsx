@@ -1,6 +1,9 @@
+import { Fragment } from "react";
 import { JsonLd } from "@/components/atoms/JsonLd";
 import { FinalCta } from "@/components/organisms/FinalCta";
 import { Footer } from "@/components/organisms/Footer";
+import { WorkGrid } from "@/components/organisms/WorkGrid";
+import { work } from "@/content/work";
 import { Header } from "@/components/organisms/Header";
 import { ServiceHero } from "@/components/organisms/ServiceHero";
 import { ServiceSection } from "@/components/organisms/ServiceSection";
@@ -23,7 +26,10 @@ export function AboutPage({ page }: { page: typeof about }) {
       <main id="main-content">
         <ServiceHero hero={page.hero} />
         {page.sections.map((s, i) => (
-          <ServiceSection key={s.id ?? i} section={s} index={i} />
+          <Fragment key={s.id ?? i}>
+            <ServiceSection section={s} index={i} />
+            {i === 2 && <WorkGrid {...work} sectionId="trabajos-reales" />}
+          </Fragment>
         ))}
         <FinalCta id="cta-final-title" {...page.cta} />
       </main>
