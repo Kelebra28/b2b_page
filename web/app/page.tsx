@@ -60,20 +60,26 @@ export default function Home() {
       <main id="main-content">
         <Hero />
         <TrustBar />
-        <ProcessShowcase />
-        <WorkGrid {...work} limit={9} />
-        <SocialProof />
+        {/* 1. Qué hacemos */}
         <BusinessLines />
+        {/* 2. Prueba: trabajos reales, planta y clientes */}
+        <WorkGrid {...work} limit={9} />
+        <ProcessShowcase />
+        <SocialProof />
+        {/* 3. Detalle de cada servicio */}
         <LaserService />
+        <UvPrinting />
+        <PlotterPromo />
         <LiveEvents />
+        <Directory />
+        {/* 4. Por qué con nosotros */}
         <Solutions />
         <Capacity />
         <Materials />
-        <PlotterPromo />
-        <UvPrinting />
+        {/* 5. Línea boutique y galería */}
         <Boutique />
-        <Directory />
         <Gallery />
+        {/* 6. Cierre */}
         <Faqs {...faqs} group="faq-home" more={{ label: "Ver todas las preguntas frecuentes", href: "/preguntas-frecuentes" }} />
         <FinalCta {...finalCta} />
         <Contact />
