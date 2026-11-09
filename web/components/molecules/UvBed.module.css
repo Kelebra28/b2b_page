@@ -114,3 +114,8 @@
   .bar { animation: none; opacity: 0; }
   .print { animation: none; }
 }
+
+/* En móvil se oculta la maqueta para llegar antes al contenido. */
+@media (max-width: 640px) {
+  .bed { display: none; }
+}

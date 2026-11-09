@@ -162,3 +162,8 @@
   .print { animation: none; clip-path: inset(0); }
   .band { animation: none; clip-path: inset(0); }
 }
+
+/* En móvil ocupan mucha pantalla y retrasan la información: se ocultan. */
+@media (max-width: 640px) {
+  .canvas { display: none; }
+}

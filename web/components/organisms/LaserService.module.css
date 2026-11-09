@@ -37,3 +37,7 @@
   .grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .section { padding: var(--section-y-sm) 0; }
 }
+
+@media (max-width: 640px) {
+  .visual { display: none; }
+}
