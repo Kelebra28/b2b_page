@@ -71,13 +71,35 @@ export const formatMXN = (n: number) => new Intl.NumberFormat("es-MX", { style: 
 /** Texto sin acentos y en minúsculas, para comparar búsquedas. */
 export const norm = (s: string) => s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
 
+/**
+ * El CRM trae ~300 textos de material distintos ("Plástico ABS", "Acero Inoxidable / Plástico"…).
+ * Para filtrar se agrupan en pocas familias; un producto de dos materiales aparece en ambas.
+ */
+const MATERIAL_FAMILIES: [string, RegExp][] = [
+  ["Plástico", /plastico|\b(abs|pp|pet|pvc|tritan|tpu|peva|eva|polipropileno|policarbonato)\b/],
+  ["Metal", /aluminio|acero|metal|zinc|cobre|hierro|laton|peltre/],
+  ["Tela y textil", /poliester|polialgodon|nylon|algodon|non woven|pongee|policanvas|canvas|microfibra|yute|terciopelo|textil|mesh|spandex|lona/],
+  ["Piel sintética", /curpiel|poliuretano|poliuterano|cuero|\bpu\b/],
+  ["Vidrio y cerámica", /vidrio|ceramica|borosilicato|piedra/],
+  ["Madera y bambú", /madera|bambu|mdf|corcho|trigo/],
+  ["Cartón y papel", /carton|papel|kraft/],
+  ["Silicón y goma", /silicon|neopreno|hule|rubber|latex|caucho/],
+];
+
+/** Familias de material a las que pertenece un producto (vacío si no trae material o no encaja). */
+export const materialFamilies = (material: string | null): string[] => {
+  if (!material) return [];
+  const m = norm(material);
+  return MATERIAL_FAMILIES.filter(([, re]) => re.test(m)).map(([name]) => name);
+};
+
 type Searchable = { name: string; model: string; category: string; material: string | null; colors: string[]; techniques: string[] };
 
 /** ¿El producto contiene todas las palabras buscadas? */
 export const matchesQuery = (p: Searchable, q: string) => {
   const terms = norm(q).split(/\s+/).filter(Boolean);
   if (!terms.length) return true;
-  const hay = norm([p.name, p.model, p.category, p.material ?? "", p.colors.join(" "), p.techniques.join(" ")].join(" "));
+  const hay = norm([p.name, p.model, p.category, p.material ?? "", materialFamilies(p.material).join(" "), p.colors.join(" "), p.techniques.join(" ")].join(" "));
   return terms.every((t) => hay.includes(t));
 };
 

@@ -7,7 +7,7 @@ import { Skeleton } from "@/components/atoms/Skeleton";
 import { Pagination } from "@/components/molecules/Pagination";
 import { ProductCard } from "@/components/molecules/ProductCard";
 import { SortMenu } from "@/components/molecules/SortMenu";
-import { byRelevance, colorHex, matchesQuery, norm } from "@/lib/product-format";
+import { byRelevance, colorHex, materialFamilies, matchesQuery, norm } from "@/lib/product-format";
 import { loadIndex, toProductItem } from "@/lib/store-client";
 import styles from "./StoreBrowser.module.css";
 
@@ -73,6 +73,7 @@ export function StoreBrowser({ products, loadAll, above, gridTitle, suggestions 
   const [q, setQ] = useState("");
   const [sort, setSort] = useState<Sort>("destacados");
   const [color, setColor] = useState<string | null>(null);
+  const [material, setMaterial] = useState<string | null>(null);
   const [page, setPage] = useState(1);
   const [all, setAll] = useState<ProductItem[] | null>(null);
   const deferredQ = useDeferredValue(q);
@@ -91,7 +92,7 @@ export function StoreBrowser({ products, loadAll, above, gridTitle, suggestions 
 
   const source = all ?? products;
   const hasPrices = source.some((p) => p.price);
-  const filtering = q.trim() !== "" || color !== null;
+  const filtering = q.trim() !== "" || color !== null || material !== null;
   const waiting = !!loadAll && !all && filtering; // escribió antes de que llegara el catálogo completo
 
   const colorOptions = useMemo(() => {
@@ -100,14 +101,20 @@ export function StoreBrowser({ products, loadAll, above, gridTitle, suggestions 
     return [...n.entries()].filter(([c]) => colorHex(c)).sort((a, b) => b[1] - a[1]).slice(0, 12).map(([c]) => c);
   }, [source]);
 
+  const materialOptions = useMemo(() => {
+    const n = new Map<string, number>();
+    source.forEach((p) => materialFamilies(p.material).forEach((m) => n.set(m, (n.get(m) ?? 0) + 1)));
+    return [...n.entries()].sort((a, b) => b[1] - a[1]);
+  }, [source]);
+
   const results = useMemo(() => {
-    let list = source.filter((p) => (!color || p.colors.includes(color)) && matchesQuery(p, deferredQ));
+    let list = source.filter((p) => (!color || p.colors.includes(color)) && (!material || materialFamilies(p.material).includes(material)) && matchesQuery(p, deferredQ));
     if (sort === "destacados") list = byRelevance(list, deferredQ);
     if (sort === "nombre") list = [...list].sort((a, b) => a.name.localeCompare(b.name, "es"));
     if (sort === "colores") list = [...list].sort((a, b) => b.colors.length - a.colors.length);
     if (sort === "precio") list = [...list].sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity));
     return list;
-  }, [source, color, deferredQ, sort]);
+  }, [source, color, material, deferredQ, sort]);
 
   const pages = Math.max(1, Math.ceil(results.length / PAGE_SIZE));
   const current = Math.min(page, pages);
@@ -115,7 +122,7 @@ export function StoreBrowser({ products, loadAll, above, gridTitle, suggestions 
   const visible = results.slice(from, from + PAGE_SIZE);
   const total = loadAll && !all ? null : results.length;
 
-  const reset = () => { setQ(""); setColor(null); setPage(1); };
+  const reset = () => { setQ(""); setColor(null); setMaterial(null); setPage(1); };
   const change = <T,>(set: (v: T) => void) => (v: T) => { set(v); setPage(1); };
   const goTo = (p: number) => {
     setPage(p);
@@ -172,6 +179,17 @@ export function StoreBrowser({ products, loadAll, above, gridTitle, suggestions 
           </div>
         )}
 
+        {materialOptions.length > 0 && (
+          <div className={styles.materials} role="group" aria-label="Filtrar por material">
+            <span className={styles.colorsLabel}>Material</span>
+            {materialOptions.map(([m, n]) => (
+              <button key={m} type="button" className={styles.chip} aria-pressed={material === m} onClick={() => change(setMaterial)(material === m ? null : m)}>
+                {m} <small>{n}</small>
+              </button>
+            ))}
+          </div>
+        )}
+
         {!filtering && above}
 
         <div ref={gridTop} className={styles.anchor} aria-hidden="true" />
@@ -194,7 +212,7 @@ export function StoreBrowser({ products, loadAll, above, gridTitle, suggestions 
           </div>
         ) : results.length === 0 ? (
           <div className={styles.none}>
-            <p>No encontramos “{q.trim() || color}”.</p>
+            <p>No encontramos “{q.trim() || color || material}”.</p>
             <p>Prueba con otra palabra o cuéntanos qué buscas y te lo conseguimos.</p>
             <div className={styles.noneActions}>
               <button type="button" className={styles.clear} onClick={reset}>Ver todo el catálogo</button>
