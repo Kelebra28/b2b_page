@@ -61,7 +61,7 @@ export default function Home() {
         <Hero />
         <TrustBar />
         <ProcessShowcase />
-        <WorkGrid {...work} />
+        <WorkGrid {...work} limit={9} />
         <SocialProof />
         <BusinessLines />
         <LaserService />

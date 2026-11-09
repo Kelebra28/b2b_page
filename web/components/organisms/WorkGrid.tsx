@@ -13,16 +13,18 @@ type Props = {
   text: string;
   items: Item[];
   cta: { label: string; href: string };
+  /** Muestra solo las primeras N fotos (p. ej. en la home). */
+  limit?: number;
 };
 
 /** Organism: galería de trabajos reales (carrusel en móvil, cuadrícula en escritorio). Dumb: recibe todo por props. */
-export function WorkGrid({ sectionId, id, eyebrow, title, text, items, cta }: Props) {
+export function WorkGrid({ sectionId, id, eyebrow, title, text, items, cta, limit }: Props) {
   return (
     <section className={styles.section} id={sectionId} aria-labelledby={id}>
       <Container>
         <SectionHeading id={id} eyebrow={eyebrow} title={title} text={text} />
         <div className={styles.grid}>
-          {items.map((w) => (
+          {items.slice(0, limit).map((w) => (
             <WorkCard key={w.src} {...w} />
           ))}
         </div>
