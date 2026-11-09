@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="es-MX" className={inter.variable}>
+    <html lang="es-MX" className={inter.variable} data-scroll-behavior="smooth">
       <body>
         {children}
         {!noindex && <Analytics id="G-ET4MM9DNK0" />}
