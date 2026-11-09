@@ -16,7 +16,8 @@ body {
   margin: 0;
   padding: 0;
   max-width: 100vw;
-  overflow-x: hidden;
+  /* `clip` (no `hidden`): evita el desborde lateral sin crear un contenedor de scroll, que rompería position: sticky. */
+  overflow-x: clip;
 }
 
 body {

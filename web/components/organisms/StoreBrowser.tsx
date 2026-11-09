@@ -168,75 +168,81 @@ export function StoreBrowser({ products, loadAll, above, gridTitle, suggestions 
           </div>
         )}
 
-        {colorOptions.length > 0 && (
-          <div className={styles.colors} role="group" aria-label="Filtrar por color">
-            <span className={styles.colorsLabel}>Color</span>
-            {colorOptions.map((c) => (
-              <button key={c} type="button" className={styles.swatch} aria-pressed={color === c} aria-label={c.charAt(0) + c.slice(1).toLowerCase()} title={c.charAt(0) + c.slice(1).toLowerCase()} onClick={() => change(setColor)(color === c ? null : c)}>
-                <span style={{ background: colorHex(c) ?? undefined }} />
-              </button>
-            ))}
-          </div>
-        )}
-
-        {materialOptions.length > 0 && (
-          <div className={styles.materials} role="group" aria-label="Filtrar por material">
-            <span className={styles.colorsLabel}>Material</span>
-            {materialOptions.map(([m, n]) => (
-              <button key={m} type="button" className={styles.chip} aria-pressed={material === m} onClick={() => change(setMaterial)(material === m ? null : m)}>
-                {m} <small>{n}</small>
-              </button>
-            ))}
-          </div>
-        )}
-
         {!filtering && above}
 
-        <div ref={gridTop} className={styles.anchor} aria-hidden="true" />
-        {!filtering && gridTitle && <h2 className={styles.gridTitle}>{gridTitle}</h2>}
+        <div className={styles.layout}>
+          <aside className={styles.filters} aria-label="Filtros">
+            {colorOptions.length > 0 && (
+              <div className={styles.colors} role="group" aria-label="Filtrar por color">
+                <span className={styles.colorsLabel}>Color</span>
+                {colorOptions.map((c) => (
+                  <button key={c} type="button" className={styles.swatch} aria-pressed={color === c} aria-label={c.charAt(0) + c.slice(1).toLowerCase()} title={c.charAt(0) + c.slice(1).toLowerCase()} onClick={() => change(setColor)(color === c ? null : c)}>
+                    <span style={{ background: colorHex(c) ?? undefined }} />
+                  </button>
+                ))}
+              </div>
+            )}
 
-        {(total !== null || filtering) && (
-          <p className={styles.count} aria-live="polite">
-            {waiting ? "Buscando en todo el catálogo…" : `${total} ${total === 1 ? "producto" : "productos"}${q.trim() ? ` para “${q.trim()}”` : ""}`}
-            {filtering && <button type="button" className={styles.clear} onClick={reset}>Limpiar</button>}
-          </p>
-        )}
+            {materialOptions.length > 0 && (
+              <div className={styles.materials} role="group" aria-label="Filtrar por material">
+                <span className={styles.colorsLabel}>Material</span>
+                {materialOptions.map(([m, n]) => (
+                  <button key={m} type="button" className={styles.chip} aria-pressed={material === m} onClick={() => change(setMaterial)(material === m ? null : m)}>
+                    {m} <small>{n}</small>
+                  </button>
+                ))}
+              </div>
+            )}
+          </aside>
 
-        {source.length === 0 ? (
-          <p className={styles.empty}>{emptyText}</p>
-        ) : waiting ? (
-          <div className={styles.grid} aria-busy="true">
-            {Array.from({ length: 8 }, (_, i) => (
-              <div key={i} className={styles.skelCard}><Skeleton className={styles.skelPhoto} /><Skeleton className={styles.skelLine} /><Skeleton className={styles.skelLineShort} /></div>
-            ))}
-          </div>
-        ) : results.length === 0 ? (
-          <div className={styles.none}>
-            <p>No encontramos “{q.trim() || color || material}”.</p>
-            <p>Prueba con otra palabra o cuéntanos qué buscas y te lo conseguimos.</p>
-            <div className={styles.noneActions}>
-              <button type="button" className={styles.clear} onClick={reset}>Ver todo el catálogo</button>
-              <a href={whatsappHref} target="_blank" rel="noopener" className={styles.wa}>Pedir por WhatsApp</a>
-            </div>
-          </div>
-        ) : (
-          <div className={styles.grid}>
-            {visible.map((p, i) => {
-              const { price, material, colorImages, colorStock, stock, image, ...card } = p;
-              void price; void material;
-              const wanted = wantedColor(p, color, deferredQ);
-              const photo = (wanted && colorImages?.[wanted]) || image;
-              return <ProductCard key={p.slug} href={`/tienda/producto/${p.slug}`} priority={i < 4} image={photo} fallbackImage={image} quoteColor={wanted} stock={wanted && colorStock ? colorStock[wanted] ?? stock : stock} {...card} />;
-            })}
-          </div>
-        )}
+          <div className={styles.results}>
+            <div ref={gridTop} className={styles.anchor} aria-hidden="true" />
+            {!filtering && gridTitle && <h2 className={styles.gridTitle}>{gridTitle}</h2>}
 
-        {!waiting && total !== null && results.length > 0 && (
-          <>
-            <Pagination page={current} pages={pages} onChange={goTo} />
-            <p className={styles.range}>Mostrando {from + 1}–{from + visible.length} de {results.length}</p>
-          </>
-        )}
+            {(total !== null || filtering) && (
+              <p className={styles.count} aria-live="polite">
+                {waiting ? "Buscando en todo el catálogo…" : `${total} ${total === 1 ? "producto" : "productos"}${q.trim() ? ` para “${q.trim()}”` : ""}`}
+                {filtering && <button type="button" className={styles.clear} onClick={reset}>Limpiar</button>}
+              </p>
+            )}
+
+            {source.length === 0 ? (
+              <p className={styles.empty}>{emptyText}</p>
+            ) : waiting ? (
+              <div className={styles.grid} aria-busy="true">
+                {Array.from({ length: 8 }, (_, i) => (
+                  <div key={i} className={styles.skelCard}><Skeleton className={styles.skelPhoto} /><Skeleton className={styles.skelLine} /><Skeleton className={styles.skelLineShort} /></div>
+                ))}
+              </div>
+            ) : results.length === 0 ? (
+              <div className={styles.none}>
+                <p>No encontramos “{q.trim() || color || material}”.</p>
+                <p>Prueba con otra palabra o cuéntanos qué buscas y te lo conseguimos.</p>
+                <div className={styles.noneActions}>
+                  <button type="button" className={styles.clear} onClick={reset}>Ver todo el catálogo</button>
+                  <a href={whatsappHref} target="_blank" rel="noopener" className={styles.wa}>Pedir por WhatsApp</a>
+                </div>
+              </div>
+            ) : (
+              <div className={styles.grid}>
+                {visible.map((p, i) => {
+                  const { price, material, colorImages, colorStock, stock, image, ...card } = p;
+                  void price; void material;
+                  const wanted = wantedColor(p, color, deferredQ);
+                  const photo = (wanted && colorImages?.[wanted]) || image;
+                  return <ProductCard key={p.slug} href={`/tienda/producto/${p.slug}`} priority={i < 4} image={photo} fallbackImage={image} quoteColor={wanted} stock={wanted && colorStock ? colorStock[wanted] ?? stock : stock} {...card} />;
+                })}
+              </div>
+            )}
+
+            {!waiting && total !== null && results.length > 0 && (
+              <>
+                <Pagination page={current} pages={pages} onChange={goTo} />
+                <p className={styles.range}>Mostrando {from + 1}–{from + visible.length} de {results.length}</p>
+              </>
+            )}
+          </div>
+        </div>
       </Container>
     </section>
   );
