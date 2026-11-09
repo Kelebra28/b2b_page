@@ -1,3 +1,20 @@
 .section { background: var(--bg-alt); color: var(--text-dark); padding: var(--section-y) 0; }
 .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem; align-items: start; }
 @media (max-width: 960px) { .grid { grid-template-columns: 1fr; } .section { padding: var(--section-y-sm) 0; } }
+
+/* Móvil: carrusel horizontal de especialidades. El escritorio no cambia. */
+@media (max-width: 620px) {
+  .grid {
+    display: flex;
+    gap: 0.9rem;
+    overflow-x: auto;
+    margin-inline: -2.2rem;
+    padding: 0.6rem 2.2rem 1rem;
+    scroll-padding-inline: 2.2rem;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+  }
+  .grid::-webkit-scrollbar { display: none; }
+  .grid > * { flex: 0 0 88%; min-width: 0; scroll-snap-align: start; }
+}
