@@ -10,6 +10,16 @@ Punto de partida (Search Console, 10 ago – 9 nov 2026): 1.136 clics, 35,9 mil 
 - Páginas nuevas: `marcaje_laser_acero` y `corte_laser_mdf_acrilico`, con enlaces en el menú y la portada.
 - Blog: plantilla de artículo editorial, 8 artículos migrados y portadas propias en `.webp`.
 
+## Prioridades del negocio (definidas por el dueño)
+Dar más énfasis, en este orden, a:
+1. **Impresión de lonas** (`lona_gran_formato`, `plotter_impresion`, artículo de lonas).
+2. **Corte láser en MDF y acrílico** (`corte_laser_mdf_acrilico`, `maquila_volumen`).
+3. **Impresión directa UV** (`impresion_cama_plana_uv`, reescrita) y **DTF UV** (`impresion_dtf_uv`).
+4. **Grabado en metal** (`grabado_metal`, `marcaje_laser_acero`).
+5. **Grabado en vidrio y plásticos** (hoy solo existe `grabado_cuero_plastico` y `grabado_espejos`; falta página de vidrio y copas).
+
+Los demás servicios se mantienen, pero no reciben trabajo nuevo hasta cubrir estos cinco.
+
 ## Reglas de contenido (siempre)
 - No poner precios, plazos, mínimos, certificaciones ni tolerancias salvo que los confirme Laser Inova.
 - Solo afirmar capacidades confirmadas: pruebas previas, números de serie consecutivos, corte y grabado en la misma pieza, UV a color, **DTF UV en formato de hasta 90 × 30 cm**, ayuda con archivos (puede tener costo extra), atención en CDMX y zona metropolitana, y **envíos a todo el país cotizados por FedEx, DHL o Estafeta** (el costo del envío se cotiza aparte).
@@ -24,11 +34,19 @@ Punto de partida (Search Console, 10 ago – 9 nov 2026): 1.136 clics, 35,9 mil 
 | Reforzar `impresion_cama_plana_uv` (929 imp., pos. 12) con contenido propio sobre UV | Servicio con hueco | Claude |
 | Reforzar `plotter_impresion` (CTR 0,8 %): enfocarla en lonas y plotter de corte | "plotter de lona" sale en pos. 3-8 con 0 clics | Claude |
 | Revisar menú y portada ya publicados | Confirmar que las 2 páginas nuevas se ven | Usuario / Claude |
-| **Desbloquear la ficha de Google Business** (apelar la suspensión) y luego completarla: categorías, servicios, fotos reales de `/img/trabajos`, horario, teléfono, enlace | Muchas búsquedas son locales ("cerca de mi", "cdmx"); con la ficha bloqueada no aparecemos en el mapa | Usuario |
+| **Google Business:** el taller está dentro de una casa y sin letrero, por eso la ficha se bloqueó. Reintentar como **negocio con área de servicio** (sin mostrar la dirección) y con pruebas reales. Ver la sección de abajo | Muchas búsquedas son locales ("cerca de mi", "cdmx"); con la ficha bloqueada no aparecemos en el mapa | Usuario |
+
+## Google Business con taller en casa (sin letrero)
+- No inventar un letrero ni una dirección de local: Google lo detecta y la suspensión se repite. Todo lo que se mande debe ser verdadero.
+- Si los clientes **no visitan** el taller (cotizan por WhatsApp, envían por FedEx/DHL/Estafeta), registrarlo como **negocio con área de servicio** y **ocultar la dirección**. Así no se exige un local abierto al público.
+- Datos iguales en todos lados: mismo nombre, teléfono y sitio que en la web. No agregar palabras de más al nombre.
+- Pruebas que suelen pedirse: fotos del espacio de trabajo y de las máquinas, trabajos terminados, facturas o cotizaciones, tarjeta de presentación, constancia fiscal, el sitio web. Si piden videollamada, mostrar equipo y trabajos en curso.
+- No hay garantía de que Google lo apruebe. Mientras tanto, abrir también Bing Places, Apple Business Connect y una página de Facebook, que no exigen letrero.
+- El SEO del sitio (páginas por servicio) no depende de la ficha: sigue siendo el canal principal.
 
 ## Mes 2 (diciembre): páginas nuevas por servicio y material
 Prioridad según búsquedas reales en Search Console:
-1. **Grabado en vidrio y copas** ("donde grabar copas de cristal", "grabado en vidrio cdmx").
+1. **Grabado en vidrio y copas** (prioridad 5) ("donde grabar copas de cristal", "grabado en vidrio cdmx").
 2. **Corte láser: servicio general en CDMX** ("servicio de corte láser", "maquila corte láser metal").
 3. **Impresión en acrílico y MDF con UV** ("impresión en acrílico cdmx", "impresión sobre acrílico df").
 4. **Grabado de termos** ("grabado de termos cdmx", "grabado láser en termos cerca de mi") — hoy se cubre dentro de `grabado_metal`.
