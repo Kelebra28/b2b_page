@@ -12,7 +12,7 @@ Punto de partida (Search Console, 10 ago – 9 nov 2026): 1.136 clics, 35,9 mil 
 
 ## Reglas de contenido (siempre)
 - No poner precios, plazos, mínimos, certificaciones ni tolerancias salvo que los confirme Laser Inova.
-- Solo afirmar capacidades confirmadas: pruebas previas, números de serie consecutivos, corte y grabado en la misma pieza, UV a color, ayuda con archivos (puede tener costo extra), envíos a todo el país, atención en CDMX y zona metropolitana.
+- Solo afirmar capacidades confirmadas: pruebas previas, números de serie consecutivos, corte y grabado en la misma pieza, UV a color, **DTF UV en formato de hasta 90 × 30 cm**, ayuda con archivos (puede tener costo extra), atención en CDMX y zona metropolitana, y **envíos a todo el país cotizados por FedEx, DHL o Estafeta** (el costo del envío se cotiza aparte).
 - Un solo `<h1>` por página, enlaces internos con texto descriptivo, imágenes con `alt` real, `npm run lint:tokens` antes de cada commit.
 
 ## Mes 1 (noviembre): publicar y reforzar lo que ya está en página 2
@@ -24,7 +24,7 @@ Punto de partida (Search Console, 10 ago – 9 nov 2026): 1.136 clics, 35,9 mil 
 | Reforzar `impresion_cama_plana_uv` (929 imp., pos. 12) con contenido propio sobre UV | Servicio con hueco | Claude |
 | Reforzar `plotter_impresion` (CTR 0,8 %): enfocarla en lonas y plotter de corte | "plotter de lona" sale en pos. 3-8 con 0 clics | Claude |
 | Revisar menú y portada ya publicados | Confirmar que las 2 páginas nuevas se ven | Usuario / Claude |
-| Dar de alta o completar la ficha de Google Business (categorías, servicios, fotos, horario, teléfono, enlace) | Muchas búsquedas son locales ("cerca de mi", "cdmx") | Usuario |
+| **Desbloquear la ficha de Google Business** (apelar la suspensión) y luego completarla: categorías, servicios, fotos reales de `/img/trabajos`, horario, teléfono, enlace | Muchas búsquedas son locales ("cerca de mi", "cdmx"); con la ficha bloqueada no aparecemos en el mapa | Usuario |
 
 ## Mes 2 (diciembre): páginas nuevas por servicio y material
 Prioridad según búsquedas reales en Search Console:
@@ -32,7 +32,7 @@ Prioridad según búsquedas reales en Search Console:
 2. **Corte láser: servicio general en CDMX** ("servicio de corte láser", "maquila corte láser metal").
 3. **Impresión en acrílico y MDF con UV** ("impresión en acrílico cdmx", "impresión sobre acrílico df").
 4. **Grabado de termos** ("grabado de termos cdmx", "grabado láser en termos cerca de mi") — hoy se cubre dentro de `grabado_metal`.
-5. **DTF** (impresión directa en textil): crear solo si Laser Inova ofrece el servicio. En Search Console no apareció demanda de DTF entre las 500 consultas principales; validar antes.
+5. **DTF UV** (confirmado, hasta 90 × 30 cm): crear página propia. En Search Console no apareció demanda de DTF entre las 500 consultas principales, así que es una apuesta de servicio nuevo, no de demanda ya existente: conviene enlazarla desde UV, vidrio, termos y acrílico y medirla a las 6-8 semanas.
 6. Páginas por zona (CDMX / Azcapotzalco / Santa Fe) solo si hay contenido propio por zona; no duplicar texto.
 
 Cada página nueva: archivo JSON en `web/content/services/`, registro en `index.ts`, enlace en menú y portada, 2-3 enlaces desde servicios y artículos relacionados.
@@ -41,7 +41,7 @@ Cada página nueva: archivo JSON en `web/content/services/`, registro en `index.
 - **Categorías de la tienda:** texto propio en cada una (materiales, técnicas, usos), enlaces a ellas desde los servicios y el blog.
 - **Productos:** subir `INDEXABLE_PRODUCTS` (en `web/lib/catalog.ts`) conforme tengan foto y texto propios; no abrir las ~1.100 de golpe.
 - **Reseñas:** pedir reseñas en Google a clientes reales y responderlas.
-- **Casos reales:** 3-5 trabajos con foto propia en `.webp` y descripción (qué se hizo, material, cantidad aproximada si el cliente lo permite).
+- **Casos reales:** ya hay 18 fotos reales en `web/public/img/trabajos` (`.webp`). Convertir 5-6 en casos con descripción (qué se hizo, material, técnica) y usar esas fotos como portadas de artículos en lugar de las ilustraciones.
 - **Enlaces externos:** directorios locales, proveedores y clientes que mencionen el sitio con un enlace.
 
 ## Blog (continuo, sin prisa)
@@ -58,7 +58,8 @@ Cada página nueva: archivo JSON en `web/content/services/`, registro en `index.
 | Impresiones totales | 35,9 mil | crecimiento sostenido |
 
 ## Pendiente de decisión del usuario
-1. ¿DTF es un servicio de Laser Inova?
-2. ¿Atienden zonas específicas más allá de CDMX y zona metropolitana?
-3. ¿Hay fotos reales de trabajos (en `.webp`) para portadas y casos?
-4. ¿Quién gestiona Google Business y las reseñas?
+1. ~~¿DTF es un servicio?~~ Sí: DTF UV hasta 90 × 30 cm. Falta confirmar qué se imprime y sobre qué superficies (vidrio, metal, acrílico, termos…).
+2. ~~¿Envíos?~~ Sí, a todo el país por FedEx, DHL o Estafeta, cotizado aparte.
+3. ~~¿Fotos reales?~~ Sí, 18 en `/img/trabajos`.
+4. Google Business: el usuario lo gestiona, pero la ficha está bloqueada. Ver el motivo de la suspensión en business.google.com y apelar.
+5. ¿Atienden zonas específicas más allá de CDMX y zona metropolitana?
