@@ -99,8 +99,8 @@
       "dateLabel": "18 de Abril, 2026",
       "badge": "Agencias de Publicidad",
       "image": {
-        "src": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1474&q=80",
-        "alt": "Producción para Campañas Publicitarias B2B"
+        "src": "/img/blog/impresion-campanas-publicitarias-agencias.webp",
+        "alt": "Ilustración de piezas de campaña: valla, exhibidor roll-up, display y muestras de color"
       },
       "linkLabel": "Leer artículo completo"
     },
@@ -112,8 +112,8 @@
       "dateLabel": "17 de Abril, 2026",
       "badge": "Publicidad Exterior",
       "image": {
-        "src": "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1474&auto=format&fit=crop",
-        "alt": "Impresión en Lona Gran Formato"
+        "src": "/img/blog/impresion-lona-gran-formato.webp",
+        "alt": "Ilustración de una lona publicitaria de gran formato con ojillos instalada en una estructura"
       },
       "linkLabel": "Leer artículo completo"
     },
@@ -125,8 +125,8 @@
       "dateLabel": "17 de Abril, 2026",
       "badge": "Branding Comercial",
       "image": {
-        "src": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1470&auto=format&fit=crop",
-        "alt": "Vinil Impreso y Rotulación Comercial"
+        "src": "/img/blog/vinil-impreso-decorativo-comercial.webp",
+        "alt": "Ilustración de vinil impreso aplicado sobre cristales con una espátula"
       },
       "linkLabel": "Leer artículo completo"
     },
@@ -138,8 +138,8 @@
       "dateLabel": "15 de Abril, 2026",
       "badge": "Marketing B2B",
       "image": {
-        "src": "/img/subpages/plotter/gran_formato.jpg",
-        "alt": "Impresión de gran formato para publicidad y campañas corporativas"
+        "src": "/img/blog/impresion-publicidad.webp",
+        "alt": "Ilustración de un plotter imprimiendo un rollo con bandas de color"
       },
       "linkLabel": "Leer artículo completo"
     },
@@ -151,8 +151,8 @@
       "dateLabel": "12 de Abril, 2026",
       "badge": "Publicidad Móvil",
       "image": {
-        "src": "https://images.unsplash.com/photo-1621360841013-c7683c659ec6?q=80&w=1432&auto=format&fit=crop",
-        "alt": "Publicidad en Autos y Flotillas"
+        "src": "/img/blog/impresion-vehicular.webp",
+        "alt": "Ilustración de una camioneta con rotulación publicitaria y franja de marca"
       },
       "linkLabel": "Leer artículo completo"
     },
@@ -164,8 +164,8 @@
       "dateLabel": "08 de Abril, 2026",
       "badge": "Eventos",
       "image": {
-        "src": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1471&auto=format&fit=crop",
-        "alt": "Grabado en Vivo Laser Inova"
+        "src": "/img/blog/grabado-en-vivo-activaciones.webp",
+        "alt": "Ilustración de un módulo de grabado láser en vivo personalizando un termo frente a asistentes"
       },
       "linkLabel": "Leer artículo completo"
     },
@@ -177,8 +177,8 @@
       "dateLabel": "05 de Abril, 2026",
       "badge": "Industrial",
       "image": {
-        "src": "/img/gallery/A3199_lrg.jpg",
-        "alt": "Llaveros destapador de metal con placa grabada con láser para producción por volumen"
+        "src": "/img/blog/grabado-metal-volumen.webp",
+        "alt": "Ilustración de placas y llaveros de metal siendo grabados con un haz láser"
       },
       "linkLabel": "Leer artículo completo"
     },
@@ -190,8 +190,8 @@
       "dateLabel": "02 de Abril, 2026",
       "badge": "Premium",
       "image": {
-        "src": "/img/gallery/A3144_lrg.jpg",
-        "alt": "Portarretrato de madera y acrílico con logotipo grabado para eventos y regalos"
+        "src": "/img/blog/grabado-madera-eventos.webp",
+        "alt": "Ilustración de piezas de madera grabadas con láser para eventos: número de mesa, portarretrato y posavasos"
       },
       "linkLabel": "Leer artículo completo"
     }

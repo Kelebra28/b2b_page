@@ -13,10 +13,6 @@ type Props = { params: Promise<{ slug: string }> };
  */
 export const instant = false;
 
-const OG_IMAGE_OVERRIDE: Record<string, string> = {
-  "impresion-campanas-publicitarias-agencias": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-};
-
 /** Las URLs públicas conservan el `.html`: /blog/impresion-publicidad.html */
 export function generateStaticParams() {
   return postSlugs.map((s) => ({ slug: `${s}.html` }));
@@ -27,8 +23,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const p = getPost(slug);
   if (!p) return {};
   const url = `${siteUrl}${p.path}`;
-  // Este artículo ya tenía su propia imagen social en el sitio anterior: se conserva.
-  const image = OG_IMAGE_OVERRIDE[p.slug] ?? `${siteUrl}/og-laser-inova.png`;
+  // Imagen social: la portada del artículo (en .webp); si no la tiene, la imagen general del sitio.
+  const cover = p.article?.image.src;
+  const image = cover ? (cover.startsWith("http") ? cover : `${siteUrl}${cover}`) : `${siteUrl}/og-laser-inova.png`;
   return {
     title: p.meta.title,
     description: p.meta.description,

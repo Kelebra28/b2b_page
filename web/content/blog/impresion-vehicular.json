@@ -41,8 +41,8 @@
     "badges": [],
     "card": null,
     "image": {
-      "src": "https://images.unsplash.com/photo-1621360841013-c7683c659ec6?q=80&w=600&auto=format&fit=crop",
-      "alt": "Vehículo rotulado con publicidad impresa para flotillas"
+      "src": "/img/blog/impresion-vehicular.webp",
+      "alt": "Ilustración de una camioneta con rotulación publicitaria y franja de marca"
     }
   },
   "cta": {
@@ -66,8 +66,8 @@
     "dateLabel": "11 de noviembre de 2026",
     "readingMinutes": 4,
     "image": {
-      "src": "https://images.unsplash.com/photo-1621360841013-c7683c659ec6?q=80&w=600&auto=format&fit=crop",
-      "alt": "Vehículo rotulado con publicidad impresa para flotillas"
+      "src": "/img/blog/impresion-vehicular.webp",
+      "alt": "Ilustración de una camioneta con rotulación publicitaria y franja de marca"
     },
     "sections": [
       {
