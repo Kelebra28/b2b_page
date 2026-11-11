@@ -2,14 +2,14 @@
   "slug": "plotter_impresion",
   "path": "/subpages/plotter_impresion.html",
   "meta": {
-    "title": "Plotter e Impresión de Lonas en CDMX | Laser Inova",
-    "description": "Plotter e impresión de lonas, vinil y gran formato en CDMX, más impresión UV cama plana en acrílico, MDF y metal. Cotiza por WhatsApp.",
+    "title": "Plotter e Impresión Gran Formato en CDMX | Laser Inova",
+    "description": "Plotter e impresión gran formato en CDMX: vinil, papel, tela banner y más, con impresión UV sobre rígidos. Para lonas, mira nuestra página de impresión de lonas.",
     "keywords": "impresión cama plana UV, plotter e impresión CDMX, impresión en rígidos, impresión en acrílico, publicidad gran formato, impresión para eventos, impresión de lonas",
-    "ogTitle": "Plotter e Impresión de Lonas en CDMX | Laser Inova",
-    "ogDescription": "Plotter e impresión de lonas, vinil y gran formato en CDMX, más impresión UV cama plana en acrílico, MDF y metal. Cotiza por WhatsApp.",
+    "ogTitle": "Plotter e Impresión Gran Formato en CDMX | Laser Inova",
+    "ogDescription": "Plotter e impresión gran formato en CDMX: vinil, papel, tela banner y más, con impresión UV sobre rígidos. Para lonas, mira nuestra página de impresión de lonas.",
     "ogImageAlt": "Plotter e impresión de lonas, vinil y materiales visuales por Laser Inova en CDMX",
-    "twitterTitle": "Plotter e Impresión de Lonas en CDMX | Laser Inova",
-    "twitterDescription": "Plotter e impresión de lonas, vinil y gran formato en CDMX, más impresión UV cama plana en acrílico, MDF y metal. Cotiza por WhatsApp."
+    "twitterTitle": "Plotter e Impresión Gran Formato en CDMX | Laser Inova",
+    "twitterDescription": "Plotter e impresión gran formato en CDMX: vinil, papel, tela banner y más, con impresión UV sobre rígidos. Para lonas, mira nuestra página de impresión de lonas."
   },
   "ld": {
     "name": "Plotter, Cama Plana UV e Impresión",
@@ -40,6 +40,14 @@
             "strong": "impresión en lona, impresión en vinil, branding para eventos, publicidad visual, materiales para activaciones o apoyo gráfico de gran formato"
           },
           ", aquí encontrarás el panorama completo de lo que producimos, con más contexto que en nuestras líneas más específicas."
+        ],
+        [
+          "Si lo que necesitas es una lona, consulta la página de ",
+          {
+            "link": "impresión de lonas en CDMX",
+            "href": "/subpages/lona_gran_formato.html"
+          },
+          "."
         ]
       ]
     },
@@ -277,7 +285,7 @@
       },
       {
         "q": "¿Trabajan publicidad gran formato?",
-        "a": "Sí. Contamos con equipos de gran formato capaces de cubrir espectaculares, fachadas, vinil vehicular y displays comerciales de gran envergadura."
+        "a": "Sí. Imprimimos gran formato hasta 1.8 metros de ancho por pieza; las medidas mayores se producen por partes y se unen con sellado térmico."
       },
       {
         "q": "¿Qué máquina usan para esta línea?",

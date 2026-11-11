@@ -63,7 +63,7 @@
     "title": "Dudas sobre impresión de lona en gran formato",
     "items": [
       {
-        "q": "¿Qué es la lona mesh y cuándo conviene usarla?",
+        "q": "¿Qué es la lona mesh y cuándo conviene usarla? (información general)",
         "a": "Es una lona microperforada que deja pasar el aire. Conviene en andamios, fachadas altas o lugares con mucho viento, porque reduce la presión del viento sobre la estructura."
       },
       {
@@ -72,7 +72,7 @@
       },
       {
         "q": "¿Pueden hacer lonas de medidas grandes?",
-        "a": "Sí. Con sellado o soldadura se pueden unir paños para formar medidas grandes. Cuéntanos la medida de tu estructura y te orientamos."
+        "a": "Sí. Nuestro plotter imprime hasta 1.8 m de ancho; las medidas mayores se producen por partes y se unen con sellado térmico. Cuéntanos la medida de tu estructura."
       },
       {
         "q": "¿Qué archivo necesito?",
@@ -153,7 +153,7 @@
           {
             "type": "p",
             "text": [
-              "Si dudas entre dos, lo más práctico es decirnos dónde va a ir instalada y a qué estructura se sujeta. Con eso se elige el material. También puedes revisar el servicio de ",
+              "En Laser Inova imprimimos lona frontlit; si necesitas otro tipo, consúltanos. Para cualquier caso, lo más práctico es decirnos dónde va a ir instalada y a qué estructura se sujeta. También puedes revisar el servicio de ",
               {
                 "link": "lona en gran formato",
                 "href": "/subpages/lona_gran_formato.html"
