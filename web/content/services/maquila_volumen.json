@@ -2,14 +2,14 @@
   "slug": "maquila_volumen",
   "path": "/subpages/maquila_volumen.html",
   "meta": {
-    "title": "Maquila Láser en CDMX | Corte y Grabado por Volumen",
-    "description": "Maquila de corte y grabado láser en CDMX por volumen: MDF, acrílico, metal, madera y plástico. Producción repetible para empresas y agencias.",
+    "title": "Maquila Láser en MDF, Acrílico y Metal en CDMX | Laser Inova",
+    "description": "Maquila de corte y grabado láser en CDMX por volumen: MDF, acrílico, madera y metal. Producción repetible para empresas y agencias. Cotiza por WhatsApp.",
     "keywords": "maquila de volumen CDMX, producción en MDF, maquila en acrílico, corte de metal por volumen, producción repetible, maquila en plástico, fabricación por lote",
-    "ogTitle": "Maquila Láser en CDMX | Corte y Grabado por Volumen",
-    "ogDescription": "Maquila de corte y grabado láser en CDMX por volumen: MDF, acrílico, metal, madera y plástico. Producción repetible para empresas y agencias.",
+    "ogTitle": "Maquila Láser en MDF, Acrílico y Metal en CDMX | Laser Inova",
+    "ogDescription": "Maquila de corte y grabado láser en CDMX por volumen: MDF, acrílico, madera y metal. Producción repetible para empresas y agencias. Cotiza por WhatsApp.",
     "ogImageAlt": "Maquila de volumen y producción en MDF, acrílico y madera por Laser Inova en CDMX",
-    "twitterTitle": "Maquila Láser en CDMX | Corte y Grabado por Volumen",
-    "twitterDescription": "Maquila de corte y grabado láser en CDMX por volumen: MDF, acrílico, metal, madera y plástico. Producción repetible para empresas y agencias."
+    "twitterTitle": "Maquila Láser en MDF, Acrílico y Metal en CDMX | Laser Inova",
+    "twitterDescription": "Maquila de corte y grabado láser en CDMX por volumen: MDF, acrílico, madera y metal. Producción repetible para empresas y agencias. Cotiza por WhatsApp."
   },
   "ld": {
     "name": "Maquila de volumen",
@@ -33,7 +33,17 @@
           },
           " para resolver producción física de piezas repetitivas, estructuras visuales, componentes de apoyo o proyectos especiales."
         ],
-        "Optimizamos la cadena de suministro de su negocio mediante nuestro servicio de maquila de corte y grabado láser en volumen en la Ciudad de México. Con precios altamente competitivos al por mayor, maquinaria industrial de última generación y un estricto control de calidad, somos el aliado ideal para fabricantes, carpinterías industriales, despachos de diseño y marcas masivas."
+        [
+          "Hacemos maquila de corte y grabado láser por volumen en la Ciudad de México, para fabricantes, despachos de diseño, agencias y marcas que necesitan varias piezas iguales. Cuéntanos la cantidad, el material y el diseño, y te respondemos con una propuesta."
+        ],
+        [
+          "Si tu proyecto es de corte en MDF o acrílico, mira también la página de ",
+          {
+            "link": "corte láser en MDF y acrílico",
+            "href": "/subpages/corte_laser_mdf_acrilico.html"
+          },
+          "."
+        ]
       ]
     },
     {
@@ -207,7 +217,7 @@
       },
       {
         "q": "¿Sirve para empresas y proyectos especiales?",
-        "a": "Totalmente. Nos especializamos en la producción repetible a escala industrial, garantizando la uniformidad absoluta de cada pieza desde la unidad 1 hasta la 10,000 bajo contratos de servicio B2B establecidos."
+        "a": "Sí. Podemos producir piezas repetibles por lote para empresas y proyectos especiales. Cuéntanos la cantidad y el material para revisarlo."
       },
       {
         "q": "¿Pueden fabricar piezas para branding visual o campañas?",

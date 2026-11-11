@@ -3,13 +3,13 @@
   "path": "/subpages/corte_laser_mdf_acrilico.html",
   "meta": {
     "title": "Corte Láser en MDF y Acrílico en CDMX | Laser Inova",
-    "description": "Corte láser en MDF y acrílico en CDMX: letreros, displays, exhibidores, cajas y piezas a medida. Por pieza o por volumen. Cotiza por WhatsApp.",
+    "description": "Corte láser en MDF y acrílico en CDMX: letreros, displays, exhibidores, cajas y piezas a medida, desde una pieza o por lote. Envíos a todo el país. Cotiza.",
     "keywords": "corte láser mdf, corte láser acrílico, trabajos en mdf cdmx, corte de acrílico cdmx, letreros en mdf, exhibidores de acrílico, maquila mdf, corte laser cerca de mi",
     "ogTitle": "Corte Láser en MDF y Acrílico en CDMX | Laser Inova",
-    "ogDescription": "Corte láser en MDF y acrílico en CDMX: letreros, displays, exhibidores, cajas y piezas a medida. Por pieza o por volumen. Cotiza por WhatsApp.",
+    "ogDescription": "Corte láser en MDF y acrílico en CDMX: letreros, displays, exhibidores, cajas y piezas a medida, desde una pieza o por lote. Envíos a todo el país. Cotiza.",
     "ogImageAlt": "Corte láser de piezas en MDF y acrílico por Laser Inova en CDMX",
     "twitterTitle": "Corte Láser en MDF y Acrílico en CDMX | Laser Inova",
-    "twitterDescription": "Corte láser en MDF y acrílico en CDMX: letreros, displays, exhibidores, cajas y piezas a medida. Por pieza o por volumen. Cotiza por WhatsApp."
+    "twitterDescription": "Corte láser en MDF y acrílico en CDMX: letreros, displays, exhibidores, cajas y piezas a medida, desde una pieza o por lote. Envíos a todo el país. Cotiza."
   },
   "ld": {
     "name": "Corte láser en MDF y acrílico",
@@ -95,6 +95,63 @@
       ]
     },
     {
+      "theme": "light",
+      "id": "comparar",
+      "eyebrow": "Corte, grabado e impresión",
+      "title": "Qué necesita tu pieza: cortar, grabar, imprimir o todo",
+      "cards": [
+        {
+          "title": "Corte láser",
+          "text": "Da la forma a la pieza: contornos, letras, logotipos y figuras en MDF o acrílico."
+        },
+        {
+          "title": "Grabado láser",
+          "text": "Marca texto, logotipos o detalles sobre la pieza; se puede hacer en la misma pieza que se corta."
+        },
+        {
+          "title": "Impresión directa UV",
+          "text": "Aplica color sobre la superficie plana de la pieza, con tinta blanca y barniz UV. Consulta la página de impresión UV."
+        },
+        {
+          "title": "DTF UV (sticker)",
+          "text": "Un diseño a color en formato sticker, de hasta 90 × 30 cm, para pegar en superficies planas o con poco relieve."
+        }
+      ]
+    },
+    {
+      "theme": "alt",
+      "id": "cdmx",
+      "eyebrow": "CDMX y envíos",
+      "title": "Corte láser en CDMX y envíos a todo el país",
+      "paragraphs": [
+        [
+          "Atendemos empresas, agencias y particulares de ",
+          {
+            "strong": "CDMX y zona metropolitana"
+          },
+          ", y enviamos piezas a todo el país. El envío se cotiza por FedEx, DHL o Estafeta y el costo se cotiza aparte."
+        ],
+        [
+          "Para producción repetible de la misma pieza, revisa también la ",
+          {
+            "link": "maquila láser por volumen",
+            "href": "/subpages/maquila_volumen.html"
+          },
+          "; y si tus piezas llevan color, mira la ",
+          {
+            "link": "impresión directa UV",
+            "href": "/subpages/impresion_cama_plana_uv.html"
+          },
+          " y el ",
+          {
+            "link": "DTF UV",
+            "href": "/subpages/impresion_dtf_uv.html"
+          },
+          "."
+        ]
+      ]
+    },
+    {
       "theme": "dark",
       "eyebrow": "Materiales",
       "title": "MDF y acrílico, con o sin grabado",
@@ -136,8 +193,16 @@
         "a": "Sí, con impresión UV de cama plana cuando el diseño lleva color. Mira nuestra página de impresión UV."
       },
       {
-        "q": "¿Tienen servicio de corte láser cerca de mí?",
-        "a": "Atendemos CDMX y zona metropolitana, con envíos a todo el país."
+        "q": "¿Qué diferencia hay entre cortar, grabar e imprimir?",
+        "a": "Cortar da forma a la pieza, grabar marca texto o logotipos sobre ella, e imprimir aplica color. Se pueden combinar según lo que necesite tu proyecto."
+      },
+      {
+        "q": "¿Hacen envíos fuera de CDMX?",
+        "a": "Sí. Enviamos a todo el país; el envío se cotiza por FedEx, DHL o Estafeta y el costo del envío se cotiza aparte."
+      },
+      {
+        "q": "¿Dónde pueden atenderme?",
+        "a": "Atendemos CDMX y zona metropolitana, y enviamos a todo el país."
       }
     ]
   },
