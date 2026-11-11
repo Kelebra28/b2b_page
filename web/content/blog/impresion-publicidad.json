@@ -2,15 +2,15 @@
   "slug": "impresion-publicidad",
   "path": "/blog/impresion-publicidad.html",
   "meta": {
-    "title": "Impresión para publicidad B2B y corporativa | Blog Laser Inova",
-    "description": "Descubre cómo la impresión en gran formato y soluciones visuales para agencias y empresas mejoran tu impacto. B2B CDMX.",
-    "keywords": "impresion para publicidad, impresion gran formato, lonas, vinil publicitario, impresion comercial CDMX",
+    "title": "Impresión para Publicidad: Materiales y Cómo Elegir",
+    "description": "Qué materiales de impresión se usan en publicidad: lonas, vinil, displays y rígidos. Cómo elegir según el uso y qué preparar para cotizar. Servicio en CDMX.",
+    "keywords": "impresión para publicidad, impresión gran formato CDMX, lonas y vinil, displays publicitarios, material POP, publicidad B2B, impresión corporativa",
     "canonical": "https://www.laserinova.com/blog/impresion-publicidad.html",
-    "ogTitle": "Impresión para publicidad B2B y corporativa | Laser Inova",
-    "ogDescription": "Descubre cómo la impresión en gran formato y soluciones visuales para agencias y empresas mejoran tu impacto. B2B CDMX.",
+    "ogTitle": "Impresión para Publicidad: Materiales y Cómo Elegir",
+    "ogDescription": "Qué materiales de impresión se usan en publicidad: lonas, vinil, displays y rígidos. Cómo elegir según el uso y qué preparar para cotizar. Servicio en CDMX.",
     "ogType": "article",
-    "twitterTitle": "",
-    "twitterDescription": ""
+    "twitterTitle": "Impresión para Publicidad: Materiales y Cómo Elegir",
+    "twitterDescription": "Qué materiales de impresión se usan en publicidad: lonas, vinil, displays y rígidos. Cómo elegir según el uso y qué preparar para cotizar. Servicio en CDMX."
   },
   "ld": {
     "@context": "https://schema.org",
@@ -28,32 +28,7 @@
       }
     }
   },
-  "sections": [
-    {
-      "theme": "light",
-      "title": "Impacto Visual para Campañas y Marcas",
-      "paragraphs": [
-        "Para las agencias y departamentos de mercadotecnia, contar con un proveedor que resuelva proyectos de lona, vinil de corte y exhibidores en alta resolución es vital. Trabajamos bajo un esquema de producción escalable capaz de atender las métricas corporativas y exigencias de marca más estrictas."
-      ]
-    },
-    {
-      "theme": "light",
-      "cards": [
-        {
-          "title": "Gran Formato Impresión de lonas y materiales para espectaculares garantizando densidad de color y durabilidad.",
-          "text": "Impresión de lonas y materiales para espectaculares garantizando densidad de color y durabilidad."
-        },
-        {
-          "title": "Calidad Comercial Atención enfocada en agencias que buscan resolución en displays, material POP y retail.",
-          "text": "Atención enfocada en agencias que buscan resolución en displays, material POP y retail."
-        },
-        {
-          "title": "Tiempos y Maquila Cumplimos con cronogramas exigentes, con validación de arte y pruebas de color opcionales.",
-          "text": "Cumplimos con cronogramas exigentes, con validación de arte y pruebas de color opcionales."
-        }
-      ]
-    }
-  ],
+  "sections": [],
   "hero": {
     "eyebrow": "Publicidad · Impresión · Agencias",
     "title": "La Impresión para Publicidad y sus Ventajas B2B",
@@ -72,15 +47,205 @@
   },
   "cta": {
     "eyebrow": "Cotización",
-    "title": "¿Tienes un proyecto similar?",
-    "text": "Cuéntanos qué necesitas y te ayudamos a cotizarlo.",
+    "title": "¿Necesitas impresión para publicidad?",
+    "text": "Cuéntanos qué pieza necesitas, medidas y dónde se va a usar. Te respondemos con una propuesta.",
     "primary": {
       "label": "Cotizar por WhatsApp",
-      "href": "https://wa.me/525579398727?text=Hola,%20me%20interesa%20la%20impresi%C3%B3n%20para%20publicidad%20y%20agencias"
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20impresi%C3%B3n%20para%20publicidad"
     },
     "secondary": {
-      "label": "Ver más artículos",
-      "href": "/blog"
+      "label": "Ver el servicio de plotter e impresión",
+      "href": "/subpages/plotter_impresion.html"
     }
+  },
+  "article": {
+    "title": "Impresión para publicidad: qué materiales existen y cómo elegir el adecuado",
+    "dek": "Un mapa de los materiales impresos más usados en publicidad —lonas, vinil, rígidos y displays— y qué conviene preguntar antes de pedir una cotización.",
+    "author": "Laser Inova",
+    "date": "2026-11-11",
+    "dateLabel": "11 de noviembre de 2026",
+    "readingMinutes": 4,
+    "image": {
+      "src": "/img/subpages/plotter/gran_formato.jpg",
+      "alt": "Impresión de gran formato para publicidad y campañas corporativas"
+    },
+    "sections": [
+      {
+        "id": "que-es",
+        "heading": "Qué entra en la impresión para publicidad",
+        "body": [
+          {
+            "type": "p",
+            "text": "Cuando una empresa habla de impresión para publicidad suele referirse a piezas físicas que comunican una marca o una promoción: lonas, vinil, displays, señalética, exhibidores y material para puntos de venta."
+          },
+          {
+            "type": "p",
+            "text": "Cada material tiene un uso distinto. Elegir bien desde el inicio ahorra dinero y evita que la pieza se vea mal o dure menos de lo necesario."
+          }
+        ]
+      },
+      {
+        "id": "materiales",
+        "heading": "Los materiales más usados",
+        "body": [
+          {
+            "type": "ul",
+            "items": [
+              [
+                {
+                  "strong": "Lona:"
+                },
+                " la opción para exteriores y formatos grandes. Hay lona frontlit, backlit y mesh; ",
+                {
+                  "link": "aquí explicamos las diferencias",
+                  "href": "/blog/impresion-lona-gran-formato.html"
+                },
+                "."
+              ],
+              [
+                {
+                  "strong": "Vinil impreso:"
+                },
+                " para cristales, muros y superficies lisas. ",
+                {
+                  "link": "Guía de vinil y rotulación",
+                  "href": "/blog/vinil-impreso-decorativo-comercial.html"
+                },
+                "."
+              ],
+              [
+                {
+                  "strong": "Vinil de corte:"
+                },
+                " letras y logotipos de un solo color."
+              ],
+              [
+                {
+                  "strong": "Rígidos:"
+                },
+                " materiales como PVC espumado, acrílico o MDF para displays y señalética."
+              ],
+              [
+                {
+                  "strong": "Displays y exhibidores:"
+                },
+                " piezas armables para ferias, tiendas y eventos."
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Para impresión directa sobre superficies rígidas, existe la impresión UV de cama plana, que permite imprimir sobre materiales como acrílico, madera o metal."
+          }
+        ]
+      },
+      {
+        "id": "elegir",
+        "heading": "Cómo elegir según el uso",
+        "body": [
+          {
+            "type": "ul",
+            "items": [
+              "Interior o exterior: el exterior pide materiales resistentes a sol, lluvia y viento.",
+              "Duración: una promoción de temporada no requiere lo mismo que una identificación permanente.",
+              "Movilidad: algunas piezas se instalan una vez; otras se trasladan y se arman muchas veces.",
+              "Distancia de lectura: lo que se ve de lejos necesita letras y logotipo grandes.",
+              "Presupuesto y volumen: producir varias piezas iguales cambia lo que conviene."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "preparar",
+        "heading": "Qué preparar para cotizar",
+        "body": [
+          {
+            "type": "ol",
+            "items": [
+              "Qué pieza necesitas y dónde se va a usar.",
+              "Medidas finales y cantidad.",
+              "Si es interior o exterior y por cuánto tiempo.",
+              "Si ya tienes el diseño y en qué formato.",
+              "Fecha en la que la necesitas, para planear instalación o entrega."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Con esa información se puede recomendar el material y estimar la producción con más claridad."
+          }
+        ]
+      },
+      {
+        "id": "errores",
+        "heading": "Errores comunes",
+        "body": [
+          {
+            "type": "ul",
+            "items": [
+              "Elegir el material solo por precio sin considerar dónde va a estar.",
+              "Mandar archivos de baja resolución para formatos grandes.",
+              "No confirmar las medidas reales de la estructura o del espacio.",
+              "Dejar la aprobación del diseño para el último momento.",
+              "Pedir las piezas a distintos proveedores y que el color no coincida entre ellas."
+            ]
+          },
+          {
+            "type": "p",
+            "text": [
+              "Si lo tuyo es una campaña completa con varias piezas, mira cómo organizar la ",
+              {
+                "link": "producción impresa para campañas",
+                "href": "/blog/impresion-campanas-publicitarias-agencias.html"
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    ],
+    "related": [
+      {
+        "label": "Plotter e impresión",
+        "href": "/subpages/plotter_impresion.html"
+      },
+      {
+        "label": "Lona en gran formato",
+        "href": "/subpages/lona_gran_formato.html"
+      },
+      {
+        "label": "Displays y materiales visuales",
+        "href": "/subpages/displays_materiales_visuales.html"
+      },
+      {
+        "label": "Impresión UV cama plana",
+        "href": "/subpages/impresion_cama_plana_uv.html"
+      }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas sobre impresión para publicidad",
+    "items": [
+      {
+        "q": "¿Qué material conviene para exteriores?",
+        "a": "Normalmente lona, y dentro de ella la mesh si hay mucho viento. Para pequeñas superficies lisas puede usarse vinil de exterior."
+      },
+      {
+        "q": "¿Qué es la impresión UV de cama plana?",
+        "a": "Es una impresión directa sobre superficies rígidas como acrílico, madera o metal, sin pasar por un vinil intermedio."
+      },
+      {
+        "q": "¿Pueden imprimir piezas en distintos materiales para una misma campaña?",
+        "a": "Sí. Lo ideal es enviar la lista de piezas con medidas, materiales y cantidades para revisarla en conjunto."
+      },
+      {
+        "q": "¿Qué archivo necesito?",
+        "a": "Archivos a tamaño real o a escala, con textos en curvas y resolución adecuada. Si no está listo, consúltanos."
+      },
+      {
+        "q": "¿Hacen envíos fuera de CDMX?",
+        "a": "Sí. Atendemos CDMX y zona metropolitana, y hacemos envíos a todo el país."
+      }
+    ]
   }
 }

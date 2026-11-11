@@ -2,15 +2,15 @@
   "slug": "impresion-vehicular",
   "path": "/blog/impresion-vehicular.html",
   "meta": {
-    "title": "Impresión para Publicidad en Autos y Flotillas | Blog Laser Inova",
-    "description": "Rotulación y publicidad en camionetas corporativas. Lleva tu marca a todas partes con vinil fundido y calidad comercial.",
-    "keywords": "impresion publicidad autos, rotulacion flotillas, publicidad vehicular, vinil para vehiculos",
+    "title": "Rotulación Vehicular y Flotillas: Guía de Materiales",
+    "description": "Guía de rotulación y publicidad en vehículos y flotillas: vinil para carrocería y cristales, diseño, estandarización y errores comunes. Servicio en CDMX.",
+    "keywords": "rotulación vehicular CDMX, publicidad en autos, rotulación de flotillas, vinil fundido, vinil microperforado para cristales, impresión vehicular, branding de camionetas",
     "canonical": "https://www.laserinova.com/blog/impresion-vehicular.html",
-    "ogTitle": "Impresión para Publicidad en Autos y Flotillas | Laser Inova",
-    "ogDescription": "Rotulación y publicidad en camionetas corporativas. Lleva tu marca a todas partes con vinil fundido y calidad comercial.",
+    "ogTitle": "Rotulación Vehicular y Flotillas: Guía de Materiales",
+    "ogDescription": "Guía de rotulación y publicidad en vehículos y flotillas: vinil para carrocería y cristales, diseño, estandarización y errores comunes. Servicio en CDMX.",
     "ogType": "article",
-    "twitterTitle": "",
-    "twitterDescription": ""
+    "twitterTitle": "Rotulación Vehicular y Flotillas: Guía de Materiales",
+    "twitterDescription": "Guía de rotulación y publicidad en vehículos y flotillas: vinil para carrocería y cristales, diseño, estandarización y errores comunes. Servicio en CDMX."
   },
   "ld": {
     "@context": "https://schema.org",
@@ -28,32 +28,7 @@
       }
     }
   },
-  "sections": [
-    {
-      "theme": "light",
-      "title": "Lleva la Identidad de tu Empresa a la Calle",
-      "paragraphs": [
-        "Un vehículo sin rotular es un espacio publicitario perdido. Imprimimos el material con tintas optimizadas para resistir lluvia y rayos UV, protegiendo las pinturas originales y cumpliendo especificaciones de identidad."
-      ]
-    },
-    {
-      "theme": "light",
-      "cards": [
-        {
-          "title": "Rotulación Especializada",
-          "text": "Vinil microperforado para cristales y vinil fundido para carrocerías con adaptabilidad a curvas."
-        },
-        {
-          "title": "Flotillas y Carga",
-          "text": "Estandarización de imagen e impresión masiva para cientos de vehículos utilitarios sin perder el tono de marca."
-        },
-        {
-          "title": "Impacto Masivo",
-          "text": "Un costo por impresión bajo comparado con otros medios, ideal para logística con rutas establecidas."
-        }
-      ]
-    }
-  ],
+  "sections": [],
   "hero": {
     "eyebrow": "Flotillas · Rotulación · Branding",
     "title": "Impresión para Publicidad en Autos y Flotillas",
@@ -72,15 +47,209 @@
   },
   "cta": {
     "eyebrow": "Cotización",
-    "title": "¿Tienes un proyecto similar?",
-    "text": "Cuéntanos qué necesitas y te ayudamos a cotizarlo.",
+    "title": "¿Quieres rotular tus vehículos?",
+    "text": "Cuéntanos qué tipo de vehículo es, cuántas unidades son y si ya tienes diseño. Te respondemos con una propuesta.",
     "primary": {
       "label": "Cotizar por WhatsApp",
-      "href": "https://wa.me/525579398727?text=Hola,%20me%20interesa%20la%20rotulaci%C3%B3n%20vehicular%20y%20flotillas"
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20rotulaci%C3%B3n%20de%20veh%C3%ADculos%20o%20flotillas"
     },
     "secondary": {
-      "label": "Ver más artículos",
-      "href": "/blog"
+      "label": "Ver el servicio de vinil e instalación",
+      "href": "/subpages/vinil_instalacion.html"
     }
+  },
+  "article": {
+    "title": "Rotulación y publicidad en vehículos y flotillas: materiales, diseño y planeación",
+    "dek": "Cómo funciona la publicidad en autos y camionetas, qué vinil se usa en carrocería y cristales y qué planear antes de rotular una flotilla.",
+    "author": "Laser Inova",
+    "date": "2026-11-11",
+    "dateLabel": "11 de noviembre de 2026",
+    "readingMinutes": 4,
+    "image": {
+      "src": "https://images.unsplash.com/photo-1621360841013-c7683c659ec6?q=80&w=600&auto=format&fit=crop",
+      "alt": "Vehículo rotulado con publicidad impresa para flotillas"
+    },
+    "sections": [
+      {
+        "id": "por-que",
+        "heading": "Por qué rotular los vehículos de una empresa",
+        "body": [
+          {
+            "type": "p",
+            "text": "Un vehículo con la identidad de la empresa funciona como un anuncio que recorre la ciudad todos los días. Sirve para que te reconozcan en la calle, para dar confianza al llegar con un cliente y para que todas las unidades se vean como parte de la misma marca."
+          },
+          {
+            "type": "p",
+            "text": "En flotillas de reparto, servicio técnico o ventas en ruta, además, la rotulación ayuda a identificar rápido la unidad y a mantener una imagen uniforme sin importar el modelo del vehículo."
+          }
+        ]
+      },
+      {
+        "id": "materiales",
+        "heading": "Qué materiales se usan",
+        "body": [
+          {
+            "type": "p",
+            "text": "No todo el vinil sirve para un vehículo. La carrocería tiene curvas, y los cristales tienen otras necesidades."
+          },
+          {
+            "type": "ul",
+            "items": [
+              [
+                {
+                  "strong": "Vinil fundido (cast):"
+                },
+                " es delgado y se adapta mejor a curvas y relieves, por eso se prefiere para carrocerías con formas pronunciadas."
+              ],
+              [
+                {
+                  "strong": "Vinil calandrado:"
+                },
+                " suele usarse en superficies planas o con curvas suaves, como paneles de cajas de carga."
+              ],
+              [
+                {
+                  "strong": "Vinil microperforado:"
+                },
+                " se usa en cristales traseros y laterales: desde afuera se ve la imagen y desde adentro se sigue viendo el exterior."
+              ],
+              [
+                {
+                  "strong": "Laminado:"
+                },
+                " capa protectora transparente que ayuda a resistir lavado, rayones y exposición al sol."
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "La elección depende del tipo de vehículo, la zona que se rotula y cuánto tiempo se quiere que dure la imagen."
+          }
+        ]
+      },
+      {
+        "id": "diseno",
+        "heading": "Cómo diseñar para un vehículo",
+        "body": [
+          {
+            "type": "ul",
+            "items": [
+              "Piensa en lectura a distancia y en movimiento: logotipo grande, pocos textos y teléfono o sitio web legible.",
+              "Considera las puertas, manijas, molduras y ventanas que cortan el diseño.",
+              "Usa colores con buen contraste respecto al color base del vehículo.",
+              "Parte de una plantilla del modelo exacto del vehículo para que el diseño caiga donde debe.",
+              "Si el diseño se va a repetir en varias unidades, define una versión base y sus variantes por modelo."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Entre más claro sea el mensaje, mejor funciona: un vehículo se ve unos segundos, no se lee como un folleto."
+          }
+        ]
+      },
+      {
+        "id": "flotillas",
+        "heading": "Flotillas: estandarizar para toda la unidad",
+        "body": [
+          {
+            "type": "p",
+            "text": "Cuando hay varios vehículos, lo difícil no es rotular uno: es que todos queden iguales. Conviene definir desde el principio un manual sencillo con colores, medidas de logotipo y posición en cada tipo de unidad."
+          },
+          {
+            "type": "p",
+            "text": "También ayuda programar la rotulación por lotes y confirmar primero una unidad piloto, para validar color, tamaño y posición antes de producir el resto."
+          }
+        ]
+      },
+      {
+        "id": "cuidados",
+        "heading": "Cuidado y duración",
+        "body": [
+          {
+            "type": "p",
+            "text": "La duración depende del material, de cómo se instaló y de las condiciones de uso: sol, lluvia, lavado y estacionamiento al aire libre. Para conservar mejor la rotulación:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Lava con agua y jabón neutro; evita químicos fuertes.",
+              "Evita la lavadora de alta presión cerca de los bordes del vinil.",
+              "Revisa los bordes de vez en cuando y repara pronto cualquier punta levantada."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "errores",
+        "heading": "Errores comunes",
+        "body": [
+          {
+            "type": "ul",
+            "items": [
+              "Diseñar sin una plantilla del vehículo y descubrir después que algo cae sobre una manija o un doblez.",
+              "Elegir un vinil de superficie plana para una carrocería con curvas fuertes.",
+              "Saturar el diseño de texto.",
+              "No hacer una prueba en una unidad antes de rotular toda la flotilla.",
+              "Instalar sin limpiar bien la superficie."
+            ]
+          },
+          {
+            "type": "p",
+            "text": [
+              "Si además necesitas rotular locales u oficinas con la misma imagen, revisa la guía de ",
+              {
+                "link": "vinil impreso y rotulación comercial",
+                "href": "/blog/vinil-impreso-decorativo-comercial.html"
+              },
+              "."
+            ]
+          }
+        ]
+      }
+    ],
+    "related": [
+      {
+        "label": "Vinil e instalación",
+        "href": "/subpages/vinil_instalacion.html"
+      },
+      {
+        "label": "Plotter e impresión",
+        "href": "/subpages/plotter_impresion.html"
+      },
+      {
+        "label": "Producción para agencias",
+        "href": "/subpages/produccion_agencias.html"
+      },
+      {
+        "label": "Maquila de volumen",
+        "href": "/subpages/maquila_volumen.html"
+      }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas sobre rotulación de vehículos y flotillas",
+    "items": [
+      {
+        "q": "¿Qué vinil se usa en la carrocería?",
+        "a": "Normalmente vinil fundido, que se adapta mejor a curvas y relieves. En superficies planas puede usarse otro tipo de vinil."
+      },
+      {
+        "q": "¿Se puede rotular un cristal sin perder visibilidad?",
+        "a": "Sí, con vinil microperforado: desde afuera se ve la imagen y desde adentro se sigue viendo hacia el exterior."
+      },
+      {
+        "q": "¿Es lo mismo rotular un vehículo que una flotilla?",
+        "a": "El proceso es parecido, pero en flotillas hay que cuidar que todas las unidades queden iguales. Conviene validar primero una unidad piloto."
+      },
+      {
+        "q": "¿Cómo se limpia un vehículo rotulado?",
+        "a": "Con agua y jabón neutro. Evita químicos fuertes y la presión alta cerca de los bordes."
+      },
+      {
+        "q": "¿Hacen envíos fuera de CDMX?",
+        "a": "Sí. Atendemos CDMX y zona metropolitana, y hacemos envíos a todo el país."
+      }
+    ]
   }
 }

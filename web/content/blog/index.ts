@@ -66,7 +66,7 @@ const articleLd = (p: BlogPost): Record<string, unknown> => {
       {
         "@type": "BlogPosting", headline: a.title, description: p.meta.description, inLanguage: "es-MX",
         datePublished: a.date, dateModified: a.date, mainEntityOfPage: url, url,
-        image: `${siteUrl}${a.image.src}`, wordCount: words(a.sections),
+        image: a.image.src.startsWith("http") ? a.image.src : `${siteUrl}${a.image.src}`, wordCount: words(a.sections),
         author: { "@type": "Organization", name: a.author, url: siteUrl },
         publisher: { "@type": "Organization", name: site.name, url: siteUrl },
       },

@@ -2,15 +2,15 @@
   "slug": "grabado-madera-eventos",
   "path": "/blog/grabado-madera-eventos.html",
   "meta": {
-    "title": "Grabado de Madera para Bodas y Eventos Premium | Blog Laser Inova",
-    "description": "Toques personalizados y orgánicos para tus celebraciones. Cajas, centros de mesa y recuerdos de madera para eventos.",
-    "keywords": "grabado de madera para bodas, recuerdos de madera grabada, eventos premium, madera cortada con laser",
+    "title": "Grabado Láser en Madera para Bodas y Eventos",
+    "description": "Guía de grabado láser en madera y MDF para bodas y eventos: piezas más pedidas, diseño, materiales y qué preparar para cotizar. Taller en CDMX.",
+    "keywords": "grabado láser en madera, madera grabada para bodas, números de mesa en madera, recuerdos de madera, MDF grabado, grabado en madera CDMX, detalles para eventos",
     "canonical": "https://www.laserinova.com/blog/grabado-madera-eventos.html",
-    "ogTitle": "Grabado de Madera para Bodas y Eventos Premium | Laser Inova",
-    "ogDescription": "Toques personalizados y orgánicos para tus celebraciones. Cajas, centros de mesa y recuerdos de madera para eventos.",
+    "ogTitle": "Grabado Láser en Madera para Bodas y Eventos",
+    "ogDescription": "Guía de grabado láser en madera y MDF para bodas y eventos: piezas más pedidas, diseño, materiales y qué preparar para cotizar. Taller en CDMX.",
     "ogType": "article",
-    "twitterTitle": "",
-    "twitterDescription": ""
+    "twitterTitle": "Grabado Láser en Madera para Bodas y Eventos",
+    "twitterDescription": "Guía de grabado láser en madera y MDF para bodas y eventos: piezas más pedidas, diseño, materiales y qué preparar para cotizar. Taller en CDMX."
   },
   "ld": {
     "@context": "https://schema.org",
@@ -28,32 +28,7 @@
       }
     }
   },
-  "sections": [
-    {
-      "theme": "light",
-      "title": "Diseños Elegantes con Estética Orgánica",
-      "paragraphs": [
-        "La madera es un material sumamente noble que conecta con la sobriedad y la elegancia. Proveemos soluciones completas a Wedding Planners, de forma eficiente e integrada para coordinar colores, tipografías y el estilo integral de todo evento."
-      ]
-    },
-    {
-      "theme": "light",
-      "cards": [
-        {
-          "title": "Bodas y Recepciones",
-          "text": "Libros de invitados, números de mesa en madera MDF premium e identificadores cálidos para los invitados."
-        },
-        {
-          "title": "Detalles Finos",
-          "text": "El láser deja los característicos bordes oscurecidos generando gran contraste visual ideal para decoraciones vintage y rústicas."
-        },
-        {
-          "title": "Alianza con Organizadores",
-          "text": "Tratamos directamente con agencias que realizan muchos eventos al año, simplificando su producción y reduciendo costos por pedido."
-        }
-      ]
-    }
-  ],
+  "sections": [],
   "hero": {
     "eyebrow": "Bodas · Eventos · Boutique",
     "title": "Grabado de Madera para Eventos y Bodas",
@@ -72,15 +47,215 @@
   },
   "cta": {
     "eyebrow": "Cotización",
-    "title": "¿Tienes un proyecto similar?",
-    "text": "Cuéntanos qué necesitas y te ayudamos a cotizarlo.",
+    "title": "¿Tienes un evento en puerta?",
+    "text": "Cuéntanos qué piezas necesitas, cuántas y para qué fecha. Te respondemos con una propuesta.",
     "primary": {
       "label": "Cotizar por WhatsApp",
-      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20de%20madera%20para%20un%20evento"
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20en%20madera%20para%20un%20evento"
     },
     "secondary": {
-      "label": "Ver más artículos",
-      "href": "/blog"
+      "label": "Ver el servicio de grabado en madera",
+      "href": "/subpages/grabado_madera.html"
     }
+  },
+  "article": {
+    "title": "Grabado láser en madera para bodas y eventos: qué se puede hacer y cómo pedirlo",
+    "dek": "Ideas y criterios prácticos para personalizar madera y MDF con láser en bodas, bautizos y eventos corporativos: piezas, diseños, materiales y qué preparar.",
+    "author": "Laser Inova",
+    "date": "2026-11-11",
+    "dateLabel": "11 de noviembre de 2026",
+    "readingMinutes": 4,
+    "image": {
+      "src": "/img/gallery/A3144_lrg.jpg",
+      "alt": "Portarretrato de madera y acrílico con logotipo grabado para eventos y regalos"
+    },
+    "sections": [
+      {
+        "id": "que-es",
+        "heading": "Por qué la madera funciona tan bien en eventos",
+        "body": [
+          {
+            "type": "p",
+            "text": "La madera da un aspecto cálido, natural y cuidado, y es fácil de personalizar con láser: el haz oscurece la superficie y deja el diseño con un tono café característico, sin tinta. Por eso se usa mucho en bodas, bautizos, XV años y eventos corporativos donde se busca un detalle con presencia."
+          },
+          {
+            "type": "p",
+            "text": "Además de la madera natural, el MDF es muy común en proyectos por volumen: se corta y se graba con precisión, tiene una superficie uniforme y permite fabricar muchas piezas iguales."
+          }
+        ]
+      },
+      {
+        "id": "piezas",
+        "heading": "Piezas que se piden con más frecuencia",
+        "body": [
+          {
+            "type": "ul",
+            "items": [
+              "Números de mesa y letreros de bienvenida.",
+              "Libros de invitados y portarretratos.",
+              "Recuerdos y detalles para invitados, con nombre o iniciales.",
+              "Menús, tarjetas y marcadores de lugar.",
+              "Cajas, charolas y centros de mesa.",
+              "Letreros de marca y piezas decorativas para eventos corporativos."
+            ]
+          },
+          {
+            "type": "p",
+            "text": [
+              "Si lo que buscas es un regalo corporativo, también puedes ver el servicio de ",
+              {
+                "link": "grabado láser en madera",
+                "href": "/subpages/grabado_madera.html"
+              },
+              "."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "diseno",
+        "heading": "Cómo diseñar para grabado en madera",
+        "body": [
+          {
+            "type": "ul",
+            "items": [
+              "El láser deja un tono oscuro; piensa el diseño en un solo tono, sin degradados de color.",
+              "Los trazos muy finos pueden perderse; usa tipografías con cuerpo si la pieza es pequeña.",
+              "El veteado y los nudos de la madera natural se notan: dan carácter, pero cambian el resultado de pieza a pieza.",
+              "Los bordes de una pieza cortada con láser pueden quedar ligeramente oscurecidos, lo cual encaja bien con estilos rústicos o vintage.",
+              "Define tamaño, tipografía y distribución antes de producir, sobre todo si hay varias piezas que deben combinar entre sí."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Si el evento tiene una paleta de colores, conviene coordinarla con el tono natural de la madera o con una impresión UV cuando el diseño lleva color."
+          }
+        ]
+      },
+      {
+        "id": "materiales",
+        "heading": "Madera natural, MDF y otros materiales",
+        "body": [
+          {
+            "type": "ul",
+            "items": [
+              [
+                {
+                  "strong": "Madera natural:"
+                },
+                " da más carácter y variaciones; el resultado depende del tipo de madera."
+              ],
+              [
+                {
+                  "strong": "MDF:"
+                },
+                " superficie uniforme, ideal para piezas repetidas y cortes complejos."
+              ],
+              [
+                {
+                  "strong": "Combinaciones:"
+                },
+                " por ejemplo madera con acrílico, como en portarretratos."
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": [
+              "Cuando el proyecto incluye varios materiales o necesita producción repetible, revisa la ",
+              {
+                "link": "maquila de volumen",
+                "href": "/subpages/maquila_volumen.html"
+              },
+              "."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "preparar",
+        "heading": "Qué preparar para pedir cotización",
+        "body": [
+          {
+            "type": "ol",
+            "items": [
+              "Qué piezas necesitas y cuántas de cada una.",
+              "Fecha del evento, para planear la producción con anticipación.",
+              "Medidas aproximadas o referencias de lo que imaginas.",
+              "Texto o nombres que irán grabados, revisados con cuidado.",
+              "Tu logotipo o diseño en archivo vectorial si lo tienes."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Si no tienes el diseño listo, cuéntanos la idea. Podemos ayudarte a prepararlo, aunque ese apoyo puede tener un costo extra."
+          }
+        ]
+      },
+      {
+        "id": "errores",
+        "heading": "Errores comunes",
+        "body": [
+          {
+            "type": "ul",
+            "items": [
+              "Dejar el pedido para pocos días antes del evento.",
+              "Enviar los nombres sin revisar la ortografía.",
+              "Esperar un acabado idéntico en todas las piezas de madera natural.",
+              "Elegir un diseño muy detallado para una pieza demasiado pequeña.",
+              "No definir de antemano cuántas piezas sobrarán para imprevistos."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Pedir con tiempo y revisar bien los textos evita la mayoría de los problemas."
+          }
+        ]
+      }
+    ],
+    "related": [
+      {
+        "label": "Grabado láser en madera",
+        "href": "/subpages/grabado_madera.html"
+      },
+      {
+        "label": "Maquila de volumen",
+        "href": "/subpages/maquila_volumen.html"
+      },
+      {
+        "label": "Regalos empresariales",
+        "href": "/subpages/regalos_empresariales.html"
+      },
+      {
+        "label": "Kits de bienvenida",
+        "href": "/subpages/kits_bienvenida.html"
+      }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas sobre grabado en madera para eventos",
+    "items": [
+      {
+        "q": "¿Qué diferencia hay entre madera natural y MDF?",
+        "a": "La madera natural tiene veteado y variaciones propias; el MDF tiene una superficie uniforme y es muy usado para piezas repetidas y cortes complejos."
+      },
+      {
+        "q": "¿Se pueden grabar nombres distintos en cada pieza?",
+        "a": "Sí. Podemos grabar nombres o datos variables por pieza a partir de una lista."
+      },
+      {
+        "q": "¿Con cuánta anticipación debo pedir?",
+        "a": "Lo mejor es pedir con la mayor anticipación posible. El tiempo depende de la cantidad y la complejidad; consúltalo con tu fecha del evento."
+      },
+      {
+        "q": "¿Pueden cortar y grabar en la misma pieza?",
+        "a": "Sí, se puede cortar el contorno y grabar texto o logotipo en la misma pieza."
+      },
+      {
+        "q": "¿Hacen envíos fuera de CDMX?",
+        "a": "Sí. Atendemos CDMX y zona metropolitana, y hacemos envíos a todo el país."
+      }
+    ]
   }
 }

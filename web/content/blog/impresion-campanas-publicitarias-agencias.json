@@ -2,15 +2,15 @@
   "slug": "impresion-campanas-publicitarias-agencias",
   "path": "/blog/impresion-campanas-publicitarias-agencias.html",
   "meta": {
-    "title": "Impresión para Campañas Publicitarias B2B en CDMX | Agencias | Laser Inova",
-    "description": "Descubre cómo escalar tus campañas publicitarias con impresión de alto impacto. Soluciones B2B en gran formato para agencias de publicidad en CDMX. Lonas, vinil y rígidos.",
-    "keywords": "impresión campañas publicitarias, impresión B2B publicidad, agencias de publicidad impresión CDMX, impresión gran formato campañas, lonas espectaculares, vinil publicitario masivo, producción gráfica B2B, Laser Inova",
+    "title": "Impresión para Campañas Publicitarias: Guía para Agencias",
+    "description": "Guía para producir impresión de campañas publicitarias: soportes, color de marca, archivos, versiones y coordinación de piezas. Gran formato en CDMX.",
+    "keywords": "impresión para campañas publicitarias, producción impresa agencias, material POP, gran formato agencias, color matching, lonas y vinil para campañas, impresión B2B CDMX",
     "canonical": "https://www.laserinova.com/blog/impresion-campanas-publicitarias-agencias.html",
-    "ogTitle": "Impresión B2B para Campañas Publicitarias | Laser Inova",
-    "ogDescription": "Maximizando el impacto visual: La guía definitiva de producción impresa para agencias de publicidad.",
+    "ogTitle": "Impresión para Campañas Publicitarias: Guía para Agencias",
+    "ogDescription": "Guía para producir impresión de campañas publicitarias: soportes, color de marca, archivos, versiones y coordinación de piezas. Gran formato en CDMX.",
     "ogType": "article",
-    "twitterTitle": "",
-    "twitterDescription": ""
+    "twitterTitle": "Impresión para Campañas Publicitarias: Guía para Agencias",
+    "twitterDescription": "Guía para producir impresión de campañas publicitarias: soportes, color de marca, archivos, versiones y coordinación de piezas. Gran formato en CDMX."
   },
   "ld": {
     "@context": "https://schema.org",
@@ -28,75 +28,7 @@
       }
     }
   },
-  "sections": [
-    {
-      "theme": "light",
-      "title": "El Rol Estratégico de la Impresión en una Campaña Omnicanal",
-      "paragraphs": [
-        "Para las agencias de publicidad, el momento de la verdad ocurre cuando el arte digital se transforma en un formato físico masivo. Una campaña publicitaria requiere más que buen diseño; exige una producción impecable, escalabilidad y un socio B2B capaz de cumplir con tiempos de entrega críticos.",
-        [
-          "En la era digital, la ",
-          {
-            "strong": "publicidad exterior (OOH)"
-          },
-          " y el material Punto de Venta (POP) impreso siguen siendo anclas fundamentales de confianza y visibilidad. Cuando un consumidor ve una marca en una lona monumental o un display en tienda, la percepción de autoridad de la marca se multiplica."
-        ]
-      ]
-    },
-    {
-      "theme": "dark",
-      "id": "materiales",
-      "eyebrow": "Soluciones Gran Formato",
-      "title": "Soportes y Materiales Clave para Campañas",
-      "paragraphs": [
-        "La elección del soporte impreso determinará tanto la durabilidad como el impacto visual de tu proyecto."
-      ],
-      "tech": [
-        {
-          "title": "Lona Gran Formato (Frontlit y Mesh)",
-          "text": "Indispensable para vallas publicitarias, fachadas y anuncios espectaculares. Su resistencia garantiza que la campaña se mantenga vibrante."
-        },
-        {
-          "title": "Vinil Adhesivo y Microperforado",
-          "text": [
-            "La solución estrella para ",
-            {
-              "em": "Activaciones BTL"
-            },
-            ", rotulación vehicular, cristales en retail y stands promocionales."
-          ]
-        },
-        {
-          "title": "Materiales Rígidos (Coroplast y Estireno)",
-          "text": "Fundamentales para la creación de displays, señalética temporal, caballetes y tótems en eventos de lanzamiento."
-        }
-      ]
-    },
-    {
-      "theme": "alt",
-      "id": "color-matching",
-      "eyebrow": "Precisión B2B",
-      "title": "Consistencia de Marca y Color Matching",
-      "paragraphs": [
-        [
-          "Uno de los mayores dolores de cabeza para las agencias es el ",
-          {
-            "em": "Color Matching"
-          },
-          ". Cuando imprimes el logotipo de una marca transnacional, tiene que ser el Pantone exacto dictado en el manual de identidad."
-        ]
-      ],
-      "features": [
-        "Resolución Fotográfica: Plotters de hasta 1440 DPI.",
-        "Perfiles de Color: Consistencia total entre el monitor y la lona.",
-        "Capacidad Industrial: Procesamos cientos de metros en horas para lanzamientos simultáneos."
-      ],
-      "image": {
-        "src": "/img/subpages/maquinas/plotter-hui-1801-1802-productos-sinosupply.webp",
-        "alt": "Plotter industrial de alta resolución"
-      }
-    }
-  ],
+  "sections": [],
   "hero": {
     "eyebrow": "Agencias · B2B · Omnicanal",
     "title": "Producción Impresa para Campañas Publicitarias",
@@ -123,13 +55,211 @@
     }
   },
   "cta": {
-    "eyebrow": "",
-    "title": "¿Listo para materializar tu próxima gran campaña?",
-    "text": "Delegar la producción impresa de una campaña exige total confianza. No somos solo impresores; somos el brazo de producción de las mejores agencias en CDMX.",
+    "eyebrow": "Cotización",
+    "title": "¿Tienes una campaña por producir?",
+    "text": "Cuéntanos qué piezas necesitas, medidas, materiales y fechas. Te respondemos con una propuesta.",
     "primary": {
-      "label": "Cotizar Producción de Campaña",
-      "href": "https://wa.me/525544730004?text=Hola,%20quiero%20cotizar%20la%20producci%C3%B3n%20impresa%20de%20una%20campa%C3%B1a%20publicitaria"
+      "label": "Cotizar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20la%20producci%C3%B3n%20impresa%20de%20una%20campa%C3%B1a"
     },
-    "secondary": null
+    "secondary": {
+      "label": "Ver el servicio para agencias",
+      "href": "/subpages/produccion_agencias.html"
+    }
+  },
+  "article": {
+    "title": "Impresión para campañas publicitarias: cómo producir materiales sin sorpresas",
+    "dek": "Una guía para agencias y equipos de marketing: qué soportes usar, cómo cuidar el color de marca y cómo coordinar la producción de varias piezas y sedes.",
+    "author": "Laser Inova",
+    "date": "2026-11-11",
+    "dateLabel": "11 de noviembre de 2026",
+    "readingMinutes": 4,
+    "image": {
+      "src": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+      "alt": "Campaña publicitaria exterior en billboard"
+    },
+    "sections": [
+      {
+        "id": "papel",
+        "heading": "El papel de la impresión en una campaña",
+        "body": [
+          {
+            "type": "p",
+            "text": "Una campaña puede vivir en pantalla, pero muchas veces el momento más visible ocurre en lo físico: una lona en una fachada, un display en una tienda, un vinil en un cristal. Ahí es donde el diseño se vuelve material y donde cualquier error de producción se nota."
+          },
+          {
+            "type": "p",
+            "text": "Por eso conviene tratar la producción impresa como parte de la estrategia y no como un paso final: elegir soportes, tiempos y archivos desde el inicio evita correcciones de último momento."
+          }
+        ]
+      },
+      {
+        "id": "soportes",
+        "heading": "Qué soporte conviene según la pieza",
+        "body": [
+          {
+            "type": "ul",
+            "items": [
+              [
+                {
+                  "strong": "Lona:"
+                },
+                " exteriores, fachadas, backdrops y banners. Mira la ",
+                {
+                  "link": "guía de impresión en lona",
+                  "href": "/blog/impresion-lona-gran-formato.html"
+                },
+                "."
+              ],
+              [
+                {
+                  "strong": "Vinil:"
+                },
+                " cristales, muros, mostradores y pisos."
+              ],
+              [
+                {
+                  "strong": "Rígidos (PVC espumado, acrílico, MDF):"
+                },
+                " displays, señalética y exhibidores."
+              ],
+              [
+                {
+                  "strong": "Materiales de punto de venta (POP):"
+                },
+                " exhibidores y piezas de refuerzo en tienda."
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "La decisión se toma según el lugar, el tiempo de exhibición, el presupuesto y si la pieza se va a mover o instalar una sola vez."
+          }
+        ]
+      },
+      {
+        "id": "color",
+        "heading": "Color de marca y consistencia",
+        "body": [
+          {
+            "type": "p",
+            "text": "Uno de los puntos más delicados en campañas de marcas grandes es que el color sea consistente. Lo normal es que el manual de identidad indique un color, muchas veces en Pantone, y que la impresión trabaje con tintas CMYK."
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Pide una prueba de color cuando el color de marca sea crítico.",
+              "Trabaja los archivos con el perfil de color correcto desde el diseño.",
+              "Aclara qué tolerancia de color acepta la marca; no todos los colores Pantone se reproducen igual en CMYK.",
+              "Usa el mismo archivo y el mismo proveedor para las piezas que deben verse iguales entre sí."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "archivos",
+        "heading": "Cómo preparar los archivos",
+        "body": [
+          {
+            "type": "ol",
+            "items": [
+              "Define el tamaño real de cada pieza y el sangrado (margen extra para el corte).",
+              "Convierte los textos a curvas o incluye las tipografías.",
+              "Usa imágenes con resolución adecuada al tamaño y a la distancia de lectura.",
+              "Indica los colores especiales o Pantone si los hay.",
+              "Nombra los archivos con el mismo criterio de la campaña para no confundir versiones."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Con eso se reduce la mayor parte de las dudas y correcciones en preproducción."
+          }
+        ]
+      },
+      {
+        "id": "versiones",
+        "heading": "Versiones, sedes y piezas repetidas",
+        "body": [
+          {
+            "type": "p",
+            "text": "Las campañas suelen necesitar la misma pieza en varias medidas o sedes, con pequeñas variaciones de texto o ubicación. Conviene armar una tabla con cada pieza, medida, material, cantidad y destino, y revisarla con el proveedor antes de imprimir."
+          },
+          {
+            "type": "p",
+            "text": [
+              "Si necesitas producción repetible de piezas en MDF, acrílico o metal para la campaña, revisa también la ",
+              {
+                "link": "maquila de volumen",
+                "href": "/subpages/maquila_volumen.html"
+              },
+              "."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tiempos",
+        "heading": "Planeación y tiempos",
+        "body": [
+          {
+            "type": "ul",
+            "items": [
+              "Confirma con anticipación fechas de instalación o de evento y trabaja hacia atrás.",
+              "Aprueba el arte con tiempo; los cambios tardíos son los que más retrasan.",
+              "Cuida la logística de entrega y de instalación de las piezas grandes.",
+              "Prevé un margen para correcciones sin comprometer la fecha."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "No hay un tiempo único para todas las piezas: depende del material, la cantidad y la complejidad. Lo mejor es consultarlo cuando ya tienes el detalle de la campaña."
+          }
+        ]
+      }
+    ],
+    "related": [
+      {
+        "label": "Producción para agencias",
+        "href": "/subpages/produccion_agencias.html"
+      },
+      {
+        "label": "Plotter e impresión",
+        "href": "/subpages/plotter_impresion.html"
+      },
+      {
+        "label": "Lona en gran formato",
+        "href": "/subpages/lona_gran_formato.html"
+      },
+      {
+        "label": "Displays y eventos",
+        "href": "/subpages/displays_eventos.html"
+      }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas sobre impresión para campañas",
+    "items": [
+      {
+        "q": "¿Cómo se asegura que el color de marca salga igual?",
+        "a": "Trabajando los archivos con el perfil de color correcto y pidiendo una prueba de color cuando es crítico. Algunos Pantone no se reproducen exactos en CMYK."
+      },
+      {
+        "q": "¿Qué archivos necesito enviar?",
+        "a": "Archivos a tamaño real o a escala, con sangrado, textos en curvas y resolución adecuada. Si algo falta, te lo indicamos."
+      },
+      {
+        "q": "¿Pueden producir la misma pieza en varias medidas?",
+        "a": "Sí. Lo ideal es enviar una tabla con piezas, medidas, materiales y cantidades para revisarla antes de imprimir."
+      },
+      {
+        "q": "¿Trabajan con agencias de manera recurrente?",
+        "a": "Sí, contamos con un servicio de producción para agencias. Cuéntanos tu caso y lo revisamos."
+      },
+      {
+        "q": "¿Hacen envíos fuera de CDMX?",
+        "a": "Sí. Atendemos CDMX y zona metropolitana, y hacemos envíos a todo el país."
+      }
+    ]
   }
 }
