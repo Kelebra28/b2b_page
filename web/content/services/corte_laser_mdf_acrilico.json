@@ -1,0 +1,157 @@
+{
+  "slug": "corte_laser_mdf_acrilico",
+  "path": "/subpages/corte_laser_mdf_acrilico.html",
+  "meta": {
+    "title": "Corte Láser en MDF y Acrílico en CDMX | Laser Inova",
+    "description": "Corte láser en MDF y acrílico en CDMX: letreros, displays, exhibidores, cajas y piezas a medida. Por pieza o por volumen. Cotiza por WhatsApp.",
+    "keywords": "corte láser mdf, corte láser acrílico, trabajos en mdf cdmx, corte de acrílico cdmx, letreros en mdf, exhibidores de acrílico, maquila mdf, corte laser cerca de mi",
+    "ogTitle": "Corte Láser en MDF y Acrílico en CDMX | Laser Inova",
+    "ogDescription": "Corte láser en MDF y acrílico en CDMX: letreros, displays, exhibidores, cajas y piezas a medida. Por pieza o por volumen. Cotiza por WhatsApp.",
+    "ogImageAlt": "Corte láser de piezas en MDF y acrílico por Laser Inova en CDMX",
+    "twitterTitle": "Corte Láser en MDF y Acrílico en CDMX | Laser Inova",
+    "twitterDescription": "Corte láser en MDF y acrílico en CDMX: letreros, displays, exhibidores, cajas y piezas a medida. Por pieza o por volumen. Cotiza por WhatsApp."
+  },
+  "ld": {
+    "name": "Corte láser en MDF y acrílico",
+    "serviceType": "Corte láser de piezas a medida en MDF y acrílico: letreros, displays, exhibidores y cajas",
+    "description": "Corte láser en MDF y acrílico en CDMX para letreros, displays, exhibidores, cajas y piezas a medida, por pieza o por volumen."
+  },
+  "hero": {
+    "eyebrow": "MDF · Acrílico · Piezas a medida",
+    "title": "Corte láser en MDF y acrílico en CDMX",
+    "text": [
+      "Cortamos ",
+      {
+        "strong": "MDF y acrílico a medida"
+      },
+      " con láser: ",
+      {
+        "strong": "letreros, displays, exhibidores, cajas, logotipos y piezas decorativas"
+      },
+      ", desde una pieza hasta producción por volumen."
+    ],
+    "primary": {
+      "label": "Cotizar corte en MDF o acrílico",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20corte%20l%C3%A1ser%20en%20MDF%20o%20acr%C3%ADlico"
+    },
+    "secondary": {
+      "label": "Ver aplicaciones",
+      "href": "#aplicaciones"
+    },
+    "badges": [
+      "Corte y grabado en MDF y acrílico",
+      "Por pieza o por volumen",
+      "Corte y grabado en la misma pieza"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Agencias, tiendas, eventos, oficinas y fabricantes que necesitan letreros, exhibidores, empaques, maquetas y piezas repetibles."
+    },
+    "image": {
+      "src": "/img/subpages/maquinas/maquinas-cnc-cortadora-laser-cnc-laser-1060.webp",
+      "alt": "Corte láser en MDF y acrílico en CDMX"
+    }
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "id": "aplicaciones",
+      "eyebrow": "Aplicaciones",
+      "title": "Qué se puede hacer con corte láser en MDF y acrílico",
+      "paragraphs": [
+        [
+          "El corte láser entrega ",
+          {
+            "strong": "bordes limpios y formas exactas"
+          },
+          " que no se logran con corte manual, y permite repetir la misma pieza cuantas veces haga falta. El MDF es ideal para piezas ligeras, decorativas y de empaque; el acrílico, para displays y letreros con acabado más limpio y brillante."
+        ],
+        [
+          "Si ya tienes tu diseño en vectorial (AI, DXF, SVG o PDF), cotizamos directo. Si no, podemos ayudarte a prepararlo (puede tener un costo extra)."
+        ]
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Proyectos frecuentes",
+      "title": "Piezas que cortamos con más frecuencia",
+      "cards": [
+        {
+          "title": "Letreros y logotipos",
+          "text": "Letras y logotipos en MDF o acrílico, con o sin grabado, para interiores, eventos y puntos de venta."
+        },
+        {
+          "title": "Displays y exhibidores",
+          "text": "Exhibidores de acrílico y MDF para mostrador, producto y promoción en tienda."
+        },
+        {
+          "title": "Cajas y empaques",
+          "text": "Cajas, estuches y piezas de armado en MDF para presentación de producto y kits."
+        },
+        {
+          "title": "Piezas por volumen",
+          "text": "Producción repetible de la misma pieza para agencias, fabricantes y proyectos con entrega por lotes."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "eyebrow": "Materiales",
+      "title": "MDF y acrílico, con o sin grabado",
+      "paragraphs": [
+        [
+          "Trabajamos ",
+          {
+            "strong": "MDF y acrílico"
+          },
+          ". Además del corte, podemos grabar texto, logotipos y detalles sobre la misma pieza, o imprimirla con tecnología UV cuando el diseño lleva color."
+        ]
+      ],
+      "features": [
+        "Bordes limpios y formas exactas",
+        "Corte y grabado en la misma pieza",
+        "Corte y grabado en la misma pieza",
+        "Producción por pieza o por volumen"
+      ]
+    }
+  ],
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre corte láser en MDF y acrílico",
+    "items": [
+      {
+        "q": "¿Qué archivo necesito para cotizar?",
+        "a": "Un archivo vectorial (AI, DXF, SVG o PDF) es lo ideal. Si solo tienes una imagen o una idea, podemos preparar el archivo para corte; este apoyo puede tener un costo extra."
+      },
+      {
+        "q": "¿Cortan una sola pieza o solo volumen?",
+        "a": "Ambos. Cortamos desde una sola pieza hasta producción repetible por lote."
+      },
+      {
+        "q": "¿Pueden cortar y grabar en la misma pieza?",
+        "a": "Sí. Se puede cortar el contorno y grabar texto o logotipo en la misma pieza."
+      },
+      {
+        "q": "¿También imprimen a color sobre MDF o acrílico?",
+        "a": "Sí, con impresión UV de cama plana cuando el diseño lleva color. Mira nuestra página de impresión UV."
+      },
+      {
+        "q": "¿Tienen servicio de corte láser cerca de mí?",
+        "a": "Atendemos CDMX y zona metropolitana, con envíos a todo el país."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Tienes un proyecto en MDF o acrílico?",
+    "text": "Mándanos tu archivo o tu idea, el material y la cantidad. Te respondemos con una propuesta.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20tengo%20un%20proyecto%20de%20corte%20en%20MDF%20o%20acr%C3%ADlico"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

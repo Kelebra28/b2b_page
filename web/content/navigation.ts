@@ -20,6 +20,7 @@ export const serviceGroups: ServiceGroup[] = [
     title: "Corte y Maquila",
     links: [
       { label: "Corte láser en metal", href: "/subpages/corte_laser_metal.html" },
+      { label: "Corte láser en MDF y acrílico", href: "/subpages/corte_laser_mdf_acrilico.html" },
       { label: "Maquila de volumen", href: "/subpages/maquila_volumen.html" },
       { label: "Producción para agencias", href: "/subpages/produccion_agencias.html" },
     ],
@@ -29,6 +30,7 @@ export const serviceGroups: ServiceGroup[] = [
     links: [
       { label: "Grabado láser", href: "/subpages/grabado_laser.html" },
       { label: "Grabado en metal", href: "/subpages/grabado_metal.html" },
+      { label: "Marcaje en acero inoxidable", href: "/subpages/marcaje_laser_acero.html" },
       { label: "Grabado en madera", href: "/subpages/grabado_madera.html" },
       { label: "Grabado en espejos", href: "/subpages/grabado_espejos.html" },
       { label: "Cuero y plástico", href: "/subpages/grabado_cuero_plastico.html" },

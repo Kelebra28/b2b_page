@@ -1,4 +1,4 @@
-/** Contenido de las 19 páginas de servicio (extraído de subpages/*.html con scripts/extract-services.py y limpiado). */
+/** Contenido de las 21 páginas de servicio (extraído de subpages/*.html con scripts/extract-services.py y limpiado). */
 import type { RichText } from "@/content/home";
 import { toWhatsApp } from "@/content/site";
 
@@ -13,6 +13,8 @@ import grabado_metal from "./grabado_metal.json";
 import impresion_cama_plana_uv from "./impresion_cama_plana_uv.json";
 import kits_bienvenida from "./kits_bienvenida.json";
 import lona_gran_formato from "./lona_gran_formato.json";
+import marcaje_laser_acero from "./marcaje_laser_acero.json";
+import corte_laser_mdf_acrilico from "./corte_laser_mdf_acrilico.json";
 import maquila_volumen from "./maquila_volumen.json";
 import plotter_impresion from "./plotter_impresion.json";
 import produccion_agencias from "./produccion_agencias.json";
@@ -66,7 +68,7 @@ const fixHref = (h: string) => toWhatsApp(h).replace("https://www.laserinova.com
 export const fixLink = <T extends Link | null>(l: T): T => (l ? { ...l, href: fixHref(l.href) } : l);
 export { fixHref };
 
-const raw = { corte_laser_metal, displays_eventos, displays_materiales_visuales, grabado_cuero_plastico, grabado_espejos, grabado_laser, grabado_madera, grabado_metal, impresion_cama_plana_uv, kits_bienvenida, lona_gran_formato, maquila_volumen, plotter_impresion, produccion_agencias, promocionales_premium, regalos_empresariales, rigidos_senaletica, senaletica_oficinas, vinil_instalacion } as unknown as Record<string, Service>;
+const raw = { corte_laser_metal, corte_laser_mdf_acrilico, marcaje_laser_acero, displays_eventos, displays_materiales_visuales, grabado_cuero_plastico, grabado_espejos, grabado_laser, grabado_madera, grabado_metal, impresion_cama_plana_uv, kits_bienvenida, lona_gran_formato, maquila_volumen, plotter_impresion, produccion_agencias, promocionales_premium, regalos_empresariales, rigidos_senaletica, senaletica_oficinas, vinil_instalacion } as unknown as Record<string, Service>;
 
 export const services: Record<string, Service> = Object.fromEntries(
   Object.entries(raw).map(([slug, s]) => [

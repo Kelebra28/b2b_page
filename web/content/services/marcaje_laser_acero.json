@@ -1,0 +1,157 @@
+{
+  "slug": "marcaje_laser_acero",
+  "path": "/subpages/marcaje_laser_acero.html",
+  "meta": {
+    "title": "Marcaje Láser en Acero Inoxidable CDMX | DataMatrix y QR",
+    "description": "Marcaje láser en acero inoxidable en CDMX: DataMatrix, códigos QR y de barras, números de serie y logotipos permanentes. Piezas, placas y lotes. Cotiza.",
+    "keywords": "marcaje láser en acero inoxidable, grabado datamatrix en metal, código de barras láser en acero, grabado industrial en acero, números de serie en metal, marcaje láser CDMX, grabado en latón",
+    "ogTitle": "Marcaje Láser en Acero Inoxidable CDMX | DataMatrix y QR",
+    "ogDescription": "Marcaje láser en acero inoxidable en CDMX: DataMatrix, códigos QR y de barras, números de serie y logotipos permanentes. Piezas, placas y lotes. Cotiza.",
+    "ogImageAlt": "Marcaje láser de código y número de serie en acero inoxidable por Laser Inova en CDMX",
+    "twitterTitle": "Marcaje Láser en Acero Inoxidable CDMX | DataMatrix y QR",
+    "twitterDescription": "Marcaje láser en acero inoxidable en CDMX: DataMatrix, códigos QR y de barras, números de serie y logotipos permanentes. Piezas, placas y lotes. Cotiza."
+  },
+  "ld": {
+    "name": "Marcaje láser en acero inoxidable",
+    "serviceType": "Marcaje láser industrial: DataMatrix, QR, códigos de barras, números de serie y logotipos en acero y otros metales",
+    "description": "Marcaje láser permanente en acero inoxidable, acero al carbón, aluminio, latón y metales anodizados para trazabilidad, identificación y branding industrial en CDMX."
+  },
+  "hero": {
+    "eyebrow": "Trazabilidad · Identificación · Marcaje permanente",
+    "title": "Marcaje láser en acero inoxidable en CDMX",
+    "text": [
+      "Grabamos y marcamos ",
+      {
+        "strong": "DataMatrix, códigos QR y de barras, números de serie y logotipos"
+      },
+      " directamente sobre piezas y placas de ",
+      {
+        "strong": "acero inoxidable, acero al carbón, aluminio, latón y metales anodizados"
+      },
+      ". Marca permanente, por pieza o por lote."
+    ],
+    "primary": {
+      "label": "Cotizar marcaje en acero",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20marcaje%20l%C3%A1ser%20en%20acero%20inoxidable"
+    },
+    "secondary": {
+      "label": "Ver aplicaciones",
+      "href": "#aplicaciones"
+    },
+    "badges": [
+      "DataMatrix, QR y códigos de barras",
+      "Números de serie y trazabilidad",
+      "Acero inoxidable, aluminio y latón"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Fabricantes, talleres metalmecánicos, herramienta e inventarios que necesitan identificar piezas de forma permanente."
+    },
+    "image": {
+      "src": "/img/subpages/servicios/A3162_lrg.jpg",
+      "alt": "Marcaje láser en acero inoxidable en CDMX"
+    }
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "id": "aplicaciones",
+      "eyebrow": "Aplicaciones",
+      "title": "Identificación permanente que sobrevive al uso",
+      "paragraphs": [
+        [
+          "El marcaje láser deja la información ",
+          {
+            "strong": "dentro de la superficie del metal"
+          },
+          ", no encima. No se despega y no se borra con el roce. Por eso es una forma habitual de identificar piezas que deben poder rastrearse."
+        ],
+        [
+          "Podemos hacer pruebas antes para asegurar el acabado en tu material."
+        ]
+      ]
+    },
+    {
+      "theme": "alt",
+      "eyebrow": "Qué marcamos",
+      "title": "Códigos, números y logotipos en metal",
+      "cards": [
+        {
+          "title": "DataMatrix y códigos 2D",
+          "text": "Códigos DataMatrix y QR para trazabilidad, inventarios y control de lotes sobre acero y aluminio."
+        },
+        {
+          "title": "Códigos de barras",
+          "text": "Códigos de barras lineales en piezas y placas de identificación."
+        },
+        {
+          "title": "Números de serie",
+          "text": "Serialización consecutiva de piezas, herramientas y equipos, con numeración o fechas variables por pieza."
+        },
+        {
+          "title": "Logotipos y texto",
+          "text": "Logotipos, nombres, leyendas y marcas técnicas en acero inoxidable, latón y metales anodizados."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "eyebrow": "Materiales",
+      "title": "Grabado en acero inoxidable y otros metales",
+      "paragraphs": [
+        [
+          "Grabamos y marcamos ",
+          {
+            "strong": "acero inoxidable"
+          },
+          ", acero al carbón, aluminio, latón y metales anodizados. Si tu pieza es de otro metal o tiene un acabado particular, consúltanos y lo revisamos."
+        ]
+      ],
+      "features": [
+        "Marca permanente",
+        "Por pieza, por placa o por lote",
+        "Pruebas previas para validar el acabado",
+        "Atendemos CDMX y zona metropolitana, con envíos a todo el país"
+      ]
+    }
+  ],
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre marcaje láser en acero",
+    "items": [
+      {
+        "q": "¿Se puede marcar un código DataMatrix o QR en acero inoxidable?",
+        "a": "Sí. Marcamos códigos 2D y de barras directamente sobre el acero, y podemos hacer una prueba antes del lote para validar el acabado."
+      },
+      {
+        "q": "¿El marcaje se borra con el uso o la limpieza?",
+        "a": "No. El láser modifica la superficie del metal, así que la marca es permanente y resiste el roce habitual."
+      },
+      {
+        "q": "¿Qué metales pueden marcar?",
+        "a": "Acero inoxidable, acero al carbón, aluminio, latón y metales anodizados. Para otros materiales, consúltanos."
+      },
+      {
+        "q": "¿Hacen lotes con numeración consecutiva?",
+        "a": "Sí. Podemos serializar piezas con numeración consecutiva."
+      },
+      {
+        "q": "¿Hacen pruebas antes de producir el lote?",
+        "a": "Sí. Para asegurar el acabado, podemos hacer pruebas antes de producir el lote."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización B2B",
+    "title": "¿Necesitas marcar piezas de acero o metal?",
+    "text": "Cuéntanos qué material es, qué quieres marcar (código, serie, logotipo) y cuántas piezas son. Te respondemos con una propuesta.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20necesito%20marcaje%20l%C3%A1ser%20en%20acero%20para%20mis%20piezas"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

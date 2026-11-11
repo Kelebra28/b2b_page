@@ -491,6 +491,8 @@ export const directory = {
       text: "Soluciones B2B para producción por lote, maquila de piezas, estructuras y marcaje profundo.",
       links: [
         { label: "Corte láser en metal", href: "/subpages/corte_laser_metal.html" },
+        { label: "Corte láser en MDF y acrílico", href: "/subpages/corte_laser_mdf_acrilico.html" },
+        { label: "Marcaje en acero inoxidable", href: "/subpages/marcaje_laser_acero.html" },
         { label: "Maquila de volumen", href: "/subpages/maquila_volumen.html" },
         { label: "Producción para agencias", href: "/subpages/produccion_agencias.html" },
         { label: "Señalética y acrílico", href: "/subpages/senaletica_oficinas.html" },
