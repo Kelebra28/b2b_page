@@ -2,14 +2,14 @@
   "slug": "impresion_cama_plana_uv",
   "path": "/subpages/impresion_cama_plana_uv.html",
   "meta": {
-    "title": "Impresión Cama Plana UV en CDMX | Rígidos y Acrílico | Laser Inova",
-    "description": "Servicio de impresión en cama plana UV en CDMX. Alta resolución sobre materiales rígidos como acrílico, plástico, madera, metal y artículos promocionales B2B.",
-    "keywords": "impresión cama plana uv cdmx, impresión en rígidos, impresión uv, imprimir en acrílico, imprimir en madera, imprimir promocionales, impresión uv industrial, Laser Inova",
-    "ogTitle": "Impresión Cama Plana UV en CDMX | Laser Inova",
-    "ogDescription": "Impresión directa de alta resolución sobre rígidos: acrílico, madera, metal y promocionales.",
+    "title": "Impresión UV en CDMX | Acrílico, Madera, Vidrio y Metal",
+    "description": "Impresión directa UV en CDMX sobre acrílico, madera, vidrio, plástico y metal, con tinta blanca y barniz UV. Envíos a todo el país. Cotiza por WhatsApp.",
+    "keywords": "impresión UV CDMX, impresión cama plana UV, impresión en acrílico CDMX, impresión en madera, impresión en vidrio, impresión directa UV, tinta blanca y barniz UV, impresión en metal, impresión en plástico",
+    "ogTitle": "Impresión UV en CDMX | Acrílico, Madera, Vidrio y Metal",
+    "ogDescription": "Impresión directa UV en CDMX sobre acrílico, madera, vidrio, plástico y metal, con tinta blanca y barniz UV. Envíos a todo el país. Cotiza por WhatsApp.",
     "ogImageAlt": "Impresión Cama Plana UV por Laser Inova en CDMX",
-    "twitterTitle": "Impresión Cama Plana UV en CDMX | Laser Inova",
-    "twitterDescription": "Impresión directa de alta resolución sobre rígidos: acrílico, madera, metal y promocionales."
+    "twitterTitle": "Impresión UV en CDMX | Acrílico, Madera, Vidrio y Metal",
+    "twitterDescription": "Impresión directa UV en CDMX sobre acrílico, madera, vidrio, plástico y metal, con tinta blanca y barniz UV. Envíos a todo el país. Cotiza por WhatsApp."
   },
   "ld": {
     "name": "Impresión Cama Plana UV",
@@ -19,118 +19,133 @@
   "sections": [
     {
       "theme": "light",
-      "eyebrow": "Tecnología sin límites",
-      "title": "Imprime sobre casi cualquier superficie con secado instantáneo",
+      "id": "que-es",
+      "eyebrow": "Qué es",
+      "title": "Impresión directa UV: el diseño va sobre la propia pieza",
       "paragraphs": [
         [
-          "A diferencia de la impresión en plotter que requiere imprimir un vinil y luego montarlo, la ",
+          "En la impresión ",
           {
-            "strong": "impresión de Cama Plana UV"
+            "strong": "directa UV"
           },
-          " inyecta la tinta directamente sobre el material final. La luz ultravioleta seca la tinta al instante, logrando una adherencia brutal y colores vibrantes en ",
-          {
-            "strong": "superficies rígidas o irregulares"
-          },
-          "."
+          " la tinta se aplica directamente sobre el material y se cura con luz ultravioleta. A diferencia del plotter, no hay que imprimir un vinil y montarlo después: el diseño queda impreso en la pieza final."
         ],
         [
-          "Esto abre un abanico de posibilidades para el mercado ",
+          "Se usa principalmente sobre ",
           {
-            "strong": "B2B y publicitario"
+            "strong": "superficies planas"
           },
-          ": desde imprimir logotipos a todo color en ",
-          {
-            "strong": "agendas de cuero, carcasas de plástico y pelotas de golf"
-          },
-          ", hasta imprimir señalética completa en placas de ",
-          {
-            "strong": "acrílico, trovicel (PVC) o madera"
-          },
-          ", todo con acabados premium que incluyen texturas, relieves (barniz) y bases blancas para materiales oscuros o transparentes."
+          ": acrílico, madera, vidrio, plástico y metal. Con ella se pueden hacer señalética, reconocimientos, piezas promocionales y tirajes de piezas iguales."
         ]
       ]
     },
     {
       "theme": "alt",
-      "eyebrow": "Aplicaciones de Cama Plana UV",
-      "title": "Resolviendo los retos de impresión más exigentes",
+      "id": "materiales",
+      "eyebrow": "Materiales",
+      "title": "Sobre qué materiales imprimimos",
       "cards": [
         {
-          "title": "Impresión en Acrílico y Vidrio",
-          "text": "Señalética corporativa elegante, directorios y reconocimientos con efecto de profundidad gracias a la tinta blanca y barniz."
-        },
-        {
-          "title": "Promocionales Premium",
-          "text": "Impresión directa en plumas, libretas de cuero, USBs, encendedores y carcasas con calidad fotográfica y texturas."
+          "title": "Acrílico y vidrio",
+          "text": "Señalética, directorios y reconocimientos. La tinta blanca permite fondear materiales transparentes para que los colores resalten."
         },
         {
           "title": "Madera y MDF",
-          "text": "Cajas de vino, rompecabezas, invitaciones y mobiliario para displays POP impresos a todo color con excelente anclaje."
+          "text": "Cajas, letreros, invitaciones y piezas de display impresas a todo color."
         },
         {
           "title": "Plástico y PVC",
-          "text": "Impresión de gafetes, tarjetas de presentación plásticas, piezas de ingeniería y señalamientos industriales duraderos."
+          "text": "Gafetes, tarjetas, placas y señalamientos sobre material plástico."
         },
         {
           "title": "Metal",
-          "text": "Aplicación de color sobre placas de acero o aluminio, ideal para combinar con grabado láser para resultados inigualables."
+          "text": "Color sobre placas de acero o aluminio; se puede combinar con grabado láser."
         },
         {
-          "title": "Efectos y Relieves",
-          "text": "Uso de barniz UV sectorizado y capas de tinta para crear texturas, braille y acabados premium que se sienten al tacto."
+          "title": "Tinta blanca",
+          "text": "Sirve de base sobre materiales oscuros o transparentes para que el color se vea bien."
+        },
+        {
+          "title": "Barniz UV",
+          "text": "Permite destacar logotipos, textos o patrones con un acabado en relieve."
         }
       ]
     },
     {
-      "theme": "dark",
-      "id": "ejemplo",
-      "eyebrow": "Ventaja Tecnológica",
-      "title": "Color, Blanco y Barniz: El tridente de la Cama Plana",
+      "theme": "light",
+      "id": "relieve",
+      "eyebrow": "Piezas con relieve",
+      "title": "¿Y si la pieza tiene relieve o curvas?",
       "paragraphs": [
         [
-          "El mayor poder de esta tecnología es su versatilidad. Al incorporar ",
+          "Nuestra impresión directa trabaja sobre ",
           {
-            "strong": "Tinta Blanca"
+            "strong": "superficies planas"
           },
-          ", podemos fondear materiales oscuros o transparentes (como el acrílico) para que los colores resalten como nunca. Y con el ",
+          ". En algunas piezas con relieve o curvatura sí es posible imprimir, pero ",
           {
-            "strong": "Barniz UV"
+            "strong": "depende mucho de la forma, el tamaño y la altura de la pieza"
           },
-          ", podemos destacar logos, textos o patrones creando un efecto 3D brillante que atrapa la atención."
+          ", así que cada caso se revisa."
         ],
         [
-          "Nuestros equipos calibrados aseguran repetibilidad perfecta, ideal para ",
+          "Si tienes una pieza con relieve, mándanos una foto o la pieza misma y te decimos si se puede imprimir directo. Si no, el ",
           {
-            "strong": "maquilar lotes enteros"
+            "link": "DTF UV",
+            "href": "/subpages/impresion_dtf_uv.html"
           },
-          " de artículos promocionales o señalética para franquicias sin variaciones de color."
+          " puede ser una alternativa: es un sticker que se pega en superficies planas o con poco relieve."
         ]
       ],
       "features": [
-        "Secado instantáneo: Cero tiempos de espera",
-        "Resistente a rayaduras y rayos UV del sol",
-        "Amigable con el medio ambiente (bajas emisiones)",
-        "Capacidad volumétrica para agencias y marcas"
+        "Superficies planas: el caso ideal",
+        "Piezas con relieve o curvas: se revisa caso por caso",
+        "Alternativa en sticker: DTF UV, hasta 90 × 30 cm",
+        "Envíos a todo el país, cotizados por FedEx, DHL o Estafeta"
       ],
       "image": {
-        "src": "/img/subpages/cama_plana_uv/impresion_cama-plana.jpg",
-        "alt": "Detalle de cabezales de Impresión Cama Plana UV"
+        "src": "/img/subpages/maquinas/cama-plana-uv.webp",
+        "alt": "Impresión Cama Plana UV directa en rígidos en CDMX"
       }
+    },
+    {
+      "theme": "dark",
+      "id": "preparar",
+      "eyebrow": "Cómo cotizar",
+      "title": "Qué necesitamos para cotizar tu impresión UV",
+      "paragraphs": [
+        [
+          "Cuéntanos ",
+          {
+            "strong": "el material, las medidas, la cantidad y si la pieza es plana"
+          },
+          ". Si ya tienes el diseño, mándalo en archivo vectorial o imagen de alta resolución."
+        ],
+        [
+          "Si no lo tienes listo, podemos ayudarte a prepararlo; ese apoyo puede tener un costo extra."
+        ]
+      ],
+      "features": [
+        "Material y medidas de la pieza",
+        "Cantidad y si el diseño es igual en todas",
+        "Foto de la pieza si tiene relieve",
+        "Archivo vectorial o imagen en alta resolución"
+      ]
     }
   ],
   "hero": {
     "eyebrow": "Rígidos · Promocionales · Fotografía · Industrial",
     "title": "Impresión Cama Plana UV en CDMX",
     "text": [
-      "Tecnología de ",
+      "Impresión ",
       {
-        "strong": "impresión directa de curado UV"
+        "strong": "directa UV"
       },
-      " que nos permite plasmar gráficos de alta resolución, con color blanco y barniz, directamente sobre ",
+      " sobre ",
       {
-        "strong": "acrílico, plástico, madera, vidrio, metal y artículos promocionales"
+        "strong": "acrílico, madera, vidrio, plástico y metal"
       },
-      "."
+      ", con tinta blanca y barniz UV. Para superficies planas; en piezas con relieve, depende de la forma y se consulta."
     ],
     "primary": {
       "label": "Cotizar impresión UV",
@@ -141,9 +156,9 @@
       "href": "#ejemplo"
     },
     "badges": [
-      "Impresión directa sobre rígidos",
-      "Tinta blanca y barniz sectorizado",
-      "Alta durabilidad y calidad fotográfica"
+      "Directo sobre superficies planas",
+      "Tinta blanca y barniz UV",
+      "Envíos a todo el país"
     ],
     "card": {
       "title": "Ideal para:",
@@ -156,23 +171,31 @@
   },
   "faqs": {
     "eyebrow": "Preguntas frecuentes",
-    "title": "Dudas comunes sobre la Impresión UV",
+    "title": "Dudas comunes sobre impresión UV",
     "items": [
       {
-        "q": "¿Cuál es la diferencia entre cama plana UV y serigrafía?",
-        "a": "La cama plana UV imprime a todo color (CMYK) con calidad fotográfica y gradientes sin necesidad de crear pantallas por cada color, y permite tirajes cortos o personalizar cada pieza con datos variables (nombres distintos)."
+        "q": "¿Sobre qué superficies pueden imprimir?",
+        "a": "Principalmente superficies planas, como acrílico, madera, vidrio, plástico y metal."
       },
       {
-        "q": "¿Qué altura máxima puede tener el objeto a imprimir?",
-        "a": "Dependiendo del equipo, podemos imprimir sobre objetos que tengan hasta varios centímetros de altura (ideal para cajas, termos o estuches gruesos)."
+        "q": "¿Pueden imprimir una pieza con relieve o curvas?",
+        "a": "A veces. Depende de la forma, el tamaño y la altura de la pieza. Mándanos una foto o la pieza y la revisamos."
       },
       {
-        "q": "¿Es resistente para exteriores?",
-        "a": "Sí, la tinta curada con luz UV es muy resistente a la decoloración por el sol y a la fricción, siendo una gran opción para señalética de exteriores."
+        "q": "¿Cuál es la diferencia con el DTF UV?",
+        "a": "En la impresión directa el diseño se imprime sobre la propia pieza, que debe ser plana. El DTF UV es un sticker que se imprime aparte y se pega en superficies planas o con poco relieve."
       },
       {
-        "q": "¿Pueden imprimir mis propios productos promocionales?",
-        "a": "Claro, ofrecemos el servicio de maquila de impresión. Tú traes el producto (libretas, pelotas, carcasas) y nosotros aplicamos el arte con precisión milimétrica."
+        "q": "¿Cuál es la diferencia con la serigrafía?",
+        "a": "La impresión UV imprime a todo color con calidad fotográfica y degradados sin crear una pantalla por cada color, y permite tirajes cortos o datos variables (por ejemplo, nombres distintos)."
+      },
+      {
+        "q": "¿Pueden imprimir mis propios productos?",
+        "a": "Sí, podemos aplicar el diseño sobre piezas que tú nos traigas si son aptas para la impresión. Consúltanos con una foto o la pieza."
+      },
+      {
+        "q": "¿Hacen envíos a todo el país?",
+        "a": "Sí. Cotizamos el envío por FedEx, DHL o Estafeta; el costo del envío se cotiza aparte."
       }
     ]
   },
