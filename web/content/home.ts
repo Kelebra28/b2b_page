@@ -506,6 +506,7 @@ export const directory = {
         { label: "Promocionales premium", href: "/subpages/promocionales_premium.html" },
         { label: "Grabado en metal", href: "/subpages/grabado_metal.html" },
         { label: "Grabado en madera", href: "/subpages/grabado_madera.html" },
+        { label: "Grabado en vidrio", href: "/subpages/grabado_vidrio.html" },
         { label: "Grabado en espejos", href: "/subpages/grabado_espejos.html" },
         { label: "Regalos empresariales", href: "/subpages/regalos_empresariales.html" },
       ],

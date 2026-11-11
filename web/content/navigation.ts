@@ -32,6 +32,7 @@ export const serviceGroups: ServiceGroup[] = [
       { label: "Grabado en metal", href: "/subpages/grabado_metal.html" },
       { label: "Marcaje en acero inoxidable", href: "/subpages/marcaje_laser_acero.html" },
       { label: "Grabado en madera", href: "/subpages/grabado_madera.html" },
+      { label: "Grabado en vidrio", href: "/subpages/grabado_vidrio.html" },
       { label: "Grabado en espejos", href: "/subpages/grabado_espejos.html" },
       { label: "Cuero y plástico", href: "/subpages/grabado_cuero_plastico.html" },
     ],

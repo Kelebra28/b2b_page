@@ -106,3 +106,12 @@ b+='<g filter="url(#shadow)"><rect x="900" y="200" width="560" height="400" rx="
 b+='<g filter="url(#shadow)"><rect x="1000" y="650" width="360" height="130" rx="18" fill="url(#wood)"/><path d="M1040 715H1230M1040 745H1180" stroke="#3b2411" stroke-width="10" stroke-linecap="round" opacity=".6"/><rect x="1250" y="680" width="80" height="70" rx="14" fill="url(#red)"/></g>'
 b+='<path d="M160 810H800" stroke="#ff3344" stroke-width="5"/><path d="M160 796V824M800 796V824" stroke="#ff3344" stroke-width="5"/>'
 out('impresion-dtf-uv',b)
+
+# 10. Grabado en vidrio: copa, vaso, botella y espejo con láser
+b='<g filter="url(#shadow)"><path d="M300 200H520Q520 380 410 430Q300 380 300 200Z" fill="url(#glass)" stroke="#cfe6f5" stroke-opacity=".6" stroke-width="4"/><rect x="400" y="430" width="20" height="170" fill="url(#glass)"/><ellipse cx="410" cy="615" rx="100" ry="18" fill="url(#glass)"/></g>'
+b+='<path d="M340 270H480M360 320H460" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".85"/>'
+b+='<g filter="url(#shadow)"><path d="M660 300H820V620Q820 650 790 650H690Q660 650 660 620Z" fill="url(#glass)" stroke="#cfe6f5" stroke-opacity=".6" stroke-width="4"/></g><circle cx="740" cy="470" r="46" fill="none" stroke="#fff" stroke-width="10" opacity=".85"/><path d="M715 470H765M740 445V495" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".85"/>'
+b+='<g filter="url(#shadow)"><path d="M980 240H1040V330Q1060 380 1060 420V650H960V420Q960 380 980 330Z" fill="url(#glass)" stroke="#cfe6f5" stroke-opacity=".6" stroke-width="4"/></g><path d="M985 480H1035M985 530H1020" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".85"/>'
+b+='<g filter="url(#shadow)"><rect x="1180" y="240" width="300" height="400" rx="150" fill="url(#metal)"/><rect x="1200" y="260" width="260" height="360" rx="130" fill="url(#glass)"/></g><path d="M1260 400H1400M1280 450H1380" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".8"/>'
+b+=beam(740,470,0,10)+spark(740,470,44)+'<path d="M160 700H1440" stroke="#2c303b" stroke-width="6"/>'
+out('grabado-vidrio',b)

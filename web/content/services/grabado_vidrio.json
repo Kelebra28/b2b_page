@@ -1,0 +1,188 @@
+{
+  "slug": "grabado_vidrio",
+  "path": "/subpages/grabado_vidrio.html",
+  "meta": {
+    "title": "Grabado Láser en Vidrio en CDMX | Copas, Vasos y Botellas",
+    "description": "Grabado láser en vidrio en CDMX: copas, vasos, botellas, vidrio plano y espejos con tu logotipo o nombre. Por pieza o por lote. Envíos a todo el país.",
+    "keywords": "grabado láser en vidrio, grabado en vidrio CDMX, grabado de copas, grabado en copas de cristal, grabado en vasos, grabado en botellas, vidrio grabado personalizado, grabado en espejos",
+    "ogTitle": "Grabado Láser en Vidrio en CDMX | Copas, Vasos y Botellas",
+    "ogDescription": "Grabado láser en vidrio en CDMX: copas, vasos, botellas, vidrio plano y espejos con tu logotipo o nombre. Por pieza o por lote. Envíos a todo el país.",
+    "ogImageAlt": "Ilustración de copa, vaso, botella y espejo de vidrio siendo grabados con láser",
+    "twitterTitle": "Grabado Láser en Vidrio en CDMX | Copas, Vasos y Botellas",
+    "twitterDescription": "Grabado láser en vidrio en CDMX: copas, vasos, botellas, vidrio plano y espejos con tu logotipo o nombre. Por pieza o por lote. Envíos a todo el país."
+  },
+  "ld": {
+    "name": "Grabado láser en vidrio",
+    "serviceType": "Grabado láser en copas, vasos, botellas, vidrio plano y espejos",
+    "description": "Grabado láser en vidrio en CDMX: copas, vasos, botellas, vidrio plano y espejos con logotipo o nombre, por pieza o por lote."
+  },
+  "hero": {
+    "eyebrow": "Vidrio · Copas · Vasos · Botellas · Espejos",
+    "title": "Grabado láser en vidrio en CDMX",
+    "text": [
+      "Grabamos ",
+      {
+        "strong": "copas, vasos, botellas, vidrio plano y espejos"
+      },
+      " con tu logotipo, nombre o diseño. Por pieza o por lote, con envíos a todo el país."
+    ],
+    "primary": {
+      "label": "Cotizar grabado en vidrio",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20l%C3%A1ser%20en%20vidrio"
+    },
+    "secondary": {
+      "label": "Ver qué grabamos",
+      "href": "#piezas"
+    },
+    "badges": [
+      "Copas, vasos y botellas",
+      "Vidrio plano y espejos",
+      "Envíos a todo el país"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Regalos corporativos, eventos, bodas, restaurantes y particulares que quieren personalizar piezas de vidrio."
+    },
+    "image": {
+      "src": "/img/subpages/servicios/grabado-vidrio.webp",
+      "alt": "Ilustración de copa, vaso, botella y espejo de vidrio siendo grabados con láser"
+    }
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "id": "que-es",
+      "eyebrow": "Qué hacemos",
+      "title": "Personaliza vidrio con grabado láser",
+      "paragraphs": [
+        [
+          "El grabado láser marca la superficie del vidrio con tu diseño, sin tinta ni etiquetas. Se usa para personalizar piezas de uso diario y regalos con nombres, logotipos y detalles."
+        ],
+        [
+          "Grabamos desde una sola pieza hasta lotes. Cuéntanos qué pieza tienes, el diseño y la cantidad, y te respondemos con una propuesta."
+        ]
+      ]
+    },
+    {
+      "theme": "alt",
+      "id": "piezas",
+      "eyebrow": "Piezas",
+      "title": "Qué piezas de vidrio grabamos",
+      "cards": [
+        {
+          "title": "Copas y vasos",
+          "text": "Copas de cristal y vasos con nombre, logotipo o diseño, para eventos, regalos y restaurantes."
+        },
+        {
+          "title": "Botellas",
+          "text": "Botellas de vidrio personalizadas con logotipo, nombre o mensaje."
+        },
+        {
+          "title": "Vidrio plano",
+          "text": "Placas y piezas de vidrio plano con texto o logotipo, para reconocimientos y detalles institucionales."
+        },
+        {
+          "title": "Espejos",
+          "text": "Espejos grabados para bodas, regalos y decoración. Mira el servicio de grabado en espejos."
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "id": "preparar",
+      "eyebrow": "Cómo cotizar",
+      "title": "Qué necesitamos para cotizar tu grabado en vidrio",
+      "paragraphs": [
+        [
+          "Cuéntanos ",
+          {
+            "strong": "qué pieza es, qué quieres grabar y cuántas piezas son"
+          },
+          ". Si ya tienes el diseño, envíalo en archivo vectorial o en imagen de alta resolución."
+        ],
+        [
+          "Si no tienes el archivo listo, podemos ayudarte a prepararlo; ese apoyo puede tener un costo extra. Si tu pieza es de otro material, como cerámica, plástico o cuero, consúltanos."
+        ]
+      ],
+      "features": [
+        "Tipo de pieza y, si puedes, una foto",
+        "Texto, logotipo o diseño a grabar",
+        "Cantidad de piezas",
+        "Dirección de envío, si no estás en CDMX"
+      ]
+    },
+    {
+      "theme": "light",
+      "id": "relacionados",
+      "eyebrow": "Servicios relacionados",
+      "title": "Otros materiales que grabamos",
+      "paragraphs": [
+        [
+          "Si buscas espejos, mira el ",
+          {
+            "link": "grabado en espejos",
+            "href": "/subpages/grabado_espejos.html"
+          },
+          ". Para cuero, plásticos, acrílico y cerámica, consulta ",
+          {
+            "link": "grabado láser en cuero y plástico",
+            "href": "/subpages/grabado_cuero_plastico.html"
+          },
+          "; para termos, bolígrafos y placas, el ",
+          {
+            "link": "grabado láser en metal",
+            "href": "/subpages/grabado_metal.html"
+          },
+          "."
+        ],
+        [
+          "Si tu diseño lleva color sobre una superficie plana de vidrio, revisa la ",
+          {
+            "link": "impresión directa UV",
+            "href": "/subpages/impresion_cama_plana_uv.html"
+          },
+          "."
+        ]
+      ]
+    }
+  ],
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre grabado en vidrio",
+    "items": [
+      {
+        "q": "¿Qué piezas de vidrio graban?",
+        "a": "Copas, vasos, botellas, vidrio plano y espejos. Si tu pieza es distinta, mándanos una foto."
+      },
+      {
+        "q": "¿Graban una sola pieza o solo lotes?",
+        "a": "Ambos: desde una pieza hasta producción por lote."
+      },
+      {
+        "q": "¿Qué archivo necesito?",
+        "a": "Un archivo vectorial o una imagen de alta resolución. Si no lo tienes listo, podemos ayudarte a prepararlo; este apoyo puede tener un costo extra."
+      },
+      {
+        "q": "¿Pueden grabar nombres distintos en cada pieza?",
+        "a": "Sí, podemos hacer grabado con datos variables a partir de una lista."
+      },
+      {
+        "q": "¿Hacen envíos fuera de CDMX?",
+        "a": "Sí. Enviamos a todo el país; el envío se cotiza por FedEx, DHL o Estafeta y el costo del envío se cotiza aparte."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Tienes piezas de vidrio para grabar?",
+    "text": "Cuéntanos qué pieza es, qué quieres grabar y cuántas son. Te respondemos con una propuesta.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20necesito%20grabado%20en%20vidrio"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}
