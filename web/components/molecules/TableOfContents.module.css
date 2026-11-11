@@ -1,0 +1,6 @@
+.toc { margin: 0 0 2.4rem; padding: 1.3rem 1.5rem; background: var(--bg-alt); border: 1px solid var(--line-light); border-radius: var(--radius-md); }
+.title { margin: 0 0 0.6rem; font-size: var(--fs-sm); font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-muted); }
+.list { margin: 0; padding-left: 1.3rem; }
+.list li { margin-bottom: 0.4rem; line-height: 1.5; }
+.list a { color: var(--text-strong); font-weight: 600; text-decoration: none; }
+.list a:hover { color: var(--primary); text-decoration: underline; text-underline-offset: 3px; }

@@ -1,0 +1,2 @@
+.meta { display: flex; flex-wrap: wrap; gap: 0.3rem 1.1rem; margin: 0 0 1.6rem; font-size: var(--fs-md); color: var(--text-muted); }
+.meta > * + *::before { content: "·"; margin-right: 1.1rem; color: var(--text-subtle); }

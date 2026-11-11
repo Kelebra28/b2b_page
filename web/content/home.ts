@@ -2,7 +2,7 @@
 import { wa, whatsappBot, whatsappPerson } from "@/content/site";
 import type { IconName } from "@/components/atoms/Icon";
 
-export type RichText = Array<string | { strong: string } | { em: string }>;
+export type RichText = Array<string | { strong: string } | { em: string } | { link: string; href: string }>;
 
 export const hero = {
   eyebrow: "Maquila · Mayoreo · Empresas · CDMX",

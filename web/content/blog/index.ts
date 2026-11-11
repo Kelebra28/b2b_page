@@ -1,6 +1,8 @@
 /** Contenido del blog (extraído de blog/*.html con scripts/extract-blog.py y limpiado a mano). */
 import type { Cta, Faq, Hero, ServiceSection } from "@/content/services";
 import { fixHref, fixLink } from "@/content/services";
+import type { RichText } from "@/content/home";
+import { site, siteUrl } from "@/content/site";
 import blogIndexRaw from "./index.json";
 import grabado_en_vivo_activaciones from "./grabado-en-vivo-activaciones.json";
 import grabado_madera_eventos from "./grabado-madera-eventos.json";
@@ -16,7 +18,24 @@ type Meta = {
   ogType: string; twitterTitle: string; twitterDescription: string;
 };
 
+type Text = string | RichText;
+export type ArticleBlock =
+  | { type: "p"; text: Text }
+  | { type: "h3"; text: string }
+  | { type: "ul" | "ol"; items: Text[] };
+
+/** Artículo editorial (formato nuevo): el template lo muestra como artículo y no como landing. */
+export type Article = {
+  title: string; dek: string; author: string;
+  /** ISO (AAAA-MM-DD) y su etiqueta legible. */
+  date: string; dateLabel: string; readingMinutes: number;
+  image: { src: string; alt: string };
+  sections: { id: string; heading: string; body: ArticleBlock[] }[];
+  related: { label: string; href: string }[];
+};
+
 export type BlogPost = {
+  article?: Article;
   slug: string;
   path: string;
   meta: Meta;
@@ -35,8 +54,37 @@ export type PostCard = {
 
 export type BlogIndex = BlogPost & { posts: PostCard[]; postsHeading: { id: string; eyebrow: string; title: string; text: string } };
 
+const words = (x: unknown): number => (typeof x === "string" ? x.split(/\s+/).filter(Boolean).length : Array.isArray(x) ? x.reduce<number>((n, y) => n + words(y), 0) : x && typeof x === "object" ? Object.values(x).reduce<number>((n, y) => n + words(y), 0) : 0);
+
+/** Schema BlogPosting + BreadcrumbList de un artículo en formato nuevo (autor, fechas e imagen salen del contenido). */
+const articleLd = (p: BlogPost): Record<string, unknown> => {
+  const a = p.article!;
+  const url = `${siteUrl}${p.path}`;
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting", headline: a.title, description: p.meta.description, inLanguage: "es-MX",
+        datePublished: a.date, dateModified: a.date, mainEntityOfPage: url, url,
+        image: `${siteUrl}${a.image.src}`, wordCount: words(a.sections),
+        author: { "@type": "Organization", name: a.author, url: siteUrl },
+        publisher: { "@type": "Organization", name: site.name, url: siteUrl },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Inicio", item: siteUrl },
+          { "@type": "ListItem", position: 2, name: "Blog", item: `${siteUrl}/blog` },
+          { "@type": "ListItem", position: 3, name: a.title, item: url },
+        ],
+      },
+    ],
+  };
+};
+
 const fix = (p: BlogPost): BlogPost => ({
   ...p,
+  ld: p.article ? articleLd(p) : p.ld,
   hero: { ...p.hero, primary: fixLink(p.hero.primary), secondary: fixLink(p.hero.secondary) },
   cta: p.cta ? { ...p.cta, primary: fixLink(p.cta.primary), secondary: fixLink(p.cta.secondary) } : undefined,
 });

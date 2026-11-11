@@ -2,15 +2,15 @@
   "slug": "grabado-metal-volumen",
   "path": "/blog/grabado-metal-volumen.html",
   "meta": {
-    "title": "Grabado de Metal en Volumen | Maquila Especializada | Blog Laser Inova",
-    "description": "Trabajamos dijes, plaquitas, llaveros y artículos promocionales de metal en alto volumen. Excelencia B2B.",
-    "keywords": "grabado de metal en volumen, dijes grabados, plaquitas para mascotas metal, maquila grabado laser metal",
+    "title": "Grabado Láser en Metal por Volumen: Guía para Lotes | Laser Inova",
+    "description": "Guía para pedir grabado láser en metal por volumen: piezas, metales, qué preparar para cotizar y errores comunes. Taller en CDMX con envíos a todo el país.",
+    "keywords": "grabado láser en metal por volumen, grabado en metal, marcaje láser, grabado de llaveros metálicos, placas grabadas, grabado en acero inoxidable, maquila de grabado, grabado láser CDMX",
     "canonical": "https://www.laserinova.com/blog/grabado-metal-volumen.html",
-    "ogTitle": "Grabado de Metal en Volumen | Maquila Especializada | Laser Inova",
-    "ogDescription": "Trabajamos dijes, plaquitas, llaveros y artículos promocionales de metal en alto volumen. Excelencia B2B.",
+    "ogTitle": "Grabado Láser en Metal por Volumen: Guía para Lotes | Laser Inova",
+    "ogDescription": "Guía para pedir grabado láser en metal por volumen: piezas, metales, qué preparar para cotizar y errores comunes.",
     "ogType": "article",
-    "twitterTitle": "",
-    "twitterDescription": ""
+    "twitterTitle": "Grabado Láser en Metal por Volumen: Guía para Lotes",
+    "twitterDescription": "Guía para pedir grabado láser en metal por volumen: piezas, metales, qué preparar para cotizar y errores comunes."
   },
   "ld": {
     "@context": "https://schema.org",
@@ -28,32 +28,7 @@
       }
     }
   },
-  "sections": [
-    {
-      "theme": "light",
-      "title": "Soluciones Industriales y Promocionales Premium",
-      "paragraphs": [
-        "Nuestro sistema permite manejar matrices para repetir milimétricamente diseños en piezas de escalas menores. Esto es valioso para fabricantes que buscan marcas en sus propias herramientas o agencias de regalos armando kits extensos."
-      ]
-    },
-    {
-      "theme": "light",
-      "cards": [
-        {
-          "title": "Maquila Masiva",
-          "text": "El grabado en fibra óptica garantiza que incluso tipografías diminutas en dijes y piezas B2B resulten 100% legibles en todo el lote."
-        },
-        {
-          "title": "Marcaje Técnico",
-          "text": "Números de serie, códigos QR, logotipos de maquinaria e información trazable, con acabados indelebles sobre acero, aluminio y latón."
-        },
-        {
-          "title": "Calidad para Mayoristas",
-          "text": "Fabricación para revendedores de regalos promocionales. Entregas en plazos pactados y soporte técnico completo."
-        }
-      ]
-    }
-  ],
+  "sections": [],
   "hero": {
     "eyebrow": "Maquila · Mayoreo · Volumen",
     "title": "Grabado de Metal en Volumen",
@@ -72,15 +47,321 @@
   },
   "cta": {
     "eyebrow": "Cotización",
-    "title": "¿Tienes un proyecto similar?",
-    "text": "Cuéntanos qué necesitas y te ayudamos a cotizarlo.",
+    "title": "¿Tienes un lote de piezas en metal?",
+    "text": "Cuéntanos cuántas piezas son, de qué material y qué quieres grabar. Te respondemos con una propuesta.",
     "primary": {
       "label": "Cotizar por WhatsApp",
       "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20grabado%20de%20metal%20por%20volumen"
     },
     "secondary": {
-      "label": "Ver más artículos",
-      "href": "/blog"
+      "label": "Ver el servicio de grabado en metal",
+      "href": "/subpages/grabado_metal.html"
     }
+  },
+  "article": {
+    "title": "Grabado láser en metal por volumen: guía para pedir lotes de piezas personalizadas",
+    "dek": "Cómo funciona el grabado láser en metal, qué materiales y piezas conviene grabar por lote y qué preparar para recibir una cotización sin vueltas.",
+    "author": "Laser Inova",
+    "date": "2026-11-11",
+    "dateLabel": "11 de noviembre de 2026",
+    "readingMinutes": 5,
+    "image": {
+      "src": "/img/gallery/A3199_lrg.jpg",
+      "alt": "Llaveros destapador de metal con placa grabada con láser para producción por volumen"
+    },
+    "sections": [
+      {
+        "id": "que-es",
+        "heading": "Qué es el grabado láser en metal y por qué se usa en lotes",
+        "body": [
+          {
+            "type": "p",
+            "text": "El grabado láser en metal usa un haz de luz muy concentrado, normalmente de un láser de fibra, para marcar la superficie de la pieza. No lleva tinta ni etiquetas: el diseño queda hecho en el propio metal, por eso la marca no se despega y resiste el roce del uso diario."
+          },
+          {
+            "type": "p",
+            "text": "Para producir muchas piezas iguales tiene una ventaja práctica: el láser sigue un archivo digital, así que la primera pieza y la última del lote se marcan con el mismo diseño y en la misma posición. Eso es lo que lo hace útil para llaveros, placas, termos, bolígrafos y piezas técnicas que se entregan por cientos."
+          }
+        ]
+      },
+      {
+        "id": "piezas",
+        "heading": "Qué piezas se graban por volumen",
+        "body": [
+          {
+            "type": "p",
+            "text": "Casi cualquier pieza metálica pequeña o mediana con una superficie accesible se puede grabar. Las más comunes en proyectos de empresa son:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Llaveros, destapadores y dijes corporativos.",
+              "Placas de identificación y placas de datos.",
+              "Termos, vasos y botellas de acero inoxidable.",
+              "Bolígrafos y plumas ejecutivas.",
+              "Herramienta, piezas de maquinaria y componentes que necesitan número de serie o código.",
+              "Tarjetas, placas de reconocimiento y detalles para kits de bienvenida."
+            ]
+          },
+          {
+            "type": "p",
+            "text": [
+              "Si buscas cubrir toda una línea de regalos, revisa también el servicio de ",
+              {
+                "link": "grabado láser en metal",
+                "href": "/subpages/grabado_metal.html"
+              },
+              " para termos y bolígrafos, o los ",
+              {
+                "link": "kits de bienvenida para empresas",
+                "href": "/subpages/kits_bienvenida.html"
+              },
+              " donde varias piezas grabadas van en un mismo paquete."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "metales",
+        "heading": "Qué metales se pueden grabar",
+        "body": [
+          {
+            "type": "p",
+            "text": "No todos los metales responden igual al láser. Los que mejor se prestan para marcado permanente son:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              [
+                {
+                  "strong": "Acero inoxidable:"
+                },
+                " marca de forma permanente y es el material más habitual en termos, placas y herramienta."
+              ],
+              [
+                {
+                  "strong": "Aluminio anodizado:"
+                },
+                " el láser retira la capa de color y deja el diseño en tono claro, con buen contraste."
+              ],
+              [
+                {
+                  "strong": "Latón:"
+                },
+                " da un marcado limpio, muy usado en placas y detalles decorativos."
+              ],
+              [
+                {
+                  "strong": "Acero al carbón:"
+                },
+                " se puede marcar, aunque conviene cuidar el acabado de la pieza."
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Otros metales o acabados muy brillantes, recubiertos o con tratamientos especiales pueden comportarse distinto. Por eso, cuando el acabado importa, lo recomendable es probar antes de lanzar el lote completo."
+          }
+        ]
+      },
+      {
+        "id": "tipos",
+        "heading": "Grabado, marcaje y corte: cuál necesitas",
+        "body": [
+          {
+            "type": "p",
+            "text": "Estos términos se usan mucho como si fueran lo mismo, pero describen trabajos distintos:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              [
+                {
+                  "strong": "Grabado:"
+                },
+                " el láser retira o modifica una capa del material para dejar un diseño visible, como un logotipo o un texto."
+              ],
+              [
+                {
+                  "strong": "Marcaje:"
+                },
+                " se usa cuando la información es técnica: números de serie, códigos DataMatrix o QR, códigos de barras y datos de trazabilidad."
+              ],
+              [
+                {
+                  "strong": "Corte:"
+                },
+                " el láser atraviesa el material para obtener una forma o una pieza completa."
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": [
+              "Si tu proyecto es de identificación y trazabilidad, mira el servicio de ",
+              {
+                "link": "marcaje láser en acero inoxidable",
+                "href": "/subpages/marcaje_laser_acero.html"
+              },
+              ". Si lo que necesitas es fabricar la forma de la pieza, consulta el ",
+              {
+                "link": "corte láser en metal",
+                "href": "/subpages/corte_laser_metal.html"
+              },
+              "."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cotizar",
+        "heading": "Qué preparar para cotizar un lote",
+        "body": [
+          {
+            "type": "p",
+            "text": "Entre más claro llegue el pedido, más rápido se puede revisar y cotizar. Antes de pedir un lote, reúne esta información:"
+          },
+          {
+            "type": "ol",
+            "items": [
+              [
+                {
+                  "strong": "Cantidad total"
+                },
+                " de piezas y si habrá variaciones entre ellas."
+              ],
+              [
+                {
+                  "strong": "Material y acabado"
+                },
+                " de la pieza: acero inoxidable pulido, aluminio anodizado, latón, etc."
+              ],
+              [
+                {
+                  "strong": "Medidas del área"
+                },
+                " donde va el grabado."
+              ],
+              [
+                {
+                  "strong": "El diseño"
+                },
+                ", de preferencia en archivo vectorial (AI, SVG, DXF o PDF), no solo una imagen."
+              ],
+              [
+                {
+                  "strong": "Datos variables"
+                },
+                " si cada pieza lleva un número de serie, un nombre o un código distinto."
+              ],
+              [
+                "Una pieza de muestra o una foto clara, si ya tienes el producto definido."
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Si no tienes el archivo listo, cuéntanos tu idea. Podemos ayudarte a prepararlo, aunque ese apoyo de diseño puede tener un costo extra."
+          }
+        ]
+      },
+      {
+        "id": "resultado",
+        "heading": "Qué influye en el resultado",
+        "body": [
+          {
+            "type": "p",
+            "text": "Algunos detalles de diseño marcan la diferencia entre un grabado que se lee bien y uno que no:"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Los trazos muy delgados o los textos muy pequeños pueden perder legibilidad en piezas chicas.",
+              "Sobre acabados muy pulidos o espejo, el contraste cambia respecto a un acabado mate.",
+              "Un logotipo con mucho detalle conviene simplificarlo cuando el área es reducida.",
+              "En códigos DataMatrix o QR, el tamaño del código y el espacio libre alrededor influyen en que se pueda leer."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Para asegurar el acabado, podemos realizar pruebas antes de producir el lote. Así se ajusta el resultado en tu material antes de comprometer toda la cantidad."
+          }
+        ]
+      },
+      {
+        "id": "errores",
+        "heading": "Errores comunes al pedir grabado en volumen",
+        "body": [
+          {
+            "type": "ul",
+            "items": [
+              "Mandar el logotipo como captura de pantalla en lugar de un archivo vectorial.",
+              "No indicar el acabado exacto de la pieza, que cambia cómo se ve el marcado.",
+              "Pedir el lote completo sin validar antes cómo queda en el material real.",
+              "Dejar para el final los datos variables, como series o nombres, que hay que preparar con anticipación.",
+              "Elegir un diseño demasiado fino para el tamaño de la pieza."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Atender estos puntos antes de producir evita retrabajos y hace que el lote salga como lo imaginaste."
+          }
+        ]
+      },
+      {
+        "id": "entrega",
+        "heading": "Dónde y cómo se trabaja con Laser Inova",
+        "body": [
+          {
+            "type": "p",
+            "text": "Laser Inova es un taller de grabado y marcaje láser en Azcapotzalco, CDMX. Atendemos empresas y particulares de la ciudad y la zona metropolitana, y hacemos envíos a todo el país. Para un proyecto en metal puedes mandarnos tus piezas o consultarnos si las suministramos nosotros, y te orientamos sobre el proceso más adecuado."
+          }
+        ]
+      }
+    ],
+    "related": [
+      {
+        "label": "Grabado láser en metal",
+        "href": "/subpages/grabado_metal.html"
+      },
+      {
+        "label": "Marcaje láser en acero inoxidable",
+        "href": "/subpages/marcaje_laser_acero.html"
+      },
+      {
+        "label": "Maquila de volumen",
+        "href": "/subpages/maquila_volumen.html"
+      },
+      {
+        "label": "Corte láser en metal",
+        "href": "/subpages/corte_laser_metal.html"
+      }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas sobre grabado láser en metal por volumen",
+    "items": [
+      {
+        "q": "¿El grabado láser en metal se borra con el uso?",
+        "a": "No. El láser modifica la superficie del propio metal, así que la marca es permanente y no se despega como una etiqueta o una tinta."
+      },
+      {
+        "q": "¿Se pueden grabar números de serie distintos en cada pieza?",
+        "a": "Sí. Podemos hacer numeración consecutiva y datos variables por pieza, como series, nombres o códigos."
+      },
+      {
+        "q": "¿Hacen una prueba antes de producir el lote?",
+        "a": "Sí. Para asegurar el acabado, podemos realizar pruebas antes de producir el lote completo."
+      },
+      {
+        "q": "¿Qué archivo necesito para cotizar?",
+        "a": "Lo ideal es un archivo vectorial (AI, SVG, DXF o PDF). Si solo tienes una imagen o una idea, podemos ayudarte a prepararlo; ese apoyo puede tener un costo extra."
+      },
+      {
+        "q": "¿Hacen envíos fuera de CDMX?",
+        "a": "Sí. Atendemos CDMX y la zona metropolitana, y hacemos envíos a todo el país."
+      }
+    ]
   }
 }
