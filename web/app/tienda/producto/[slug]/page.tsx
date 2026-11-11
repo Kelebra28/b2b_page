@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ProductPage } from "@/components/templates/ProductPage";
 import { siteUrl } from "@/content/site";
-import { getProduct, getProducts, safeImage } from "@/lib/catalog";
+import { getProduct, getProducts, pickIndexable, safeImage } from "@/lib/catalog";
 import { cleanName } from "@/lib/product-format";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -30,11 +30,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `${name} ${p.model} personalizado | Laser Inova`;
   const description = (p.description ?? `${name}. Personalización con grabado láser o impresión UV. Cotiza por WhatsApp.`).slice(0, 160);
   const url = `${siteUrl}/tienda/producto/${p.slug}`;
+  const indexable = pickIndexable(await getProducts().catch(() => [])).some((i) => i.slug === p.slug);
   const image = safeImage(p.images[0]) ?? `${siteUrl}/og-laser-inova.png`;
   return {
     title,
     description,
     alternates: { canonical: url },
+    robots: indexable ? undefined : { index: false, follow: true },
     openGraph: { type: "website", locale: "es_MX", siteName: "Laser Inova", url, title, description, images: [{ url: image }] },
   };
 }

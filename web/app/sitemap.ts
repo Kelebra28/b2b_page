@@ -3,7 +3,7 @@ import { postSlugs } from "@/content/blog";
 import { serviceSlugs } from "@/content/services";
 import { cookiesRoute, privacyRoute } from "@/content/legal";
 import { siteUrl } from "@/content/site";
-import { getCategories, getProducts } from "@/lib/catalog";
+import { getCategories, getProducts, pickIndexable } from "@/lib/catalog";
 
 /** URLs canónicas (con .html en servicios). */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -13,7 +13,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ? [
         { url: `${siteUrl}/tienda`, changeFrequency: "weekly", priority: 0.7 },
         ...categories.map((c) => ({ url: `${siteUrl}/tienda/${c.slug}`, changeFrequency: "weekly" as const, priority: 0.6 })),
-        ...products.map((p) => ({ url: `${siteUrl}/tienda/producto/${p.slug}`, changeFrequency: "weekly" as const, priority: 0.5 })),
+        ...pickIndexable(products).map((p) => ({ url: `${siteUrl}/tienda/producto/${p.slug}`, changeFrequency: "weekly" as const, priority: 0.5 })),
       ]
     : [];
   return [

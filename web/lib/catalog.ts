@@ -133,3 +133,10 @@ export async function getLiveStock(slug: string): Promise<LiveStock | null> {
     return null;
   }
 }
+
+/**
+ * Fichas que sí se piden a Google: las que tienen foto propia, hasta un tope. El resto sigue navegable (noindex, follow)
+ * para no diluir el sitio con ~1,000 fichas casi iguales a las del proveedor. Subir el tope cuando tengan texto propio.
+ */
+const INDEXABLE_PRODUCTS = 100;
+export const pickIndexable = (products: Product[]): Product[] => products.filter((p) => p.images.length > 0).slice(0, INDEXABLE_PRODUCTS);
