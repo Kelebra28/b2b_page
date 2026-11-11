@@ -516,6 +516,7 @@ export const directory = {
       text: "Desde lonas monumentales hasta impresión directa sobre rígidos con calidad fotográfica.",
       links: [
         { label: "Impresión Cama Plana UV", href: "/subpages/impresion_cama_plana_uv.html" },
+        { label: "DTF UV (stickers)", href: "/subpages/impresion_dtf_uv.html" },
         { label: "Plotter e Impresión", href: "/subpages/plotter_impresion.html" },
         { label: "Lona Gran Formato", href: "/subpages/lona_gran_formato.html" },
         { label: "Vinil e instalación", href: "/subpages/vinil_instalacion.html" },

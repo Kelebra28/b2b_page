@@ -40,6 +40,7 @@ export const serviceGroups: ServiceGroup[] = [
     title: "Impresión y Gran Formato",
     links: [
       { label: "Impresión cama plana UV", href: "/subpages/impresion_cama_plana_uv.html" },
+      { label: "DTF UV (stickers)", href: "/subpages/impresion_dtf_uv.html" },
       { label: "Plotter e impresión", href: "/subpages/plotter_impresion.html" },
       { label: "Lona gran formato", href: "/subpages/lona_gran_formato.html" },
       { label: "Vinil y rotulación", href: "/subpages/vinil_instalacion.html" },

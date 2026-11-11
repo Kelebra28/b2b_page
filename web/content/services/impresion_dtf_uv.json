@@ -1,0 +1,195 @@
+{
+  "slug": "impresion_dtf_uv",
+  "path": "/subpages/impresion_dtf_uv.html",
+  "meta": {
+    "title": "Impresión DTF UV en CDMX | Stickers para Superficies",
+    "description": "Impresión DTF UV en CDMX: stickers transferibles de hasta 90 × 30 cm para pegar en superficies planas o con poco relieve. Envíos a todo el país. Cotiza.",
+    "keywords": "impresión DTF UV, DTF UV CDMX, stickers DTF UV, transferibles UV, stickers para superficies, impresión UV, calcomanías personalizadas, DTF UV 90x30",
+    "ogTitle": "Impresión DTF UV en CDMX | Stickers para Superficies",
+    "ogDescription": "Impresión DTF UV en CDMX: stickers transferibles de hasta 90 × 30 cm para pegar en superficies planas o con poco relieve. Envíos a todo el país. Cotiza.",
+    "ogImageAlt": "Ilustración de hojas de stickers DTF UV y piezas con el sticker ya aplicado",
+    "twitterTitle": "Impresión DTF UV en CDMX | Stickers para Superficies",
+    "twitterDescription": "Impresión DTF UV en CDMX: stickers transferibles de hasta 90 × 30 cm para pegar en superficies planas o con poco relieve. Envíos a todo el país. Cotiza."
+  },
+  "ld": {
+    "name": "Impresión DTF UV",
+    "serviceType": "Stickers transferibles DTF UV de hasta 90 × 30 cm para superficies planas o con poco relieve",
+    "description": "Impresión DTF UV en CDMX: stickers transferibles que se pegan sobre superficies planas o con poco relieve, en formato de hasta 90 × 30 cm."
+  },
+  "hero": {
+    "eyebrow": "DTF UV · Stickers · Hasta 90 × 30 cm",
+    "title": "Impresión DTF UV en CDMX",
+    "text": [
+      "Imprimimos tu diseño en formato ",
+      {
+        "strong": "sticker DTF UV"
+      },
+      " para pegarlo en ",
+      {
+        "strong": "superficies planas o con poco relieve"
+      },
+      ". Formato de hasta 90 × 30 cm y envíos a todo el país."
+    ],
+    "primary": {
+      "label": "Cotizar DTF UV",
+      "href": "https://wa.me/525579398727?text=Hola,%20quiero%20cotizar%20impresi%C3%B3n%20DTF%20UV"
+    },
+    "secondary": {
+      "label": "Ver diferencias con UV directo",
+      "href": "#diferencias"
+    },
+    "badges": [
+      "Formato de hasta 90 × 30 cm",
+      "Para superficies planas o con poco relieve",
+      "Envíos a todo el país"
+    ],
+    "card": {
+      "title": "Ideal para:",
+      "text": "Piezas que no se pueden imprimir directo en la cama UV, o donde prefieres aplicar el diseño como sticker."
+    },
+    "image": {
+      "src": "/img/subpages/servicios/dtf-uv.webp",
+      "alt": "Ilustración de hojas de stickers DTF UV y piezas con el sticker ya aplicado"
+    }
+  },
+  "sections": [
+    {
+      "theme": "light",
+      "id": "que-es",
+      "eyebrow": "Qué es",
+      "title": "DTF UV: tu diseño en formato sticker",
+      "paragraphs": [
+        [
+          "El ",
+          {
+            "strong": "DTF UV"
+          },
+          " es un tipo de sticker: el diseño se imprime aparte y después se pega sobre la pieza. No se imprime directamente sobre el objeto, así que la pieza no tiene que entrar a la máquina de impresión."
+        ],
+        [
+          "Se puede pegar sobre superficies planas y también sobre algunas con poco relieve. Si tu pieza es muy curva o con mucho relieve, cuéntanos y revisamos si funciona."
+        ]
+      ]
+    },
+    {
+      "theme": "alt",
+      "id": "diferencias",
+      "eyebrow": "Diferencias",
+      "title": "DTF UV e impresión directa UV: cuál elegir",
+      "cards": [
+        {
+          "title": "DTF UV (sticker)",
+          "text": "Se imprime aparte y se pega en la pieza. Funciona en superficies planas o con poco relieve y no requiere meter la pieza a la máquina."
+        },
+        {
+          "title": "Impresión directa UV",
+          "text": "Se imprime directamente sobre la pieza, que debe ser una superficie plana: madera, vidrio, plástico, metal y otros materiales."
+        },
+        {
+          "title": "Cuándo conviene el sticker",
+          "text": "Cuando la pieza no entra a la cama UV, cuando tiene un poco de relieve o cuando prefieres aplicar el diseño tú mismo."
+        },
+        {
+          "title": "Cuándo conviene la impresión directa",
+          "text": "Cuando la superficie es plana y quieres el diseño impreso directamente en el material, sin sticker."
+        }
+      ]
+    },
+    {
+      "theme": "light",
+      "id": "usos",
+      "eyebrow": "Formato y usos",
+      "title": "Hasta 90 × 30 cm por pieza",
+      "paragraphs": [
+        [
+          "Trabajamos el DTF UV en formato de ",
+          {
+            "strong": "hasta 90 × 30 cm"
+          },
+          ". Puedes mandar un solo diseño grande o varios más pequeños en la misma hoja."
+        ],
+        [
+          "Para ver el servicio de impresión directa sobre superficies planas, consulta la página de ",
+          {
+            "link": "impresión cama plana UV",
+            "href": "/subpages/impresion_cama_plana_uv.html"
+          },
+          "."
+        ]
+      ],
+      "features": [
+        "Stickers para superficies planas o con poco relieve",
+        "Formato de hasta 90 × 30 cm",
+        "Varios diseños en una misma hoja",
+        "Envíos a todo el país, cotizados por FedEx, DHL o Estafeta"
+      ],
+      "image": {
+        "src": "/img/subpages/servicios/dtf-uv.webp",
+        "alt": "Ilustración de hojas de stickers DTF UV y piezas con el sticker ya aplicado"
+      }
+    },
+    {
+      "theme": "dark",
+      "id": "preparar",
+      "eyebrow": "Cómo cotizar",
+      "title": "Qué necesitamos para cotizar tu DTF UV",
+      "paragraphs": [
+        [
+          "Para darte una propuesta, cuéntanos ",
+          {
+            "strong": "el tamaño de cada diseño, la cantidad y en qué superficie lo vas a pegar"
+          },
+          ". Si ya tienes el diseño, mándalo en archivo vectorial o en imagen de alta resolución."
+        ],
+        [
+          "Si no tienes el archivo listo, podemos ayudarte a prepararlo; ese apoyo puede tener un costo extra."
+        ]
+      ],
+      "features": [
+        "Tamaño y cantidad de cada diseño",
+        "Superficie donde se va a pegar",
+        "Archivo vectorial o imagen en alta resolución",
+        "Dirección de envío, si no estás en CDMX"
+      ]
+    }
+  ],
+  "faqs": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Dudas comunes sobre DTF UV",
+    "items": [
+      {
+        "q": "¿Qué es el DTF UV?",
+        "a": "Es un sticker: el diseño se imprime aparte y se pega sobre la pieza, en lugar de imprimirse directamente sobre ella."
+      },
+      {
+        "q": "¿En qué superficies se puede pegar?",
+        "a": "En superficies planas y en algunas con poco relieve. Si tu pieza es muy curva o con mucho relieve, consúltanos antes."
+      },
+      {
+        "q": "¿Cuál es la diferencia con la impresión directa UV?",
+        "a": "La impresión directa UV se hace sobre la propia pieza, que debe ser una superficie plana (madera, vidrio, plástico, metal, etc.). El DTF UV se imprime aparte y se pega."
+      },
+      {
+        "q": "¿Qué tamaño máximo imprimen?",
+        "a": "Trabajamos el DTF UV en formato de hasta 90 × 30 cm."
+      },
+      {
+        "q": "¿Hacen envíos a todo el país?",
+        "a": "Sí. Enviamos a todo el país y cotizamos el envío por FedEx, DHL o Estafeta; el costo del envío se cotiza aparte."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Cotización",
+    "title": "¿Necesitas stickers DTF UV?",
+    "text": "Cuéntanos el tamaño, la cantidad y la superficie donde los vas a pegar. Te respondemos con una propuesta.",
+    "primary": {
+      "label": "Hablar por WhatsApp",
+      "href": "https://wa.me/525579398727?text=Hola,%20necesito%20cotizar%20stickers%20DTF%20UV"
+    },
+    "secondary": {
+      "label": "Solicitar cotización",
+      "href": "https://www.laserinova.com/index.html#contacto"
+    }
+  }
+}

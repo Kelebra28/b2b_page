@@ -32,7 +32,7 @@ Prioridad según búsquedas reales en Search Console:
 2. **Corte láser: servicio general en CDMX** ("servicio de corte láser", "maquila corte láser metal").
 3. **Impresión en acrílico y MDF con UV** ("impresión en acrílico cdmx", "impresión sobre acrílico df").
 4. **Grabado de termos** ("grabado de termos cdmx", "grabado láser en termos cerca de mi") — hoy se cubre dentro de `grabado_metal`.
-5. **DTF UV** (confirmado, hasta 90 × 30 cm): crear página propia. En Search Console no apareció demanda de DTF entre las 500 consultas principales, así que es una apuesta de servicio nuevo, no de demanda ya existente: conviene enlazarla desde UV, vidrio, termos y acrílico y medirla a las 6-8 semanas.
+5. **DTF UV** (confirmado, hasta 90 × 30 cm; ya creada como `impresion_dtf_uv`): En Search Console no apareció demanda de DTF entre las 500 consultas principales, así que es una apuesta de servicio nuevo, no de demanda ya existente: conviene enlazarla desde UV, vidrio, termos y acrílico y medirla a las 6-8 semanas.
 6. Páginas por zona (CDMX / Azcapotzalco / Santa Fe) solo si hay contenido propio por zona; no duplicar texto.
 
 Cada página nueva: archivo JSON en `web/content/services/`, registro en `index.ts`, enlace en menú y portada, 2-3 enlaces desde servicios y artículos relacionados.

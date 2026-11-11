@@ -95,3 +95,14 @@ b+='<g filter="url(#shadow)"><circle cx="1330" cy="620" r="130" fill="url(#wood)
 b+=beam(1330,470,0,10)+spark(1330,470,42)
 out('grabado-madera-eventos',b)
 print("svg listos")
+
+# 9. DTF UV: hoja de stickers y piezas con sticker aplicado
+b='<g filter="url(#shadow)"><rect x="160" y="140" width="640" height="620" rx="22" fill="#eef1f5"/></g>'
+cols=['url(#red)','#2b3039','url(#red)','#2b3039']
+for i,(x,y) in enumerate([(210,190),(500,190),(210,470),(500,470)]):
+    b+=f'<rect x="{x}" y="{y}" width="250" height="230" rx="30" fill="{cols[i]}"/><circle cx="{x+80}" cy="{y+90}" r="42" fill="#fff" opacity=".92"/><path d="M{x+60} {y+170}H{x+200}M{x+110} {y+120}H{x+200}" stroke="#fff" stroke-width="14" stroke-linecap="round" opacity=".9"/>'
+b+='<g transform="translate(560 140) rotate(8)" opacity=".9"><path d="M0 0H230L190 70H0Z" fill="#fff" opacity=".35"/></g>'
+b+='<g filter="url(#shadow)"><rect x="900" y="200" width="560" height="400" rx="24" fill="url(#metal)"/><rect x="990" y="270" width="250" height="230" rx="30" fill="url(#red)"/><circle cx="1070" cy="360" r="42" fill="#fff" opacity=".92"/><path d="M1050 440H1190M1100 390H1190" stroke="#fff" stroke-width="14" stroke-linecap="round"/></g>'
+b+='<g filter="url(#shadow)"><rect x="1000" y="650" width="360" height="130" rx="18" fill="url(#wood)"/><path d="M1040 715H1230M1040 745H1180" stroke="#3b2411" stroke-width="10" stroke-linecap="round" opacity=".6"/><rect x="1250" y="680" width="80" height="70" rx="14" fill="url(#red)"/></g>'
+b+='<path d="M160 810H800" stroke="#ff3344" stroke-width="5"/><path d="M160 796V824M800 796V824" stroke="#ff3344" stroke-width="5"/>'
+out('impresion-dtf-uv',b)
