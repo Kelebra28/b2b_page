@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { JsonLd } from "@/components/atoms/JsonLd";
-import { homeLd, siteUrl } from "@/content/site";
+import { faqLd, homeLd, siteUrl } from "@/content/site";
 import { Header } from "@/components/organisms/Header";
 import { Footer } from "@/components/organisms/Footer";
 import { Hero } from "@/components/organisms/Hero";
@@ -86,6 +86,7 @@ export default function Home() {
       </main>
       <Footer />
       <JsonLd data={homeLd} />
+      <JsonLd data={faqLd(faqs.items)} />
     </>
   );
 }

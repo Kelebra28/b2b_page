@@ -60,6 +60,13 @@ export const localBusinessLd = {
   sameAs: ["https://www.instagram.com/laserinova23"],
 };
 
+/** JSON-LD FAQPage con las mismas preguntas y respuestas que se muestran en la página (Google lo exige visible). */
+export const faqLd = (items: { q: string; a: string }[]) => ({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: items.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+});
+
 /** JSON-LD de la home: negocio + servicio principal (igual que el sitio anterior). */
 export const homeLd = {
   "@context": "https://schema.org",

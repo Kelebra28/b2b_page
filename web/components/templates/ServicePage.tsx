@@ -6,7 +6,7 @@ import { FinalCta } from "@/components/organisms/FinalCta";
 import { ServiceHero } from "@/components/organisms/ServiceHero";
 import { ServiceSection } from "@/components/organisms/ServiceSection";
 import type { Service } from "@/content/services";
-import { localBusinessLd, siteUrl } from "@/content/site";
+import { faqLd, localBusinessLd, siteUrl } from "@/content/site";
 
 /** Template: estructura de una página de servicio. Recibe todo por props. */
 export function ServicePage({ service }: { service: Service }) {
@@ -33,6 +33,7 @@ export function ServicePage({ service }: { service: Service }) {
       </main>
       <Footer />
       <JsonLd data={ld} />
+      {service.faqs.items.length > 0 && <JsonLd data={faqLd(service.faqs.items)} />}
     </>
   );
 }

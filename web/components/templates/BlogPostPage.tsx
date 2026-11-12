@@ -1,4 +1,5 @@
 import { JsonLd } from "@/components/atoms/JsonLd";
+import { faqLd } from "@/content/site";
 import { ArticleBody } from "@/components/organisms/ArticleBody";
 import { Faqs } from "@/components/organisms/Faqs";
 import { FinalCta } from "@/components/organisms/FinalCta";
@@ -33,6 +34,7 @@ export function BlogPostPage({ post }: { post: BlogPost }) {
       </main>
       <Footer />
       {post.ld && <JsonLd data={post.ld} />}
+      {post.faqs && post.faqs.items.length > 0 && <JsonLd data={faqLd(post.faqs.items)} />}
     </>
   );
 }
