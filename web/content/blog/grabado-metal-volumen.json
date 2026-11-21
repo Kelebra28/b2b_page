@@ -2,15 +2,15 @@
   "slug": "grabado-metal-volumen",
   "path": "/blog/grabado-metal-volumen.html",
   "meta": {
-    "title": "Grabado Láser en Metal por Volumen: Guía para Lotes | Laser Inova",
-    "description": "Guía para pedir grabado láser en metal por volumen: piezas, metales, qué preparar para cotizar y errores comunes. Taller en CDMX con envíos a todo el país.",
-    "keywords": "grabado láser en metal por volumen, grabado en metal, marcaje láser, grabado de llaveros metálicos, placas grabadas, grabado en acero inoxidable, maquila de grabado, grabado láser CDMX",
+    "title": "Grabado Láser en Metal: DataMatrix y Lotes | Laser Inova",
+    "description": "Guía de grabado láser en metal por lotes: DataMatrix, QR, códigos de barras y números de serie en acero, qué preparar para cotizar y errores comunes. CDMX.",
+    "keywords": "grabado láser en metal por volumen, grabado en metal, marcaje láser, grabado de llaveros metálicos, placas grabadas, grabado en acero inoxidable, maquila de grabado, grabado láser CDMX, grabado láser datamatrix en metal, grabado código de barras en acero, código 2d en metal",
     "canonical": "https://www.laserinova.com/blog/grabado-metal-volumen.html",
-    "ogTitle": "Grabado Láser en Metal por Volumen: Guía para Lotes | Laser Inova",
-    "ogDescription": "Guía para pedir grabado láser en metal por volumen: piezas, metales, qué preparar para cotizar y errores comunes.",
+    "ogTitle": "Grabado Láser en Metal: DataMatrix y Lotes | Laser Inova",
+    "ogDescription": "Grabado láser de DataMatrix, QR, códigos de barras y números de serie en metal, por lotes: qué preparar para cotizar y errores comunes.",
     "ogType": "article",
-    "twitterTitle": "Grabado Láser en Metal por Volumen: Guía para Lotes",
-    "twitterDescription": "Guía para pedir grabado láser en metal por volumen: piezas, metales, qué preparar para cotizar y errores comunes."
+    "twitterTitle": "Grabado Láser en Metal: DataMatrix y Lotes",
+    "twitterDescription": "Grabado láser de DataMatrix, QR, códigos de barras y números de serie en metal, por lotes: qué preparar para cotizar y errores comunes."
   },
   "ld": {
     "@context": "https://schema.org",
@@ -214,6 +214,54 @@
         ]
       },
       {
+        "id": "codigos",
+        "heading": "Grabado láser de DataMatrix y códigos de barras en metal",
+        "body": [
+          {
+            "type": "p",
+            "text": "Muchos pedidos de grabado en metal no llevan un logotipo, sino un código: DataMatrix, QR, código de barras o un número de serie. Son marcas técnicas que sirven para trazabilidad, inventarios y control de lotes, y se hacen directamente sobre el acero o el aluminio."
+          },
+          {
+            "type": "ul",
+            "items": [
+              [
+                {
+                  "strong": "DataMatrix y códigos 2D:"
+                },
+                " se marcan sobre acero y aluminio para identificar piezas, herramientas y lotes."
+              ],
+              [
+                {
+                  "strong": "Códigos de barras:"
+                },
+                " lineales, en piezas y placas de identificación."
+              ],
+              [
+                {
+                  "strong": "Números de serie:"
+                },
+                " numeración consecutiva o datos variables, distintos en cada pieza."
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Para que el código se lea bien, importan el tamaño del código, el espacio libre a su alrededor y el acabado del metal. Por eso conviene hacer una prueba en tu material antes de producir el lote completo."
+          },
+          {
+            "type": "p",
+            "text": [
+              "Si lo que necesitas es identificación permanente en acero, revisa el servicio de ",
+              {
+                "link": "marcaje láser en acero inoxidable",
+                "href": "/subpages/marcaje_laser_acero.html"
+              },
+              " y pide tu cotización indicando material, tamaño del código y cantidad."
+            ]
+          }
+        ]
+      },
+      {
         "id": "cotizar",
         "heading": "Qué preparar para cotizar un lote",
         "body": [
@@ -349,6 +397,10 @@
       {
         "q": "¿Se pueden grabar números de serie distintos en cada pieza?",
         "a": "Sí. Podemos hacer numeración consecutiva y datos variables por pieza, como series, nombres o códigos."
+      },
+      {
+        "q": "¿Se puede grabar un código DataMatrix, QR o de barras en metal?",
+        "a": "Sí. Marcamos códigos 2D y de barras directamente sobre acero y aluminio, y podemos hacer una prueba antes del lote para validar que el código se lea y el acabado sea el correcto."
       },
       {
         "q": "¿Hacen una prueba antes de producir el lote?",
