@@ -12,7 +12,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const store: MetadataRoute.Sitemap = categories.length
     ? [
         { url: `${siteUrl}/tienda`, changeFrequency: "weekly", priority: 0.7 },
-        ...categories.map((c) => ({ url: `${siteUrl}/tienda/${c.slug}`, changeFrequency: "weekly" as const, priority: 0.6 })),
+        // Solo categorías con productos: las vacías no se piden a Google (siguen existiendo en la tienda).
+        ...categories.filter((c) => products.length === 0 || products.some((p) => p.category.slug === c.slug)).map((c) => ({ url: `${siteUrl}/tienda/${c.slug}`, changeFrequency: "weekly" as const, priority: 0.6 })),
         ...pickIndexable(products).map((p) => ({ url: `${siteUrl}/tienda/producto/${p.slug}`, changeFrequency: "weekly" as const, priority: 0.5 })),
       ]
     : [];

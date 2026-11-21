@@ -233,5 +233,31 @@
       "label": "Solicitar cotización",
       "href": "https://www.laserinova.com/index.html#contacto"
     }
+  },
+  "storeLinks": {
+    "title": "Piezas para tu kit",
+    "text": "Explora el catálogo y cotiza por WhatsApp:",
+    "links": [
+      {
+        "label": "Toda la tienda",
+        "href": "/tienda"
+      },
+      {
+        "label": "Termos",
+        "href": "/tienda/termos"
+      },
+      {
+        "label": "Mochilas",
+        "href": "/tienda/mochilas"
+      },
+      {
+        "label": "Libretas",
+        "href": "/tienda/libretas"
+      },
+      {
+        "label": "Bolígrafos metálicos",
+        "href": "/tienda/boligrafos-metalicos"
+      }
+    ]
   }
 }

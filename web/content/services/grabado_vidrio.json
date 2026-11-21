@@ -184,5 +184,27 @@
       "label": "Solicitar cotización",
       "href": "https://www.laserinova.com/index.html#contacto"
     }
+  },
+  "storeLinks": {
+    "title": "Piezas de vidrio para personalizar",
+    "text": "Mira en la tienda las categorías que puedes personalizar con tu logotipo:",
+    "links": [
+      {
+        "label": "Cilindros de vidrio",
+        "href": "/tienda/cilindros-de-vidrio"
+      },
+      {
+        "label": "Vasos",
+        "href": "/tienda/vasos"
+      },
+      {
+        "label": "Tequileros",
+        "href": "/tienda/tequileros"
+      },
+      {
+        "label": "Accesorios para vino",
+        "href": "/tienda/accesorios-para-vino"
+      }
+    ]
   }
 }

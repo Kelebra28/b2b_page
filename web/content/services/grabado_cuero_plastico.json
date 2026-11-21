@@ -130,5 +130,23 @@
       "label": "Solicitar cotización",
       "href": "https://www.laserinova.com/index.html#contacto"
     }
+  },
+  "storeLinks": {
+    "title": "Piezas para personalizar",
+    "text": "Categorías de la tienda que puedes personalizar con tu logotipo:",
+    "links": [
+      {
+        "label": "Agendas y agendarios",
+        "href": "/tienda/agendas-y-agendarios"
+      },
+      {
+        "label": "Llaveros de plástico",
+        "href": "/tienda/llaveros-de-plastico"
+      },
+      {
+        "label": "Cilindros plásticos",
+        "href": "/tienda/cilindros-plasticos"
+      }
+    ]
   }
 }

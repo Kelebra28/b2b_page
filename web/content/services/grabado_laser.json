@@ -182,5 +182,31 @@
       "label": "Solicitar cotización",
       "href": "https://www.laserinova.com/index.html#contacto"
     }
+  },
+  "storeLinks": {
+    "title": "Productos para personalizar",
+    "text": "Elige la pieza en la tienda y dinos cómo quieres tu logotipo:",
+    "links": [
+      {
+        "label": "Termos",
+        "href": "/tienda/termos"
+      },
+      {
+        "label": "Tazas y tarros",
+        "href": "/tienda/tazas-y-tarros"
+      },
+      {
+        "label": "Bolígrafos metálicos",
+        "href": "/tienda/boligrafos-metalicos"
+      },
+      {
+        "label": "Llaveros",
+        "href": "/tienda/llaveros"
+      },
+      {
+        "label": "Libretas",
+        "href": "/tienda/libretas"
+      }
+    ]
   }
 }

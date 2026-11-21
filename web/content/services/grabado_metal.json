@@ -229,5 +229,31 @@
       "label": "Solicitar cotización",
       "href": "https://www.laserinova.com/index.html#contacto"
     }
+  },
+  "storeLinks": {
+    "title": "Piezas de metal listas para grabar",
+    "text": "Si prefieres elegir la pieza, en la tienda tenemos estas categorías para personalizar con tu logotipo:",
+    "links": [
+      {
+        "label": "Termos",
+        "href": "/tienda/termos"
+      },
+      {
+        "label": "Cilindros metálicos",
+        "href": "/tienda/cilindros-metalicos"
+      },
+      {
+        "label": "Bolígrafos metálicos",
+        "href": "/tienda/boligrafos-metalicos"
+      },
+      {
+        "label": "Llaveros",
+        "href": "/tienda/llaveros"
+      },
+      {
+        "label": "Tazas y tarros",
+        "href": "/tienda/tazas-y-tarros"
+      }
+    ]
   }
 }

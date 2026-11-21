@@ -44,6 +44,7 @@ export type ServiceSection = {
   examples?: (Img & { title: string; text: string; machine: boolean })[];
 };
 
+export type StoreLinks = { title: string; text: string; links: Link[] };
 export type Hero = Service["hero"];
 export type Cta = Service["cta"];
 export type Faq = Service["faqs"];
@@ -61,6 +62,8 @@ export type Service = {
     card: { title: string; text: string } | null; image: Img | null;
   };
   sections: ServiceSection[];
+  /** Enlaces a categorías de la tienda (opcional). */
+  storeLinks?: StoreLinks;
   faqs: { eyebrow: string; title: string; items: { q: string; a: string }[] };
   cta: { eyebrow: string; title: string; text: Text; primary: Link; secondary: Link | null };
 };

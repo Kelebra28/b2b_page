@@ -1,0 +1,4 @@
+.section { padding: var(--section-y-sm) 0; background: var(--white); color: var(--text-dark); }
+.list { display: flex; flex-wrap: wrap; gap: 0.7rem; margin: 1.8rem 0 0; padding: 0; list-style: none; }
+.link { display: inline-block; padding: 0.6rem 1.1rem; border: 1px solid var(--ink-a9); border-radius: var(--radius-pill); color: var(--text-dark); font-size: var(--fs-base); text-decoration: none; }
+.link:hover, .link:focus-visible { background: var(--bg-alt); border-color: var(--accent-a35); }

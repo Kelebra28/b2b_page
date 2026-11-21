@@ -237,5 +237,31 @@
       "label": "Solicitar cotización",
       "href": "https://www.laserinova.com/index.html#contacto"
     }
+  },
+  "storeLinks": {
+    "title": "Promocionales en la tienda",
+    "text": "Explora el catálogo y cotiza por WhatsApp:",
+    "links": [
+      {
+        "label": "Toda la tienda",
+        "href": "/tienda"
+      },
+      {
+        "label": "Termos",
+        "href": "/tienda/termos"
+      },
+      {
+        "label": "Tazas y tarros",
+        "href": "/tienda/tazas-y-tarros"
+      },
+      {
+        "label": "Mochilas",
+        "href": "/tienda/mochilas"
+      },
+      {
+        "label": "Libretas",
+        "href": "/tienda/libretas"
+      }
+    ]
   }
 }
